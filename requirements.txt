@@ -8,7 +8,7 @@ python-dotenv>=1.0     # secretos desde .env
 # fal-client>=0.4
 
 # Fase 3 — guionista IA
-# anthropic>=0.40
+anthropic>=0.60         # Claude API con structured outputs
 
 # NOTA: no usamos MoviePy. El render va por FFmpeg directo (ver studio/render/engine.py).
 # FFmpeg se instala aparte:  winget install Gyan.FFmpeg

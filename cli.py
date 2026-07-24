@@ -13,6 +13,9 @@ Aquí todo son subcomandos, así que sirve igual a mano que desatendido.
     python cli.py plan     psicologia psi_001
     python cli.py producir psicologia psi_001
     python cli.py producir psicologia psi_001 --formato largo --forzar
+
+    python cli.py guion psicologia "por qué mentimos sobre cosas pequeñas"
+    python cli.py guion mascotas "señales de que tu perro te elige a ti" --producir
 """
 from __future__ import annotations
 
@@ -104,6 +107,20 @@ def cmd_producir(args) -> int:
     return 0 if resultado else 1
 
 
+def cmd_guion(args) -> int:
+    """Escribe un guion con Claude y, opcionalmente, lo produce en el acto."""
+    from studio import guionista
+
+    nicho = Nicho.cargar(args.nicho)
+    guion = guionista.escribir(nicho, args.tema, args.formato)
+
+    if args.producir:
+        pipeline.producir(args.nicho, guion["id"], args.formato)
+    else:
+        print(f"\n  Para producirlo:  python cli.py producir {args.nicho} {guion['id']}")
+    return 0
+
+
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(
         prog="video-studio",
@@ -131,6 +148,14 @@ def main(argv=None) -> int:
     pr.add_argument("--forzar", action="store_true",
                     help="ignora la caché y rehace todas las etapas")
     pr.set_defaults(func=cmd_producir)
+
+    pg = sub.add_parser("guion", help="escribe un guion nuevo con Claude")
+    pg.add_argument("nicho")
+    pg.add_argument("tema", help="de qué trata el video")
+    pg.add_argument("--formato", default="short", choices=["short", "largo"])
+    pg.add_argument("--producir", action="store_true",
+                    help="produce el video inmediatamente después de escribirlo")
+    pg.set_defaults(func=cmd_guion)
 
     args = p.parse_args(argv)
     try:
