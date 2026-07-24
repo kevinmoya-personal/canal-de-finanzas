@@ -1,0 +1,148 @@
+# ══════════════════════════════════════════════════════════════════════
+#  NICHO: Psicología Oscura
+#  Toda la identidad visual y sonora del canal vive aquí.
+#  Cambiar el look del canal = editar este archivo. Sin tocar código.
+# ══════════════════════════════════════════════════════════════════════
+titulo: "Psicología Oscura"
+idioma: es
+
+# ── Voz ───────────────────────────────────────────────────────────────
+voz:
+  motor: edge
+  id: es-MX-JorgeNeural
+  velocidad: "+4%"      # ligeramente rápido: sube retención en shorts
+  tono: "-3Hz"          # un pelo más grave = más autoridad
+
+# ── Formatos de salida ────────────────────────────────────────────────
+formatos:
+  short:
+    ancho: 1080
+    alto: 1920
+    fps: 30
+    dur_min: 20
+    dur_max: 90
+    toma_seg: [2.0, 3.5]   # ⭐ ritmo de corte. La v1 hacía tomas de 40s.
+    sub_tam: 92
+    sub_pos_y: 0.62        # arriba de la UI de TikTok/Reels
+  largo:
+    ancho: 1920
+    alto: 1080
+    fps: 30
+    dur_min: 180
+    dur_max: 1200
+    toma_seg: [4.0, 6.0]
+    sub_tam: 58
+    sub_pos_y: 0.80
+
+# ── Subtítulos karaoke ────────────────────────────────────────────────
+subtitulos:
+  fuente: "Anton"
+  archivo_fuente: "Anton-Regular.ttf"
+  fuente_respaldo: "Arial Black"
+  palabras_por_grupo: 3
+  color_base: "FFFFFF"
+  color_activo: "FFD700"    # amarillo — la palabra que suena ahora
+  color_borde: "000000"
+  grosor_borde: 5
+  sombra: 3
+  mayusculas: true
+  pop_escala: 1.09          # rebote al entrar la palabra
+  pop_ms: 110
+
+# ── Look / color grade ────────────────────────────────────────────────
+look:
+  saturacion: 0.85          # desaturado = serio
+  contraste: 1.18
+  brillo: -0.03
+  gamma: 0.95
+  temperatura: -0.06        # sombras frías (teal)
+  vineta: 0.42              # fuerte
+  grano: 0.08               # film grain sutil
+  negros_levantados: 0.03   # look cine, mata el negro plano digital
+  lut: null                 # opcional: "dark_teal_orange.cube"
+
+# ── Cámara ────────────────────────────────────────────────────────────
+camara:
+  ken_burns_imagenes: true
+  zoom_min: 1.00
+  zoom_max: 1.12
+  alternar_direccion: true  # dos zoom-in seguidos se sienten mecánicos
+  mover_video: false        # el b-roll ya tiene movimiento propio
+
+# ── Transiciones ──────────────────────────────────────────────────────
+# El corte duro es la transición por defecto del cine. Las vistosas
+# marcan estructura, no se usan en todas partes.
+transiciones:
+  por_defecto: corte
+  proporcion_corte: 0.70
+  crossfade_dur: 0.35
+  fade_seccion: fadeblack
+  tras_hook: flash          # flash blanco después del gancho
+  flash_dur: 0.18
+  whip_dur: 0.25
+
+# ── Audio ─────────────────────────────────────────────────────────────
+audio:
+  voz_lufs: -16             # estándar de YouTube
+  musica_lufs: -30
+  musica_db: -22
+  ducking: true             # la música baja cuando habla el narrador
+  ducking_ratio: 8
+  ducking_release_ms: 300
+  mood_musica: [tension, misterio, oscuro]
+  whoosh_en_transiciones: true
+  pausa_dramatica_seg: 0.4
+
+# ── Stock (Pexels) ────────────────────────────────────────────────────
+stock:
+  orientacion_short: portrait
+  orientacion_largo: landscape
+  min_resolucion: 1080
+  candidatos_por_busqueda: 15
+  # Traducción tema → búsqueda. La v1 tenía 10 entradas; esto lo amplía
+  # y además el scoring usa TODAS las keywords, no solo la primera.
+  mapa_keywords:
+    envidia:      "dark portrait mysterious shadow face"
+    mentira:      "close up eyes shadow suspicious dark"
+    manipulacion: "chess pieces dark hands strategy"
+    atraccion:    "couple silhouette night city"
+    miedo:        "dark corridor abandoned building"
+    cerebro:      "abstract brain neural network dark"
+    psicologia:   "dark city night rain reflection"
+    misterio:     "fog dark forest night mysterious"
+    soledad:      "person alone night city walking"
+    confianza:    "handshake dark business silhouette"
+    poder:        "silhouette window city skyline dark"
+    control:      "puppet strings hands dark"
+    silencio:     "empty room dark window light"
+    mirada:       "extreme close up eye dark"
+    tiempo:       "clock dark slow motion"
+    dinero:       "dark luxury money shadow"
+    exito:        "silhouette success city night"
+    default:      "dark abstract cinematic motion moody"
+
+# ── Imágenes IA (Fase 2) ──────────────────────────────────────────────
+imagen_ia:
+  activo: false
+  proveedor: fal
+  modelo: "fal-ai/flux/schnell"
+  proporcion_por_video: 0.30   # ~30% IA, ~70% stock
+  prefijo: >-
+    cinematic still, dark moody lighting, teal and orange color grade,
+    35mm anamorphic lens, shallow depth of field, film grain,
+    high contrast, dramatic shadows, photorealistic
+  negativo: >-
+    cartoon, illustration, bright, cheerful, text, watermark, logo,
+    deformed hands, extra fingers, low quality, blurry
+
+# ── YouTube ───────────────────────────────────────────────────────────
+youtube:
+  categoria: "27"
+  privacidad: public
+  tags:
+    - psicologia
+    - psicologia oscura
+    - lenguaje corporal
+    - datos curiosos
+    - mente humana
+    - manipulacion

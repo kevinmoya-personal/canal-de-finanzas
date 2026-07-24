@@ -1,0 +1,145 @@
+# ══════════════════════════════════════════════════════════════════════
+#  NICHO: Mascotas
+#  Look opuesto al de psicología: cálido, luminoso, saturado.
+#  Mismo motor, identidad completamente distinta.
+# ══════════════════════════════════════════════════════════════════════
+titulo: "Mundo Mascotas"
+idioma: es
+
+# ── Voz ───────────────────────────────────────────────────────────────
+voz:
+  motor: edge
+  id: es-MX-DaliaNeural   # voz femenina, más cálida para este nicho
+  velocidad: "+6%"        # energía
+  tono: "+2Hz"
+
+# ── Formatos de salida ────────────────────────────────────────────────
+formatos:
+  short:
+    ancho: 1080
+    alto: 1920
+    fps: 30
+    dur_min: 20
+    dur_max: 90
+    toma_seg: [1.8, 3.0]   # aún más rápido: contenido tierno = ritmo alto
+    sub_tam: 94
+    sub_pos_y: 0.62
+  largo:
+    ancho: 1920
+    alto: 1080
+    fps: 30
+    dur_min: 180
+    dur_max: 1200
+    toma_seg: [3.5, 5.5]
+    sub_tam: 58
+    sub_pos_y: 0.80
+
+# ── Subtítulos karaoke ────────────────────────────────────────────────
+subtitulos:
+  fuente: "Anton"
+  archivo_fuente: "Anton-Regular.ttf"
+  fuente_respaldo: "Arial Black"
+  palabras_por_grupo: 3
+  color_base: "FFFFFF"
+  color_activo: "FF8C42"    # naranja cálido
+  color_borde: "1A1A2E"
+  grosor_borde: 5
+  sombra: 3
+  mayusculas: true
+  pop_escala: 1.12          # más rebote = más juguetón
+  pop_ms: 100
+
+# ── Look / color grade ────────────────────────────────────────────────
+look:
+  saturacion: 1.20          # colores vivos
+  contraste: 1.06
+  brillo: 0.04
+  gamma: 1.05
+  temperatura: 0.08         # cálido
+  vineta: 0.15              # sutil
+  grano: 0.0                # sin grano: se quiere limpio y brillante
+  negros_levantados: 0.0
+  lut: null
+
+# ── Cámara ────────────────────────────────────────────────────────────
+camara:
+  ken_burns_imagenes: true
+  zoom_min: 1.00
+  zoom_max: 1.15
+  alternar_direccion: true
+  mover_video: false
+
+# ── Transiciones ──────────────────────────────────────────────────────
+transiciones:
+  por_defecto: corte
+  proporcion_corte: 0.75
+  crossfade_dur: 0.30
+  fade_seccion: fadewhite   # blanco, no negro: el nicho es luminoso
+  tras_hook: flash
+  flash_dur: 0.15
+  whip_dur: 0.22
+
+# ── Audio ─────────────────────────────────────────────────────────────
+audio:
+  voz_lufs: -16
+  musica_lufs: -30
+  musica_db: -20            # la música pesa un poco más aquí
+  ducking: true
+  ducking_ratio: 8
+  ducking_release_ms: 300
+  mood_musica: [alegre, tierno, ukelele, energia]
+  whoosh_en_transiciones: true
+  pausa_dramatica_seg: 0.3
+
+# ── Stock (Pexels) ────────────────────────────────────────────────────
+stock:
+  orientacion_short: portrait
+  orientacion_largo: landscape
+  min_resolucion: 1080
+  candidatos_por_busqueda: 15
+  mapa_keywords:
+    perro:        "happy dog playing outdoors sunny"
+    cachorro:     "cute puppy playing closeup"
+    gato:         "cute cat closeup playful"
+    gatito:       "kitten playing cute small"
+    comida:       "pet food bowl dog eating"
+    salud:        "veterinarian examining pet clinic"
+    veterinario:  "veterinarian dog checkup clinic"
+    juego:        "dog playing fetch park happy"
+    paseo:        "person walking dog park sunny"
+    entrenamiento: "dog training obedience treat"
+    sueno:        "dog sleeping cozy peaceful"
+    adopcion:     "animal shelter adoption dog happy"
+    bano:         "dog bath grooming bubbles"
+    raza:         "dog breed portrait studio"
+    conducta:     "dog behavior owner interaction"
+    amor:         "person hugging pet love happy"
+    ave:          "colorful pet bird cage"
+    conejo:       "cute rabbit pet closeup"
+    default:      "cute pets happy bright warm"
+
+# ── Imágenes IA (Fase 2) ──────────────────────────────────────────────
+imagen_ia:
+  activo: false
+  proveedor: fal
+  modelo: "fal-ai/flux/schnell"
+  proporcion_por_video: 0.20   # menos IA: el stock de mascotas es excelente
+  prefijo: >-
+    bright cheerful photograph, warm golden hour lighting, vibrant colors,
+    shallow depth of field, 50mm lens, soft bokeh, high detail,
+    photorealistic, adorable
+  negativo: >-
+    dark, gloomy, scary, text, watermark, logo, deformed animal,
+    extra limbs, low quality, blurry, uncanny
+
+# ── YouTube ───────────────────────────────────────────────────────────
+youtube:
+  categoria: "15"        # Pets & Animals
+  privacidad: public
+  tags:
+    - mascotas
+    - perros
+    - gatos
+    - cuidado de mascotas
+    - datos curiosos animales
+    - veterinaria

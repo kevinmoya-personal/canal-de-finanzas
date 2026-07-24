@@ -1,0 +1,35 @@
+# === SECRETOS — nunca al repositorio ===
+.env
+*client_secret*.json
+*token*.json
+credentials.json
+
+# === Salidas y material pesado ===
+nichos/*/output/
+trabajo/
+cache/
+*.mp4
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.m4a
+*.png
+*.jpg
+*.jpeg
+!assets_globales/overlays/*.png
+!nichos/*/marca/*.png
+
+# === Base de datos local ===
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/

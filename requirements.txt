@@ -1,0 +1,14 @@
+# Núcleo — Fase 0 y 1
+edge-tts>=7.0          # voz IA + timings palabra por palabra (WordBoundary)
+requests>=2.31         # Pexels / Pixabay
+PyYAML>=6.0            # configuración de nichos
+python-dotenv>=1.0     # secretos desde .env
+
+# Fase 2 — imágenes IA
+# fal-client>=0.4
+
+# Fase 3 — guionista IA
+# anthropic>=0.40
+
+# NOTA: no usamos MoviePy. El render va por FFmpeg directo (ver studio/render/engine.py).
+# FFmpeg se instala aparte:  winget install Gyan.FFmpeg
