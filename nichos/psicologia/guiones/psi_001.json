@@ -1,0 +1,35 @@
+{
+  "id": "psi_001",
+  "titulo": "3 señales de que te están manipulando",
+  "tema": "manipulación",
+  "formato": "short",
+  "estado": "pendiente",
+  "texto_portada": "TE ESTÁN\nMANIPULANDO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Si alguien hace esto en una conversación, no está hablando contigo. Te está estudiando.",
+      "keywords": ["mirada", "manipulacion"]
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Primera señal. Repite tus propias palabras antes de responder. Suena a que te escucha, pero en realidad está ganando segundos para calcular su respuesta.",
+      "keywords": ["manipulacion", "control", "mentira"]
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Segunda señal. Te hace un cumplido y a los pocos minutos te pide algo. Tu cerebro ya asoció esa persona con algo positivo, y decir que no se vuelve incómodo.",
+      "keywords": ["confianza", "poder", "control"]
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Tercera señal, y es la más peligrosa. Cuando le reclamas algo, cambia el tema hacia cómo se siente él. De repente tú eres quien está pidiendo perdón.",
+      "keywords": ["silencio", "manipulacion", "soledad"]
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Si reconociste a alguien mientras veías esto, sígueme. Todavía te faltan las señales que nadie te cuenta.",
+      "keywords": ["mirada", "psicologia"]
+    }
+  ]
+}

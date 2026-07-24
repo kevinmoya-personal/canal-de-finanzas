@@ -51,14 +51,14 @@ subtitulos:
 
 # ── Look / color grade ────────────────────────────────────────────────
 look:
-  saturacion: 0.85          # desaturado = serio
-  contraste: 1.18
-  brillo: -0.03
-  gamma: 0.95
+  saturacion: 0.88          # desaturado = serio
+  contraste: 1.12
+  brillo: 0.0               # el oscurecimiento lo dan la viñeta y el material
+  gamma: 1.0
   temperatura: -0.06        # sombras frías (teal)
-  vineta: 0.42              # fuerte
+  vineta: 0.32              # marcada pero sin comerse los bordes
   grano: 0.08               # film grain sutil
-  negros_levantados: 0.03   # look cine, mata el negro plano digital
+  negros_levantados: 0.04   # look cine, mata el negro plano digital
   lut: null                 # opcional: "dark_teal_orange.cube"
 
 # ── Cámara ────────────────────────────────────────────────────────────
