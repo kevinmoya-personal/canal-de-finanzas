@@ -38,12 +38,38 @@ python cli.py producir psicologia psi_001
 # Ver el plan de tomas sin renderizar (rápido, para revisar antes de gastar CPU)
 python cli.py plan psicologia psi_001
 
-# Listar canales y sus guiones
-python cli.py nichos
+# Partir un guion largo en shorts verticales nativos
+python cli.py cortar psicologia psi_007
+python cli.py cortar psicologia psi_007 --solo-plan   # solo derivar, sin renderizar
 
-# Voces de edge-tts disponibles en español
+# Qué se ha producido y qué falta por publicar
+python cli.py estado
+python cli.py estado --excel        # exporta control.xlsx
+
+# Listar canales y sus guiones · voces disponibles
+python cli.py nichos
 python cli.py voces
 ```
+
+### Publicar
+
+**Nada se sube solo.** El pipeline nunca llama al subidor. `subir` sin flags
+solo te enseña qué se enviaría y se detiene:
+
+```bash
+python cli.py subir psicologia psi_001
+```
+
+Para publicar de verdad hace falta el flag explícito **y** teclear el id del
+video como confirmación:
+
+```bash
+python cli.py subir psicologia psi_001 --subir-de-verdad
+```
+
+Los nichos vienen con `privacidad: private`, así que un video subido queda
+oculto hasta que tú lo hagas visible en YouTube. Cámbialo en `nicho.yaml`
+cuando confíes en el pipeline.
 
 ## La idea central: el storyboard
 
@@ -72,6 +98,10 @@ studio/
   voz.py           edge-tts en streaming → audio + timings palabra por palabra
   storyboard.py    guion + timings → plan de tomas
   pipeline.py      orquestador reanudable
+  cortador.py      guion largo → guiones de short (no recorta el mp4)
+  portadas.py      miniaturas A/B desde el mejor frame del propio video
+  tracker.py       registro SQLite de todo lo producido
+  subidor.py       YouTube — SIMULA por defecto, nunca publica solo
   assets/
     stock.py       Pexels con puntuación real (relevancia + criterios técnicos)
     cache.py       caché indexada POR CONSULTA
@@ -126,6 +156,18 @@ keywords y los tags. No hay que tocar código.
 
 ## Pendiente
 
-- Fase 2: imágenes IA (FLUX vía fal.ai), LUTs, portadas A/B
-- Fase 3: `ideas.py` con scoring de tendencias, `qc.py`, SQLite en vez de Excel
-- Fase 4: publicación en YouTube/TikTok/Reels, programador nocturno
+Escrito pero **nunca ejecutado de verdad** — no lo des por hecho:
+
+- `guionista.py` no se ha llamado contra la API real (falta `ANTHROPIC_API_KEY`)
+- `subidor.py` solo se ha probado en modo simulación (a propósito)
+- El ducking de música nunca se ha ejercitado: `assets_globales/musica/` vacía
+- El formato `largo` (16:9) nunca se ha renderizado
+- El nicho `mascotas` no tiene ningún guion ni video
+
+Sin empezar:
+
+- Imágenes IA (FLUX vía fal.ai), video IA para tomas hero, LUTs, overlays
+- `ideas.py` con scoring de tendencias
+- `qc.py` — validar el mp4 antes de dejarlo publicable
+- TikTok e Instagram Reels
+- Programador para producción nocturna desatendida
