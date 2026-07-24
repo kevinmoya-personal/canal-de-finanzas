@@ -107,6 +107,63 @@ def cmd_producir(args) -> int:
     return 0 if resultado else 1
 
 
+def cmd_cortar(args) -> int:
+    """Deriva shorts de un guion largo y los produce."""
+    from studio import cortador
+
+    if args.solo_plan:
+        cortador.derivar(Nicho.cargar(args.nicho), args.guion, args.segundos)
+        print("\n  Guiones derivados listos. Prodúcelos con 'producir', o repite "
+              "este comando sin --solo-plan.")
+        return 0
+
+    producidos = cortador.producir_todos(args.nicho, args.guion, args.segundos)
+    print(f"\n  {len(producidos)} shorts producidos.")
+    return 0
+
+
+def cmd_estado(args) -> int:
+    """Qué se ha producido y qué está sin publicar."""
+    from studio import tracker
+
+    print("\n── Producción ──")
+    print(tracker.resumen())
+
+    sin_subir = tracker.sin_subir(args.nicho)
+    print(f"\n── Sin publicar ({len(sin_subir)}) ──")
+    for v in sin_subir[:25]:
+        print(f"  [{v.id:>3}] {v.nicho:<12} {v.tipo:<6} {v.duracion or 0:>5.0f}s  {v.titulo[:44]}")
+    if len(sin_subir) > 25:
+        print(f"  … y {len(sin_subir) - 25} más")
+
+    if args.excel:
+        ruta = tracker.exportar_excel()
+        print(f"\n  📊 Exportado a {ruta}")
+    return 0
+
+
+def cmd_subir(args) -> int:
+    """
+    Prepara la publicación de un video.
+
+    Sin --subir-de-verdad NO se conecta a YouTube: solo enseña lo que se
+    enviaría. Es deliberado.
+    """
+    from studio import subidor
+
+    if args.subir_de_verdad:
+        print("\n  ⚠️  Vas a PUBLICAR en YouTube. Esto es difícil de deshacer.")
+        respuesta = input(f"     Escribe el id del video para confirmar ({args.guion}): ")
+        if respuesta.strip() != args.guion:
+            print("  Cancelado: el id no coincide.")
+            return 1
+
+    resultado = subidor.subir(
+        args.nicho, args.guion, args.formato, confirmado=args.subir_de_verdad
+    )
+    return 0 if (resultado or not args.subir_de_verdad) else 1
+
+
 def cmd_guion(args) -> int:
     """Escribe un guion con Claude y, opcionalmente, lo produce en el acto."""
     from studio import guionista
@@ -156,6 +213,33 @@ def main(argv=None) -> int:
     pg.add_argument("--producir", action="store_true",
                     help="produce el video inmediatamente después de escribirlo")
     pg.set_defaults(func=cmd_guion)
+
+    pc = sub.add_parser("cortar", help="deriva shorts de un guion largo")
+    pc.add_argument("nicho")
+    pc.add_argument("guion")
+    pc.add_argument("--segundos", type=float, default=50.0,
+                    help="duración objetivo de cada short (por defecto 50)")
+    pc.add_argument("--solo-plan", action="store_true",
+                    help="crea los guiones derivados sin renderizarlos")
+    pc.set_defaults(func=cmd_cortar)
+
+    pe = sub.add_parser("estado", help="qué se ha producido y qué falta por publicar")
+    pe.add_argument("--nicho", default=None)
+    pe.add_argument("--excel", action="store_true", help="exporta control.xlsx")
+    pe.set_defaults(func=cmd_estado)
+
+    ps = sub.add_parser(
+        "subir",
+        help="prepara la publicación (SIMULA por defecto, no sube nada)",
+    )
+    ps.add_argument("nicho")
+    ps.add_argument("guion")
+    ps.add_argument("--formato", default="short", choices=["short", "largo"])
+    ps.add_argument(
+        "--subir-de-verdad", action="store_true",
+        help="PUBLICA en YouTube. Sin este flag solo se muestra qué se enviaría.",
+    )
+    ps.set_defaults(func=cmd_subir)
 
     args = p.parse_args(argv)
     try:

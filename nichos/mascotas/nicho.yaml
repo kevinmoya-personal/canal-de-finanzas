@@ -135,7 +135,8 @@ imagen_ia:
 # ── YouTube ───────────────────────────────────────────────────────────
 youtube:
   categoria: "15"        # Pets & Animals
-  privacidad: public
+  # Por defecto en privado: revisa en YouTube antes de hacerlo visible.
+  privacidad: private
   tags:
     - mascotas
     - perros

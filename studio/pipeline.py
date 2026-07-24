@@ -1,4 +1,4 @@
-"""
+﻿"""
 pipeline.py — Orquestador de la producción de un video.
 
 Sustituye al `ensamblador.py` de la v1, que era una función de ~200 líneas
@@ -20,7 +20,9 @@ import time
 from dataclasses import dataclass
 from pathlib import Path
 
+from . import portadas as portadas_mod
 from . import storyboard as sb_mod
+from . import tracker
 from . import voz as voz_mod
 from .assets import cache, stock
 from .niche import Nicho
@@ -34,6 +36,8 @@ class Resultado:
     storyboard: sb_mod.Storyboard
     segundos: float
     avisos: list[str]
+    portadas: list[Path]
+    video_db_id: int | None
 
 
 def cargar_guion(nicho: Nicho, identificador: str) -> dict:
@@ -70,11 +74,11 @@ def producir(
     print(f"{'═' * 66}")
 
     # ── 1. Locución con timings ──────────────────────────────────────────
-    print("\n▸ 1/6  Locución")
+    print("\n▸ 1/7  Locución")
     locucion = voz_mod.locutar(guion["secciones"], nicho, trabajo, forzar=forzar)
 
     # ── 2. Storyboard ────────────────────────────────────────────────────
-    print("\n▸ 2/6  Storyboard")
+    print("\n▸ 2/7  Storyboard")
     sb = sb_mod.construir(locucion, nicho, video_id, formato, guion)
     avisos = sb_mod.validar(sb, nicho)
     print(sb.resumen())
@@ -87,7 +91,7 @@ def producir(
         return sb
 
     # ── 3. Assets ────────────────────────────────────────────────────────
-    print("\n▸ 3/6  Assets")
+    print("\n▸ 3/7  Assets")
     huerfanos = cache.limpiar_parciales()
     if huerfanos:
         print(f"  🧹 {huerfanos} descargas incompletas de ejecuciones previas")
@@ -96,7 +100,7 @@ def producir(
     sb.guardar(trabajo / "storyboard.json")
 
     # ── 4. Render de tomas y montaje ─────────────────────────────────────
-    print(f"\n▸ 4/6  Render de {len(sb.tomas)} tomas")
+    print(f"\n▸ 4/7  Render de {len(sb.tomas)} tomas")
     t0 = time.time()
     clips = engine.renderizar_tomas(sb, nicho, trabajo, forzar=forzar)
     print(f"  🎞️  {len(clips)} clips en {time.time() - t0:.1f}s")
@@ -106,7 +110,7 @@ def producir(
     print(f"  ✂️  Montaje en {time.time() - t0:.1f}s")
 
     # ── 5. Subtítulos y audio ────────────────────────────────────────────
-    print("\n▸ 5/6  Subtítulos y audio")
+    print("\n▸ 5/7  Subtítulos y audio")
     archivo_subs = subs_mod.generar(sb, nicho, trabajo / "subs.ass")
     print(f"  💬 {subs_mod.contar_eventos(archivo_subs)} eventos de karaoke")
 
@@ -117,12 +121,36 @@ def producir(
     )
 
     # ── 6. Pase final ────────────────────────────────────────────────────
-    print("\n▸ 6/6  Pase final")
+    print("\n▸ 6/7  Pase final")
     carpeta = nicho.dir_salida / ("shorts" if formato == "short" else "largos")
     destino = carpeta / f"{video_id}.mp4"
     t0 = time.time()
     engine.finalizar(video_mudo, mezcla, archivo_subs, destino, sb, nicho)
     print(f"  🔥 Quemado en {time.time() - t0:.1f}s")
+
+    # ── 7. Miniaturas y registro ─────────────────────────────────────────
+    print("\n▸ 7/7  Miniaturas y registro")
+    texto_portada = guion.get("texto_portada") or guion.get("titulo", video_id)
+    try:
+        rutas_portada = portadas_mod.generar(destino, nicho, texto_portada, video_id)
+    except Exception as e:
+        # Una miniatura fallida no debe tirar un video que ya está renderizado.
+        print(f"  ⚠️  No se pudieron generar las miniaturas: {e}")
+        rutas_portada = []
+
+    video_db_id = tracker.registrar(
+        nicho=nicho.nombre,
+        guion_id=video_id,
+        tipo=formato,
+        titulo=guion.get("titulo", video_id),
+        archivo=destino,
+        duracion=sb.duracion,
+        tomas=len(sb.tomas),
+        ancho=sb.ancho,
+        alto=sb.alto,
+        portada=rutas_portada[0] if rutas_portada else None,
+    )
+    print(f"  🗃️  Registrado con id {video_db_id} (estado: local, sin publicar)")
 
     total = time.time() - inicio
     tam_mb = destino.stat().st_size / 1e6
@@ -132,6 +160,16 @@ def producir(
         f"    {sb.duracion:.1f}s · {tam_mb:.1f} MB · {len(sb.tomas)} tomas "
         f"· producido en {total:.1f}s"
     )
+    # El pipeline nunca publica. Subir es siempre una acción manual explícita.
+    print(f"    Para revisar antes de publicar:  python cli.py subir "
+          f"{nicho.nombre} {video_id}")
     print(f"{'═' * 66}\n")
 
-    return Resultado(video=destino, storyboard=sb, segundos=total, avisos=avisos)
+    return Resultado(
+        video=destino,
+        storyboard=sb,
+        segundos=total,
+        avisos=avisos,
+        portadas=rutas_portada,
+        video_db_id=video_db_id,
+    )

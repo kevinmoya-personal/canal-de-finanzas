@@ -138,7 +138,9 @@ imagen_ia:
 # ── YouTube ───────────────────────────────────────────────────────────
 youtube:
   categoria: "27"
-  privacidad: public
+  # Por defecto se sube en privado para que puedas revisarlo en YouTube antes
+  # de hacerlo visible. Cámbialo a 'public' cuando confíes en el pipeline.
+  privacidad: private
   tags:
     - psicologia
     - psicologia oscura
