@@ -156,20 +156,33 @@ def obtener(
     nicho: Nicho,
     vertical: bool,
     excluidos: set[str],
+    evitar: set[str] | None = None,
 ) -> Path | None:
     """
     Devuelve la ruta de un clip apropiado para esta consulta.
 
-    `excluidos` son los ids ya usados en ESTE video: garantiza variedad
-    dentro de la pieza, que es de lo que se queja el espectador cuando ve
-    el mismo plano tres veces.
-    """
-    # 1. ¿Ya tenemos algo cacheado PARA ESTA CONSULTA?
-    for ruta in cache.guardados("pexels", consulta):
-        if ruta.stem not in excluidos:
-            return ruta
+    Dos niveles de exclusión, y la diferencia importa:
 
-    # 2. Buscar en Pexels.
+    `excluidos` — ids ya usados en ESTE video. Prohibición ABSOLUTA: ver el
+        mismo plano dos veces en una pieza de 50 segundos es descarado.
+
+    `evitar` — ids usados en videos ANTERIORES de este canal. Preferencia
+        FUERTE, no prohibición: si el canal se queda sin material nuevo para
+        un tema, es mejor repetir un clip de hace diez videos que dejar la
+        toma en negro.
+
+    Sin el segundo nivel, todos los videos del canal acaban compartiendo el
+    mismo puñado de clips y la parrilla se ve clonada.
+    """
+    evitar = evitar or set()
+
+    # 1. Cacheado para esta consulta, priorizando lo que nunca se ha usado.
+    guardados = [r for r in cache.guardados("pexels", consulta) if r.stem not in excluidos]
+    frescos = [r for r in guardados if r.stem not in evitar]
+    if frescos:
+        return frescos[0]
+
+    # 2. Buscar en Pexels algo que no hayamos usado nunca.
     orientacion = "portrait" if vertical else "landscape"
     cantidad = int(nicho.stock.get("candidatos_por_busqueda", 15))
     resultados = buscar(consulta, orientacion, cantidad)
@@ -178,8 +191,9 @@ def obtener(
         respaldo = nicho.stock.get("mapa_keywords", {}).get("default")
         if respaldo and respaldo != consulta:
             print(f"    ↩️  Sin resultados, probando respaldo: '{respaldo}'")
-            return obtener(respaldo, dur_necesaria, nicho, vertical, excluidos)
-        return None
+            return obtener(respaldo, dur_necesaria, nicho, vertical, excluidos, evitar)
+        # Antes de rendirnos, aceptamos repetir algo ya visto.
+        return guardados[0] if guardados else None
 
     ordenados = sorted(
         enumerate(resultados),
@@ -188,20 +202,25 @@ def obtener(
     )
     ordenados = [v for _, v in ordenados]
 
-    for video in ordenados:
-        id_remoto = str(video.get("id"))
-        if id_remoto in excluidos:
-            continue
-        url = _mejor_archivo(video)
-        if not url:
-            continue
-        destino = cache.ruta_para("pexels", consulta, id_remoto, ".mp4")
-        if destino.exists():
-            return destino
-        if _descargar(url, destino):
-            return destino
+    # Primera pasada: solo material nunca usado en el canal.
+    # Segunda: relajamos y permitimos repetir de videos antiguos.
+    for permitir_repetido in (False, True):
+        for video in ordenados:
+            id_remoto = str(video.get("id"))
+            if id_remoto in excluidos:
+                continue
+            if not permitir_repetido and id_remoto in evitar:
+                continue
+            url = _mejor_archivo(video)
+            if not url:
+                continue
+            destino = cache.ruta_para("pexels", consulta, id_remoto, ".mp4")
+            if destino.exists():
+                return destino
+            if _descargar(url, destino):
+                return destino
 
-    return None
+    return guardados[0] if guardados else None
 
 
 # ── Resolución de todo un storyboard ──────────────────────────────────────
@@ -217,6 +236,13 @@ def resolver(
     excluidos: set[str] = set()
     candado = threading.Lock()
 
+    # ⭐ Lo que ya se usó en videos anteriores de este canal. Sin esto, cada
+    # video vuelve a coger el primer clip cacheado de cada consulta y toda la
+    # parrilla del canal acaba con el mismo b-roll.
+    evitar = set(cache.cargar_usados(nicho.nombre))
+    if evitar:
+        print(f"  🔁 Evitando {len(evitar)} clips ya usados en este canal")
+
     # Las tomas que comparten consulta se agrupan: así una sola búsqueda
     # sirve para varias, y podemos repartirles clips distintos.
     pendientes = [t for t in sb.tomas if t.visual.fuente == "stock"]
@@ -225,7 +251,7 @@ def resolver(
         with candado:
             copia_excluidos = set(excluidos)
         ruta = obtener(
-            toma.visual.consulta, toma.dur, nicho, vertical, copia_excluidos
+            toma.visual.consulta, toma.dur, nicho, vertical, copia_excluidos, evitar
         )
         if ruta:
             with candado:
