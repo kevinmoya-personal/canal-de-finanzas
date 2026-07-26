@@ -1,0 +1,73 @@
+{
+  "titulo": "Por qué la gente que te interrumpe nunca te está escuchando",
+  "titulos_alternativos": [
+    "La razón oculta por la que interrumpen tu conversación",
+    "El truco psicológico detrás de las interrupciones"
+  ],
+  "tema": "Psicología de las interrupciones y el control conversacional",
+  "texto_portada": "NUNCA TE\nESCUCHAN",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "La persona que te interrumpe a mitad de una frase no está impaciente por responder. Está calculando el momento exacto para tomar el control de tu mente.",
+      "keywords": [
+        "silencio",
+        "control",
+        "psicologia"
+      ],
+      "prompt_ia": "a dramatic silhouette of a person talking while another interrupts asserting dominance in a dim room"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando alguien rompe tu discurso, su cerebro bloquea completamente lo que dices. Solo está repasando la historia que quiere contar para sentirse superior a ti.",
+      "keywords": [
+        "cerebro",
+        "manipulacion",
+        "poder"
+      ],
+      "prompt_ia": "x-ray glow of a human brain processing thoughts while ignoring external sound waves"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Esta táctica busca desarmar tu seguridad de forma sutil. Al cortar tu idea, te obligan a validar su ego y reducen tu autoridad en la conversación.",
+      "keywords": [
+        "miedo",
+        "mentira",
+        "envidia"
+      ],
+      "prompt_ia": "close up of a confident person suddenly looking uncertain during a tense conversation"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Si te ocurre esto, guarda un silencio absoluto y mantén la mirada. La falta de reacción expone su necesidad desesperada de atención y los frena de golpe.",
+      "keywords": [
+        "mirada",
+        "confianza",
+        "tiempo"
+      ],
+      "prompt_ia": "intense eye contact from a calm person remaining completely silent in a group setting"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "No regales tu palabra a quien solo busca aplausos. Suscríbete para dominar la psicología del poder antes de que vuelvan a interrumpirte.",
+      "keywords": [
+        "exito",
+        "soledad",
+        "misterio"
+      ],
+      "prompt_ia": "a solitary figure standing victoriously in a dark sophisticated environment"
+    }
+  ],
+  "tags": [
+    "psicologia oscura",
+    "manipulacion",
+    "lenguaje corporal",
+    "relaciones humanas",
+    "comunicacion",
+    "control mental"
+  ],
+  "id": "psi_002",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

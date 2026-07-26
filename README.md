@@ -29,8 +29,11 @@ python cli.py doctor
 ## Uso
 
 ```bash
-# Escribir un guion nuevo con Claude y producirlo del tirón
+# Escribir un guion nuevo con IA y producirlo del tirón
 python cli.py guion psicologia "por qué mentimos sobre cosas pequeñas" --producir
+
+# Comparar cómo escriben Gemini y Claude el mismo tema, sin guardar nada
+python cli.py guion psicologia "el silencio incómodo" --comparar
 
 # Producir un guion que ya existe
 python cli.py producir psicologia psi_001
@@ -94,7 +97,7 @@ de código nuevo cada vez.
 studio/
   config.py        resuelve FFmpeg/NVENC, secretos, rutas
   niche.py         el canal como objeto (sin estado global)
-  guionista.py     Claude API → guion, con keywords restringidas por esquema
+  guionista.py     Gemini o Claude → guion, con keywords restringidas por esquema
   voz.py           edge-tts en streaming → audio + timings palabra por palabra
   storyboard.py    guion + timings → plan de tomas
   pipeline.py      orquestador reanudable
@@ -148,6 +151,12 @@ se rehacen la 1 ni la 2.
 - **El b-roll de stock llega con exposiciones muy dispares.** Se mide la
   luminancia con `signalstats` y se compensa con gamma antes del grade, o en un
   nicho oscuro la mitad de las tomas se van a negro puro.
+- **Los modelos escriben español sin tildes si no se lo prohíbes.** Y eso
+  rompe el TTS: "desarmarás" y "desarmaras" son palabras distintas. El prompt
+  lo exige explícitamente y `_validar` avisa si el guion no tiene ni una.
+- **Claude y Gemini usan dialectos de esquema distintos.** Claude exige
+  `additionalProperties: false`; Gemini usa el subconjunto de OpenAPI y no lo
+  conoce, pero acepta `propertyOrdering`. Ver `_esquema()`.
 
 ## Añadir un canal nuevo
 
@@ -158,7 +167,8 @@ keywords y los tags. No hay que tocar código.
 
 Escrito pero **nunca ejecutado de verdad** — no lo des por hecho:
 
-- `guionista.py` no se ha llamado contra la API real (falta `ANTHROPIC_API_KEY`)
+- La rama Claude del guionista no se ha probado (no hay `ANTHROPIC_API_KEY`).
+  La de Gemini sí: `psi_002` se escribió y produjo entera con ella.
 - `subidor.py` solo se ha probado en modo simulación (a propósito)
 - El ducking de música nunca se ha ejercitado: `assets_globales/musica/` vacía
 - El formato `largo` (16:9) nunca se ha renderizado

@@ -7,8 +7,13 @@ python-dotenv>=1.0     # secretos desde .env
 # Fase 2 — imágenes IA
 # fal-client>=0.4
 
-# Fase 3 — guionista IA
-anthropic>=0.60         # Claude API con structured outputs
+# Guionista IA — con uno basta; el proveedor se elige con GUIONISTA en .env
+google-genai>=2.0       # Gemini (capa gratuita)
+anthropic>=0.60         # Claude (alternativa)
+
+# Publicación en YouTube
+google-api-python-client>=2.0
+google-auth-oauthlib>=1.0
 
 # NOTA: no usamos MoviePy. El render va por FFmpeg directo (ver studio/render/engine.py).
 # FFmpeg se instala aparte:  winget install Gyan.FFmpeg

@@ -169,7 +169,15 @@ def cmd_guion(args) -> int:
     from studio import guionista
 
     nicho = Nicho.cargar(args.nicho)
-    guion = guionista.escribir(nicho, args.tema, args.formato)
+
+    if args.comparar:
+        guionista.comparar(nicho, args.tema, args.formato)
+        print("\n  (comparación: no se guardó ningún guion)")
+        return 0
+
+    guion = guionista.escribir(
+        nicho, args.tema, args.formato, proveedor=args.proveedor
+    )
 
     if args.producir:
         pipeline.producir(args.nicho, guion["id"], args.formato)
@@ -212,6 +220,11 @@ def main(argv=None) -> int:
     pg.add_argument("--formato", default="short", choices=["short", "largo"])
     pg.add_argument("--producir", action="store_true",
                     help="produce el video inmediatamente después de escribirlo")
+    pg.add_argument("--proveedor", default=None, choices=["gemini", "claude"],
+                    help="por defecto, el de GUIONISTA en .env")
+    pg.add_argument("--comparar", action="store_true",
+                    help="escribe el tema con AMBOS proveedores y enseña los hooks "
+                         "lado a lado, sin guardar nada")
     pg.set_defaults(func=cmd_guion)
 
     pc = sub.add_parser("cortar", help="deriva shorts de un guion largo")
