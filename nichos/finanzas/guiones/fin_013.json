@@ -1,0 +1,118 @@
+{
+  "titulo": "El riesgo oculto de comprar vivienda sobre planos",
+  "titulos_alternativos": [
+    "Por qué tu casa sobre planos puede salir más cara",
+    "Lo que no te cuentan al comprar apartamento sobre planos"
+  ],
+  "tema": "Comprar vivienda sobre planos e inflación",
+  "texto_portada": "CUIDADO CON\nLOS PLANOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Firmar un contrato para comprar vivienda sobre planos no garantiza que el precio final se mantenga fijo.",
+      "keywords": [
+        "casa",
+        "presupuesto"
+      ],
+      "prompt_ia": "Architectural scale model of an apartment building with blueprints on a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La mayoría de las constructoras ligan el saldo final al índice de costos de construcción o al salario mínimo. Si estos suben durante los años que dura la obra, el valor total aumenta.",
+      "keywords": [
+        "inflacion",
+        "ciudad",
+        "trabajo"
+      ],
+      "prompt_ia": "Construction site with cranes and rising concrete structure under blue sky",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si un inmueble arranca en doscientos millones de pesos y los costos suben diez por ciento durante la obra, terminarás pagando veinte millones adicionales al escriturar.",
+      "keywords": [
+        "dinero",
+        "calculadora",
+        "banco"
+      ],
+      "prompt_ia": "Hand holding calculator evaluating financial contract on desk",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Aumento por inflación en planos",
+        "etiquetas": [
+          "Precio inicial",
+          "Precio final"
+        ],
+        "valores": [
+          200000000,
+          220000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Antes de entregar la primera cuota, revisa si el contrato establece un precio cerrado o ajustable. Ese detalle define si tu presupuesto resiste o entra en crisis.",
+      "keywords": [
+        "estres",
+        "datos",
+        "familia"
+      ],
+      "prompt_ia": "Person reading a real estate contract with a magnifying glass closely",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Proteger tu plata exige entender cada cláusula antes de firmar. Suscríbete a Plata con Datos para tomar decisiones financieras inteligentes.",
+      "keywords": [
+        "tranquilidad",
+        "inversion"
+      ],
+      "prompt_ia": "Happy homebuyer receiving new house keys with key ring",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "vivienda sobre planos",
+    "finca raiz",
+    "finanzas personales",
+    "inflacion",
+    "comprar casa",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_013",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

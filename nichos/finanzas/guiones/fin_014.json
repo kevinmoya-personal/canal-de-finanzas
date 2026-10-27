@@ -1,0 +1,116 @@
+{
+  "titulo": "Tus cesantías están perdiendo dinero sin que te des cuenta",
+  "titulos_alternativos": [
+    "El peligro oculto de no revisar tus cesantías",
+    "Cómo evitar que la inflación se coma tus cesantías"
+  ],
+  "tema": "Pérdida de valor de las cesantías por la inflación",
+  "texto_portada": "CESANTÍAS EN RIESGO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Dejar tus cesantías acumulando polvo sin revisar en qué fondo están es regalarle plata a la inflación todos los años.",
+      "keywords": [
+        "dinero",
+        "inflacion"
+      ],
+      "prompt_ia": "A piggy bank with floating percentage symbols around it, warm cinematic atmosphere",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cada año tu empresa consigna un mes de salario como seguro por si te quedas sin trabajo. Si dejas esos recursos en un portafolio de muy bajo rendimiento, el pago recibido pierde valor frente al costo de vida.",
+      "keywords": [
+        "trabajo",
+        "salario",
+        "banco"
+      ],
+      "prompt_ia": "A professional receiving an official financial document inside a modern office space",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Supón que tienes diez millones de pesos guardados. Si la inflación sube un siete por ciento y tu fondo rinde un cuatro por ciento, en realidad perdiste poder de compra en un solo año.",
+      "keywords": [
+        "calculadora",
+        "datos"
+      ],
+      "prompt_ia": "A modern financial calculator next to glowing charts comparing low interest rates",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Inflación frente a rendimiento",
+        "etiquetas": [
+          "Inflación",
+          "Rendimiento fondo"
+        ],
+        "valores": [
+          7,
+          4
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para proteger ese dinero puedes elegir el portafolio de largo plazo en tu Administradora de Fondos si no piensas retirar la plata pronto. Así tu ahorro mantiene su valor real en el tiempo.",
+      "keywords": [
+        "inversion",
+        "ahorro",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A clear glowing growth graph indicating steady long term investment progress",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa hoy mismo en qué portafolio está tu dinero acumulado. Suscríbete a Plata con Datos para cuidar tu bolsillo con información real.",
+      "keywords": [
+        "celular",
+        "meta"
+      ],
+      "prompt_ia": "A smartphone display showing modern financial analytics graphs and a clear subscribe button",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "cesantias",
+    "finanzas personales",
+    "ahorro colombia",
+    "inflacion",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_014",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
