@@ -102,10 +102,9 @@ def _fuente(tam: int) -> ImageFont.FreeTypeFont:
         if ruta.exists():
             return ImageFont.truetype(str(ruta), tam)
     for sistema in ("ariblk.ttf", "impact.ttf", "arialbd.ttf"):
-        try:
-            return ImageFont.truetype(sistema, tam)
-        except OSError:
-            continue
+        ruta = config.ruta_fuente(sistema)
+        if ruta:
+            return ImageFont.truetype(str(ruta), tam)
     return ImageFont.load_default()
 
 

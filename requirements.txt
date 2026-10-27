@@ -2,6 +2,7 @@
 edge-tts>=7.0          # voz IA + timings palabra por palabra (WordBoundary)
 requests>=2.31         # Pexels / Pixabay
 PyYAML>=6.0            # configuración de nichos
+Pillow>=10.0           # miniaturas, gráficas y tarjetas de Facebook
 python-dotenv>=1.0     # secretos desde .env
 
 # Fase 2 — imágenes IA

@@ -24,7 +24,7 @@ import requests
 from .. import config
 from ..niche import Nicho
 from ..storyboard import Storyboard
-from . import cache
+from . import cache, flow
 
 API_PEXELS = "https://api.pexels.com/videos/search"
 TIEMPO_ESPERA = 30
@@ -246,6 +246,22 @@ def resolver(
     # Las tomas que comparten consulta se agrupan: así una sola búsqueda
     # sirve para varias, y podemos repartirles clips distintos.
     pendientes = [t for t in sb.tomas if t.visual.fuente == "stock"]
+
+    # Clips propios de Flow primero: la primera toma de cada keyword.
+    vistas: set[str] = set()
+    propios = 0
+    for toma in pendientes:
+        if toma.visual.keyword in vistas:
+            continue
+        vistas.add(toma.visual.keyword)
+        clip = flow.elegir(nicho.nombre, toma.visual.keyword)
+        if clip:
+            toma.visual.fuente = "flow"
+            toma.visual.archivo = str(clip)
+            propios += 1
+    if propios:
+        print(f"  🎬 {propios} tomas con clips propios de Flow")
+        pendientes = [t for t in pendientes if t.visual.fuente == "stock"]
 
     def trabajo(toma):
         with candado:

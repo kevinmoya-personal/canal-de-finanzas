@@ -1,0 +1,72 @@
+{
+  "titulo": "Por qué diferir tus compras a cuotas te empobrece",
+  "titulos_alternativos": [
+    "El costo oculto de pagar todo a cuotas",
+    "La trampa de las cuotas en tu tarjeta de crédito"
+  ],
+  "tema": "La trampa financiera y psicológica de comprar a cuotas",
+  "texto_portada": "CUOTAS\nLA TRAMPA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Dividir una compra en doce meses hace que tu cerebro sienta que el producto es casi gratis. El problema es que cada cuota suma y ahoga tu sueldo.",
+      "keywords": [
+        "tarjeta",
+        "compras",
+        "estres"
+      ],
+      "prompt_ia": "A worried person looking at a credit card statement with a stack of unpaid shopping receipts on a desk"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Al ver solo un pago pequeño de veinte mil pesos hoy, ignoras el costo total. Esas cuotas diminutas se acumulan rápido con las compras del mes pasado.",
+      "keywords": [
+        "presupuesto",
+        "dinero"
+      ],
+      "prompt_ia": "Close up of hands holding a smartphone displaying a banking application with a growing list of small monthly recurring charges"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El otro peligro es la tasa de interés. Si financias un electrodoméstico a veinticuatro meses, con una tasa típica de tarjeta terminas pagando cerca de un tercio más que el precio de la tienda.",
+      "keywords": [
+        "interes",
+        "calculadora",
+        "banco"
+      ],
+      "prompt_ia": "A modern home appliance inside a store with an oversized mathematical equation showing price multiplication"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "De esa forma comprometes tu plata del futuro antes de recibirla. Pierdes la capacidad de ahorrar y entregas tu tranquilidad a la entidad financiera.",
+      "keywords": [
+        "salario",
+        "deuda",
+        "tiempo"
+      ],
+      "prompt_ia": "A calendar page with financial payment due dates marked in red ink alongside an empty wallet"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Paga siempre a una sola cuota para evitar cobros innecesarios y proteger tu saldo. Suscríbete a Plata con Datos para optimizar tu presupuesto.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A serene young adult relaxing comfortably in a clean modern living room while checking a balanced mobile banking app"
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "tarjetas de credito",
+    "compras a cuotas",
+    "ahorro",
+    "educacion financiera",
+    "presupuesto",
+    "plata con datos"
+  ],
+  "id": "fin_011",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

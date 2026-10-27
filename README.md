@@ -74,6 +74,89 @@ Los nichos vienen con `privacidad: private`, así que un video subido queda
 oculto hasta que tú lo hagas visible en YouTube. Cámbialo en `nicho.yaml`
 cuando confíes en el pipeline.
 
+## Producción diaria automática (Plata con Datos)
+
+```bash
+python cli.py diario finanzas             # produce y programa MAÑANA en YouTube y Facebook
+python cli.py diario finanzas --simular   # lo mismo sin subir nada
+python cli.py diario finanzas --fecha 2026-11-02
+python cli.py autorizar finanzas          # da acceso a YouTube y dice a qué canal quedó ligado
+python cli.py posts finanzas              # publicaciones de imagen para Facebook, sin subir
+python cli.py subir finanzas fin_001 --destino facebook
+```
+
+- El calendario (fases, horas, cuántos shorts y largos) vive en
+  `nichos/finanzas/nicho.yaml → calendario`.
+- `diario` usa primero los shorts ya producidos y sin programar; si faltan,
+  saca temas de `nichos/finanzas/temas.json` (se rellena solo con Gemini).
+- Cada envío queda en `nichos/finanzas/calendario.jsonl`. Relanzar el comando
+  solo hace lo que falta: nunca duplica.
+- Publica solo si `publicacion_automatica: true`. Si falta el token de YouTube
+  o el de Facebook, ese destino se salta con aviso y lo demás sigue.
+- La tarea de Windows ejecuta `tareas/diario_finanzas.bat` cada noche; el
+  registro queda en `logs/diario_finanzas.log`.
+
+### En la nube (GitHub Actions)
+
+`.github/workflows/diario-finanzas.yml` hace lo mismo sin el PC: cada noche a
+las 22:00 de Bogotá produce y programa el día siguiente en un runner de
+Ubuntu (FFmpeg por CPU, fuentes Noto/Liberation en lugar de las de Windows).
+Se lanza también a mano desde la pestaña Actions, con fecha o en simulación.
+
+- **Estado:** al terminar hace commit de `estudio.db`, `calendario.jsonl`,
+  `temas.json`, los guiones, el historial de posts y `cache/registro/`. Así la
+  noche siguiente sabe qué se programó y qué clips ya salieron. No ejecutes el
+  diario en el PC y en la nube el mismo día: los dos estados se separarían.
+- **Videos:** no van a git; quedan 7 días como artefacto del run.
+- **Secretos** (Settings → Secrets and variables → Actions):
+  `GEMINI_API_KEY`, `PEXELS_API_KEY`, `FACEBOOK_PAGE_ID`, `FACEBOOK_PAGE_TOKEN`,
+  `YOUTUBE_CLIENT_SECRETS_FINANZAS` (contenido de `client_secrets.json`) y
+  `YOUTUBE_TOKEN_FINANZAS` (contenido de `youtube_token.json`, que se genera
+  una sola vez en el PC con `python cli.py autorizar finanzas`).
+- Si el token de YouTube caduca, el run lo dice y sigue con Facebook.
+  Reautoriza en el PC y pega el `youtube_token.json` nuevo en el secreto.
+
+### Facebook
+
+`studio/facebook.py` publica en la página: shorts como Reels, largos como
+video y tarjetas de imagen como foto, todos con hora programada. Necesita
+`FACEBOOK_PAGE_ID` y `FACEBOOK_PAGE_TOKEN` (token de página) en `.env`.
+
+### Gráficas animadas
+
+Con `graficas: true` en el nicho, el guionista añade datos de gráfica a las
+secciones con números y la primera toma de esa sección es una gráfica
+animada (barras o cifra) en vez de stock. Ver `studio/graficas.py`.
+
+### Publicaciones de imagen
+
+`studio/publicaciones.py`: Gemini propone 6 candidatas, se autoevalúa con
+criterios de alcance y se quedan las 2 mejores de formatos distintos. Se
+dibujan tarjetas 1080×1350 con la marca. No usa cebo de interacción
+("comenta SÍ"…), que Facebook penaliza.
+
+### Clips propios de Flow
+
+`assets_globales/flow/<nicho>/<keyword>/*.mp4` — clips generados en Google
+Flow (Veo). En cada video, la primera toma de cada keyword usa uno de estos
+antes que Pexels; entre videos se rota el menos usado
+(`cache/registro/flow_<nicho>.json`). La carpeta de cada clip debe llamarse
+igual que una clave de `stock.mapa_keywords`. Ver `studio/assets/flow.py`.
+
+### Verificación de cifras
+
+Con `guionista.verificar_cifras: true`, cada guion pasa por una segunda
+llamada a Gemini que recalcula los números con supuestos realistas para
+Colombia y reescribe las secciones que no cuadran. Lo que corrigió queda en
+el campo `verificacion` del guion.
+
+### Cachés por contenido
+
+La locución (`voz_firma.txt`) y cada clip (`clip_NNNN.firma`) guardan una
+firma de lo que los produjo. Si cambias el texto de un guion, basta con
+`producir` de nuevo: se rehace solo lo que cambió. `--forzar` sigue
+rehaciéndolo todo.
+
 ## La idea central: el storyboard
 
 Entre el guion y el render hay un archivo intermedio, `storyboard.json`, que es

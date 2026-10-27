@@ -1,0 +1,73 @@
+{
+  "titulo": "Por qué pagar el mínimo de la tarjeta te sale tan caro",
+  "titulos_alternativos": [
+    "La trampa del pago mínimo en tu tarjeta de crédito",
+    "El costo real de pagar solo el mínimo en la tarjeta"
+  ],
+  "tema": "El peligro financiero de pagar solo el mínimo en las tarjetas de crédito",
+  "texto_portada": "LA TRAMPA DEL MÍNIMO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Pagar solo el pago mínimo de tu tarjeta de crédito no te ayuda a salir de deudas. Es un mecanismo diseñado para que pagues intereses durante años sin tocar el saldo original.",
+      "keywords": [
+        "tarjeta",
+        "deuda",
+        "estres"
+      ],
+      "prompt_ia": "A worried person looking at a credit card statement with a stack of bills on a table"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando abonas el mínimo, la mayor parte de tu plata se va en intereses y comisiones del banco. Solo un porcentaje diminuto reduce el precio real de lo que compraste.",
+      "keywords": [
+        "banco",
+        "dinero",
+        "interes"
+      ],
+      "prompt_ia": "A close up shot of a calculator displaying high interest rate calculations next to money"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si compras un celular de dos millones de pesos y solo pagas el mínimo, la deuda se estira durante años. Al final pagas bastante más que el precio del celular.",
+      "keywords": [
+        "celular",
+        "compras",
+        "tiempo"
+      ],
+      "prompt_ia": "A person buying a new smartphone in an electronics store paying with credit card"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La solución con datos es muy clara. Si pagas el total antes de la fecha de corte, usas la tarjeta gratis y aprovechas sus beneficios sin regalar tu esfuerzo.",
+      "keywords": [
+        "datos",
+        "presupuesto",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A happy person reviewing a neat financial budget spreadsheet on a laptop screen"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tu tarjeta debe ser una herramienta, no una carga. Revisa tu extracto esta semana y paga más del mínimo. Suscríbete para cuidar tu plata con datos reales.",
+      "keywords": [
+        "meta",
+        "ahorro"
+      ],
+      "prompt_ia": "A triumphant person closing a personal finance planner notebook with a smile"
+    }
+  ],
+  "tags": [
+    "tarjeta de credito",
+    "pago minimo",
+    "finanzas personales",
+    "educacion financiera",
+    "ahorro",
+    "deudas",
+    "plata con datos"
+  ],
+  "id": "fin_004",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,70 @@
+{
+  "titulo": "Cuántos meses debe durar tu fondo de emergencia",
+  "titulos_alternativos": [
+    "Tu fondo de emergencia según tus gastos reales",
+    "La regla del fondo de emergencia explicada"
+  ],
+  "tema": "Fondo de emergencia: cuántos meses guardar y por qué",
+  "texto_portada": "TU FONDO DE EMERGENCIA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Un imprevisto médico o la pérdida de tu empleo puede arruinar tus finanzas si no tienes un respaldo. Guardar una cifra al azar no te va a salvar.",
+      "keywords": [
+        "estres",
+        "dinero"
+      ],
+      "prompt_ia": "A worried person sitting at a desk looking at unexpected financial bills"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Para saber cuánto necesitas, no mires tu sueldo. Debes calcular tus gastos fijos mensuales. El arriendo, la comida, los servicios y tus deudas básicas.",
+      "keywords": [
+        "presupuesto",
+        "casa",
+        "calculadora"
+      ],
+      "prompt_ia": "Hands writing down a monthly budget checklist on a clean wooden table next to grocery receipts"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si eres empleado con contrato estable, guarda tres meses de esos gastos. Pero si trabajas de forma independiente, apunta a seis meses para mayor seguridad.",
+      "keywords": [
+        "trabajo",
+        "tiempo",
+        "salario"
+      ],
+      "prompt_ia": "A professional freelancer working calmly on a modern laptop in a well lit office"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Este dinero no es para buscar ganancias ni para arriesgarlo. Su único objetivo es darte liquidez inmediata y paz mental ante cualquier problema.",
+      "keywords": [
+        "banco",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A peaceful home interior showing stability and security with soft lighting"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa tus cuentas hoy mismo y calcula tu número personal. Suscríbete a Plata con Datos para tomar el control de tu dinero con información real.",
+      "keywords": [
+        "datos",
+        "meta"
+      ],
+      "prompt_ia": "A high contrast financial charts graphic showing structured planning progress"
+    }
+  ],
+  "tags": [
+    "fondo de emergencia",
+    "ahorro",
+    "finanzas personales",
+    "presupuesto",
+    "plata con datos",
+    "colombia"
+  ],
+  "id": "fin_006",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,114 @@
+# Produce y programa cada noche el contenido de MAÑANA de Plata con Datos.
+# Sustituye a tareas/diario_finanzas.bat: corre en GitHub, sin el PC encendido.
+#
+# El estado que el diario necesita recordar entre noches (qué se programó,
+# qué temas se usaron, qué clips ya salieron) se guarda haciendo commit en
+# este mismo repo al terminar. Los videos NO se guardan en git: quedan como
+# artefacto descargable del run durante 7 días.
+name: Diario · finanzas
+
+on:
+  schedule:
+    # 03:00 UTC = 22:00 en Bogotá. Deja toda la noche de margen antes del
+    # primer short (07:30): GitHub a veces retrasa los cron un buen rato.
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Día a preparar (AAAA-MM-DD). Vacío = mañana."
+        required: false
+        default: ""
+      simular:
+        description: "Producir todo pero no subir ni programar nada"
+        type: boolean
+        default: false
+
+# Dos ejecuciones a la vez se pisarían el calendario y la base de datos.
+concurrency:
+  group: diario-finanzas
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  diario:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    env:
+      PYTHONIOENCODING: utf-8
+      ENCODER: cpu
+      GUIONISTA: gemini
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+      FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+      FACEBOOK_PAGE_TOKEN: ${{ secrets.FACEBOOK_PAGE_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: FFmpeg y fuentes libres
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg fonts-noto-core fonts-dejavu-core fonts-liberation
+
+      - name: Dependencias
+        run: pip install -r requirements.txt
+
+      - name: Credenciales de YouTube
+        env:
+          CLIENT_SECRETS: ${{ secrets.YOUTUBE_CLIENT_SECRETS_FINANZAS }}
+          TOKEN: ${{ secrets.YOUTUBE_TOKEN_FINANZAS }}
+        run: |
+          # Sin token, el diario salta YouTube con aviso y sigue con Facebook.
+          [ -n "$CLIENT_SECRETS" ] && printf '%s' "$CLIENT_SECRETS" > nichos/finanzas/client_secrets.json
+          [ -n "$TOKEN" ] && printf '%s' "$TOKEN" > nichos/finanzas/youtube_token.json
+          python cli.py doctor
+
+      - name: Producir y programar
+        env:
+          FECHA: ${{ inputs.fecha }}
+          SIMULAR: ${{ inputs.simular }}
+        run: |
+          args=""
+          [ -n "$FECHA" ] && args="$args --fecha $FECHA"
+          [ "$SIMULAR" = "true" ] && args="$args --simular"
+          python cli.py diario finanzas $args
+
+      - name: Guardar el estado en el repo
+        # También si hubo fallos: lo que sí se programó tiene que quedar anotado
+        # para no duplicarlo al relanzar. En simulación no se guarda nada.
+        if: always() && inputs.simular != true
+        run: |
+          git config user.name "diario-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for ruta in estudio.db cache/registro \
+                      nichos/finanzas/calendario.jsonl nichos/finanzas/temas.json \
+                      nichos/finanzas/guiones nichos/finanzas/output/posts/historial.jsonl; do
+            [ -e "$ruta" ] && git add -f "$ruta"
+          done
+          if git diff --cached --quiet; then
+            echo "Sin cambios de estado."
+            exit 0
+          fi
+          git commit -m "Diario finanzas: estado del $(date -u +%F)"
+          git pull --rebase
+          git push
+
+      - name: Videos e imágenes producidos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: finanzas-${{ github.run_id }}
+          path: |
+            nichos/finanzas/output/shorts/*.mp4
+            nichos/finanzas/output/largos/*.mp4
+            nichos/finanzas/output/posts/*.png
+          retention-days: 7
+          if-no-files-found: ignore

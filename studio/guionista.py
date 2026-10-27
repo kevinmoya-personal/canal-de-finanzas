@@ -30,6 +30,7 @@ from __future__ import annotations
 
 import json
 import os
+import time
 from pathlib import Path
 from typing import Any
 
@@ -49,7 +50,8 @@ PALABRAS_POR_MINUTO = 165
 
 # ── Esquema de salida ─────────────────────────────────────────────────────
 def _esquema(
-    vocabulario: list[str], secciones_min: int, proveedor: str = "gemini"
+    vocabulario: list[str], secciones_min: int, proveedor: str = "gemini",
+    con_grafica: bool = False,
 ) -> dict[str, Any]:
     """
     Esquema JSON del guion, adaptado al dialecto de cada proveedor.
@@ -123,9 +125,33 @@ def _esquema(
         ],
     }
 
+    seccion = base["properties"]["secciones"]["items"]
+    if con_grafica:
+        seccion["properties"]["grafica"] = {
+            "type": "object",
+            "description": "Datos para una gráfica animada de esta sección. "
+            "'ninguna' si la sección no tiene números que graficar.",
+            "properties": {
+                "tipo": {"type": "string", "enum": ["ninguna", "barras", "numero"]},
+                "titulo": {"type": "string", "description": "Máximo 6 palabras."},
+                "etiquetas": {"type": "array", "items": {"type": "string"},
+                              "description": "barras: una etiqueta corta por barra (2 a 5). "
+                              "numero: una frase corta que explica la cifra."},
+                "valores": {"type": "array", "items": {"type": "number"},
+                            "description": "barras: un valor por etiqueta. numero: uno solo."},
+                "prefijo": {"type": "string", "description": "'$' para pesos, si no vacío."},
+                "sufijo": {"type": "string", "description": "' %' para porcentajes, "
+                           "' años', ' meses'… o vacío."},
+            },
+            "required": ["tipo", "titulo", "etiquetas", "valores", "prefijo", "sufijo"],
+        }
+        seccion["required"] = seccion["required"] + ["grafica"]
+
     if proveedor == "claude":
         base["additionalProperties"] = False
-        base["properties"]["secciones"]["items"]["additionalProperties"] = False
+        seccion["additionalProperties"] = False
+        if con_grafica:
+            seccion["properties"]["grafica"]["additionalProperties"] = False
     else:
         # Fijar el orden hace que el modelo escriba el título antes que las
         # secciones, así el resto del guion se genera coherente con él.
@@ -133,9 +159,9 @@ def _esquema(
             "titulo", "titulos_alternativos", "tema",
             "texto_portada", "secciones", "tags",
         ]
-        base["properties"]["secciones"]["items"]["propertyOrdering"] = [
+        seccion["propertyOrdering"] = [
             "nombre", "texto", "keywords", "prompt_ia",
-        ]
+        ] + (["grafica"] if con_grafica else [])
 
     return base
 
@@ -184,7 +210,7 @@ Solo puedes usar keywords de la lista permitida del esquema. Elige 2 o 3 por
 sección, en el orden en que deberían verse. Varíalas entre secciones: si
 repites la misma en todo el guion, el video se ve monótono.
 
-{anti_repeticion}
+{reglas_canal}{anti_repeticion}
 Devuelve únicamente el JSON del esquema."""
 
 
@@ -269,21 +295,35 @@ def _generar_gemini(sistema: str, peticion: str, esquema: dict) -> tuple[dict, s
     from google import genai
     from google.genai import types
 
+    from google.genai import errors
+
     clave = config.secreto("GEMINI_API_KEY", obligatorio=True)
     cliente = genai.Client(api_key=clave)
 
-    respuesta = cliente.models.generate_content(
-        model=MODELO_GEMINI,
-        contents=peticion,
-        config=types.GenerateContentConfig(
-            system_instruction=sistema,
-            response_mime_type="application/json",
-            response_schema=esquema,
-            # Temperatura alta a propósito: si todos los guiones salen con la
-            # misma estructura, el canal se vuelve predecible y aburrido.
-            temperature=1.0,
-        ),
-    )
+    # Gemini devuelve 503 ("high demand") con frecuencia y 429 al rozar la
+    # cuota gratuita. Ambos son pasajeros: en producción desatendida se
+    # espera y se reintenta en vez de perder la noche entera.
+    for intento in range(6):
+        try:
+            respuesta = cliente.models.generate_content(
+                model=MODELO_GEMINI,
+                contents=peticion,
+                config=types.GenerateContentConfig(
+                    system_instruction=sistema,
+                    response_mime_type="application/json",
+                    response_schema=esquema,
+                    # Temperatura alta a propósito: si todos los guiones salen con la
+                    # misma estructura, el canal se vuelve predecible y aburrido.
+                    temperature=1.0,
+                ),
+            )
+            break
+        except (errors.ServerError, errors.ClientError) as e:
+            if getattr(e, "code", None) not in (429, 500, 503) or intento == 5:
+                raise
+            espera = 20 * (intento + 1)
+            print(f"  ⏳ Gemini {e.code}: reintento en {espera}s…")
+            time.sleep(espera)
 
     if not respuesta.text:
         motivo = getattr(respuesta.candidates[0], "finish_reason", "desconocido") \
@@ -335,6 +375,88 @@ def _generar_claude(sistema: str, peticion: str, esquema: dict) -> tuple[dict, s
 PROVEEDORES = {"gemini": _generar_gemini, "claude": _generar_claude}
 
 
+# ── Verificación de cifras ────────────────────────────────────────────────
+VERIFICADOR = """\
+Eres verificador de datos de un canal de finanzas personales. Recibes el
+guion de un video que se publicará SIN revisión humana.
+
+Para cada sección:
+1. Recalcula paso a paso toda cifra que salga de un cálculo (interés
+   compuesto, cuotas, totales, porcentajes, sumas de un gasto en el tiempo)
+   con los supuestos que el propio texto declara. Si no declara supuestos y
+   el resultado depende de ellos, la cifra no es verificable.
+2. Comprueba que las cifras "de conocimiento general" sean ampliamente
+   aceptadas. Si dudas, trátala como no verificable.
+3. Comprueba que los valores de `grafica` coincidan con lo que dice el texto.
+
+Si una sección tiene una cifra incorrecta o no verificable, devuélvela
+corregida: mismo tono y longitud, cifras escritas en palabras, ortografía
+completa con tildes. Puedes corregir el número, declarar el supuesto que
+falta ("con una tasa del dos coma cinco por ciento mensual") o quitar la
+cifra y explicar el mecanismo.
+
+Los supuestos tienen que ser REALISTAS para Colombia: una tarjeta de crédito
+cobra como mucho alrededor del dos coma cinco por ciento mensual (el tope de
+usura), la inflación de largo plazo ronda el cuatro o cinco por ciento anual.
+Nunca inventes un supuesto extremo para que una conclusión exagerada cuadre:
+si la conclusión solo es cierta con supuestos irreales, cambia la conclusión.
+
+Si la sección tiene gráfica, devuelve sus valores corregidos y redondeados
+igual que en el texto (si el texto dice "casi quinientos millones", el valor
+es 500000000); si no, una lista vacía.
+
+No toques secciones correctas. Si todo está bien, `correcciones` va vacía."""
+
+
+def verificar_cifras(guion: dict) -> list[dict]:
+    """Pide a Gemini que recalcule las cifras y aplica sus correcciones al guion."""
+    esquema = {
+        "type": "object",
+        "properties": {
+            "correcciones": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "seccion": {"type": "integer", "description": "Índice desde 0."},
+                        "motivo": {"type": "string"},
+                        "texto": {"type": "string"},
+                        "valores_grafica": {"type": "array", "items": {"type": "number"}},
+                    },
+                    "required": ["seccion", "motivo", "texto", "valores_grafica"],
+                },
+            }
+        },
+        "required": ["correcciones"],
+    }
+    entrada = json.dumps(
+        [{"seccion": i, "texto": s["texto"], "grafica": s.get("grafica")}
+         for i, s in enumerate(guion["secciones"])],
+        ensure_ascii=False, indent=1,
+    )
+    datos, uso = _generar_gemini(VERIFICADOR, entrada, esquema)
+
+    aplicadas = []
+    for c in datos.get("correcciones", []):
+        i = c.get("seccion")
+        if not isinstance(i, int) or not 0 <= i < len(guion["secciones"]):
+            continue
+        seccion = guion["secciones"][i]
+        if c.get("texto", "").strip():
+            seccion["texto"] = c["texto"].strip()
+        g = seccion.get("grafica")
+        nuevos = c.get("valores_grafica") or []
+        if g and g.get("tipo") not in (None, "ninguna") and len(nuevos) == len(g.get("valores", [])):
+            g["valores"] = nuevos
+        aplicadas.append({"seccion": seccion["nombre"], "motivo": c.get("motivo", "")})
+    print(f"  🔎 Verificación de cifras · {uso}")
+    for a in aplicadas:
+        print(f"     ✏️  {a['seccion']}: {a['motivo'][:110]}")
+    if not aplicadas:
+        print("     ✅ Sin correcciones")
+    return aplicadas
+
+
 def proveedor_por_defecto() -> str:
     elegido = os.getenv("GUIONISTA", "gemini").strip().lower()
     if elegido not in PROVEEDORES:
@@ -384,11 +506,16 @@ def escribir(
             f"{lista}\n\n"
         )
 
+    # Reglas propias del canal (nicho.yaml → guionista.reglas). Opcional.
+    reglas = (nicho.datos.get("guionista") or {}).get("reglas", "").strip()
+    reglas_canal = f"{reglas}\n\n" if reglas else ""
+
     sistema = INSTRUCCIONES.format(
         titulo_canal=nicho.titulo,
         duracion=duracion,
         palabras=palabras,
         secciones=n_secciones,
+        reglas_canal=reglas_canal,
         anti_repeticion=anti_repeticion,
     )
 
@@ -400,8 +527,16 @@ def escribir(
     guion, uso = generar(
         sistema,
         f"Escribe el guion sobre: {tema}",
-        _esquema(vocabulario, n_secciones, proveedor),
+        _esquema(vocabulario, n_secciones, proveedor,
+                 con_grafica=bool(nicho.datos.get("graficas"))),
     )
+
+    # Segunda pasada: recalcular cifras antes de que nadie las oiga.
+    if (nicho.datos.get("guionista") or {}).get("verificar_cifras"):
+        try:
+            guion["verificacion"] = verificar_cifras(guion)
+        except Exception as e:
+            print(f"  ⚠️  No se pudo verificar cifras: {e}")
 
     # Campos que añade el sistema, no el modelo.
     guion["id"] = guion_id or _siguiente_id(nicho)

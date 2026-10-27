@@ -1,0 +1,224 @@
+# ══════════════════════════════════════════════════════════════════════
+#  NICHO: Plata con Datos
+#  Finanzas personales explicadas con datos reales.
+#  YouTube: @PlataconDatos · Facebook: página "Plata con Datos"
+#  Toda la identidad visual y sonora del canal vive aquí.
+# ══════════════════════════════════════════════════════════════════════
+titulo: "Plata con Datos"
+idioma: es
+
+# ── Voz ───────────────────────────────────────────────────────────────
+# Voz colombiana: "plata" es como se dice dinero en Colombia, y el canal
+# está registrado en YouTube CO.
+voz:
+  motor: edge
+  id: es-CO-GonzaloNeural
+  velocidad: "+6%"      # finanzas en short: ritmo ágil, sin sonar a anuncio
+  tono: "+0Hz"
+
+# ── Formatos de salida ────────────────────────────────────────────────
+formatos:
+  short:
+    ancho: 1080
+    alto: 1920
+    fps: 30
+    dur_min: 30
+    dur_max: 75
+    toma_seg: [2.0, 3.5]
+    sub_tam: 92
+    sub_pos_y: 0.62
+  largo:
+    ancho: 1920
+    alto: 1080
+    fps: 30
+    dur_min: 240
+    dur_max: 720
+    toma_seg: [4.0, 6.0]
+    sub_tam: 58
+    sub_pos_y: 0.80
+
+# ── Subtítulos karaoke ────────────────────────────────────────────────
+subtitulos:
+  fuente: "Anton"
+  archivo_fuente: "Anton-Regular.ttf"
+  fuente_respaldo: "Arial Black"
+  palabras_por_grupo: 3
+  color_base: "FFFFFF"
+  color_activo: "2BD97C"    # verde del banner del canal
+  color_borde: "0B1F3A"     # azul marino del logo
+  grosor_borde: 5
+  sombra: 3
+  mayusculas: true
+  pop_escala: 1.08
+  pop_ms: 110
+
+# ── Look / color grade ────────────────────────────────────────────────
+# Más limpio y luminoso que psicología: finanzas tiene que transmitir
+# confianza y claridad, no misterio.
+look:
+  saturacion: 1.02
+  contraste: 1.08
+  brillo: 0.02
+  gamma: 1.0
+  temperatura: -0.03        # leve tono frío/azul, coherente con la marca
+  vineta: 0.18
+  grano: 0.03
+  negros_levantados: 0.02
+  lut: null
+
+# ── Cámara ────────────────────────────────────────────────────────────
+camara:
+  ken_burns_imagenes: true
+  zoom_min: 1.00
+  zoom_max: 1.10
+  alternar_direccion: true
+  mover_video: false
+
+# ── Transiciones ──────────────────────────────────────────────────────
+transiciones:
+  por_defecto: corte
+  proporcion_corte: 0.75
+  crossfade_dur: 0.30
+  fade_seccion: fadeblack
+  tras_hook: flash
+  flash_dur: 0.15
+  whip_dur: 0.25
+
+# ── Audio ─────────────────────────────────────────────────────────────
+audio:
+  voz_lufs: -16
+  musica_lufs: -30
+  musica_db: -24
+  ducking: true
+  ducking_ratio: 8
+  ducking_release_ms: 300
+  mood_musica: [corporativo, motivacional, lofi]
+  whoosh_en_transiciones: true
+  pausa_dramatica_seg: 0.3
+
+# ── Stock (Pexels) ────────────────────────────────────────────────────
+stock:
+  orientacion_short: portrait
+  orientacion_largo: landscape
+  min_resolucion: 1080
+  candidatos_por_busqueda: 15
+  mapa_keywords:
+    dinero:        "money cash bills counting hands"
+    monedas:       "coins stack close up"
+    ahorro:        "piggy bank saving coins"
+    presupuesto:   "budget planning notebook calculator"
+    deuda:         "stressed person bills debt"
+    tarjeta:       "credit card payment shopping"
+    banco:         "bank building finance"
+    inversion:     "stock market chart screen trading"
+    bolsa:         "stock exchange graph green numbers"
+    interes:       "growth chart rising arrow finance"
+    inflacion:     "supermarket prices shopping cart groceries"
+    compras:       "shopping bags mall consumer"
+    salario:       "office worker paycheck laptop"
+    trabajo:       "people working office laptop"
+    emprender:     "small business owner shop"
+    casa:          "house keys real estate home"
+    familia:       "family home budget kitchen table"
+    jubilacion:    "senior couple retirement happy"
+    datos:         "data analytics dashboard screen"
+    calculadora:   "calculator numbers hand finance"
+    celular:       "smartphone banking app hand"
+    meta:          "goal success person mountain sunrise"
+    estres:        "worried person head hands"
+    tranquilidad:  "calm person relaxing sunset"
+    ciudad:        "city skyline business district day"
+    tiempo:        "clock time passing"
+    default:       "finance money abstract graph motion"
+
+# ── Guionista: reglas propias del canal ───────────────────────────────
+# Se añaden al prompt general. Finanzas es tema sensible: YouTube lo trata
+# como contenido YMYL y un dato inventado le quita credibilidad al canal.
+guionista:
+  verificar_cifras: true   # segunda pasada que recalcula cada número
+  reglas: |
+    CANAL DE FINANZAS PERSONALES — REGLAS DE CONTENIDO
+    - El público es hispanohablante, sobre todo colombiano y latinoamericano.
+      Usa "plata" con naturalidad, ejemplos en pesos y situaciones cotidianas
+      de la región (arriendo, mercado, prima, cesantías, tarjeta de crédito).
+    - "Con datos reales" es la promesa del canal. Solo usa cifras que sean
+      ampliamente conocidas y verificables, o cálculos que se puedan hacer en
+      voz alta (por ejemplo, interés compuesto con números redondos). Si no
+      estás seguro de una cifra, no la uses: explica el mecanismo en su lugar.
+      Nunca inventes estudios, porcentajes ni fuentes.
+    - Educa, no recomiendes. Nada de "compra esta acción", "invierte en esta
+      cripto" ni nombres de bancos o productos concretos. Nada de promesas de
+      rentabilidad ni de "hazte rico rápido".
+    - Tono: claro, cercano y con autoridad tranquila. Como un amigo que sabe
+      de números, no como un vendedor de cursos.
+    - Las cifras se escriben en palabras: "veinte por ciento", "un millón de
+      pesos".
+    - GRÁFICAS: en las secciones donde el narrador da números, rellena
+      `grafica` (barras para comparar, numero para una cifra que impacta). Los
+      valores deben ser EXACTAMENTE los que dice el narrador. En un short, una o
+      dos secciones con gráfica; en un largo, entre tres y cinco. En el resto,
+      tipo "ninguna".
+
+# Gráficas animadas con los datos del guion (ver studio/graficas.py).
+graficas: true
+
+# ── Imágenes IA (Fase 2) ──────────────────────────────────────────────
+imagen_ia:
+  activo: false
+  proveedor: fal
+  modelo: "fal-ai/flux/schnell"
+  proporcion_por_video: 0.30
+  prefijo: >-
+    clean modern editorial photo, soft natural light, navy blue and green
+    accents, shallow depth of field, photorealistic, high detail
+  negativo: >-
+    cartoon, text, watermark, logo, currency symbols with wrong digits,
+    deformed hands, extra fingers, low quality, blurry
+
+# ── Descripción de las publicaciones ──────────────────────────────────
+descripcion:
+  cierre: "Nuevos videos lunes y jueves. Suscríbete a Plata con Datos."
+  aviso: >-
+    Contenido educativo. No es asesoría financiera ni recomendación de
+    inversión: antes de decidir, analiza tu situación o consulta a un
+    profesional.
+
+# ── YouTube ───────────────────────────────────────────────────────────
+youtube:
+  categoria: "27"           # Educación
+  privacidad: private       # revisa en YouTube y hazlo público tú
+  tags:
+    - finanzas personales
+    - plata con datos
+    - educacion financiera
+    - ahorro
+    - inversion
+    - dinero
+
+# ── Facebook (página "Plata con Datos") ───────────────────────────────
+# Los shorts se publican como Reels de la página. El id y el token de la
+# página van en .env (FACEBOOK_PAGE_ID, FACEBOOK_PAGE_TOKEN), nunca aquí.
+facebook:
+  activo: true
+  estado: DRAFT             # DRAFT = queda como borrador; PUBLISHED = sale al aire
+
+# ── Calendario de publicación ─────────────────────────────────────────
+# `python cli.py diario finanzas` produce y programa el contenido de MAÑANA.
+# La tarea de Windows lo lanza cada noche. Horas en hora de Colombia.
+publicacion_automatica: true   # false = produce pero no sube nada
+
+calendario:
+  zona: America/Bogota
+  inicio: 2026-10-27           # día 1 del calendario (para las fases)
+  # Ritmo escalonado: dos semanas suaves y luego el ritmo completo.
+  fases:
+    - hasta_dia: 14
+      shorts: 2
+      largos_dias: [lun, mie, vie]
+    - hasta_dia: null          # de ahí en adelante
+      shorts: 3
+      largos_dias: [lun, mar, mie, jue, vie, sab, dom]
+  horas_shorts: ["07:30", "12:30", "19:30"]
+  hora_largo: "18:00"
+  posts_facebook: 2
+  horas_posts: ["10:00", "21:00"]

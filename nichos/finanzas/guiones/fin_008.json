@@ -1,0 +1,73 @@
+{
+  "titulo": "Deuda buena y deuda mala: cómo saber la diferencia",
+  "titulos_alternativos": [
+    "No todas las deudas son malas: aprende a usarlas",
+    "La diferencia entre la deuda buena y la deuda mala"
+  ],
+  "tema": "Finanzas personales y manejo responsable de deudas",
+  "texto_portada": "DEUDA BUENA VS MALA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Pedir un préstamo no siempre destruye tus finanzas, pero endeudarte para aparentar sí lo hace. La diferencia está en si esa plata genera ingresos o si solo saca dinero de tu bolsillo.",
+      "keywords": [
+        "deuda",
+        "dinero",
+        "estres"
+      ],
+      "prompt_ia": "A person looking at a mountain of unpaid bills and holding a credit card anxiously"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Una deuda mala es financiar unas vacaciones o la ropa del mes con la tarjeta de crédito a doce cuotas. Pagarás mucho más del precio original por algo que ya consumiste.",
+      "keywords": [
+        "tarjeta",
+        "compras",
+        "banco"
+      ],
+      "prompt_ia": "A person swiping a credit card at a luxury shopping store surrounded by shopping bags"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La deuda buena pone plata en tu bolsillo. Pedir un crédito para estudiar, comprar herramientas de trabajo o adquirir un inmueble para arrendar genera ingresos que pagan la misma deuda.",
+      "keywords": [
+        "inversion",
+        "casa",
+        "emprender"
+      ],
+      "prompt_ia": "A person reviewing real estate blueprints and financial growth charts at a modern desk"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Antes de endeudarte, calcula el beneficio. Si la tasa de interés del préstamo es alta y tu compra no produce nada, estás perdiendo dinero. Si no produce ganancias, es un gasto innecesario.",
+      "keywords": [
+        "calculadora",
+        "interes",
+        "presupuesto"
+      ],
+      "prompt_ia": "Hands typing numbers on a financial calculator next to organized budget documents"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Usar el crédito a tu favor es la clave de la tranquilidad financiera. Suscríbete a Plata con Datos para tomar decisiones inteligentes con tu dinero.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A happy person looking at a balanced financial dashboard on a digital screen with relief"
+    }
+  ],
+  "tags": [
+    "deuda buena y deuda mala",
+    "finanzas personales",
+    "como salir de deudas",
+    "tarjetas de credito",
+    "plata con datos",
+    "educacion financiera",
+    "ahorro e inversion"
+  ],
+  "id": "fin_008",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

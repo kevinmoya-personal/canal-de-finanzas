@@ -1,0 +1,67 @@
+{
+  "titulo": "El costo secreto de tu café diario",
+  "titulos_alternativos": [
+    "Cómo los pequeños gastos destruyen tu ahorro",
+    "La verdad sobre los gastos hormiga"
+  ],
+  "tema": "Gastos hormiga y cómo un café diario suma una gran cantidad de dinero al año",
+  "texto_portada": "GASTOS\nOCULTOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Comprar un café fuera de casa todos los días parece un gasto insignificante. Pero ese pequeño hábito te está quitando la libertad financiera sin que te des cuenta.",
+      "keywords": [
+        "compras",
+        "dinero"
+      ],
+      "prompt_ia": "A person buying a cup of takeaway coffee at a cozy cafe counter"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Imagina que gastas cinco mil pesos cada mañana. En un solo mes, eso suma ciento cincuenta mil pesos que se escapan sin dejar rastro en tu presupuesto.",
+      "keywords": [
+        "calculadora",
+        "salario"
+      ],
+      "prompt_ia": "Hands holding a smartphone calculating monthly expenses on a desk"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Al cabo de un año entero, ese simple café se convierte en casi dos millones de pesos. Es una cifra suficiente para cubrir varias facturas o armar un fondo de emergencia.",
+      "keywords": [
+        "presupuesto",
+        "meta"
+      ],
+      "prompt_ia": "A person looking at a calendar while planning household finances"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "No se trata de privarte de todo. El secreto consiste en identificar esas pequeñas fugas diarias y decidir con intención en qué quieres usar tu plata.",
+      "keywords": [
+        "ahorro",
+        "datos"
+      ],
+      "prompt_ia": "A glass jar filled with coins next to a cup of coffee"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Haz la cuenta de tus gastos diarios hoy mismo y toma el control. Suscríbete a Plata con Datos para aprender a cuidar tu bolsillo.",
+      "keywords": [
+        "tranquilidad",
+        "tiempo"
+      ],
+      "prompt_ia": "A smiling person feeling peaceful while working on a laptop at home"
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "gastos hormiga",
+    "ahorro",
+    "educacion financiera",
+    "plata con datos"
+  ],
+  "id": "fin_007",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

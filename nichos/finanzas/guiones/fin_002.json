@@ -1,0 +1,69 @@
+{
+  "titulo": "Cómo repartir tu salario con la regla cincuenta treinta veinte",
+  "titulos_alternativos": [
+    "El método simple para organizar tu dinero cada mes",
+    "Divide tu salario así y no te volverás a quedar sin plata"
+  ],
+  "tema": "Regla 50/30/20 para organizar el salario",
+  "texto_portada": "ORGANIZA TU SALARIO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Si no sabes exactamente a dónde se va tu plata cada mes, el problema casi nunca es lo que ganas. El verdadero problema es cómo la divides al recibirla.",
+      "keywords": [
+        "salario",
+        "dinero"
+      ],
+      "prompt_ia": "A confused person looking at a monthly budget planner on a desk"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La regla del cincuenta, treinta, veinte organiza tu salario de forma simple. El cincuenta por ciento se destina a tus gastos fijos indispensables, como el arriendo, los servicios públicos y el mercado de la casa.",
+      "keywords": [
+        "casa",
+        "compras",
+        "presupuesto"
+      ],
+      "prompt_ia": "A cozy apartment and groceries on a kitchen counter"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El treinta por ciento se reserva para tus gustos personales. Salidas a comer, entretenimiento o pequeños antojos. Disfrutar la plata también es fundamental para mantener la disciplina.",
+      "keywords": [
+        "tarjeta",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A group of friends enjoying food and coffee at a nice cafe"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "El veinte por ciento restante se guarda al instante. Este dinero se utiliza para pagar deudas pendientes, crear un fondo de emergencia o comenzar a invertir con miras al futuro.",
+      "keywords": [
+        "ahorro",
+        "deuda",
+        "inversion"
+      ],
+      "prompt_ia": "A ceramic piggy bank next to growing stacks of coins"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Si aplicas esta estructura desde tu próximo salario, verás cambios reales en tu tranquilidad. Suscríbete a Plata con Datos para dominar tu presupuesto paso a paso.",
+      "keywords": [
+        "meta",
+        "datos"
+      ],
+      "prompt_ia": "A person holding a smartphone showing financial growth graphics"
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "ahorro",
+    "presupuesto",
+    "salario",
+    "plata con datos"
+  ],
+  "id": "fin_002",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

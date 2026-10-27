@@ -197,6 +197,40 @@ def correr(args: list[str], descripcion: str = "") -> None:
         )
 
 
+# ── Fuentes del sistema ───────────────────────────────────────────────────
+# En el PC se usan las de Windows; en GitHub Actions (Ubuntu) no existen ni se
+# pueden redistribuir, así que se cae a su equivalente libre más parecido.
+_DIRS_SISTEMA = [Path("C:/Windows/Fonts"), Path("/usr/share/fonts")]
+_EQUIVALENTES = {
+    "segoeui.ttf": ["NotoSans-Regular.ttf", "DejaVuSans.ttf"],
+    "segoeuib.ttf": ["NotoSans-Bold.ttf", "DejaVuSans-Bold.ttf"],
+    "segoeuisl.ttf": ["NotoSans-Light.ttf", "NotoSans-Regular.ttf", "DejaVuSans.ttf"],
+    "arialbd.ttf": ["LiberationSans-Bold.ttf", "DejaVuSans-Bold.ttf"],
+    "ariblk.ttf": ["LiberationSans-Bold.ttf", "DejaVuSans-Bold.ttf"],
+    "impact.ttf": ["LiberationSans-Bold.ttf", "DejaVuSans-Bold.ttf"],
+}
+
+
+@lru_cache(maxsize=None)
+def ruta_fuente(nombre: str) -> Path | None:
+    """Busca una fuente en assets_globales/fonts y luego en las del sistema."""
+    for nombre_real in [nombre, *_EQUIVALENTES.get(nombre.lower(), [])]:
+        propia = DIR_FUENTES / nombre_real
+        if propia.exists():
+            return propia
+        for carpeta in _DIRS_SISTEMA:
+            if not carpeta.exists():
+                continue
+            directa = carpeta / nombre_real
+            if directa.exists():
+                return directa
+            # En Linux las fuentes viven en subcarpetas (truetype/noto/…).
+            encontrada = next(carpeta.rglob(nombre_real), None)
+            if encontrada:
+                return encontrada
+    return None
+
+
 def asegurar_carpetas() -> None:
     for carpeta in (DIR_CACHE, DIR_TRABAJO, DIR_MUSICA, DIR_SFX,
                     DIR_LUTS, DIR_OVERLAYS, DIR_FUENTES):

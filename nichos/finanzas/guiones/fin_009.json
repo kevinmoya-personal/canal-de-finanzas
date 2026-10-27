@@ -1,0 +1,67 @@
+{
+  "titulo": "Cómo usar tu prima de diciembre para no llegar quebrado a enero",
+  "titulos_alternativos": [
+    "La regla para que tu prima de diciembre no desaparezca",
+    "Qué hacer con la prima de diciembre según los datos"
+  ],
+  "tema": "Gestión inteligente de la prima de navidad",
+  "texto_portada": "PRIMA SIN MALGASTAR",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Recibir el dinero de la prima produce una ilusión instantánea de riqueza. El gran problema es que la mayoría la gasta por completo antes de que llegue enero.",
+      "keywords": [
+        "dinero",
+        "compras"
+      ],
+      "prompt_ia": "A joyful worker receiving a holiday bonus paycheck in a cozy decorated office"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Para evitar la famosa cuesta de enero, aplica la regla del cincuenta, treinta y veinte. Usa la mitad para saldar deudas costosas o pagar gastos de inicio de año.",
+      "keywords": [
+        "deuda",
+        "tarjeta"
+      ],
+      "prompt_ia": "A person organizing bills and credit cards on a table with a laptop"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Destina el treinta por ciento a las celebraciones y compras navideñas. Definir un tope claro te permite disfrutar sin poner en riesgo la estabilidad de tu hogar.",
+      "keywords": [
+        "familia",
+        "presupuesto"
+      ],
+      "prompt_ia": "A happy family opening Christmas gifts near a brightly lit christmas tree"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "El veinte por ciento restante debes guardarlo de inmediato antes de tentarte. Si lo pones en una opción que dé rendimientos, lo proteges mejor frente a la inflación.",
+      "keywords": [
+        "ahorro",
+        "inflacion"
+      ],
+      "prompt_ia": "A piggy bank placed next to growing green plants representing financial savings"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "La prima no es plata regalada, es el fruto de seis meses de tu trabajo. Suscríbete a Plata con Datos para tomar el control de tus finanzas.",
+      "keywords": [
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A calm person looking at a clean financial graph showing steady upward growth"
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "prima de diciembre",
+    "ahorro",
+    "presupuesto",
+    "plata con datos"
+  ],
+  "id": "fin_009",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

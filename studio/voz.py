@@ -18,6 +18,7 @@ voz.py — Síntesis de voz CON timings palabra por palabra.
 from __future__ import annotations
 
 import asyncio
+import hashlib
 import json
 import re
 from dataclasses import asdict, dataclass, field
@@ -182,13 +183,23 @@ def locutar(
     salida_audio = dir_trabajo / "voz.wav"
     salida_timings = dir_trabajo / "timings.json"
 
-    # Caché: si ya está locutado y el guion no cambió, no rehacemos nada.
-    if salida_timings.exists() and salida_audio.exists() and not forzar:
-        print("  🎙️  Locución en caché, se reutiliza.")
-        return Locucion.cargar_timings(salida_timings)
-
     pausa = float(nicho.audio.get("pausa_dramatica_seg", 0.35))
     voz_id, velocidad, tono = nicho.voz_id, nicho.voz_velocidad, nicho.voz_tono
+
+    # Caché: si ya está locutado y NI el texto NI la voz cambiaron, no se
+    # rehace. La firma es lo que lo garantiza: antes bastaba con que existiera
+    # el wav, y un guion corregido salía con la locución vieja.
+    firma = hashlib.sha1(json.dumps(
+        [[s.get("nombre"), s.get("texto")] for s in secciones]
+        + [voz_id, velocidad, tono, pausa], ensure_ascii=False,
+    ).encode("utf-8")).hexdigest()
+    ruta_firma = dir_trabajo / "voz_firma.txt"
+    firma_previa = ruta_firma.read_text().strip() if ruta_firma.exists() else None
+    if (salida_timings.exists() and salida_audio.exists() and not forzar
+            and firma_previa == firma):
+        print("  🎙️  Locución en caché, se reutiliza.")
+        return Locucion.cargar_timings(salida_timings)
+    ruta_firma.unlink(missing_ok=True)
 
     dir_bloques = dir_trabajo / "voz_bloques"
     dir_bloques.mkdir(exist_ok=True)
@@ -262,6 +273,7 @@ def locutar(
         bloques=bloques,
     )
     loc.guardar_timings(salida_timings)
+    ruta_firma.write_text(firma)
 
     print(
         f"  ✅ Locución lista: {duracion_total:.1f}s · "

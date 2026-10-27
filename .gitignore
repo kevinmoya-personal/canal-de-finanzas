@@ -19,6 +19,8 @@ cache/
 *.jpeg
 !assets_globales/overlays/*.png
 !nichos/*/marca/*.png
+# Clips propios de Flow: pocos y ligeros, y la nube los necesita.
+!assets_globales/flow/**/*.mp4
 
 # === Base de datos local ===
 *.db
@@ -33,3 +35,4 @@ __pycache__/
 venv/
 *.egg-info/
 .pytest_cache/
+logs/

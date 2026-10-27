@@ -1,0 +1,72 @@
+{
+  "titulo": "Cómo salir de deudas con el método correcto",
+  "titulos_alternativos": [
+    "Bola de nieve contra avalancha para pagar deudas",
+    "La mejor estrategia para liquidar tus deudas"
+  ],
+  "tema": "Estrategias para pagar deudas: bola de nieve versus avalancha",
+  "texto_portada": "CHAO DEUDAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Repartir tu plata entre todas tus deudas al mismo tiempo es el peor error. Este hábito solo prolonga tus pagos y te cuesta millones en intereses.",
+      "keywords": [
+        "deuda",
+        "dinero",
+        "estres"
+      ],
+      "prompt_ia": "A person looking overwhelmed at multiple unpaid credit card bills on a wooden desk"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El método bola de nieve te propone ordenar las deudas de menor a mayor monto. Pagas la más pequeña primero para ganar motivación psicológica rápidamente.",
+      "keywords": [
+        "presupuesto",
+        "meta",
+        "tarjeta"
+      ],
+      "prompt_ia": "A line of dominoes falling starting from the smallest one"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El método avalancha organiza todo por la tasa de interés más alta. Matemáticamente es el más eficiente porque reduce el dinero total que le regalas al banco.",
+      "keywords": [
+        "interes",
+        "banco",
+        "calculadora"
+      ],
+      "prompt_ia": "A financial chart showing a steep decrease in debt over time with interest saved highlighted"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Si necesitas victorias rápidas para no rendirte usa la bola de nieve. Si prefieres ahorrar la máxima cantidad de plata elige la avalancha.",
+      "keywords": [
+        "salario",
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A split image comparing a small psychological win to a stack of saved money bills"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Ambos métodos funcionan si mantienes la disciplina. Suscríbete a Plata con Datos para tomar el control de tus finanzas con números reales.",
+      "keywords": [
+        "tiempo",
+        "ahorro"
+      ],
+      "prompt_ia": "A person looking relieved and happy while looking at a clean financial dashboard on a laptop"
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "salir de deudas",
+    "metodo bola de nieve",
+    "metodo avalancha",
+    "ahorro",
+    "colombia"
+  ],
+  "id": "fin_010",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

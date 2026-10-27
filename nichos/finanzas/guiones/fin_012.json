@@ -1,0 +1,207 @@
+{
+  "titulo": "Por qué diez años de diferencia pueden valer una fortuna en tu retiro",
+  "titulos_alternativos": [
+    "El poder del interés compuesto si empiezas a los veinticinco",
+    "La diferencia de ahorrar a los veinticinco o a los treinta y cinco"
+  ],
+  "tema": "El interés compuesto y la importancia de empezar a ahorrar a los veinticinco años frente a los treinta y cinco",
+  "texto_portada": "DIEZ AÑOS\nLO CAMBIAN TODO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Si esperas hasta los treinta y cinco años para empezar a guardar plata, tendrás que sacar más del doble de tu bolsillo para alcanzar exactamente la misma tranquilidad financiera. El tiempo no solo te da ventaja. El tiempo multiplica tu esfuerzo de una manera que parece magia, pero es pura matemática. La mayoría de la gente cree que el secreto del ahorro está en cuánto dinero logras aportar cada mes. Sin embargo, los datos demuestran que el factor determinante no es la cantidad de plata que pones, sino el momento exacto en el que decides empezar. En este análisis vamos a desarmar el mecanismo del interés compuesto paso a paso. Verás con números claros cómo diez años de diferencia cambian por completo tu futuro económico y por qué dejar pasar los años es el error más costoso de tu vida.",
+      "keywords": [
+        "tiempo",
+        "dinero",
+        "jubilacion"
+      ],
+      "prompt_ia": "A young adult looking thoughtfully at a financial growth curve displayed on a sleek digital interface in a modern room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Para entender este concepto, primero debemos definir qué es exactamente el interés compuesto. En el interés simple, tú inviertes un capital inicial y recibes una ganancia fija calculada solo sobre ese monto original. Si guardas un millón de pesos y te da el diez por ciento al año, ganas cien mil pesos. Con el interés simple, al segundo año ganas nuevamente cien mil pesos. Pero el interés compuesto funciona de forma totalmente diferente. En el segundo año, la rentabilidad no se calcula sobre tu millón inicial, sino sobre el millón cien mil pesos que ya acumulaste. Es decir, tus ganancias empiezan a generar sus propias ganancias. Es una bola de nieve que al principio parece muy pequeña e insignificante. Sin embargo, a medida que rueda por la montaña del tiempo, la bola crece a un ritmo acelerado hasta volverse enorme.",
+      "keywords": [
+        "interes",
+        "inversion",
+        "calculadora"
+      ],
+      "prompt_ia": "A snowball rolling down a snowy hill growing exponentially larger over distance",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Hagamos una comparación directa entre dos personas para ver este efecto en acción. Imaginemos a la primera persona, a quien llamaremos Carlos. Carlos empieza a invertir a los veinticinco años. Guarda doscientos mil pesos al mes durante diez años seguidos. A los treinta y cinco años, Carlos decide no poner ni un solo peso más. En total, sacó de su bolsillo veinticuatro millones de pesos. Por otro lado tenemos a María. María empieza a ahorrar a los treinta y cinco años, justo cuando Carlos dejó de aportar. María guarda los mismos doscientos mil pesos mensuales, pero lo hace durante veinticinco años seguidos, hasta cumplir los sesenta. En total, María aporta de su bolsillo sesenta millones de pesos. María puso casi el triple de dinero que Carlos.",
+      "keywords": [
+        "salario",
+        "ahorro",
+        "banco"
+      ],
+      "prompt_ia": "Two split scenes showing two different people at their desks managing monthly budgets side by side",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Aporte total del bolsillo",
+        "etiquetas": [
+          "Empieza a los 25",
+          "Empieza a los 35"
+        ],
+        "valores": [
+          24000000,
+          60000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Ahora viene la revelación más impactante de este experimento financiero. Asumiendo un rendimiento promedio anual del diez por ciento, al llegar a los sesenta años, Carlos tiene casi quinientos millones de pesos. María, habiendo aportado durante veinticinco años seguidos, acumula unos doscientos sesenta y cinco millones de pesos. Carlos tiene más de doscientos millones de pesos más que María, a pesar de que él solo ahorró durante diez años y aportó veinticuatro millones, mientras que María aportó sesenta millones. ¿Cómo es esto posible? La respuesta está en la curva exponencial. Los diez años extra de descanso que tuvo la plata de Carlos le permitieron multiplicarse en el mercado sin que él tuviera que trabajar ni aportar un solo centavo adicional.",
+      "keywords": [
+        "datos",
+        "monedas",
+        "meta"
+      ],
+      "prompt_ia": "A clean visual representation of two growing bar charts where the smaller initial investment surpasses the larger one due to time",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Capital final a los 60 años",
+        "etiquetas": [
+          "Empieza a los 25",
+          "Empieza a los 35"
+        ],
+        "valores": [
+          494000000,
+          265000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Muchas personas prefieren no correr ningún riesgo y guardan su plata debajo del colchón o en una cuenta de ahorros tradicional. Esto es un peligro silencioso debido al impacto constante de la inflación. Si guardas un millón de pesos en efectivo durante diez años, con una inflación promedio cercana al cuatro por ciento anual, el poder de compra de esa plata se reduce aproximadamente un treinta y cinco por ciento. Eso significa que no solo estás perdiendo la oportunidad de multiplicar tu dinero con el interés compuesto, sino que tu esfuerzo acumulado vale cada día menos. La inflación es una fuerza que destruye tu capacidad adquisitiva de forma silenciosa. Para vencerla, tu dinero necesita estar trabajando en herramientas financieras que generen rendimientos por encima del costo de vida.",
+      "keywords": [
+        "inflacion",
+        "estres",
+        "casa"
+      ],
+      "prompt_ia": "A paper banknote slowly fading or dissolving over time representing loss of purchasing power",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Pérdida por inflación en 10 años",
+        "etiquetas": [
+          "Pérdida estimada del poder de compra"
+        ],
+        "valores": [
+          35
+        ],
+        "prefijo": "",
+        "sufijo": "%"
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Existe el mito de que para aprovechar el interés compuesto necesitas grandes sumas de capital o ser un experto en la bolsa de valores. La realidad es muy distinta. Hoy en día existen opciones en el mercado accesibles desde montos muy bajos, como cincuenta mil o cien mil pesos. Lo verdaderamente importante no es empezar con una fortuna, sino desarrollar la disciplina de la constancia. Si esperas a tener un salario elevado o a que te sobre la plata a fin de mes, es muy probable que nunca empieces. El interés compuesto no premia a quien aporta más de golpe, sino a quien mantiene la constancia durante un período de tiempo prolongado.",
+      "keywords": [
+        "emprender",
+        "presupuesto",
+        "celular"
+      ],
+      "prompt_ia": "A person setting up a small automatic transfer on a modern smartphone banking app",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "El secreto para mantener este proceso activo sin fallar es la automatización. Cuando recibes tu salario o tus ingresos mensuales, el cerebro humano tiende a gastar lo que ve disponible en la cuenta. Si intentas ahorrar lo que te sobra al final del mes, casi nunca te va a quedar nada. La estrategia correcta es programar una transferencia automática el mismo día en que recibes tu pago. Separas tu cuota para la inversión antes de pagar el arriendo, el mercado o las facturas. De esta manera, tu plan de crecimiento financiero no depende de tu fuerza de voluntad ni de tu memoria, sino de un sistema automatizado que trabaja de fondo para ti todos los meses.",
+      "keywords": [
+        "tranquilidad",
+        "compras",
+        "tarjeta"
+      ],
+      "prompt_ia": "Gear mechanism working seamlessly representing an automated financial system",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Rentabilidad del hábito constante",
+        "etiquetas": [
+          "Rendimiento promedio anual estimado"
+        ],
+        "valores": [
+          10
+        ],
+        "prefijo": "",
+        "sufijo": "%"
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Quizás estás viendo esto y sientes que ya es tarde porque no empezaste a los veinticinco años. Ese es un pensamiento tramposo que paraliza a la mayoría. El mejor momento para plantar un árbol fue hace veinte años, pero el segundo mejor momento es hoy. Si hoy tienes treinta, cuarenta o cincuenta años, el interés compuesto sigue siendo tu mejor aliado para construir un respaldo sólido. La única diferencia es que debes tomar acción de inmediato. Cada año que postergas esta decisión significa que en el futuro tendrás que hacer un esfuerzo mayor para alcanzar las mismas metas. No te compares con los demás, enfócate en poner a trabajar la plata que tienes hoy.",
+      "keywords": [
+        "trabajo",
+        "familia",
+        "ciudad"
+      ],
+      "prompt_ia": "A middle aged person taking decisive steps forward looking at a bright city skyline",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Comprender el poder del tiempo en las finanzas personales cambia por completo tu relación con el dinero. Ahorrar no se trata de privarte de cosas hoy, sino de comprar tu libertad y tranquilidad para el día de mañana. Si este contenido te aportó valor y quieres seguir aprendiendo a manejar tu plata con datos reales y sin rodeos, suscríbete al canal. Activa la campanita para no perderte las próximas explicaciones y déjanos un comentario contándonos a qué edad empezaste a cuidar tus finanzas. Tu futuro financiero depende de las decisiones que tomas hoy, así que pon a trabajar tu plata desde este momento.",
+      "keywords": [
+        "bolsa",
+        "deuda",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A serene background showing financial freedom and peace of mind with a warm sunset",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "interes compuesto",
+    "ahorro a los 25",
+    "finanzas personales",
+    "plata con datos",
+    "inversion para principiantes",
+    "libertad financiera",
+    "educacion financiera",
+    "como ahorrar dinero"
+  ],
+  "id": "fin_012",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,72 @@
+{
+  "titulo": "Por qué ahorrar lo que te sobra al final del mes jamás funciona",
+  "titulos_alternativos": [
+    "El error fatal al intentar ahorrar dinero cada mes",
+    "Ahorra primero y gasta después con este método simple"
+  ],
+  "tema": "Estrategia de ahorro y finanzas personales",
+  "texto_portada": "AHORRA PRIMERO SIEMPRE",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Si esperas a fin de mes para guardar la plata que te sobra, jamás vas a ahorrar. Tu cerebro se encarga de gastar todo el dinero que ve disponible en la cuenta.",
+      "keywords": [
+        "dinero",
+        "celular",
+        "estres"
+      ],
+      "prompt_ia": "A person looking confused and stressed at a smartphone screen displaying zero balance."
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Este fenómeno se conoce como la ley de Parkinson. Tus gastos siempre van a crecer hasta alcanzar el total de tus ingresos. Si te pagan un millón o dos millones, al final del mes quedarás en cero.",
+      "keywords": [
+        "salario",
+        "presupuesto",
+        "compras"
+      ],
+      "prompt_ia": "A visual representation of monthly salary disappearing rapidly into multiple bills and shopping receipts."
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La solución con datos reales es cambiar el orden. Apenas recibas tu salario, aparta el diez por ciento hacia una cuenta diferente. Acomoda tu vida al noventa por ciento restante.",
+      "keywords": [
+        "ahorro",
+        "banco",
+        "calculadora"
+      ],
+      "prompt_ia": "Hands separating ten percent of money into a savings piggy bank first before paying bills."
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Al automatizar esa transferencia el primer día, conviertes el ahorro en una prioridad obligatoria. Ya no compites contra las tentaciones diarias de compras innecesarias.",
+      "keywords": [
+        "tarjeta",
+        "tranquilidad",
+        "tiempo"
+      ],
+      "prompt_ia": "A calm person drinking coffee peacefully while automatic savings transfers happen on a digital screen."
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Págate a ti primero antes de repartir tu plata. Suscríbete a Plata con Datos para dominar tus finanzas con números claros.",
+      "keywords": [
+        "meta",
+        "datos"
+      ],
+      "prompt_ia": "A steady growing bar chart made of coins leading upward to financial stability."
+    }
+  ],
+  "tags": [
+    "ahorro",
+    "finanzas personales",
+    "educacion financiera",
+    "plata con datos",
+    "como ahorrar dinero",
+    "presupuesto"
+  ],
+  "id": "fin_001",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

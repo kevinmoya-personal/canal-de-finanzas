@@ -1,0 +1,71 @@
+{
+  "titulo": "Por qué la inflación destruye tus ahorros en silencio",
+  "titulos_alternativos": [
+    "Así pierde valor tu dinero aunque no lo gastes",
+    "Qué es la inflación y cómo afecta tu bolsillo"
+  ],
+  "tema": "La inflación y la pérdida del poder adquisitivo",
+  "texto_portada": "TU PLATA VALE MENOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tener un millón de pesos debajo del colchón parece seguro, pero la realidad es que ese dinero pierde valor todos los días.",
+      "keywords": [
+        "ahorro",
+        "dinero",
+        "monedas"
+      ],
+      "prompt_ia": "A stack of cash bills under a mattress in a dimly lit bedroom"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La inflación ocurre cuando el precio de las cosas sube de forma constante. Lo que hoy compras en el mercado con cien mil pesos, hace unos años te costaba ochenta mil.",
+      "keywords": [
+        "inflacion",
+        "compras",
+        "presupuesto"
+      ],
+      "prompt_ia": "A supermarket shopping cart full of groceries with rising prices concept"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Tu billete sigue siendo el mismo, pero su poder de compra se reduce. Si la inflación es del cinco por ciento al año, tu plata guardada compra un cinco por ciento menos al terminar el año.",
+      "keywords": [
+        "calculadora",
+        "datos",
+        "salario"
+      ],
+      "prompt_ia": "Paper money currency slowly dissolving into dust"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Dejar la plata quieta en una cuenta que no paga nada es regalar tu trabajo. Para protegerte, el primer paso es entender que el dinero debe rentar al menos lo mismo que suben los precios.",
+      "keywords": [
+        "banco",
+        "inversion",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Financial chart with an arrow outpacing a rising inflation line"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Para aprender a cuidar tu presupuesto con datos reales y sin rodeos, suscríbete a Plata con Datos.",
+      "keywords": [
+        "tiempo",
+        "meta"
+      ],
+      "prompt_ia": "A person analyzing clean financial graphics on a tablet"
+    }
+  ],
+  "tags": [
+    "inflacion",
+    "ahorro",
+    "finanzas personales",
+    "plata con datos",
+    "educacion financiera"
+  ],
+  "id": "fin_005",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

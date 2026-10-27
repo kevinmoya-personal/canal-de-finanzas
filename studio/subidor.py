@@ -20,7 +20,9 @@ subidor.py — Publicación en YouTube.
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 from . import tracker
@@ -52,6 +54,7 @@ class Publicacion:
     categoria: str
     privacidad: str
     portada: Path | None
+    publicar_en: datetime | None = None   # con hora: se sube privado y YouTube lo publica solo
 
     def problemas(self) -> list[str]:
         fallos = []
@@ -67,6 +70,8 @@ class Publicacion:
                 fallos.append(f"Miniatura de {mb:.1f} MB (máximo {MAX_PORTADA_MB}).")
         if self.privacidad not in ("public", "unlisted", "private"):
             fallos.append(f"Privacidad '{self.privacidad}' no válida.")
+        if self.publicar_en and self.publicar_en <= datetime.now(timezone.utc):
+            fallos.append(f"La hora programada {self.publicar_en:%Y-%m-%d %H:%M} ya pasó.")
         return fallos
 
     def imprimir(self) -> None:
@@ -75,6 +80,8 @@ class Publicacion:
               else f"    archivo     {self.archivo} (NO EXISTE)")
         print(f"    título      {self.titulo}")
         print(f"    privacidad  {self.privacidad}")
+        if self.publicar_en:
+            print(f"    programado  {self.publicar_en:%Y-%m-%d %H:%M %Z}")
         print(f"    categoría   {self.categoria}")
         print(f"    tags        {', '.join(self.tags[:8])}"
               f"{f' (+{len(self.tags) - 8})' if len(self.tags) > 8 else ''}")
@@ -92,8 +99,12 @@ def _descripcion(guion: dict, nicho: Nicho) -> str:
     if hook:
         partes.append(hook)
     partes.append("")
-    partes.append(f"Más contenido de {nicho.titulo} cada semana. Suscríbete.")
+    desc = nicho.datos.get("descripcion", {})
+    partes.append(desc.get("cierre") or f"Más contenido de {nicho.titulo} cada semana. Suscríbete.")
     partes.append("")
+    if desc.get("aviso"):
+        partes.append(desc["aviso"].strip())
+        partes.append("")
     etiquetas = " ".join(
         "#" + t.replace(" ", "") for t in nicho.datos.get("youtube", {}).get("tags", [])[:6]
     )
@@ -145,7 +156,21 @@ def _servicio(nicho: Nicho):
 
     if not credenciales or not credenciales.valid:
         if credenciales and credenciales.expired and credenciales.refresh_token:
-            credenciales.refresh(Request())
+            try:
+                credenciales.refresh(Request())
+            except Exception as e:
+                raise RuntimeError(
+                    f"El token de YouTube ya no sirve ({str(e)[:120]}). Reautoriza en el PC "
+                    f"con 'python cli.py autorizar {nicho.nombre}' y actualiza el secreto "
+                    f"YOUTUBE_TOKEN_{nicho.nombre.upper()} en GitHub."
+                ) from e
+        elif os.getenv("CI"):
+            # En GitHub Actions no hay navegador: abrir el flujo OAuth colgaría
+            # el job hasta el timeout.
+            raise RuntimeError(
+                f"Falta un token de YouTube válido para '{nicho.nombre}' y aquí no se "
+                f"puede abrir el navegador. Autoriza en el PC y súbelo como secreto."
+            )
         else:
             if not ruta_secreto.exists():
                 raise RuntimeError(
@@ -165,6 +190,7 @@ def subir(
     tipo: str = "short",
     confirmado: bool = False,
     video_db_id: int | None = None,
+    publicar_en: datetime | None = None,
 ) -> str | None:
     """
     Publica un video en YouTube.
@@ -175,6 +201,7 @@ def subir(
     """
     nicho = Nicho.cargar(nicho_nombre)
     pub = preparar(nicho, guion_id, tipo)
+    pub.publicar_en = publicar_en
 
     print(f"\n  📤 Publicación preparada para '{guion_id}' en {nicho.titulo}:")
     pub.imprimir()
@@ -217,6 +244,13 @@ def _publicar(nicho: Nicho, pub: Publicacion, video_db_id: int | None) -> str:
             "selfDeclaredMadeForKids": False,
         },
     }
+    if pub.publicar_en:
+        # YouTube solo acepta publishAt sobre videos privados: los deja ocultos
+        # y los hace públicos él mismo a esa hora.
+        cuerpo["status"]["privacyStatus"] = "private"
+        cuerpo["status"]["publishAt"] = (
+            pub.publicar_en.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        )
 
     medio = MediaFileUpload(str(pub.archivo), chunksize=8 * 1024 * 1024, resumable=True)
     peticion = servicio.videos().insert(
@@ -233,16 +267,23 @@ def _publicar(nicho: Nicho, pub: Publicacion, video_db_id: int | None) -> str:
     youtube_id = respuesta["id"]
     print(f"  ✅ https://youtu.be/{youtube_id}")
 
+    # Se marca antes de la miniatura: el video ya está en YouTube aunque la
+    # miniatura falle, y no queremos que se vuelva a subir.
+    if video_db_id is not None:
+        tracker.marcar_subido(video_db_id, youtube_id)
+
     if pub.portada:
         from googleapiclient.http import MediaFileUpload as Subida
 
-        servicio.thumbnails().set(
-            videoId=youtube_id, media_body=Subida(str(pub.portada))
-        ).execute()
-        print("  🖼️  Miniatura aplicada")
-
-    if video_db_id is not None:
-        tracker.marcar_subido(video_db_id, youtube_id)
+        try:
+            servicio.thumbnails().set(
+                videoId=youtube_id, media_body=Subida(str(pub.portada))
+            ).execute()
+            print("  🖼️  Miniatura aplicada")
+        except Exception as e:
+            # Típico: canal sin verificar por teléfono (YouTube no deja
+            # miniaturas personalizadas hasta entonces).
+            print(f"  ⚠️  Video subido, pero la miniatura falló: {str(e)[:160]}")
 
     return youtube_id
 

@@ -1,0 +1,67 @@
+{
+  "titulo": "El secreto del interés compuesto explicado con números sencillos",
+  "titulos_alternativos": [
+    "Cómo hacer crecer tu plata con el interés compuesto",
+    "Así funciona el interés compuesto en la vida real"
+  ],
+  "tema": "Interés compuesto y educación financiera",
+  "texto_portada": "MULTIPLICA TU PLATA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "La mayoría de la gente cree que para ganar dinero invirtiendo necesita ahorrar una fortuna cada mes. La realidad es muy distinta.",
+      "keywords": [
+        "dinero",
+        "inversion"
+      ],
+      "prompt_ia": "A close up of hands stacking gold coins on a table with glowing mathematical formulas floating in the air"
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Imagina que inviertes un millón de pesos al diez por ciento anual. Al primer año ganas cien mil pesos. Ahora tienes un millón cien mil.",
+      "keywords": [
+        "calculadora",
+        "monedas"
+      ],
+      "prompt_ia": "A person using a sleek modern calculator on a neat desk with a notebook showing financial growth chart"
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El segundo año el diez por ciento ya no se calcula sobre el millón original. Se calcula sobre el total. Ganas ciento diez mil pesos sin aportar nada más.",
+      "keywords": [
+        "interes",
+        "datos"
+      ],
+      "prompt_ia": "Digital screen displaying clean financial graphs with upward trends and percentage symbols"
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Ese es el poder del interés compuesto. Tus ganancias producen nuevas ganancias. Con el paso del tiempo, la bola de nieve crece sola.",
+      "keywords": [
+        "tiempo",
+        "tranquilidad"
+      ],
+      "prompt_ia": "An hourglass on a wooden desk with golden coins accumulating around its base in warm lighting"
+    },
+    {
+      "nombre": "cierre",
+      "texto": "El secreto no es aportar una fortuna, sino empezar cuanto antes. Suscríbete a Plata con Datos para entender tus finanzas con números reales.",
+      "keywords": [
+        "meta",
+        "salario"
+      ],
+      "prompt_ia": "A smiling young adult looking at a financial budget planner with confidence in a modern living room"
+    }
+  ],
+  "tags": [
+    "interes compuesto",
+    "finanzas personales",
+    "ahorro",
+    "inversiones",
+    "plata con datos"
+  ],
+  "id": "fin_003",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

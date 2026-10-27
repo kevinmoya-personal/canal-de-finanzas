@@ -20,6 +20,7 @@ import time
 from dataclasses import dataclass
 from pathlib import Path
 
+from . import graficas
 from . import portadas as portadas_mod
 from . import storyboard as sb_mod
 from . import tracker
@@ -97,6 +98,9 @@ def producir(
         print(f"  🧹 {huerfanos} descargas incompletas de ejecuciones previas")
     resueltas, fallidas = stock.resolver(sb, nicho)
     print(f"  📦 {resueltas} tomas con b-roll · {fallidas} sin asset")
+    n_graficas = graficas.resolver(sb, nicho, trabajo)
+    if n_graficas:
+        print(f"  📊 {n_graficas} gráficas animadas con datos del guion")
     sb.guardar(trabajo / "storyboard.json")
 
     # ── 4. Render de tomas y montaje ─────────────────────────────────────

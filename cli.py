@@ -149,19 +149,67 @@ def cmd_subir(args) -> int:
     Sin --subir-de-verdad NO se conecta a YouTube: solo enseña lo que se
     enviaría. Es deliberado.
     """
-    from studio import subidor
+    from studio import facebook, subidor
+
+    a_youtube = args.destino in ("youtube", "ambos")
+    a_facebook = args.destino in ("facebook", "ambos")
 
     if args.subir_de_verdad:
-        print("\n  ⚠️  Vas a PUBLICAR en YouTube. Esto es difícil de deshacer.")
+        donde = " y ".join(d for d, si in (("YouTube", a_youtube), ("Facebook", a_facebook)) if si)
+        print(f"\n  ⚠️  Vas a PUBLICAR en {donde}. Esto es difícil de deshacer.")
         respuesta = input(f"     Escribe el id del video para confirmar ({args.guion}): ")
         if respuesta.strip() != args.guion:
             print("  Cancelado: el id no coincide.")
             return 1
 
-    resultado = subidor.subir(
-        args.nicho, args.guion, args.formato, confirmado=args.subir_de_verdad
-    )
-    return 0 if (resultado or not args.subir_de_verdad) else 1
+    fallo = False
+    if a_youtube:
+        resultado = subidor.subir(
+            args.nicho, args.guion, args.formato, confirmado=args.subir_de_verdad
+        )
+        fallo |= args.subir_de_verdad and not resultado
+    if a_facebook:
+        try:
+            facebook.subir(args.nicho, args.guion, args.formato,
+                           confirmado=args.subir_de_verdad)
+        except RuntimeError as e:
+            print(f"\n  ❌ Facebook: {e}")
+            fallo = True
+    return 1 if fallo else 0
+
+
+def cmd_diario(args) -> int:
+    """Produce y programa el contenido de un día (mañana por defecto)."""
+    from datetime import date
+
+    from studio import diario
+
+    fecha = date.fromisoformat(args.fecha) if args.fecha else None
+    return 1 if diario.ejecutar(args.nicho, fecha, simular=args.simular) else 0
+
+
+def cmd_autorizar(args) -> int:
+    """Abre el navegador para dar acceso a YouTube y dice a qué canal quedó ligado."""
+    from studio import subidor
+
+    nicho = Nicho.cargar(args.nicho)
+    servicio = subidor._servicio(nicho)
+    canales = servicio.channels().list(part="snippet", mine=True).execute().get("items", [])
+    for c in canales:
+        print(f"  ✅ Autorizado: {c['snippet']['title']}  (id {c['id']})")
+    if not canales:
+        print("  ⚠️  La cuenta autorizada no tiene canal de YouTube.")
+    return 0
+
+
+def cmd_posts(args) -> int:
+    """Genera publicaciones de imagen para Facebook, sin subirlas."""
+    from studio import publicaciones
+
+    nicho = Nicho.cargar(args.nicho)
+    for p in publicaciones.producir(nicho, args.cuantas):
+        print(f"\n  [{p.formato}] {p.imagen}\n  {p.texto_completo}")
+    return 0
 
 
 def cmd_guion(args) -> int:
@@ -248,11 +296,29 @@ def main(argv=None) -> int:
     ps.add_argument("nicho")
     ps.add_argument("guion")
     ps.add_argument("--formato", default="short", choices=["short", "largo"])
+    ps.add_argument("--destino", default="ambos", choices=["ambos", "youtube", "facebook"],
+                    help="dónde publicar (por defecto en los dos)")
     ps.add_argument(
         "--subir-de-verdad", action="store_true",
-        help="PUBLICA en YouTube. Sin este flag solo se muestra qué se enviaría.",
+        help="PUBLICA de verdad. Sin este flag solo se muestra qué se enviaría.",
     )
     ps.set_defaults(func=cmd_subir)
+
+    pd = sub.add_parser("diario", help="produce y programa un día de contenido (mañana)")
+    pd.add_argument("nicho")
+    pd.add_argument("--fecha", default=None, help="AAAA-MM-DD; por defecto, mañana")
+    pd.add_argument("--simular", action="store_true",
+                    help="produce todo pero no sube ni programa nada")
+    pd.set_defaults(func=cmd_diario)
+
+    pa = sub.add_parser("autorizar", help="da acceso a YouTube para un nicho")
+    pa.add_argument("nicho")
+    pa.set_defaults(func=cmd_autorizar)
+
+    pf = sub.add_parser("posts", help="genera publicaciones de imagen para Facebook")
+    pf.add_argument("nicho")
+    pf.add_argument("--cuantas", type=int, default=2)
+    pf.set_defaults(func=cmd_posts)
 
     args = p.parse_args(argv)
     try:

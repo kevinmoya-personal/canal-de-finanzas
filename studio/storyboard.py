@@ -31,6 +31,7 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any
 
+from . import graficas
 from .niche import Formato, Nicho
 from .voz import Locucion, Palabra
 
@@ -380,7 +381,17 @@ def construir(
         # segundos necesitan una imagen que nadie haya visto antes.
         quiere_ia = usa_ia and (es_hook or rng.random() < prop_ia)
 
-        if quiere_ia:
+        # La primera toma de una sección con datos muestra su gráfica: b-roll
+        # propio, que no se agota como el stock (ver graficas.py).
+        secciones = (guion or {}).get("secciones", [])
+        grafica = secciones[idx_bloque].get("grafica") if idx_bloque < len(secciones) else None
+        if k == 0 and graficas.es_valida(grafica):
+            visual = Visual(
+                fuente="grafica",
+                keyword="grafica",
+                consulta=json.dumps(grafica, ensure_ascii=False),
+            )
+        elif quiere_ia:
             visual = Visual(
                 fuente="ai_image",
                 keyword=keyword,

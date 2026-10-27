@@ -19,6 +19,9 @@ falla en la etapa 3, no se rehacen la 1 ni la 2.
 """
 from __future__ import annotations
 
+import hashlib
+import json
+from dataclasses import asdict
 from pathlib import Path
 
 from .. import config
@@ -89,7 +92,17 @@ def renderizar_tomas(
         dur = toma.dur + toma.transicion_salida.dur
         destino = dir_clips / f"clip_{toma.id:04d}.mp4"
 
-        if destino.exists() and not forzar:
+        # La caché es por CONTENIDO, no por nombre: si la locución o el
+        # storyboard cambiaron, la toma N ya no dura ni muestra lo mismo, y
+        # reutilizar clip_N desincronizaría el video con la voz.
+        firma = hashlib.sha1(json.dumps(
+            [asdict(toma.visual), asdict(toma.camara), round(dur, 3),
+             sb.ancho, sb.alto, sb.fps, nicho.look],
+            sort_keys=True, default=str,
+        ).encode("utf-8")).hexdigest()
+        ruta_firma = destino.with_suffix(".firma")
+        if (destino.exists() and not forzar and ruta_firma.exists()
+                and ruta_firma.read_text().strip() == firma):
             clips.append(destino)
             continue
 
@@ -120,10 +133,17 @@ def renderizar_tomas(
                 # permite unir los cortes duros por copia, sin recodificar.
                 "-video_track_timescale", "90000",
                 "-g", str(sb.fps * 2),
+                # ⭐ Metadatos de color idénticos también. El stock llega con
+                # bt709 o bt470bg según el clip y FFmpeg los hereda; un cambio
+                # a mitad de un segmento reinicia el grafo de xfade y CORTA el
+                # video ahí (fin_008 salió con 16s de imagen sobre 50s de voz).
+                "-color_primaries", "bt709", "-color_trc", "bt709",
+                "-colorspace", "bt709", "-color_range", "tv",
                 str(destino),
             ],
             descripcion=f"toma {toma.id}",
         )
+        ruta_firma.write_text(firma)
         clips.append(destino)
 
     return clips
@@ -201,7 +221,9 @@ def unir(
     # acumulada (medida, no estimada) para que no se acumule deriva.
     entradas: list[str] = []
     for ruta in rutas_seg:
-        entradas += ["-i", str(ruta)]
+        # Segunda defensa: si un segmento cambia de parámetros a mitad (color,
+        # rango), no reconstruir el grafo, porque xfade termina la salida ahí.
+        entradas += ["-reinit_filter", "0", "-i", str(ruta)]
 
     duraciones = [config.duracion(r) for r in rutas_seg]
     pasos: list[str] = []
