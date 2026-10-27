@@ -202,6 +202,31 @@ def cmd_autorizar(args) -> int:
     return 0
 
 
+def cmd_facebook_token(args) -> int:
+    """Saca el token permanente de la página y lo guarda en .env."""
+    import re
+
+    from studio import facebook
+
+    pid, nombre, token = facebook.token_permanente(
+        config.secreto("FACEBOOK_APP_ID", obligatorio=True),
+        config.secreto("FACEBOOK_APP_SECRET", obligatorio=True),
+        config.secreto("FACEBOOK_USER_TOKEN", obligatorio=True),
+        args.pagina,
+    )
+    ruta = config.RAIZ / ".env"
+    texto = ruta.read_text(encoding="utf-8") if ruta.exists() else ""
+    for clave, valor in (("FACEBOOK_PAGE_ID", pid), ("FACEBOOK_PAGE_TOKEN", token)):
+        linea = f"{clave}={valor}"
+        if re.search(rf"^{clave}=.*$", texto, flags=re.M):
+            texto = re.sub(rf"^{clave}=.*$", linea, texto, flags=re.M)
+        else:
+            texto = texto.rstrip("\n") + f"\n{linea}\n"
+    ruta.write_text(texto, encoding="utf-8")
+    print(f"  ✅ Página '{nombre}' (id {pid}): token permanente guardado en .env")
+    return 0
+
+
 def cmd_posts(args) -> int:
     """Genera publicaciones de imagen para Facebook, sin subirlas."""
     from studio import publicaciones
@@ -314,6 +339,11 @@ def main(argv=None) -> int:
     pa = sub.add_parser("autorizar", help="da acceso a YouTube para un nicho")
     pa.add_argument("nicho")
     pa.set_defaults(func=cmd_autorizar)
+
+    pt = sub.add_parser("facebook-token",
+                        help="convierte el token del Graph API Explorer en uno de página permanente")
+    pt.add_argument("--pagina", default=None, help="parte del nombre de la página, si hay varias")
+    pt.set_defaults(func=cmd_facebook_token)
 
     pf = sub.add_parser("posts", help="genera publicaciones de imagen para Facebook")
     pf.add_argument("nicho")

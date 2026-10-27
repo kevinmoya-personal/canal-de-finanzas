@@ -291,6 +291,44 @@ def _publicar_imagen(envio: Envio) -> str:
     return ident
 
 
+# ── Token permanente de la página ─────────────────────────────────────────
+def token_permanente(app_id: str, app_secret: str, token_usuario: str,
+                     pagina: str | None = None) -> tuple[str, str, str]:
+    """
+    Convierte el token corto del Graph API Explorer (1-2 horas) en un token
+    de PÁGINA que no caduca: corto → usuario de 60 días → token de página.
+    Devuelve (id de página, nombre, token).
+    """
+    import requests
+
+    largo = _revisar(requests.get(f"{GRAPH}/oauth/access_token", params={
+        "grant_type": "fb_exchange_token", "client_id": app_id,
+        "client_secret": app_secret, "fb_exchange_token": token_usuario,
+    }, timeout=30), "canje de token")["access_token"]
+
+    paginas = _revisar(requests.get(f"{GRAPH}/me/accounts", params={
+        "fields": "id,name,access_token,tasks", "access_token": largo,
+    }, timeout=30), "páginas")["data"]
+    if not paginas:
+        raise RuntimeError("El token no da acceso a ninguna página. ¿Marcaste la página al autorizar?")
+    elegida = next((p for p in paginas if pagina and pagina.lower() in p["name"].lower()), None)
+    if not elegida:
+        if len(paginas) > 1:
+            nombres = ", ".join(p["name"] for p in paginas)
+            raise RuntimeError(f"Hay varias páginas ({nombres}). Indica cuál con --pagina.")
+        elegida = paginas[0]
+
+    info = _revisar(requests.get(f"{GRAPH}/debug_token", params={
+        "input_token": elegida["access_token"], "access_token": f"{app_id}|{app_secret}",
+    }, timeout=30), "verificación")["data"]
+    faltan = {"pages_manage_posts", "pages_read_engagement", "pages_show_list"} - set(info.get("scopes", []))
+    if faltan:
+        raise RuntimeError(f"Al token le faltan permisos: {', '.join(sorted(faltan))}.")
+    if info.get("expires_at", 0) not in (0, None):
+        print("  ⚠️  Este token de página SÍ caduca; repite el proceso con un token de usuario nuevo.")
+    return elegida["id"], elegida["name"], elegida["access_token"]
+
+
 def _informar(que: str, ident: str, envio: Envio) -> None:
     if envio.publicar_en:
         print(f"  ✅ {que} {ident} programado para {envio.publicar_en:%Y-%m-%d %H:%M}.")
