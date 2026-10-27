@@ -1,4 +1,4 @@
-# Produce y programa cada noche el contenido de MAÑANA de Plata con Datos.
+# Produce y programa cada madrugada el contenido de HOY de Plata con Datos.
 # Sustituye a tareas/diario_finanzas.bat: corre en GitHub, sin el PC encendido.
 #
 # El estado que el diario necesita recordar entre noches (qué se programó,
@@ -9,13 +9,15 @@ name: Diario · finanzas
 
 on:
   schedule:
-    # 03:00 UTC = 22:00 en Bogotá. Deja toda la noche de margen antes del
-    # primer short (07:30): GitHub a veces retrasa los cron un buen rato.
-    - cron: "0 3 * * *"
+    # 08:00 UTC = 03:00 en Bogotá: justo después de que se renueva la cuota
+    # diaria gratuita de Gemini (medianoche del Pacífico), así cada día
+    # arranca con las 20 peticiones enteras. Quedan unas 4 horas de margen
+    # antes del primer short (07:30) por si GitHub retrasa el cron.
+    - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
       fecha:
-        description: "Día a preparar (AAAA-MM-DD). Vacío = mañana."
+        description: "Día a preparar (AAAA-MM-DD). Vacío = hoy en Bogotá."
         required: false
         default: ""
       simular:
@@ -76,8 +78,9 @@ jobs:
           FECHA: ${{ inputs.fecha }}
           SIMULAR: ${{ inputs.simular }}
         run: |
-          args=""
-          [ -n "$FECHA" ] && args="$args --fecha $FECHA"
+          # El diario prepara "mañana" por defecto; a las 03:00 toca el mismo día.
+          [ -z "$FECHA" ] && FECHA=$(TZ=America/Bogota date +%F)
+          args="--fecha $FECHA"
           [ "$SIMULAR" = "true" ] && args="$args --simular"
           python cli.py diario finanzas $args
 

@@ -98,8 +98,9 @@ python cli.py subir finanzas fin_001 --destino facebook
 
 ### En la nube (GitHub Actions)
 
-`.github/workflows/diario-finanzas.yml` hace lo mismo sin el PC: cada noche a
-las 22:00 de Bogotá produce y programa el día siguiente en un runner de
+`.github/workflows/diario-finanzas.yml` hace lo mismo sin el PC: cada día a
+las 03:00 de Bogotá (recién renovada la cuota gratuita de Gemini, 20
+peticiones al día) produce y programa ese mismo día en un runner de
 Ubuntu (FFmpeg por CPU, fuentes Noto/Liberation en lugar de las de Windows).
 Se lanza también a mano desde la pestaña Actions, con fecha o en simulación.
 
