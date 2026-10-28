@@ -1,0 +1,113 @@
+{
+  "titulo": "El mito sobre tu puntaje de crédito que arruina tu plata",
+  "titulos_alternativos": [
+    "Por qué no debes cancelar tu tarjeta de crédito más vieja",
+    "La verdad sobre consultar tu historial crediticio"
+  ],
+  "tema": "Historial crediticio y tarjetas de crédito",
+  "texto_portada": "CUIDADO CON\nTU TARJETA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Mucha gente evita mirar su puntaje de crédito por miedo a arruinarlo. Sin embargo, cancelar tu tarjeta de crédito más vieja le hace un daño verdadero a tu historial sin que te des cuenta.",
+      "keywords": [
+        "estres",
+        "tarjeta"
+      ],
+      "prompt_ia": "A concerned person looking at a credit card statement on a smartphone screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Consultar tu propio historial se considera una consulta blanda. Revisar tu reporte todas las semanas no te resta ni un solo punto en la central de riesgo.",
+      "keywords": [
+        "celular",
+        "datos"
+      ],
+      "prompt_ia": "Close up of a financial app on a smartphone screen displaying green security indicators",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El problema real surge al cerrar cuentas antiguas. La antigüedad de tu historial representa cerca del quince por ciento de tu puntaje crediticio.",
+      "keywords": [
+        "tiempo",
+        "banco"
+      ],
+      "prompt_ia": "A vintage clock next to credit cards symbolizing financial history",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Impacto de la antigüedad",
+        "etiquetas": [
+          "Porcentaje del puntaje"
+        ],
+        "valores": [
+          15
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Si cancelas el plástico con más años, reduces tu promedio de tiempo con los bancos. Además, recortas tu cupo total disponible y eso dispara tu porcentaje de endeudamiento.",
+      "keywords": [
+        "tarjeta",
+        "deuda"
+      ],
+      "prompt_ia": "Scissors cutting a credit card in half over a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Mantén esa tarjeta vieja abierta con un gasto pequeño al mes. Suscríbete a Plata con Datos para dominar tu dinero con información real.",
+      "keywords": [
+        "tranquilidad",
+        "dinero"
+      ],
+      "prompt_ia": "A person calmly holding a wallet and smiling, representing financial control",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "historial crediticio",
+    "puntaje de credito",
+    "tarjeta de credito",
+    "datacredito",
+    "finanzas personales",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_015",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

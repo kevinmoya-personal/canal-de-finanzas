@@ -1,0 +1,127 @@
+{
+  "titulo": "El truco mental detrás de los descuentos",
+  "titulos_alternativos": [
+    "Por qué caes en la trampa de las rebajas",
+    "El efecto anclaje que destruye tu presupuesto"
+  ],
+  "tema": "Efecto anclaje y consumismo en rebajas",
+  "texto_portada": "TRAMPA DE\nREBAJAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Ver un precio tachado al lado de una oferta activa tu cerebro para gastar antes de pensar. No es que encontraste una ganga. Caíste en una trampa psicológica muy bien calculada.",
+      "keywords": [
+        "compras",
+        "dinero",
+        "estres"
+      ],
+      "prompt_ia": "A red discount tag with a high price crossed out next to a cheaper price in a crowded shopping mall",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Esto se llama efecto anclaje. Si una chaqueta costaba quinientos mil pesos y ahora vale trescientos mil, tu mente no evalúa si trescientos mil es mucho dinero. Solo ve un ahorro de doscientos mil.",
+      "keywords": [
+        "presupuesto",
+        "tarjeta",
+        "compras"
+      ],
+      "prompt_ia": "A price tag showing a heavy discount on an expensive coat inside a modern retail store",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Percepción del precio en oferta",
+        "etiquetas": [
+          "Precio inicial",
+          "Precio oferta",
+          "Ahorro percibido"
+        ],
+        "valores": [
+          500000,
+          300000,
+          200000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La realidad es que no te ahorraste doscientos mil pesos. Gastaste trescientos mil en algo que probablemente no necesitabas. Los comercios usan ese precio alto como ancla para distorsionar tu sentido del valor.",
+      "keywords": [
+        "datos",
+        "monedas",
+        "inflacion"
+      ],
+      "prompt_ia": "Person looking thoughtfully at a store window filled with big discount banners",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para proteger tu bolsillo en la próxima temporada de descuentos, aplica una regla simple. Si no ibas a comprar ese producto a su precio original, pagar el ochenta por ciento sigue siendo un gasto innecesario.",
+      "keywords": [
+        "calculadora",
+        "ahorro",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Hands typing numbers on a metallic calculator next to shopping bills",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Gasto en oferta no planeada",
+        "etiquetas": [
+          "Precio pagado en rebaja"
+        ],
+        "valores": [
+          80
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "La próxima vez que veas una oferta imperdible, mide el costo real y cuida tu plata. Suscríbete a Plata con Datos para tomar decisiones financieras con cabeza fría.",
+      "keywords": [
+        "meta",
+        "dinero",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A relaxed person reviewing household expenses on a laptop in a peaceful modern living room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "ahorro",
+    "descuentos",
+    "efecto anclaje",
+    "psicologia del dinero",
+    "plata con datos",
+    "educacion financiera"
+  ],
+  "verificacion": [],
+  "id": "fin_016",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

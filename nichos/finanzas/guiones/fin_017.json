@@ -1,0 +1,210 @@
+{
+  "titulo": "Cómo calcular tu liquidación laboral tras una renuncia voluntaria",
+  "titulos_alternativos": [
+    "Paso a paso para calcular la liquidación laboral por renuncia",
+    "Aprende a verificar tu pago final al renunciar a tu trabajo"
+  ],
+  "tema": "Liquidación laboral por renuncia voluntaria",
+  "texto_portada": "CALCULA TU\nLIQUIDACIÓN",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Aceptar la primera cifra que te entrega tu empresa al renunciar puede hacerte perder mucho dinero. Miles de trabajadores firman la carta de pago sin revisar un solo número por el afán de cerrar esa etapa laboral. La realidad es que las cuentas de las empresas las hacen personas y los errores en los cálculos ocurren mucho más seguido de lo que te imaginas. En la gran mayoría de las ocasiones los errores terminan perjudicando al empleado saliente. En este video vas a aprender a calcular paso a paso y peso por peso tu liquidación laboral tras una renuncia voluntaria. De esta forma sabrás exactamente cuánto dinero debe ingresar a tu cuenta bancaria y evitarás regalar el trabajo que con tanto esfuerzo realizaste cada día.",
+      "keywords": [
+        "trabajo",
+        "dinero",
+        "datos"
+      ],
+      "prompt_ia": "A worker carefully reading a paper financial contract inside a bright modern office",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando renuncias voluntariamente a tu trabajo no tienes derecho a recibir una indemnización por despido. Eso es un hecho completamente normal dentro del marco legal laboral. Sin embargo la ley protege tu derecho al pago completo y proporcional de tus prestaciones sociales acumuladas. Tu liquidación se compone de cinco partes fundamentales que debes verificar una por una. La primera parte es el salario por los días trabajados en tu último período de nómina. La segunda es la prima de servicios correspondiente al semestre en curso. La tercera son las cesantías proporcionales a los meses trabajados este año. La cuarta son los intereses sobre esas cesantías. Y la quinta es el dinero por vacaciones acumuladas y no disfrutadas. Si falta alguno de estos rubros tu desprendible está mal elaborado.",
+      "keywords": [
+        "salario",
+        "tiempo",
+        "presupuesto"
+      ],
+      "prompt_ia": "A clipboard showing a list with five items highlighted with checkmarks on a wooden desk",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Conceptos de liquidación laboral",
+        "etiquetas": [
+          "Partes obligatorias"
+        ],
+        "valores": [
+          5
+        ],
+        "prefijo": "",
+        "sufijo": " partes"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El primer elemento para revisar es el salario del último mes. En este punto suelen ocurrir equivocaciones simples de contabilidad en los días del período. Para la legislación laboral todos los meses se calculan sobre la base fija de treinta días. Esto aplica exactamente igual si el mes calendario tiene treinta y un días o si tiene veintiocho días. Si tu sueldo básico es de un millón doscientos mil pesos mensuales tu día laboral se liquida en cuarenta mil pesos. Si renuncias tras trabajar catorce días en el mes tu pago básico por ese tiempo es de quinientos sesenta mil pesos. Adicionalmente si ganas hasta dos salarios mínimos debes exigir la inclusión del auxilio de transporte proporcional por esos catorce días trabajados.",
+      "keywords": [
+        "calculadora",
+        "salario",
+        "trabajo"
+      ],
+      "prompt_ia": "Close up of hands using a desk calculator next to payroll sheets and financial notes",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Ejemplo pago días laborados",
+        "etiquetas": [
+          "Salario mensual",
+          "Pago catorce días"
+        ],
+        "valores": [
+          1200000,
+          560000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La prima de servicios es una prestación social obligatoria que equivale a un mes de salario por cada año laborado. Cuando renuncias a mitad de un período esta prima se debe pagar proporcionalmente al tiempo exacto trabajado en el semestre. El año laboral se divide en dos semestres independientes. El primero va del primero de enero al treinta de junio. El segundo transcurre entre el primero de julio y el treinta de diciembre. Si presentas tu renuncia el treinta de septiembre habrás acumulado noventa días dentro del segundo semestre. La fórmula para conocer tu prima es multiplicar tu salario base por noventa días y dividir el resultado entre trescientos sesenta. Con un sueldo de un millón cinco mil pesos esa prima equivale exactamente a doscientos cincuenta y un mil doscientos cincuenta pesos.",
+      "keywords": [
+        "dinero",
+        "datos",
+        "banco"
+      ],
+      "prompt_ia": "A calendar on a table with highlighted dates showing two distinct half year periods",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Prima de servicios noventa días",
+        "etiquetas": [
+          "Monto proporcional"
+        ],
+        "valores": [
+          251250
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Las cesantías son un fondo de ahorro que la empresa debe liquidar por el tiempo laborado durante el año actual. Este cálculo comprende desde el primero de enero hasta el último día que prestaste tus servicios a la compañía. La fórmula matemática es muy semejante a la de la prima de servicios. Tomas el salario base agregas el auxilio de transporte si corresponde multiplicas por los días trabajados en el año y divides entre trescientos sesenta. Sobre ese monto acumulado de cesantías el empleador tiene la obligación legal de pagarte un doce por ciento de intereses anuales proporcionales. Si trabajaste noventa días en el año el interés proporcional será del tres por ciento sobre tus cesantías. Si la empresa no incluye los intereses en el papel te están quitando dinero garantizado por ley.",
+      "keywords": [
+        "ahorro",
+        "interes",
+        "dinero"
+      ],
+      "prompt_ia": "A clear glass jar filled with paper money and coins standing on a stack of financial books",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "El pago de las vacaciones no tomadas suele ser la parte donde más confusiones se generan al revisar el desprendible. Por cada año completo de trabajo continuo la ley otorga quince días hábiles de descanso remunerado. Si no disfrutaste de tus vacaciones o si renuncias antes de completar un año tienes derecho al pago compensado en dinero. La fórmula exacta requiere multiplicar tu sueldo básico mensual por la cantidad de días trabajados en el período pendiente y dividir esa cifra entre setecientos veinte. Ten presente una regla esencial en este apartado. Para la liquidación de las vacaciones nunca se debe incluir el valor del auxilio de transporte dentro del salario base. Si una empresa lo incluye de forma voluntaria te beneficia pero la ley no la obliga a hacerlo.",
+      "keywords": [
+        "tranquilidad",
+        "meta",
+        "tiempo"
+      ],
+      "prompt_ia": "An empty office chair with sunlight shining on the desk symbolizing paid leave and time off",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Una vez calculados los cinco elementos de tu pago la suma total da el valor bruto de la liquidación laboral. Sin embargo sobre ese gran total el empleador debe aplicar las deducciones que la ley exige. Te descontarán el cuatro por ciento correspondiente a tu aportación de salud y otro cuatro por ciento para tu sistema de pensión. Esos descuentos se calculan exclusivamente sobre el salario devengado en tu último período de trabajo. Las prestaciones sociales como la prima las cesantías y el dinero de las vacaciones no están sujetas a descuentos de salud ni pensión. Revisa cuidadosamente que solo te apliquen descuentos autorizados por ti mediante firma previa como préstamos personales cuotas de libranza o anticipos de sueldo.",
+      "keywords": [
+        "deuda",
+        "tarjeta",
+        "presupuesto"
+      ],
+      "prompt_ia": "A fountain pen sitting next to a detailed breakdown statement of monthly wage deductions",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Descuentos de ley en salario",
+        "etiquetas": [
+          "Salud",
+          "Pensión"
+        ],
+        "valores": [
+          4,
+          4
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Un aspecto crucial que muchos trabajadores desconocen es el plazo máximo permitido para recibir este dinero en tu cuenta bancaria. La normativa laboral indica que la liquidación debe abonarse inmediatamente al finalizar el contrato o en la fecha de la siguiente nómina habitual. Si la compañía demora el pago de manera injustificada entra en lo que se conoce como mora patronal. Esta falta genera una sanción indemnizatoria que equivale a pagarle al trabajador un día de salario por cada día de retraso acumulado. Guarda siempre una copia de tu carta de renuncia con la firma y sello de recibido. Exige la hoja de liquidación con el desglose detallado antes de firmar cualquier documento de conformidad o paz y salvo.",
+      "keywords": [
+        "tiempo",
+        "trabajo",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A wall clock ticking above business documents on a modern corporate executive table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Aprender a calcular cada rubro de tu liquidación por renuncia te da seguridad y protege los frutos de tu esfuerzo diario. No te sientas presionado a firmar documentos con afán ni tengas pena de pedir aclaraciones si un número no coincide con tu calculadora. La información correcta es tu mejor herramienta para asegurar que cada peso ganado llegue a tus manos sin faltantes. Si te resultó útil esta explicación detallada suscríbete al canal Plata con Datos para seguir aprendiendo a manejar tu dinero con cifras reales y transparentes. Deja tu opinión en los comentarios y activa las notificaciones para acompañarnos en nuestro próximo análisis financiero.",
+      "keywords": [
+        "tranquilidad",
+        "datos",
+        "celular"
+      ],
+      "prompt_ia": "A person comfortably smiling while viewing bank balance confirmation on a smartphone",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "liquidacion laboral",
+    "renuncia voluntaria",
+    "como calcular liquidacion",
+    "prestaciones sociales",
+    "cesantias e intereses",
+    "prima de servicios",
+    "vacaciones no disfrutadas",
+    "finanzas personales",
+    "derecho laboral",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_017",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

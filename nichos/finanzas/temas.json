@@ -1,7 +1,5 @@
 {
   "short": [
-    "Consultar tu historial crediticio con frecuencia no baja tu puntaje pero cancelar tu tarjeta más antigua sí puede dañarlo.",
-    "El efecto anclaje nos hace gastar más durante las rebajas creyendo que ahorramos dinero al comprar cosas innecesarias.",
     "Diversificar no es tener cinco cuentas en distintos bancos sino invertir en activos que no se muevan al mismo tiempo.",
     "Guardar el dinero en efectivo hace que la inflación proyectada devore casi la mitad de su valor en diez años.",
     "El presupuesto base cero asigna una función a cada peso ganado antes de gastarlo para evitar fugas invisibles.",
@@ -13,5 +11,21 @@
     "Alquilar e invertir la diferencia en renta fija suele generar mayor patrimonio que comprar vivienda con crédito largo.",
     "El aumento del estilo de vida tras un incremento salarial impide acumular patrimonio a pesar de ganar más dinero.",
     "Medir el riesgo financiero no es solo evitar perder dinero sino calcular el impacto de la inflación frente al rendimiento."
+  ],
+  "largo": [
+    "Comparación matemática entre arrendar e invertir el excedente frente a comprar vivienda propia mediante crédito hipotecario.",
+    "El costo de oportunidad de cambiar de celular cada año analizado mediante proyecciones de inversión básica.",
+    "Cómo presupuestar ingresos variables si trabajas como independiente o ganas únicamente por comisiones de ventas.",
+    "La diferencia real entre rentabilidad nominal y rentabilidad real descontando impuestos y la inflación anual.",
+    "Por qué consolidar deudas puede aumentar tu gasto total en intereses si extiendes demasiado el plazo.",
+    "Paso a paso para construir un plan de ahorro con metas fijas ajustadas por el índice de inflación.",
+    "Cómo calcular la tasa de interés efectivo anual a partir del interés mes vencido en tu extracto.",
+    "Cómo negociar una refinanciación de deuda directamente con la entidad financiera sin recurrir a intermediarios costosos.",
+    "El impacto real de las horas extra y recargos nocturnos en el cálculo global del salario.",
+    "Paso a paso para calcular el costo total de un crédito de vivienda incluyendo seguros y avalúos.",
+    "El fenómeno de la inflación del estilo de vida al recibir un aumento salarial y cómo evitarlo.",
+    "Los riesgos financieros de prestar dinero a familiares o amigos sin definir plazos ni garantías escritas.",
+    "La regla del 72 para calcular cuántos años tarda en duplicarse una inversión según la tasa.",
+    "Cómo calcular la capacidad real de endeudamiento antes de asumir un nuevo compromiso financiero de largo plazo."
   ]
 }
