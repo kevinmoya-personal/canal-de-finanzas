@@ -1,0 +1,118 @@
+{
+  "titulo": "El error de tener la plata en varios bancos",
+  "titulos_alternativos": [
+    "Qué es la verdadera diversificación financiera",
+    "Por qué tener cinco cuentas no te protege"
+  ],
+  "tema": "Falsa diversificación frente a activos no correlacionados",
+  "texto_portada": "FALSA\nDIVERSIFICACIÓN",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Guardar tu plata en tres bancos distintos no significa que estás protegiendo tu patrimonio. Si la inflación sube, el valor de tu dinero cae por igual en todas esas cuentas.",
+      "keywords": [
+        "banco",
+        "inflacion",
+        "dinero"
+      ],
+      "prompt_ia": "A person looking at three different bank cards on a clean wooden table with a stressed expression",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Diversificar no es repartir tu salario en cinco tarjetas o entidades diferentes. Eso solo divide tus ahorros, pero mantiene todo tu capital expuesto exactamente a los mismos riesgos del sistema financiero.",
+      "keywords": [
+        "salario",
+        "tarjeta",
+        "ahorro"
+      ],
+      "prompt_ia": "A hands holding multiple bank debit cards spreading them out like playing cards",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La verdadera estrategia consiste en buscar activos que no se muevan al tiempo. Si el mercado cae un diez por ciento, una cartera diversificada compensa esa baja con bienes que suben o se mantienen estables.",
+      "keywords": [
+        "bolsa",
+        "inversion",
+        "datos"
+      ],
+      "prompt_ia": "A financial chart showing two lines moving in opposite directions on a dark screen",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Caída máxima del mercado",
+        "etiquetas": [
+          "Caída compensada"
+        ],
+        "valores": [
+          10
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Mezclar instrumentos con diferentes niveles de riesgo protege tus finanzas. Mientras un activo genera rendimiento a largo plazo, otro te da liquidez inmediata para enfrentar imprevistos sin tocar tu capital principal.",
+      "keywords": [
+        "tranquilidad",
+        "tiempo",
+        "presupuesto"
+      ],
+      "prompt_ia": "A balanced scale with coins on one side and a miniature house on the other side",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Entender cómo funciona la correlación transforma tu tranquilidad financiera. Suscríbete a Plata con Datos para aprender a cuidar tu dinero con datos reales y decisiones inteligentes.",
+      "keywords": [
+        "datos",
+        "dinero"
+      ],
+      "prompt_ia": "A modern smartphone screen displaying financial growth graphs and a subscription icon",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "diversificacion",
+    "inversiones",
+    "ahorro",
+    "educacion financiera",
+    "plata con datos",
+    "bancos"
+  ],
+  "verificacion": [],
+  "id": "fin_018",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

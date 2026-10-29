@@ -1,0 +1,128 @@
+{
+  "titulo": "El peligro invisible de guardar tu plata en efectivo",
+  "titulos_alternativos": [
+    "Por qué el efectivo pierde valor tan rápido",
+    "Tu dinero guardado vale la mitad en diez años"
+  ],
+  "tema": "Pérdida del poder adquisitivo del dinero en efectivo por inflación",
+  "texto_portada": "TU PLATA\nVALE MENOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Dejar tus billetes guardados en el cajón parece la decisión más segura del mundo. Pero con una inflación promedio del cinco por ciento anual, esa plata perderá cerca del cuarenta por ciento de su valor en solo diez años.",
+      "keywords": [
+        "dinero",
+        "inflacion",
+        "tiempo"
+      ],
+      "prompt_ia": "A wooden nightstand drawer filled with cash stacks sitting untouched over time as a clock ticks by",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Si hoy guardas un millón de pesos debajo del colchón, en diez años la cifra en el papel seguirá siendo exactamente la misma. El problema es que solo te alcanzará para comprar lo que hoy cuesta seiscientos catorce mil pesos.",
+      "keywords": [
+        "ahorro",
+        "compras",
+        "calculadora"
+      ],
+      "prompt_ia": "A person looking thoughtful holding a single paper bill inside a grocery store with higher prices on shelf tags",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Poder de compra estimado",
+        "etiquetas": [
+          "Hoy",
+          "En 10 años"
+        ],
+        "valores": [
+          1000000,
+          614000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La inflación actúa como un impuesto silencioso sobre tu trabajo. No ves que el dinero desaparezca de tu mano, sino que el mercado y el arriendo se vuelven cada vez más caros mientras tu ahorro permanece totalmente congelado.",
+      "keywords": [
+        "presupuesto",
+        "estres",
+        "salario"
+      ],
+      "prompt_ia": "A close up of household bills and supermarket receipts piling up on a kitchen table near a cup of coffee",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para proteger tu esfuerzo no necesitas asumir riesgos gigantescos. Basta con mover tu plata a instrumentos sencillos que al menos igualen el aumento de los precios para no perder poder de compra.",
+      "keywords": [
+        "inversion",
+        "banco",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A modern smartphone showing a clean financial app interface next to a notebook with positive financial growth notes",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Si quieres aprender a cuidar el valor de tus ingresos con datos reales, suscríbete al canal ahora mismo.",
+      "keywords": [
+        "datos",
+        "meta"
+      ],
+      "prompt_ia": "A friendly person looking directly at the camera with a confident smile giving a thumbs up in a bright room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "inflacion",
+    "ahorro en efectivo",
+    "poder adquisitivo",
+    "plata con datos",
+    "educacion financiera"
+  ],
+  "verificacion": [
+    {
+      "seccion": "hook",
+      "motivo": "Con una inflación del cinco por ciento anual durante diez años, la pérdida de poder adquisitivo es del treinta y ocho coma seis por ciento, lo cual equivale a cerca del cuarenta por ciento y no a casi la mitad."
+    },
+    {
+      "seccion": "punto_1",
+      "motivo": "Un millón de pesos descontado a una tasa de inflación del cinco por ciento anual durante diez años equivale a aproximadamente seiscientos catorce mil pesos de hoy, no a quinientos mil pesos."
+    }
+  ],
+  "id": "fin_019",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
