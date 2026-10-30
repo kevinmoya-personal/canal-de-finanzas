@@ -1,0 +1,117 @@
+{
+  "titulo": "Cómo el presupuesto base cero cuida tu plata",
+  "titulos_alternativos": [
+    "Dale un trabajo a cada peso antes de gastarlo",
+    "El truco del presupuesto base cero para ahorrar"
+  ],
+  "tema": "Presupuesto base cero",
+  "texto_portada": "PRESUPUESTO\nBASE CERO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Llegar al final del mes con la cuenta bancaria en cero puede ser la decisión financiera más inteligente de tu vida.",
+      "keywords": [
+        "banco",
+        "dinero"
+      ],
+      "prompt_ia": "A close up of a smartphone screen showing an online banking application balance.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Esta estrategia se conoce como presupuesto base cero. El principio es muy simple: darle una misión específica a cada peso que recibes antes de gastarlo.",
+      "keywords": [
+        "presupuesto",
+        "salario"
+      ],
+      "prompt_ia": "A person writing down income and expenses in a clean notebook on a desk.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si tu ingreso es de tres millones de pesos, repartes exactamente esa cifra entre arriendo, comida, deudas y ahorro hasta que no sobre nada.",
+      "keywords": [
+        "calculadora",
+        "casa",
+        "ahorro"
+      ],
+      "prompt_ia": "Hands holding a calculator and arranging paper bills into organized piles on a table.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Asignación de ingresos",
+        "etiquetas": [
+          "Gastos fijos",
+          "Deudas",
+          "Ahorro"
+        ],
+        "valores": [
+          1800000,
+          600000,
+          600000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Al no dejar dinero libre en la cuenta, tu mente deja de percibir ese saldo como disponible y frenas de golpe las fugas invisibles de plata.",
+      "keywords": [
+        "compras",
+        "estres"
+      ],
+      "prompt_ia": "A person looking thoughtful at a grocery shopping receipt at home.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Pon a trabajar cada peso a tu favor desde el primer día. Suscríbete a Plata con Datos y toma la delantera con tus finanzas hoy.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A modern organized desk with a notebook, pen, and simple growth charts.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "presupuesto base cero",
+    "finanzas personales",
+    "ahorro",
+    "plata con datos",
+    "educacion financiera"
+  ],
+  "verificacion": [],
+  "id": "fin_020",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

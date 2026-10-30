@@ -1,0 +1,124 @@
+{
+  "titulo": "Por qué un aumento de sueldo nunca te hará ganar menos plata",
+  "titulos_alternativos": [
+    "El mito de los impuestos al subir de salario",
+    "Cómo funcionan los impuestos cuando te suben el sueldo"
+  ],
+  "tema": "Impuestos progresivos y mitos sobre aumentos salariales",
+  "texto_portada": "MÁS SUELDO MÁS IMPUESTOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Rechazar un aumento de sueldo por miedo a pagar más impuestos es un error gigantesco. Muchas personas creen que saltar de tramo fiscal destruye sus ingresos.",
+      "keywords": [
+        "salario",
+        "estres"
+      ],
+      "prompt_ia": "A stressed employee looking at a payroll document with tax calculations on a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El sistema de impuestos funciona por escalones. La tarifa más alta solo se aplica a la parte de tu salario que supera el límite, no a todo tu dinero.",
+      "keywords": [
+        "datos",
+        "calculadora"
+      ],
+      "prompt_ia": "A close up of hands calculating numbers on a clear financial chart showing progressive steps",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si ganas cuatro millones de pesos y recibes un aumento de quinientos mil, solo pagas la tarifa mayor sobre esos quinientos mil adicionales. Tu sueldo base mantiene la tarifa baja.",
+      "keywords": [
+        "dinero",
+        "trabajo"
+      ],
+      "prompt_ia": "Stacks of banknotes divided into two unequal piles representing base salary and bonus",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Tramo de sueldo en pesos",
+        "etiquetas": [
+          "Sueldo base",
+          "Aumento"
+        ],
+        "valores": [
+          4000000,
+          500000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Al final, un aumento del diez por ciento en tu salario se traduce en un incremento neto cercano al ocho por ciento en tu bolsillo tras impuestos. Jamás ganarás menos por pasar a un tramo superior.",
+      "keywords": [
+        "tranquilidad",
+        "presupuesto"
+      ],
+      "prompt_ia": "A smiling professional reviewing growing financial graphics on a modern tablet",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Aumento en tu bolsillo",
+        "etiquetas": [
+          "Incremento neto"
+        ],
+        "valores": [
+          8
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Aceptar mejores ingresos siempre te acerca a la libertad financiera. Suscríbete a Plata con Datos para entender tus números sin mitos.",
+      "keywords": [
+        "meta",
+        "familia"
+      ],
+      "prompt_ia": "A confident person walking towards a bright modern skyline with financial success concept",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "impuestos",
+    "salario",
+    "finanzas personales",
+    "retencion en la fuente",
+    "educacion financiera",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_3",
+      "motivo": "Un aumento del diez por ciento en el salario bruto no produce un incremento neto del diez por ciento en el bolsillo, ya que la retención o impuesto sobre el excedente reduce el porcentaje de ganancia neta final."
+    }
+  ],
+  "id": "fin_021",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

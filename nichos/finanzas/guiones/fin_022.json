@@ -1,0 +1,228 @@
+{
+  "titulo": "Comprar casa o arrendar e invertir la diferencia: la matemática real",
+  "titulos_alternativos": [
+    "¿Es verdad que pagar arriendo es tirar el dinero a la basura?",
+    "La verdad sobre comprar vivienda con crédito versus invertir"
+  ],
+  "tema": "Comparación financiera entre comprar vivienda e invertir arrendando",
+  "texto_portada": "¿COMPRAR O ARRENDAR?",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Decir que pagar arriendo es tirar el dinero a la basura es una de las afirmaciones más repetidas en la cultura popular. Sin embargo, cuando analizas los números reales de un crédito hipotecario a veinte años, descubres que durante los primeros diez años le estás regalando al banco casi todo tu esfuerzo en forma de intereses y seguros. Si tomas la decisión de arrendar una vivienda equivalente y dedicas exactamente la diferencia entre la cuota bancaria y el arriendo a un fondo de inversión, la matemática demuestra que puedes construir un capital mucho mayor. La idea de que comprar casa propia siempre es la mejor decisión financiera es una ilusión que la calculadora desmiente por completo. Hoy vamos a comparar ambos caminos punto por punto.",
+      "keywords": [
+        "casa",
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "A young adult looking at a financial chart on a computer screen split between a house image and a growing stock portfolio chart.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Para entender la comparación debemos mirar todos los costos ocultos que implica comprar una propiedad con deuda. Cuando adquieres un apartamento de trescientos millones de pesos, no solo pagas el precio del inmueble. Debes entregar una cuota inicial de noventa millones de pesos que sale directamente de tus ahorros y queda completamente congelada en un ladrillo. A eso le debes sumar los gastos de escrituración, el impuesto predial anual, la administración del edificio, el seguro de vida y el seguro de incendio requeridos por la entidad financiera, además del mantenimiento constante que todo inmueble exige. Un inquilino no asume la mayoría de estos costos fijos. La cuota del arriendo es el techo de lo que vas a gastar al mes, mientras que la cuota de un crédito hipotecario es solo el piso de tus gastos mensuales.",
+      "keywords": [
+        "banco",
+        "casa",
+        "presupuesto"
+      ],
+      "prompt_ia": "A person reviewing house deeds and stacked bill documents on a wooden desk.",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Cuota inicial en pesos",
+        "etiquetas": [
+          "Cuota inicial congelada"
+        ],
+        "valores": [
+          90000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Analicemos ahora cómo funciona la estructura de un crédito bancario a largo plazo. Si pides prestados doscientos diez millones de pesos a una tasa de interés del doce por ciento anual durante veinte años, terminarás entregando al banco más de quinientos treinta millones de pesos en total. Esto significa que estás pagando más del doble del valor financiado originalmente. Durante los primeros cinco años de la deuda, cerca del ochenta por ciento de cada cuota mensual que pagas se va directamente a cubrir intereses y no reduce en nada el saldo de tu vivienda. Estás pagando un arriendo al banco por el uso de su dinero. La única diferencia es que la entidad financiera no te arregla las tuberías cuando se rompen.",
+      "keywords": [
+        "deuda",
+        "interes",
+        "banco"
+      ],
+      "prompt_ia": "A person holding a pen in front of mortgage paperwork showing interest schedules.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Pago total del crédito a veinte años",
+        "etiquetas": [
+          "Capital prestado",
+          "Intereses acumulados"
+        ],
+        "valores": [
+          210000000,
+          323000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Ahora miremos el escenario alternativo con la estrategia del arrendatario inversionista. Supongamos que el arriendo de esa misma vivienda cuesta un millón ochocientos mil pesos mensuales, mientras que la cuota total del crédito sumada a la administración e impuestos te exigiría tres millones de pesos al mes. La diferencia a favor del arrendatario es de un millón doscientos mil pesos cada mes. Además, el arrendatario conserva los noventa millones de pesos de la cuota inicial que no le entregó al banco. Si esa persona guarda ese dinero y lo deja quieto en una cuenta corriente no va a lograr nada, pero el secreto de esta estrategia radica en poner esa plata a trabajar de forma disciplinada desde el primer día.",
+      "keywords": [
+        "ahorro",
+        "dinero",
+        "tiempo"
+      ],
+      "prompt_ia": "Piggy bank beside growing stacks of coins representing monthly savings.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Gasto mensual estimado",
+        "etiquetas": [
+          "Cuota hipoteca más costos",
+          "Arriendo mensual"
+        ],
+        "valores": [
+          3000000,
+          1800000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Veamos qué pasa cuando aplicas el poder del interés compuesto a esa diferencia mensual y al capital inicial. Si inviertes los noventa millones de pesos iniciales en un fondo indexado diversificado con un retorno promedio histórico del diez por ciento anual, y le sumas un millón doscientos mil pesos mensuales de ahorro constante, la magia financiera empieza a operar. Al cabo de diez años, el capital acumulado en tu cuenta de inversión supera los cuatrocientos setenta millones de pesos. A los veinte años, ese portafolio puede alcanzar más de mil cuatrocientos millones de pesos gracias al crecimiento exponencial que genera el interés compuesto acumulado sin interrupciones.",
+      "keywords": [
+        "inversion",
+        "bolsa",
+        "datos"
+      ],
+      "prompt_ia": "A glowing financial line chart showing compound interest growth over time.",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Patrimonio proyectado a veinte años",
+        "etiquetas": [
+          "Capital acumulado invirtiendo"
+        ],
+        "valores": [
+          1400000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Muchos defienden la compra de vivienda argumentando la valorización del inmueble. Es verdad que las propiedades aumentan de precio, pero la valorización inmobiliaria promedio en términos reales rara vez supera la tasa de inflación por más de dos o tres puntos porcentuales al año. Si tu inmueble de trescientos millones de pesos se valoriza hasta llegar a setecientos millones en veinte años, debes restar los trescientos veintitrés millones que pagaste en intereses, más los impuestos y mantenimientos acumulados durante dos décadas. Al hacer la resta final, la ganancia neta en finca raíz suele ser significativamente menor que el rendimiento ajustado de un portafolio de inversión diversificado en el mercado financiero.",
+      "keywords": [
+        "inflacion",
+        "ciudad",
+        "meta"
+      ],
+      "prompt_ia": "Aerial view of modern city residential apartments under bright daylight.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Retorno real promedio sobre inflación",
+        "etiquetas": [
+          "Finca raíz",
+          "Portafolio diversificado"
+        ],
+        "valores": [
+          3,
+          8
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Otro factor crucial que casi nadie tiene en cuenta es la liquidez y la flexibilidad geográfica. Un inmueble es un activo muy poco líquido. Si necesitas dinero de emergencia, no puedes vender la cocina o una habitación para obtener efectivo en cuarenta y ocho horas. Vender una casa requiere meses, trámites, comisiones inmobiliarias e impuestos. En cambio, un portafolio de inversión se puede liquidar parcialmente en cuestión de días si surge una oportunidad o una necesidad urgente. Además, si las condiciones económicas de tu ciudad cambian o consigues un mejor trabajo en otra región, el arrendatario se muda sin costos de transacción gigantescos ni ataduras financieras a largo plazo.",
+      "keywords": [
+        "estres",
+        "tranquilidad",
+        "trabajo"
+      ],
+      "prompt_ia": "A person packing moving boxes with a relaxed expression looking at a smartphone.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Entonces, ¿cuándo sí conviene comprar vivienda propia? Comprar tiene sentido cuando buscas estabilidad familiar a muy largo plazo, cuando cuentas con un subsidio importante del gobierno, o cuando el componente psicológico de ser dueño de tu techo te genera paz mental innegociable. No obstante, si tu objetivo primordial es maximizar la acumulación de patrimonio financiero y tienes la disciplina férrea de invertir la diferencia cada mes sin gastártela en consumo, la opción de alquilar e invertir gana por un margen muy amplio en el plano matemático. La clave nunca ha sido la casa en sí misma, sino lo que haces con el dinero excedente día a día.",
+      "keywords": [
+        "familia",
+        "jubilacion",
+        "salario"
+      ],
+      "prompt_ia": "A happy family sitting together on a living room sofa smiling.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tomar decisiones financieras con datos reales y no con mitos tradicionales es el primer paso para construir libertad financiera de verdad. Si quieres aprender a analizar tus números con claridad y tomar el control de tu dinero sin dejarte llevar por las presiones de la sociedad, suscríbete a Plata con Datos. Subimos análisis profundos cada semana para ayudarte a tomar las mejores decisiones económicamente inteligentes. Toca el botón de suscripción y nos vemos en el próximo video.",
+      "keywords": [
+        "datos",
+        "tranquilidad",
+        "dinero"
+      ],
+      "prompt_ia": "A sleek modern office setup showing a YouTube channel interface on a clean monitor.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "comprar o arrendar",
+    "credito hipotecario",
+    "finanzas personales",
+    "inversiones",
+    "interes compuesto",
+    "plata con datos",
+    "libertad financiera",
+    "finca raiz",
+    "ahorro"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "El cálculo de un crédito de doscientos diez millones de pesos al doce por ciento anual durante veinte años arroja un pago total aproximado de quinientos treinta y tres millones de pesos, de los cuales trescientos veintitrés millones corresponden a intereses, y no doscientos cuarenta millones como mostraba la gráfica."
+    },
+    {
+      "seccion": "punto_4",
+      "motivo": "Con una inversión inicial de noventa millones de pesos más aportes mensuales de un millón doscientos mil pesos al diez por ciento anual, el capital acumulado a diez años asciende a cuatrocientos setenta y tres millones de pesos, y a veinte años supera los mil cuatrocientos sesenta millones de pesos."
+    },
+    {
+      "seccion": "punto_5",
+      "motivo": "Se afirma erróneamente que se pagaron cuatrocientos cincuenta millones de pesos solo en intereses, cuando los intereses reales pagados según las condiciones del crédito son de aproximadamente trescientos veintitrés millones de pesos."
+    }
+  ],
+  "id": "fin_022",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
