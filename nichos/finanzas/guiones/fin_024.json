@@ -1,0 +1,127 @@
+{
+  "titulo": "El verdadero costo de tus compras en horas de vida",
+  "titulos_alternativos": [
+    "Cuánto tiempo de tu vida cuesta ese antojo",
+    "Calcula el valor real de tus compras antes de gastar"
+  ],
+  "tema": "Cálculo del costo de compras en horas de trabajo reales",
+  "texto_portada": "COSTO REAL EN HORAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Comprar algo que vale cien mil pesos no te cuesta cien mil pesos en la vida real. El precio verdadero se mide en tiempo.",
+      "keywords": [
+        "compras",
+        "tiempo",
+        "dinero"
+      ],
+      "prompt_ia": "Close up of a price tag on a retail item with a glowing clock conceptual overlay",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Tu sueldo nominal engaña. Al salario mensual debes restarle el transporte, la ropa de trabajo y los almuerzos fuera de casa para ver tu ingreso libre.",
+      "keywords": [
+        "salario",
+        "trabajo",
+        "presupuesto"
+      ],
+      "prompt_ia": "Worker calculating transport receipts and work expenses on a desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si divides un salario neto de un millón doscientos mil pesos entre doscientas horas laboradas, descubres que tu hora real de trabajo vale apenas seis mil pesos.",
+      "keywords": [
+        "calculadora",
+        "datos",
+        "salario"
+      ],
+      "prompt_ia": "Calculations on paper next to stack of paper money",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Valor por hora libre",
+        "etiquetas": [
+          "Ingreso neto por hora de trabajo"
+        ],
+        "valores": [
+          6000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Esa chaqueta de ciento ochenta mil pesos no cuesta dinero. Te cuesta exactamente treinta horas enteras de tu esfuerzo en una oficina.",
+      "keywords": [
+        "compras",
+        "trabajo",
+        "tarjeta"
+      ],
+      "prompt_ia": "Person looking thoughtfully at a brand new jacket inside a store",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Costo de una chaqueta",
+        "etiquetas": [
+          "Horas necesarias de trabajo"
+        ],
+        "valores": [
+          30
+        ],
+        "prefijo": "",
+        "sufijo": " horas"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Medir tus antojos en días de esfuerzo cambia tu mente al instante. Suscríbete a Plata con Datos y aprende a cuidar tu dinero.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro",
+        "dinero"
+      ],
+      "prompt_ia": "Person standing comfortably looking at banking app on smartphone with peace of mind",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "ahorro",
+    "presupuesto",
+    "educacion financiera",
+    "gastos",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "El cálculo de seis mil pesos por hora depende del valor del salario neto, pero este no se especifica en la sección, por lo que la cifra no es verificable sin declarar dicho supuesto."
+    }
+  ],
+  "id": "fin_024",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

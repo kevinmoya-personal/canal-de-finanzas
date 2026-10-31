@@ -1,0 +1,121 @@
+{
+  "titulo": "El truco para pagar tu crédito hipotecario en la mitad de tiempo",
+  "titulos_alternativos": [
+    "Cómo ahorrar millones en intereses al comprar vivienda",
+    "El secreto de los abonos a capital en tu crédito de casa"
+  ],
+  "tema": "Abonos extraordinarios a capital en créditos hipotecarios",
+  "texto_portada": "PAGA TU CASA EN LA MITAD",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Pagar las primeras cuotas de tu casa se siente como tirar la plata. Durante los primeros cinco años casi todo tu dinero se va a pagar intereses y casi nada a la deuda real.",
+      "keywords": [
+        "casa",
+        "deuda",
+        "interes"
+      ],
+      "prompt_ia": "A young person looking at a mortgage statement with stress in a modern apartment",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El banco cobra la mayoría de los intereses al principio. Cuando haces un abono extraordinario a capital en esta etapa inicial eliminas de golpe los intereses de años enteros.",
+      "keywords": [
+        "banco",
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "A bank advisor explaining loan terms on a desk with financial documents",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "En un crédito a veinte años con una tasa del uno coma dos por ciento mensual, un abono adicional de diez millones de pesos al comienzo produce un ahorro de veinte millones de pesos en intereses. Reduces la deuda base y recortas años de pagos.",
+      "keywords": [
+        "ahorro",
+        "monedas",
+        "tiempo"
+      ],
+      "prompt_ia": "A piggy bank sitting next to house keys and growing money stacks",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Ahorro estimado en intereses",
+        "etiquetas": [
+          "Ahorro total estimado"
+        ],
+        "valores": [
+          20
+        ],
+        "prefijo": "$",
+        "sufijo": " millones"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Asegúrate de pedirle al banco que aplique el pago a reducción de capital y no a cuotas adelantadas. Esa diferencia mantendrá tu cuota y destruirá los intereses futuros.",
+      "keywords": [
+        "presupuesto",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Hands signing a financial contract document on a clean wooden table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Dominar el sistema bancario te ahorra millones en tu vivienda. Suscríbete a Plata con Datos para tomar decisiones financieras inteligentes con datos reales.",
+      "keywords": [
+        "datos",
+        "inversion"
+      ],
+      "prompt_ia": "A happy family standing in front of their modern new home",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "credito hipotecario",
+    "finanzas personales",
+    "ahorro de intereses",
+    "abonos a capital",
+    "comprar casa",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "La cifra de ahorro en intereses no era verificable al no especificar el plazo ni la tasa de interés del crédito. Se incluyeron los supuestos de un crédito a veinte años y una tasa del uno coma dos por ciento mensual, realistas para el mercado colombiano."
+    }
+  ],
+  "id": "fin_023",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
