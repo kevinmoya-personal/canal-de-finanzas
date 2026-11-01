@@ -1,0 +1,118 @@
+{
+  "titulo": "El truco de las suscripciones que vacía tu cuenta",
+  "titulos_alternativos": [
+    "Por qué sigues pagando aplicaciones que no usas",
+    "La trampa oculta de las pruebas gratis"
+  ],
+  "tema": "El modelo de suscripción mensual y la inercia del consumo digital",
+  "texto_portada": "SUSCRIPCIONES TRAMPA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Descubrir cobros automáticos en tu tarjeta por aplicaciones que ya no abres no es un simple olvido. Es una estrategia diseñada para vaciar tu bolsillo.",
+      "keywords": [
+        "tarjeta",
+        "celular"
+      ],
+      "prompt_ia": "A person looking at a credit card statement on a smartphone with a shocked expression",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Las plataformas te regalan la prueba gratis porque saben que la pereza de cancelar jugará a su favor cuando empiecen los cobros automáticos.",
+      "keywords": [
+        "compras",
+        "estres"
+      ],
+      "prompt_ia": "A smartphone screen displaying a free trial offer turning into a recurring bill calendar",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Tres suscripciones olvidadas de treinta mil pesos al mes suman un millón ochenta mil pesos en un año. Es dinero que regalas por pura inercia.",
+      "keywords": [
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "Stack of bank notes leaking away through a digital phone screen",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Fuga anual por inercia",
+        "etiquetas": [
+          "Gasto anual en apps olvidadas"
+        ],
+        "valores": [
+          1080000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Revisar los permisos de cobro recurrente en tu banco una vez al mes elimina de golpe estas fugas silenciosas en tu presupuesto.",
+      "keywords": [
+        "banco",
+        "presupuesto"
+      ],
+      "prompt_ia": "A clean desk with a laptop showing a organized financial chart and a pen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa tu estado de cuenta hoy mismo y cancela lo que no uses. Suscríbete para cuidar tu plata con datos reales.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A peaceful person drinking coffee while checking off financial goals on a notebook",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "ahorro",
+    "suscripciones",
+    "tarjetas de credito",
+    "presupuesto",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "Tres suscripciones de treinta mil pesos cada una al mes suman noventa mil pesos mensuales, lo que en doce meses equivale a un millón ochenta mil pesos y no a trescientos sesenta mil pesos."
+    }
+  ],
+  "id": "fin_025",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

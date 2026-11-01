@@ -1,0 +1,118 @@
+{
+  "titulo": "Cómo financiarte gratis con tu tarjeta de crédito",
+  "titulos_alternativos": [
+    "El truco de pagar a una sola cuota",
+    "Gana cuarenta y cinco días de plazo sin pagar intereses"
+  ],
+  "tema": "Financiación sin interés a una sola cuota",
+  "texto_portada": "DINERO GRATIS CON TARJETA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Usar la tarjeta de crédito para pagar tus compras diarias puede darle a tu bolsillo hasta cuarenta y cinco días de financiación sin pagar un solo peso.",
+      "keywords": [
+        "tarjeta",
+        "dinero"
+      ],
+      "prompt_ia": "A hand holding a sleek credit card near a modern store payment counter",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El truco técnico consiste en diferir todas tus compras a una sola cuota. En este caso, las entidades financieras no generan cobro de intereses.",
+      "keywords": [
+        "interes",
+        "banco"
+      ],
+      "prompt_ia": "Close up of a credit card terminal screen displaying one single payment installment",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Tasa de interés cobrada",
+        "etiquetas": [
+          "Una cuota",
+          "Varias cuotas"
+        ],
+        "valores": [
+          0,
+          28
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si compras un día después de la fecha de corte de tu tarjeta, acumulas hasta un mes y medio entero para pagar sin tocar tus ahorros.",
+      "keywords": [
+        "tiempo",
+        "presupuesto"
+      ],
+      "prompt_ia": "A wall calendar page with a highlighted date and a circle around forty five days",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Días de financiación gratuita",
+        "etiquetas": [
+          "Plazo máximo sin interés"
+        ],
+        "valores": [
+          45
+        ],
+        "prefijo": "",
+        "sufijo": " días"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Durante esos cuarenta y cinco días, tu sueldo puede quedarse generando rendimientos en una cuenta de ahorros en lugar de salir de inmediato.",
+      "keywords": [
+        "ahorro",
+        "salario"
+      ],
+      "prompt_ia": "A person checking their growing bank balance on a mobile phone screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "La tarjeta de crédito no es dinero extra, es una herramienta para financiarte gratis si conoces las fechas clave. Síguenos para cuidar tu plata con datos reales.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A smiling person managing financial charts efficiently on a laptop keyboard",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "tarjeta de credito",
+    "finanzas personales",
+    "ahorro",
+    "educacion financiera",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_026",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
