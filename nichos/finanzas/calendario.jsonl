@@ -50,3 +50,13 @@
 {"fecha": "2026-11-01", "hueco": "short_2", "destino": "facebook", "guion_id": "fin_026", "id": "2279531382889593", "hora": "2026-11-01T12:30:00-05:00", "anotado_en": "2026-11-01T08:50:02"}
 {"fecha": "2026-11-01", "hueco": "post_1", "destino": "facebook", "id": "122109683493513443", "imagen": "/home/runner/work/canal-de-finanzas/canal-de-finanzas/nichos/finanzas/output/posts/2026-11-01_1.png", "hora": "10:00", "anotado_en": "2026-11-01T08:51:05"}
 {"fecha": "2026-11-01", "hueco": "post_2", "destino": "facebook", "id": "122109683535513443", "imagen": "/home/runner/work/canal-de-finanzas/canal-de-finanzas/nichos/finanzas/output/posts/2026-11-01_2.png", "hora": "21:00", "anotado_en": "2026-11-01T08:51:07"}
+{"fecha": "2026-11-02", "hueco": "short_1", "destino": "asignado", "guion_id": "fin_027", "hora": "07:30", "anotado_en": "2026-11-02T09:00:35"}
+{"fecha": "2026-11-02", "hueco": "short_1", "destino": "youtube", "guion_id": "fin_027", "id": "a-beEK0Acus", "hora": "2026-11-02T07:30:00-05:00", "anotado_en": "2026-11-02T09:00:39"}
+{"fecha": "2026-11-02", "hueco": "short_1", "destino": "facebook", "guion_id": "fin_027", "id": "1106936448908494", "hora": "2026-11-02T07:30:00-05:00", "anotado_en": "2026-11-02T09:00:55"}
+{"fecha": "2026-11-02", "hueco": "short_2", "destino": "asignado", "guion_id": "fin_028", "hora": "12:30", "anotado_en": "2026-11-02T09:05:26"}
+{"fecha": "2026-11-02", "hueco": "short_2", "destino": "youtube", "guion_id": "fin_028", "id": "TjIHp2ZufNI", "hora": "2026-11-02T12:30:00-05:00", "anotado_en": "2026-11-02T09:05:29"}
+{"fecha": "2026-11-02", "hueco": "short_2", "destino": "facebook", "guion_id": "fin_028", "id": "2192542008356201", "hora": "2026-11-02T12:30:00-05:00", "anotado_en": "2026-11-02T09:05:43"}
+{"fecha": "2026-11-02", "hueco": "largo", "destino": "asignado", "guion_id": "fin_029", "hora": "18:00", "anotado_en": "2026-11-02T09:30:00"}
+{"fecha": "2026-11-02", "hueco": "largo", "destino": "youtube", "guion_id": "fin_029", "id": "beGCvoVUo6Y", "hora": "2026-11-02T18:00:00-05:00", "anotado_en": "2026-11-02T09:30:07"}
+{"fecha": "2026-11-02", "hueco": "post_1", "destino": "facebook", "id": "122110175799513443", "imagen": "/home/runner/work/canal-de-finanzas/canal-de-finanzas/nichos/finanzas/output/posts/2026-11-02_1.png", "hora": "10:00", "anotado_en": "2026-11-02T09:30:51"}
+{"fecha": "2026-11-02", "hueco": "post_2", "destino": "facebook", "id": "122110175841513443", "imagen": "/home/runner/work/canal-de-finanzas/canal-de-finanzas/nichos/finanzas/output/posts/2026-11-02_2.png", "hora": "21:00", "anotado_en": "2026-11-02T09:30:53"}

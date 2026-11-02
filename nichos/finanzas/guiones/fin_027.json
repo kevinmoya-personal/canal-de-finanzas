@@ -1,0 +1,129 @@
+{
+  "titulo": "Comprar casa o alquilar e invertir: la verdad de los datos",
+  "titulos_alternativos": [
+    "Por qué alquilar e invertir renta fija te da más dinero",
+    "El mito de la casa propia frente al arriendo e inversión"
+  ],
+  "tema": "Inversión en renta fija versus compra de vivienda mediante crédito hipotecario",
+  "texto_portada": "¿CASA PROPIA\nO ARRIENDO?",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Comprometer tu sueldo durante veinte años para comprar casa puede ser un error costoso si nunca te detienes a calcular la otra alternativa.",
+      "keywords": [
+        "casa",
+        "deuda"
+      ],
+      "prompt_ia": "A worried young person looking at a long term mortgage contract on a modern desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Al solicitar una hipoteca a largo plazo, el pago total al banco puede llegar a ser el doble del precio comercial de la vivienda sumando el capital y los intereses acumulados.",
+      "keywords": [
+        "banco",
+        "interes"
+      ],
+      "prompt_ia": "Close up of mortgage payment bills piling up next to a miniature house model",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo total al comprar casa",
+        "etiquetas": [
+          "Precio vivienda",
+          "Pago total al banco"
+        ],
+        "valores": [
+          100,
+          200
+        ],
+        "prefijo": "$",
+        "sufijo": " millones"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El costo mensual de un arriendo suele ser mucho más bajo que la cuota hipotecaria sumada a impuestos, mantenimientos y seguros del inmueble.",
+      "keywords": [
+        "presupuesto",
+        "dinero"
+      ],
+      "prompt_ia": "A person checking a monthly budget spreadsheet on a laptop with modern clean apartment in background",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Si inviertes esa diferencia de dinero todos los meses en renta fija con una tasa del ocho por ciento anual, el interés compuesto puede crear un capital final bastante superior.",
+      "keywords": [
+        "inversion",
+        "tiempo"
+      ],
+      "prompt_ia": "Financial growth graph showing compounding interest over twenty years on a digital tablet",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Crecimiento del capital invertido",
+        "etiquetas": [
+          "Rendimiento estimado frente a compra"
+        ],
+        "valores": [
+          8
+        ],
+        "prefijo": "+",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "La casa propia aporta tranquilidad emocional, pero los datos demuestran que alquilar e invertir bien la plata produce mayor libertad financiera. Síguenos en Plata con Datos para tomar decisiones con números reales.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A relaxed professional smiling while checking financial gains on a modern smartphone screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "arriendo vs compra",
+    "renta fija",
+    "interes compuesto",
+    "hipoteca",
+    "inversiones",
+    "ahorro"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "Existe una inconsistencia entre el texto y la gráfica: el texto afirma que solo los intereses equivalen al doble del valor comercial, pero la gráfica muestra un pago total al banco del doble (cien millones de valor frente a doscientos millones de pago total). Se ajusta el texto para reflejar el pago total y mantener coherencia con las tasas habituales de créditos hipotecarios."
+    },
+    {
+      "seccion": "punto_3",
+      "motivo": "El rendimiento del ciento cincuenta por ciento mostrado en la gráfica no es verificable al no declarar el plazo, la tasa de rentabilidad esperada ni el diferencial entre arriendo y cuota. Se explicita una tasa de rentabilidad realista para renta fija en Colombia del ocho por ciento anual."
+    }
+  ],
+  "id": "fin_027",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,215 @@
+{
+  "titulo": "El verdadero costo de estrenar celular todos los años",
+  "titulos_alternativos": [
+    "Cuánto dinero pierdes al cambiar de celular cada año",
+    "La trampa financiera de renovar tu celular cada año"
+  ],
+  "tema": "El costo de oportunidad de cambiar de celular cada año analizado mediante proyecciones de inversión básica.",
+  "texto_portada": "CELULAR NUEVO\nTRAMPA FINANCIERA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Abrir la caja de un celular nuevo genera una satisfacción rápida y emocionante. Sin embargo, estrenar la versión más reciente cada doce meses oculta un impacto devastador para tu bolsillo. No se trata solo de los cuatro millones de pesos que entregas en la caja del almacén. El verdadero peligro está en lo que ese dinero deja de producir durante las siguientes décadas. Cada vez que cambias un aparato que todavía funciona, estás entregando tu libertad financiera a cambio de una cámara ligeramente mejor y una pantalla un poco más brillante.",
+      "keywords": [
+        "celular",
+        "dinero",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person unboxing a brand new expensive smartphone on a modern desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Hagamos cuentas reales con los precios que vemos hoy en el mercado. Un teléfono inteligente de gama alta cuesta fácilmente unos cinco millones de pesos en nuestra región. Si vendes el modelo del año anterior, recuperas apenas la mitad de su valor original. Eso significa que actualizar tu equipo te exige desembolsar al menos dos millones quinientos mil pesos de tu bolsillo cada año. Si sumas los accesorios, las fundas y los seguros adicionales, la cifra supera sin esfuerzo los tres millones de pesos anuales. Es una fuga constante de dinero que tu presupuesto asimila como un gasto rutinario.",
+      "keywords": [
+        "celular",
+        "compras",
+        "presupuesto"
+      ],
+      "prompt_ia": "Close up of a credit card paying for a new smartphone at a store register",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "En el mundo de las finanzas existe un concepto fundamental llamado costo de oportunidad. El costo de oportunidad representa el beneficio que dejas de recibir cuando eliges una opción en lugar de otra. Cuando decides gastar tres millones de pesos en un teléfono, no estás gastando únicamente esa cantidad. También estás renunciando al rendimiento que esos tres millones habrían producido si los hubieras puesto a trabajar en una alternativa de inversión básica. Tu dinero no solo se va de tu cuenta, sino que pierde para siempre su capacidad de multiplicarse.",
+      "keywords": [
+        "dinero",
+        "inversion",
+        "calculadora"
+      ],
+      "prompt_ia": "A financial calculator sitting next to growing stacks of coins and paper notes",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Analicemos qué sucede si decides romper ese ciclo durante un periodo de cinco años. En lugar de renovar el teléfono cada doce meses, conservas tu equipo actual mientras siga funcionando bien. Los tres millones de pesos que habrías gastado en renovaciones anuales se guardan en una cuenta que genera rentabilidad. Al cabo de cinco años, no solo habrás evitado gastar quince millones de pesos en tecnología que hoy valdría muy poco. Además, con un rendimiento anual conservador del ocho por ciento, tendrás en tu poder cerca de dieciocho millones de pesos en efectivo.",
+      "keywords": [
+        "ahorro",
+        "interes",
+        "meta"
+      ],
+      "prompt_ia": "Piggy bank beside growing green financial charts representing capital accumulation",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Ahorro acumulado a cinco años",
+        "etiquetas": [
+          "Sin invertir",
+          "Con inversión"
+        ],
+        "valores": [
+          15000000,
+          18000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "La diferencia se vuelve impactante cuando extendemos la proyección a diez años. Si inviertes tres millones de pesos cada año a una tasa de interés del diez por ciento anual, el interés compuesto empieza a hacer su trabajo. En una década habrás aportado treinta millones de pesos de tu salario. Sin embargo, el saldo total de tu inversión alcanzará casi cuarenta y ocho millones de pesos. Esos dieciocho millones de pesos de ganancia pura son el verdadero precio que pagas por tener siempre la última tecnología en tu mano.",
+      "keywords": [
+        "inversion",
+        "interes",
+        "tiempo"
+      ],
+      "prompt_ia": "Hourglass next to financial growth charts showing compound interest progression over time",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Proyección a diez años",
+        "etiquetas": [
+          "Aporte total",
+          "Valor final"
+        ],
+        "valores": [
+          30000000,
+          48000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "A esto se suma la velocidad con la que un teléfono inteligente pierde su valor comercial. Un carro pierde valor al salir del concesionario, pero la tecnología personal se deprecia a un ritmo todavía más acelerado. Durante el primer año, un equipo pierde entre el cuarenta y el cincuenta por ciento de su precio inicial. A los tres años, su valor de reventa es casi nulo. Estás cambiando un activo que se evapora al instante por dinero que pudo haber crecido en un fondo de inversión o en la cuota inicial de un inmueble.",
+      "keywords": [
+        "inflacion",
+        "compras",
+        "banco"
+      ],
+      "prompt_ia": "An old broken smartphone resting on top of falling graph arrows representing depreciation",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Pérdida de valor en un año",
+        "etiquetas": [
+          "Depreciación de un celular nuevo"
+        ],
+        "valores": [
+          50
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Una estrategia inteligente para proteger tu plata no significa quedarse en el pasado tecnológico. La clave consiste en cambiar la batería de tu celular cuando notes que la carga dura menos. Este mantenimiento cuesta una fracción mínima del precio de un teléfono nuevo y le devuelve el rendimiento original por varios años más. Mantener tu equipo durante cuatro o cinco años reduce tu gasto en tecnología a un nivel mínimo. Así liberas un flujo de caja mensual que puedes destinar a tus metas de ahorro sin sacrificar conectividad.",
+      "keywords": [
+        "celular",
+        "ahorro",
+        "presupuesto"
+      ],
+      "prompt_ia": "Technician carefully replacing a modern smartphone battery on a clean workbench",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Si llevamos esta proyección a un horizonte de veinte años, los resultados cambian la vida de cualquier persona. Continuar invirtiendo tres millones de pesos al año con un retorno promedio del diez por ciento anual acumula un capital de cerca de ciento setenta y dos millones de pesos. Esa cifra representa una base sólida para tu jubilación o el pago total de la inicial de tu primera casa. El dilema financiero real no es elegir entre dos marcas de celulares. El dilema real es elegir entre un objeto que perderá todo su valor o la tranquilidad de tu futuro.",
+      "keywords": [
+        "jubilacion",
+        "casa",
+        "dinero"
+      ],
+      "prompt_ia": "A happy senior couple looking relaxed outside a beautiful cozy home",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Patrimonio acumulado a veinte años",
+        "etiquetas": [
+          "Capital aportado",
+          "Total acumulado"
+        ],
+        "valores": [
+          60000000,
+          172000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tomar el control de tu dinero requiere mirar más allá del impulso de compra del momento. La próxima vez que sientas la tentación de cambiar de celular, calcula primero cuánto dinero te costará esa decisión dentro de diez años. Los datos demuestran que ajustar pequeños hábitos diarios marca la diferencia entre vivir apretado o construir patrimonio. Si quieres aprender a tomar decisiones financieras respaldadas por números reales, suscríbete al canal ahora mismo. Activa las notificaciones y acompáñanos en el próximo análisis para cuidar tu bolsillo.",
+      "keywords": [
+        "datos",
+        "tranquilidad",
+        "inversion"
+      ],
+      "prompt_ia": "Person smiling calmly while working on personal budget spreadsheet on a laptop screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "costo de oportunidad",
+    "ahorro",
+    "inversion",
+    "interes compuesto",
+    "compras inteligentes",
+    "presupuesto",
+    "educacion financiera"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_7",
+      "motivo": "El cálculo del interés compuesto a veinte años con aportes de tres millones de pesos anuales al diez por ciento da aproximadamente ciento setenta y dos millones de pesos (171.824.998 COP), no ciento ochenta millones."
+    }
+  ],
+  "id": "fin_029",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

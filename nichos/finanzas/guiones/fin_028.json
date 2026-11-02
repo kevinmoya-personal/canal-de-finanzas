@@ -1,0 +1,118 @@
+{
+  "titulo": "Ganar más sueldo no te está haciendo más rico",
+  "titulos_alternativos": [
+    "El peligro oculto de recibir un aumento de sueldo",
+    "Por qué ganas más plata pero sigues sin ahorrar"
+  ],
+  "tema": "Inflación del estilo de vida al aumentarse el sueldo",
+  "texto_portada": "MÁS SUELDO\nMISMAS DEUDAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Celebrar un aumento de sueldo cambiando de carro o mudándote a un apartamento más caro es una trampa silenciosa.",
+      "keywords": [
+        "salario",
+        "casa"
+      ],
+      "prompt_ia": "A middle-class professional sitting inside a brand new luxury car looking slightly worried",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando aumentan tus ingresos, la psicología humana tiende a subir los gastos en la misma proporción. Si ganas dos millones de pesos y gastas dos millones de pesos, tu saldo a favor es cero.",
+      "keywords": [
+        "dinero",
+        "presupuesto"
+      ],
+      "prompt_ia": "A wallet opening with cash flying out into shiny consumer items",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Sueldo versus gastos mensual",
+        "etiquetas": [
+          "Ingresos",
+          "Gastos"
+        ],
+        "valores": [
+          2000000,
+          2000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El problema no es darse un gusto de vez en cuando. El error ocurre cuando asumes compromisos fijos mensuales más altos, como cuotas de tarjetas más largas, antes de asegurar tu futuro.",
+      "keywords": [
+        "tarjeta",
+        "deuda"
+      ],
+      "prompt_ia": "A hand signing a credit agreement with multiple monthly subscription bills around",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La estrategia efectiva es congelar tu costo de vida por un año tras recibir el aumento. Si destinas el cien por ciento del incremento a tu ahorro, tu patrimonio crece sin afectar tu tranquilidad.",
+      "keywords": [
+        "inversion",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A piggy bank growing steadily next to financial growth charts",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Excedente destinado al ahorro",
+        "etiquetas": [
+          "Aumento invertido"
+        ],
+        "valores": [
+          100
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Controlar tus gastos hoy te dará verdadera libertad mañana. Suscríbete a Plata con Datos para dominar tu bolsillo con números reales.",
+      "keywords": [
+        "datos",
+        "ahorro"
+      ],
+      "prompt_ia": "A person looking calmly at a laptop screen with positive financial trends",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "estilo de vida",
+    "aumento de sueldo",
+    "ahorro e inversion",
+    "educacion financiera"
+  ],
+  "verificacion": [],
+  "id": "fin_028",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
