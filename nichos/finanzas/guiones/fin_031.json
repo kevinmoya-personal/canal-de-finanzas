@@ -1,0 +1,120 @@
+{
+  "titulo": "El auxilio de transporte y tus vacaciones",
+  "titulos_alternativos": [
+    "La verdad sobre el auxilio de transporte",
+    "Auxilio de transporte en tu desprendible"
+  ],
+  "tema": "Impacto del auxilio de transporte en prestaciones y vacaciones",
+  "texto_portada": "AUXILIO DE\nTRANSPORTE",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Creer que el auxilio de transporte incrementa el pago de todas tus prestaciones laborales es un error muy recurrente.",
+      "keywords": [
+        "salario",
+        "trabajo"
+      ],
+      "prompt_ia": "A close up of a Colombian paycheck receipt resting on a clean wooden desk.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "En Colombia este dinero sí se incluye al liquidar tu prima de servicios cada seis meses y tus cesantías anualmente.",
+      "keywords": [
+        "dinero",
+        "presupuesto"
+      ],
+      "prompt_ia": "A professional reviewing financial document calculations with a blue pen.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Sin embargo la regla cambia por completo al salir a descansar o al aportar a tu pensión obligatoria.",
+      "keywords": [
+        "tiempo",
+        "jubilacion"
+      ],
+      "prompt_ia": "A person relaxing outdoors representing paid time off from daily work.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para las vacaciones la ley excluye el auxilio del cálculo. Solamente se toma en cuenta tu sueldo básico pactado.",
+      "keywords": [
+        "calculadora",
+        "datos"
+      ],
+      "prompt_ia": "A high quality modern calculator next to organized financial papers.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Base de liquidación",
+        "etiquetas": [
+          "Con prima",
+          "En vacaciones"
+        ],
+        "valores": [
+          1622000,
+          1460000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Entender tus desprendibles evita sorpresas en tu bolsillo. Suscríbete a Plata con Datos para dominar tus números.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A modern minimal studio space with financial growth concepts on screen.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "auxilio de transporte",
+    "nomina colombia",
+    "vacaciones",
+    "prima de servicios",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "Las cesantías no se liquidan cada seis meses sino anualmente con corte al treinta y uno de diciembre, a diferencia de la prima de servicios que sí se paga semestralmente."
+    }
+  ],
+  "id": "fin_031",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

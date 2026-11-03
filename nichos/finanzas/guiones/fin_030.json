@@ -1,0 +1,126 @@
+{
+  "titulo": "El riesgo invisible que destruye tus ahorros",
+  "titulos_alternativos": [
+    "Por que tener dinero seguro te hace perder plata",
+    "Calcula el riesgo real de guardar tu dinero"
+  ],
+  "tema": "Riesgo financiero frente a la inflación",
+  "texto_portada": "EL RIESGO\nINVISIBLE",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Dejar la plata quieta para no asumir riesgos es la forma más rápida de perder el valor de tus ahorros. El verdadero peligro no es perder el capital, sino que los precios suban mientras tu saldo sigue exactamente igual.",
+      "keywords": [
+        "dinero",
+        "inflacion",
+        "estres"
+      ],
+      "prompt_ia": "A stack of paper money sitting quietly on a table while prices on items nearby increase",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Si guardas diez millones de pesos hoy con una inflación del cinco por ciento anual, en doce meses tendrás la misma cantidad. Pero vas a necesitar diez millones quinientos mil pesos para comprar exactamente el mismo mercado.",
+      "keywords": [
+        "ahorro",
+        "compras",
+        "presupuesto"
+      ],
+      "prompt_ia": "A person holding a grocery receipt in a supermarket looking concerned at the price total",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Costo adicional por inflacion",
+        "etiquetas": [
+          "Dinero extra necesario"
+        ],
+        "valores": [
+          500000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Medir el riesgo significa calcular la tasa real. Si una cuenta te paga el seis por ciento anual y la inflación está en el cinco por ciento, tu rendimiento real es de apenas el uno por ciento.",
+      "keywords": [
+        "calculadora",
+        "interes",
+        "banco"
+      ],
+      "prompt_ia": "Hands using a sleek calculator beside financial reports and growth notes",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Rendimiento real anual",
+        "etiquetas": [
+          "Tasa nominal",
+          "Inflacion",
+          "Ganancia real"
+        ],
+        "valores": [
+          6,
+          5,
+          1
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Asumir un riesgo controlado no significa apostar tu plata a la suerte. Significa buscar opciones que superen la inflación para mantener la tranquilidad financiera a largo plazo.",
+      "keywords": [
+        "inversion",
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A professional analyzing investment options calmly on a laptop near a bright window",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa hoy la tasa que te da tu banco y compárala con la inflación actual. Suscríbete a Plata con Datos para aprender a tomar decisiones financieras con números reales.",
+      "keywords": [
+        "datos",
+        "salario"
+      ],
+      "prompt_ia": "A modern screen displaying clear analytical graphs and financial metrics",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "inflacion",
+    "riesgo financiero",
+    "ahorro",
+    "inversiones",
+    "rendimiento real",
+    "educacion financiera"
+  ],
+  "verificacion": [],
+  "id": "fin_030",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
