@@ -36,3 +36,6 @@ venv/
 *.egg-info/
 .pytest_cache/
 logs/
+
+# Listas de contactos para validación de correos (datos personales, no versionar)
+validacion_correos/
