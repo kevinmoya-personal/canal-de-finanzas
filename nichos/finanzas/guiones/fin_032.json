@@ -1,0 +1,120 @@
+{
+  "titulo": "La trampa de no cancelar lo que no usas",
+  "titulos_alternativos": [
+    "El error de mantener cursos y membresías sin usar",
+    "Por qué sigues pagando lo que no aprovechas"
+  ],
+  "tema": "La falacia del costo hundido en suscripciones y membresías no utilizadas",
+  "texto_portada": "CANCELA\nHOY",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Seguir pagando la membresía de un gimnasio o un curso que no usas por pena a perder lo invertido te desangra el bolsillo. Esa plata no va a volver por dejar el cobro activo.",
+      "keywords": [
+        "tarjeta",
+        "estres"
+      ],
+      "prompt_ia": "A worried person looking at a credit card statement on a smartphone screen with gym and streaming service icons floating around.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Tu mente sufre una trampa psicológica llamada costo hundido. Si pagas cincuenta mil pesos cada mes durante un año sin ir, terminas regalando seiscientos mil pesos adicionales por puro remordimiento.",
+      "keywords": [
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "A wooden table with a calculator showing accumulating expenses next to a stack of coins.",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Dinero tirado a la basura",
+        "etiquetas": [
+          "Gasto total acumulado en un año"
+        ],
+        "valores": [
+          600000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El dinero pagado en el pasado ya se fue. La verdadera decisión inteligente es cortar la fuga hoy mismo para evitar que el cobro automático de la próxima cuota te siga robando tranquilidad.",
+      "keywords": [
+        "presupuesto",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A clean desk with a neatly organized budget planner notebook and a cup of coffee.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Cancela hoy mismo tres suscripciones inactivas y libera de inmediato noventa mil pesos mensuales en tu presupuesto. Ese dinero acumulado en un año se convierte en un millón ochenta mil pesos ahorrados.",
+      "keywords": [
+        "ahorro",
+        "celular"
+      ],
+      "prompt_ia": "A finger pressing a cancel button on a mobile phone banking app interface.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Dinero recuperado al cancelar",
+        "etiquetas": [
+          "Un mes",
+          "Un año"
+        ],
+        "valores": [
+          90000,
+          1080000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "No permitas que el miedo a perder lo que ya gastaste destruya tus finanzas. Suscríbete a Plata con Datos para defender tu presupuesto con números reales.",
+      "keywords": [
+        "datos",
+        "meta"
+      ],
+      "prompt_ia": "A person standing confidently looking at growing financial graphs on a screen.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "ahorro",
+    "costo hundido",
+    "suscripciones",
+    "presupuesto",
+    "educacion financiera",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_032",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

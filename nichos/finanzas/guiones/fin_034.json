@@ -1,0 +1,214 @@
+{
+  "titulo": "Cómo presupuestar tu plata si tienes ingresos variables",
+  "titulos_alternativos": [
+    "El presupuesto para independientes que sí funciona",
+    "Cómo organizar tu dinero cuando no tienes sueldo fijo"
+  ],
+  "tema": "Presupuesto y finanzas personales para trabajadores independientes, freelancers y vendedores por comisión.",
+  "texto_portada": "SUELDO VARIABLE\nPRESUPUESTO REAL",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tratar de armar un presupuesto tradicional cuando tu sueldo cambia todos los meses es una receta directa para la frustración. Un mes vendes bien y sientes que puedes darte todos los gustos del mundo. Al mes siguiente las ventas bajan y el cobro del arriendo te genera una enorme preocupación. El error principal es planificar tu vida financiera pensando en lo que sueñas ganar y no en lo que verdaderamente necesitas para vivir. Quien trabaja por comisiones o de forma independiente no puede medir su estabilidad con la misma regla de un empleado de oficina. En este video vas a aprender la metodología exacta con datos sencillos para tomar el control total de tus ingresos variables. Vas a descubrir cómo organizar tus cuentas para que los meses malos no te quiten el sueño y los meses buenos no se desvanezcan entre las manos.",
+      "keywords": [
+        "presupuesto",
+        "salario",
+        "dinero"
+      ],
+      "prompt_ia": "A stressed person reviewing dynamic income graphs on a digital tablet at home",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El primer paso fundamental para cualquier independiente es definir su salario base. Este no es el dinero que sueñas ganar cada mes ni la meta comercial que te puso tu empresa. Tu salario base es la cifra exacta de tu mínimo vital. Para calcularlo debes sumar únicamente los gastos indispensables de cada mes. Aquí entran el arriendo o la cuota de la vivienda, los servicios públicos, el mercado básico, la salud y el transporte. Si tu mínimo vital da tres millones de pesos, ese es el monto que debes pagarte a ti mismo todos los meses sin excepción. Al separar tus necesidades básicas de tus deseos de consumo creas un piso financiero firme. De esta manera, sin importar si un cliente se retrasa o si las comisiones cayeron, ya sabes exactamente cuánto dinero requiere tu hogar para seguir funcionando sin recurrir a las tarjetas de crédito.",
+      "keywords": [
+        "presupuesto",
+        "casa",
+        "tarjeta"
+      ],
+      "prompt_ia": "Close up of hands writing expenses down in a notebook with modern calculator",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Muchos profesionales cometen la equivocación de calcular su presupuesto usando el promedio de lo que ganaron durante el último año. El problema del promedio es que es una trampa matemática engañosa. Si un mes ganaste diez millones de pesos y los tres meses siguientes ganaste dos millones, tu promedio parece alto pero tu realidad operativa es muy distinta. La regla de oro para ingresos volátiles es construir tu estructura basándote en tu peor mes del último año. Si en tu peor mes recibiste dos millones de pesos, tu presupuesto operativo debe adaptarse a esa cifra concreta. Trabajar sobre la base más baja te obliga a mantener una estructura de costos liviana y eficiente. Todo lo que ingrese por encima de esa cifra mínima dejará de verse como dinero disponible para gastar de inmediato y se convertirá en capital estratégico.",
+      "keywords": [
+        "calculadora",
+        "datos",
+        "dinero"
+      ],
+      "prompt_ia": "A bar chart on a clean wooden desk showing uneven monthly financial trends",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Ingresos mensuales reales",
+        "etiquetas": [
+          "Peor mes",
+          "Promedio",
+          "Mejor mes"
+        ],
+        "valores": [
+          2000000,
+          4500000,
+          10000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Un problema gravísimo en los independientes es mezclar la caja del negocio o del trabajo con la billetera personal. Si todas las comisiones llegan directamente a tu cuenta bancaria personal, vas a caer en la ilusión de que tienes mucho dinero disponible. La solución técnica es abrir una cuenta colchón que funcione como un tanque de agua. Todo el dinero que cobres de tus clientes o comisiones debe entrar primero a esa cuenta de amortiguación. A principios de cada mes, transfieres desde esa cuenta únicamente el valor de tu sueldo base a tu cuenta personal de gastos diarios. De esa forma tu mente percibe un salario constante y predecible. La cuenta colchón retiene los excedentes de los meses abundantes para cubrir la diferencia en los meses donde la facturación baje. Así logras transformar la incertidumbre en estabilidad.",
+      "keywords": [
+        "banco",
+        "salario",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A modern glass piggy bank next to a laptop showing bank transfer options",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Cuando llega un mes extraordinario donde tus comisiones se duplican, la tentación de cambiar de celular o salir a celebrar es enorme. Sin embargo, los independientes exitosos aplican un protocolo de distribución para los excedentes. Cuando tu cuenta colchón recibe un valor superior a tu sueldo base, ese excedente no se gasta en antojos de forma automática. La regla del excedente divide ese dinero en tres destinos muy claros. El cincuenta por ciento se queda en la cuenta colchón para financiar los meses de bajas ventas. El treinta por ciento se destina a la reserva para impuestos y seguridad social. El veinte por ciento restante se asigna a metas de ahorro a largo plazo o a un fondo de entretenimiento consciente. Al asignarle un propósito a cada peso extra antes de que llegue a tu bolsillo personal, eliminas las compras impulsivas de raíz.",
+      "keywords": [
+        "compras",
+        "ahorro",
+        "meta"
+      ],
+      "prompt_ia": "A clean minimalist wallet with organized credit cards and emergency cash reserve",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Regla de distribución del excedente",
+        "etiquetas": [
+          "Fondo colchón",
+          "Impuestos",
+          "Ahorro o gusto"
+        ],
+        "valores": [
+          50,
+          30,
+          20
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "La flexibilidad es el superpoder financiero de quien no depende de una nómina fija. Un error muy común es asumir compromisos financieros fijos demasiado altos durante las buenas épocas. Si en un momento de altas comisiones firmas cuotas mensuales elevadas para un carro o suscripciones costosas, estás amarrando tu futuro. Tus costos fijos deben ser tan bajos que puedas cubrirlos sin esfuerzo incluso durante una racha de baja facturación. Tus costos variables, como las salidas a comer o los viajes, deben ser los primeros en ajustarse cuando las ventas caigan. Si aprendes a recortar tus gastos de estilo de vida de forma rápida y sin culpabilidad cuando el mercado se desacelera, nunca tendrás que endeudarte para cubrir lo básico. Tu tranquilidad financiera depende directamente de tu capacidad de adaptación.",
+      "keywords": [
+        "estres",
+        "tiempo",
+        "trabajo"
+      ],
+      "prompt_ia": "A person reviewing flexible living budget list on smartphone",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "El golpe más duro para la liquidez de un trabajador independiente ocurre al final del año fiscal cuando llega la declaración de impuestos. Muchos profesionales gastan todo lo que reciben sin recordar que una parte de ese dinero nunca fue suya, sino que pertenece a la retención o a los impuestos del gobierno. Para evitar sorpresas desagradables debes crear una provisión mensual obligatoria. De cada pago o comisión que ingrese a tu cuenta colchón, debes separar de forma inmediata entre un quince y un veinticinco por ciento en una subcuenta dedicada exclusivamente a impuestos y aportes a la seguridad social. Cuando el estado o la entidad de salud te exija el pago de tus obligaciones, la plata ya estará lista sin afectar el dinero de tus gastos diarios. Tratar los impuestos como un gasto fijo mensual te ahorra angustias financieras monumentales.",
+      "keywords": [
+        "dinero",
+        "salario",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Tax documents organized neatly on a modern corporate office desk",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Provisión mensual para impuestos",
+        "etiquetas": [
+          "Porcentaje recomendado del ingreso"
+        ],
+        "valores": [
+          20
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Cualquier guía financiera tradicional te sugiere guardar de tres a seis meses de gastos para un fondo de emergencia. Pero para una persona con ingresos variables o independientes, esta recomendación se queda muy corta. La volatilidad del mercado, la pérdida de un cliente grande o un retraso prolongado en el pago de tus facturas requiere una protección mucho más sólida. Los expertos recomiendan que un independiente tenga guardado el equivalente a seis o hasta nueve meses de su salario base en una cuenta de alta liquidez. Este fondo de emergencia no debe confundirse con la cuenta colchón que usas para equilibrar los meses bajos. El fondo de emergencia es un escudo protector sagrado que solo se toca ante imprevistos médicos graves o crisis de mercado extremas. Tener esa reserva te da la paz mental para negociar mejores contratos sin desesperación.",
+      "keywords": [
+        "ahorro",
+        "emprender",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A peaceful individual enjoying coffee outdoors with financial stability concept",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Meses sugeridos de reserva",
+        "etiquetas": [
+          "Empleado",
+          "Independiente"
+        ],
+        "valores": [
+          3,
+          9
+        ],
+        "prefijo": "",
+        "sufijo": " meses"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Presupuestar con ingresos variables no significa vivir en la escasez ni privarte de las cosas que disfrutas. Significa asumir el control activo de tus finanzas para que el dinero trabaje a tu favor y no en tu contra. Cuando separas tus cuentas, defines tu salario base y gestionas tus excedentes con disciplina, la incertidumbre del trabajo independiente deja de ser una fuente de estrés. Te conviertes en el propio director financiero de tu vida. Si esta información te aportó claridad y quieres seguir aprendiendo a manejar tu plata con datos reales y metodologías que funcionan, suscríbete al canal ahora mismo. Activa las notificaciones para no perderte las próximas entregas donde seguiremos desglosando el mundo del dinero de forma transparente. Nos vemos en el próximo video.",
+      "keywords": [
+        "datos",
+        "dinero",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A modern YouTube video studio setup with microphone and warm professional light",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "presupuesto ingresos variables",
+    "finanzas para independientes",
+    "cómo presupuestar comisiones",
+    "educacion financiera colombia",
+    "plata con datos",
+    "ahorro para freelancers",
+    "fondo de emergencia",
+    "organizar finanzas personales"
+  ],
+  "verificacion": [],
+  "id": "fin_034",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

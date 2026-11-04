@@ -1,0 +1,122 @@
+{
+  "titulo": "Por qué tu tarjeta vacía te frena al comprar casa",
+  "titulos_alternativos": [
+    "El peligro del cupo en cero al pedir crédito de vivienda",
+    "Cómo el cupo de tu tarjeta destruye tu crédito hipotecario"
+  ],
+  "tema": "Capacidad de endeudamiento y crédito hipotecario",
+  "texto_portada": "TARJETA EN CERO\nSIN CASA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tener tres tarjetas de crédito en cero parece una prueba de impecable disciplina financiera. La triste realidad es que ese cupo libre puede hacer que el banco te niegue la compra de tu casa.",
+      "keywords": [
+        "tarjeta",
+        "casa",
+        "banco"
+      ],
+      "prompt_ia": "a frustrated person holding credit cards while looking at a house key on a table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando pides un crédito hipotecario, la entidad analiza tu capacidad de pago mensual. Para el banco, tu cupo aprobado no es dinero disponible. Es una deuda potencial que podrías usar en cualquier momento.",
+      "keywords": [
+        "banco",
+        "dinero",
+        "deuda"
+      ],
+      "prompt_ia": "bank officer reviewing paper documents and financial metrics on a desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si tienes un cupo total de veinte millones de pesos y la entidad estima una cuota teórica del cinco por ciento, el cálculo sería de un millón de pesos mensuales. Ese valor se resta directamente de tu sueldo disponible para pagar la vivienda.",
+      "keywords": [
+        "calculadora",
+        "tarjeta",
+        "salario"
+      ],
+      "prompt_ia": "close up of a hand working with a calculator next to credit cards and documents",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Cuota teórica calculada por el banco",
+        "etiquetas": [
+          "Reducción de capacidad mensual"
+        ],
+        "valores": [
+          1000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Reducir el límite de tus plásticos o cancelar las tarjetas que no usas antes de radicar la solicitud aumenta de inmediato tu cupo prestable.",
+      "keywords": [
+        "presupuesto",
+        "tranquilidad"
+      ],
+      "prompt_ia": "scissors cutting a credit card in half on a clean modern desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa hoy mismo el cupo asignado en todas tus tarjetas de crédito y organízate con datos reales. Suscríbete a Plata con Datos para tomar el control de tu bolsillo.",
+      "keywords": [
+        "datos",
+        "ahorro"
+      ],
+      "prompt_ia": "person checking personal finance charts on a modern smartphone screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "tarjetas de credito",
+    "credito hipotecario",
+    "comprar casa",
+    "finanzas personales",
+    "capacidad de pago",
+    "bancos",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "La cifra de un millón de pesos depende de un supuesto no declarado sobre qué porcentaje del cupo total asigna el banco como cuota teórica mensual (en este caso, un cinco por ciento)."
+    }
+  ],
+  "id": "fin_033",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
