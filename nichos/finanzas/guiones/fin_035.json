@@ -1,0 +1,114 @@
+{
+  "titulo": "Los gastos ocultos al comprar tu primera casa",
+  "titulos_alternativos": [
+    "Lo que nadie te dice sobre comprar vivienda",
+    "Cuanto cuesta realmente la papelería de tu casa"
+  ],
+  "tema": "Gastos notariales, avalúo y registro en compra de vivienda",
+  "texto_portada": "GASTOS OCULTOS AL COMPRAR CASA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tener lista la cuota inicial de tu vivienda no garantiza que te entreguen las llaves. Miles de compradores descubren a última hora que necesitan millones adicionales para firmar las escrituras.",
+      "keywords": [
+        "casa",
+        "dinero"
+      ],
+      "prompt_ia": "A young couple looking worried at real estate legal documents in a bright modern office",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Los gastos notariales y de escrituración son obligatorios. La notarización de la compraventa suele repartirse entre comprador y vendedor, pero los impuestos de registro caen por completo en tu bolsillo.",
+      "keywords": [
+        "banco",
+        "presupuesto"
+      ],
+      "prompt_ia": "Close up of an official stamp being placed on legal property deeds",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Suma también el estudio de títulos y el avalúo comercial. El banco exige un peritaje para aprobar el crédito, y ese trámite debe pagarse de contado antes de recibir cualquier desembolso.",
+      "keywords": [
+        "calculadora",
+        "deuda"
+      ],
+      "prompt_ia": "An appraiser taking notes with a clipboard in front of a modern apartment building",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Si tu inmueble vale cien millones de pesos, debes calcular al menos cinco millones de pesos extra solo para pagar este papeleo legal. Sin esa plata reservada, el proceso se frena.",
+      "keywords": [
+        "datos",
+        "monedas"
+      ],
+      "prompt_ia": "Stack of coins next to a miniature house model representing property closing costs",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Presupuesto real de compra",
+        "etiquetas": [
+          "Precio vivienda",
+          "Gastos lega"
+        ],
+        "valores": [
+          100,
+          5
+        ],
+        "prefijo": "$",
+        "sufijo": "M"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Prever estos costos adicionales evita sorpresas amargas en la notaría. Suscríbete a Plata con Datos para tomar decisiones financieras bien informadas.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "Smiling young homebuyer receiving key to their new house in a clean bright environment",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "comprar casa",
+    "gastos notariales",
+    "escrituracion",
+    "credito hipotecario",
+    "plata con datos"
+  ],
+  "id": "fin_035",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

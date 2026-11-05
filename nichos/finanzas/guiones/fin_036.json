@@ -1,0 +1,122 @@
+{
+  "titulo": "El riesgo de tener toda tu plata en finca raíz",
+  "titulos_alternativos": [
+    "Por qué el ladrillo no te salva de una emergencia",
+    "El peligro de no tener liquidez en tus inversiones"
+  ],
+  "tema": "Riesgo de liquidez en finca raíz",
+  "texto_portada": "CASA RICA\nBOLSILLO VACÍO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tener un apartamento de trescientos millones de pesos no te sirve de nada si esta noche necesitas un millón en efectivo.",
+      "keywords": [
+        "casa",
+        "dinero"
+      ],
+      "prompt_ia": "A worried man looking at a locked house door while holding an empty wallet",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La finca raíz es una gran opción para hacer crecer tu patrimonio. El peligro verdadero aparece cuando metes hasta el último billete en ladrillos y dejas tus ahorros completamente en cero.",
+      "keywords": [
+        "inversion",
+        "ahorro"
+      ],
+      "prompt_ia": "A miniature house growing out of stacked coins on a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si ocurre una urgencia, vender un inmueble puede tardar seis meses o más. Esa necesidad rápida de dinero te obliga a regalar tu propiedad o a pedir préstamos con intereses altísimos.",
+      "keywords": [
+        "tiempo",
+        "estres",
+        "deuda"
+      ],
+      "prompt_ia": "A real estate sign standing on a lawn with a clock passing quickly in the background",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Tiempo para obtener dinero",
+        "etiquetas": [
+          "Ahorro líquido",
+          "Venta de casa"
+        ],
+        "valores": [
+          1,
+          6
+        ],
+        "prefijo": "",
+        "sufijo": " meses"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Lo recomendable es mantener seis meses de tus gastos en un fondo de emergencia de liquidez inmediata. Así proteges tus inversiones sin comprometer tu tranquilidad diaria.",
+      "keywords": [
+        "presupuesto",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person writing a balanced financial plan on a clean notepad",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Fondo de emergencia sugerido",
+        "etiquetas": [
+          "Meses de gastos fijos"
+        ],
+        "valores": [
+          6
+        ],
+        "prefijo": "",
+        "sufijo": " meses"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tener ladrillos está bien, pero conservar dinero disponible es vital. Suscríbete a Plata con Datos para aprender a estructurar tu patrimonio con cifras reales.",
+      "keywords": [
+        "datos",
+        "banco"
+      ],
+      "prompt_ia": "A digital screen showing financial analytics graphs and asset allocation charts",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finca raiz",
+    "liquidez",
+    "fondo de emergencia",
+    "finanzas personales",
+    "inversiones",
+    "educacion financiera",
+    "patrimonio",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_036",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
