@@ -1,0 +1,126 @@
+{
+  "titulo": "El peligro oculto de la consolidación de deudas",
+  "titulos_alternativos": [
+    "Por qué consolidar deudas puede arruinarte",
+    "El error grave al unificar tus tarjetas"
+  ],
+  "tema": "Consolidación de deudas y tarjetas de crédito",
+  "texto_portada": "EL ERROR AL\nUNIFICAR DEUDAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Unificar tus obligaciones en un solo banco parece el alivio definitivo para tu bolsillo. Sin embargo, dejar los plásticos viejos con cupo libre aumenta drásticamente tu riesgo de caer en la quiebra.",
+      "keywords": [
+        "banco",
+        "deuda"
+      ],
+      "prompt_ia": "A worried person sitting at a desk looking at financial paperwork and credit cards",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando pides un préstamo de consolidación, el banco liquida tus tarjetas pendientes. Sientes un alivio inmediato. El verdadero peligro aparece semanas después cuando ves ese nuevo cupo disponible en tu aplicación.",
+      "keywords": [
+        "banco",
+        "tarjeta",
+        "celular"
+      ],
+      "prompt_ia": "A modern banking mobile application displayed on a smartphone screen showing available balance",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La ilusión de cupo libre tienta a cualquiera. Si vuelves a usar el plástico y generas una cuota similar, pagarás la cuota del préstamo de quinientos mil pesos más otros quinientos mil de la tarjeta. Tu pago mensual salta directo a un millón de pesos.",
+      "keywords": [
+        "compras",
+        "estres",
+        "deuda"
+      ],
+      "prompt_ia": "A close up of a credit card being swiped at a store payment terminal",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Pago mensual estimado",
+        "etiquetas": [
+          "Solo crédito",
+          "Crédito más tarjeta"
+        ],
+        "valores": [
+          500000,
+          1000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Cancelar la tarjeta liberada apenas pagues el saldo corta la tentación de raíz. No basta con guardarla en un cajón. Cortar la tarjeta y llamar al banco protege tu presupuesto.",
+      "keywords": [
+        "presupuesto",
+        "tranquilidad",
+        "dinero"
+      ],
+      "prompt_ia": "Scissors cutting a plastic credit card in half on a clean wooden table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "La consolidación funciona solo si eliminas la tentación de endeudarte otra vez. Cuida tu tranquilidad y suscríbete a Plata con Datos para tomar decisiones inteligentes con tu plata.",
+      "keywords": [
+        "datos",
+        "ahorro"
+      ],
+      "prompt_ia": "A person looking at financial growth charts on a laptop with a cup of coffee nearby",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "consolidacion de deudas",
+    "tarjetas de credito",
+    "ahorro",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "hook",
+      "motivo": "Afirmar que el riesgo se duplica es una precisión cuantitativa no verificable al no contar con un estudio o dato de respaldo."
+    },
+    {
+      "seccion": "punto_2",
+      "motivo": "El salto del pago mensual a un millón de pesos asume que el nuevo uso de la tarjeta genera una cuota igual a la del préstamo (quinientos mil pesos), supuesto que no estaba expuesto en el texto."
+    }
+  ],
+  "id": "fin_038",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

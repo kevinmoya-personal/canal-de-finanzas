@@ -1,0 +1,219 @@
+{
+  "titulo": "La mentira de la rentabilidad que te prometen en el banco",
+  "titulos_alternativos": [
+    "Por qué la inflación y los impuestos se comen tus ganancias",
+    "El cálculo real para saber si estás perdiendo dinero al invertir"
+  ],
+  "tema": "Diferencia entre rentabilidad nominal y rentabilidad real descontando impuestos e inflación",
+  "texto_portada": "GANANCIA\nREAL",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Festejar una rentabilidad del doce por ciento anual en tu cuenta es un espejismo peligroso. La gran mayoría de personas mira únicamente la cifra que resalta en el extracto del banco sin darse cuenta de que ese número está incompleto. Cuando celebras un rendimiento vistoso, estás olvidando dos cobros silenciosos que ocurren exactamente al mismo tiempo. El primero es la retención de impuestos que aplica el gobierno sobre tus intereses. El segundo es la pérdida constante de poder adquisitivo que genera el aumento generalizado de los precios en el supermercado y el arriendo. Al restar ambos factores, lo que parecía una ganancia atractiva puede transformarse en una pérdida silenciosa de patrimonio. Entender la diferencia entre lo que te prometen en la pantalla y lo que verdaderamente puedes gastar en la vida real es el paso fundamental para tomar decisiones financieras conscientes con tu plata.",
+      "keywords": [
+        "banco",
+        "dinero",
+        "inflacion"
+      ],
+      "prompt_ia": "A worried person looking at a bank financial statement on a clean wooden desk with a coffee cup",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Comencemos por definir qué es la rentabilidad nominal. La rentabilidad nominal es simplemente el porcentaje bruto que te ofrece una entidad financiera o un fondo de inversión por dejar tu dinero guardado durante un tiempo determinado. Si entregas diez millones de pesos y la entidad te promete un diez por ciento de tasa nominal al año, al final del periodo la cuenta mostrará once millones de pesos en total. A simple vista, el resultado parece perfecto porque ganaste un millón de pesos en doce meses sin mover un solo dedo. Esa cifra en mayúsculas es la que utilizan las campañas publicitarias para atraer clientes, porque los números grandes generan tranquilidad visual. Sin embargo, la rentabilidad nominal es apenas una ilusión matemática. No toma en cuenta los cobros tributarios obligatorios ni la velocidad a la que se encarece la vida diaria.",
+      "keywords": [
+        "inversion",
+        "salario",
+        "calculadora"
+      ],
+      "prompt_ia": "A close up shot of a hand highlighting numbers on an investment contract",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Rendimiento bruto prometido",
+        "etiquetas": [
+          "Tasa nominal anual"
+        ],
+        "valores": [
+          10
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El primer golpe directo contra tus ganancias brutas son los impuestos a los rendimientos financieros. En la mayoría de los países latinoamericanos, la entidad financiera tiene la obligación legal de descontar una retención en la fuente sobre los intereses generados. Si tu inversión generó un millón de pesos de ganancia nominal, el Estado se queda inmediatamente con un porcentaje de ese rendimiento antes de que el dinero toque tus manos. Supongamos que la tarifa de retención sobre los rendimientos es del siete por ciento. De ese millón de ganancia, el banco te resta setenta mil pesos en automático para entregárselos al fisco. De entrada, tu ganancia neta en la cuenta bancaria ya no es de un millón de pesos, sino de novecientos treinta mil pesos. Tu tasa efectiva ajustada por impuestos acaba de bajar sin que hayas gastado un solo centavo en la calle.",
+      "keywords": [
+        "banco",
+        "dinero",
+        "datos"
+      ],
+      "prompt_ia": "Conceptual visualization of paper money being sliced cleanly by tax shears",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "El segundo descuento es todavía más agresivo porque no aparece detallado en ningún extracto bancario. Se trata de la inflación anual. La inflación es el aumento sostenido del precio de los bienes y servicios que compras a diario, desde el mercado de la semana hasta el pago de los servicios públicos. Si la inflación de un país durante ese mismo año fue del ocho por ciento, las cosas que antes comprabas con diez millones de pesos ahora cuestan diez millones ochocientos mil pesos. Esto significa que necesitas más billetes para adquirir exactamente la misma cantidad de productos. Si no descuentas la inflación de tus rendimientos, estás midiendo tu riqueza con una regla que cambia de tamaño todos los meses. Tu dinero puede crecer en cantidad numérica de billetes, pero perder capacidad real de compra en la economía.",
+      "keywords": [
+        "inflacion",
+        "compras",
+        "estres"
+      ],
+      "prompt_ia": "A grocery shopping cart filled with everyday items with prices floating upwards",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Juntemos ahora todo el escenario con los números sobre la mesa para ver el resultado definitivo. Iniciaste el año con diez millones de pesos en una cuenta al diez por ciento nominal. Tu ganancia bruta fue de un millón de pesos. Tras pagar los setenta mil pesos de retención en la fuente, te quedaron novecientos treinta mil pesos limpios en el banco. Tu saldo total asciende a diez millones novecientos treinta mil pesos. Sin embargo, debido al ocho por ciento de inflación, el costo de la vida subió a diez millones ochocientos mil pesos. Restamos esa diferencia y descubrimos que tu ganancia real en poder de compra fue de apenas ciento treinta mil pesos. Eso equivale a una rentabilidad real de poco más del uno por ciento. El diez por ciento inicial que te prometieron terminó convertido en un rendimiento casi insignificante.",
+      "keywords": [
+        "calculadora",
+        "monedas",
+        "datos"
+      ],
+      "prompt_ia": "A crisp financial breakdown diagram drawn on a chalkboard with precise lines",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Desglose de ganancia en pesos",
+        "etiquetas": [
+          "Ganancia bruta",
+          "Impuestos",
+          "Inflación",
+          "Ganancia real"
+        ],
+        "valores": [
+          1000000,
+          70000,
+          800000,
+          130000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Este cálculo demuestra por qué dejar el dinero en cuentas de ahorro tradicionales es un castigo financiero severo. La mayoría de las cuentas de ahorro corrientes pagan una tasa nominal cercana al dos por ciento anual. Si la inflación del país se ubica en el cinco por ciento, tu rentabilidad real es fuertemente negativa. Si guardas diez millones de pesos en una cuenta tradicional durante un año, al finalizar el periodo tendrás un saldo de diez millones doscientos mil pesos. Pero para comprar lo mismo que comprabas hace doce meses necesitabas diez millones quinientos mil pesos. Perdiste trescientos mil pesos de poder adquisitivo sin darte cuenta. Guardar plata en la cuenta equivocada produce la falsa sensación de seguridad mientras tus ahorros se encogen año tras año de forma constante.",
+      "keywords": [
+        "ahorro",
+        "banco",
+        "tiempo"
+      ],
+      "prompt_ia": "An hourglass with coins slowly melting into sand inside a transparent bank vault",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Pérdida en cuenta tradicional",
+        "etiquetas": [
+          "Pérdida de poder adquisitivo"
+        ],
+        "valores": [
+          300000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Para evaluar cualquier oportunidad de inversión necesitas aprender a calcular la rentabilidad real aproximada antes de firmar cualquier documento. La fórmula conceptual es bastante sencilla de aplicar en la mente. Tomas la tasa nominal que te ofrece el producto financiero y le restas primero la carga tributaria correspondiente sobre los intereses. Al resultado neto obtenido le restas la cifra proyectada de la inflación anual del país. Si el resultado final es un número positivo, tu dinero realmente va a crecer en poder adquisitivo. Si el resultado es cero o negativo, esa inversión solo está frenando parcialmente la caída de tu patrimonio, pero no te está generando riqueza. Acostumbrarte a exigir la cifra de inflación antes de celebrar un rendimiento te evita caer inútilmente en trampas de mercadeo muy costosas.",
+      "keywords": [
+        "meta",
+        "presupuesto",
+        "bolsa"
+      ],
+      "prompt_ia": "An investor reviewing charts on a laptop screen with focus and calm authority",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Filtro de rendimiento real",
+        "etiquetas": [
+          "Nominal",
+          "Con impuesto",
+          "Ganancia real"
+        ],
+        "valores": [
+          10,
+          9.3,
+          1.3
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Proteger tus ahorros requiere buscar vehículos financieros que ofrezcan mecanismos de protección contra el aumento de precios. Existen alternativas de inversión de bajo riesgo que ajustan directamente su rendimiento según el indicador oficial de inflación del país, sumando unos puntos adicionales de ganancia neta. También existen fondos de pensiones voluntarias o cuentas con beneficios tributarios que reducen la retención en la fuente, dejando una mayor parte del rendimiento en tu bolsillo. Al disminuir el impacto de los impuestos y superar la barrera de la inflación, aseguras que el esfuerzo de guardar dinero se traduzca en una mayor libertad económica para el futuro. La meta nunca es acumular billetes con números más altos, sino garantizar que esos billetes te permitan comprar más cosas con el paso del tiempo.",
+      "keywords": [
+        "tranquilidad",
+        "jubilacion",
+        "casa"
+      ],
+      "prompt_ia": "A family enjoying a peaceful sunset outside their suburban home",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "La próxima vez que un banco te ofrezca una tasa llamativa, no te quedes solo con la portada del anuncio. Haz la cuenta completa, descuenta los impuestos obligatorios y resta la inflación estimada del año. Solo así sabrás si estás multiplicando tu capital o si apenas estás protegiéndolo de la quema. Si este análisis con datos reales te sirvió para ver tus ahorros con más claridad, suscríbete al canal Plata con Datos y activa las notificaciones. Cada semana desarmamos los números del mundo financiero para que cuides la plata que te ganas con tanto trabajo.",
+      "keywords": [
+        "celular",
+        "emprender",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A smartphone showing a YouTube subscribe button with financial growth icons around",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "rentabilidad real",
+    "rentabilidad nominal",
+    "inflacion",
+    "impuestos",
+    "finanzas personales",
+    "plata con datos",
+    "ahorro e inversion",
+    "educacion financiera"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_5",
+      "motivo": "Se menciona la retención de impuestos en la frase explicativa, pero el saldo final calculado de diez millones doscientos mil pesos y la pérdida de trescientos mil pesos asumen únicamente la tasa del dos por ciento sin aplicar retenciones. Se remueve la mención incoherente a los impuestos para que el cálculo expuesto sea matemáticamente exacto."
+    }
+  ],
+  "id": "fin_039",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

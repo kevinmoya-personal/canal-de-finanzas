@@ -1,0 +1,120 @@
+{
+  "titulo": "El truco mental que arruina tu jubilación",
+  "titulos_alternativos": [
+    "Por qué prefieres gastar hoy que ahorrar para el futuro",
+    "El sesgo psicológico que destruye tu ahorro"
+  ],
+  "tema": "Descuento hiperbólico y ahorro para el retiro",
+  "texto_portada": "TU MENTE TE ENGAÑA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Elegir un gusto de cien mil pesos hoy se siente mucho mejor que guardar esa plata para cuando tengas sesenta años. Tu cerebro no es malo administrando, simplemente está programado para preferir la recompensa inmediata.",
+      "keywords": [
+        "dinero",
+        "jubilacion"
+      ],
+      "prompt_ia": "A close up of a person holding cash bills looking at a shopping display window, thoughtful expression.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La psicología llama a esto descuento hiperbólico. Cuando piensas en tu futuro yo dentro de treinta años, tu mente lo percibe como si fuera un completo desconocido. Por eso es tan fácil gastar la plata de la quincena hoy.",
+      "keywords": [
+        "tiempo",
+        "salario"
+      ],
+      "prompt_ia": "A split visual of a young adult working at a desk next to a silhouette representing their distant future self.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si guardas cien mil pesos al mes durante treinta años con una rentabilidad del seis por ciento anual, acumulas más de cien millones de pesos. Sin embargo, el cerebro prefiere gastar esa suma en una salida porque la satisfacción ocurre en este instante.",
+      "keywords": [
+        "ahorro",
+        "interes"
+      ],
+      "prompt_ia": "A steady growth of stack coins next to a clean line chart representing long term accumulation.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Gasto inmediato frente a ahorro futuro",
+        "etiquetas": [
+          "Gasto hoy",
+          "Ahorro treinta años"
+        ],
+        "valores": [
+          100000,
+          100000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para vencer este sesgo debes automatizar tus ahorros el mismo día que recibes tu sueldo. Si el dinero se mueve automáticamente a una cuenta de inversión, tu mente no siente que está sacrificando su placer presente.",
+      "keywords": [
+        "presupuesto",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A smartphone showing a automatic bank transfer application with clean modern design.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tu futuro financiero no se construye en unos años, se decide hoy con cada pequeña elección. Suscríbete a Plata con Datos para tomar el control de tu dinero con información real.",
+      "keywords": [
+        "datos",
+        "meta"
+      ],
+      "prompt_ia": "A confident person reviewing personal finance metrics on a tablet computer in a modern room.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "ahorro",
+    "jubilacion",
+    "psicologia financiera",
+    "descuento hiperbolico",
+    "inversion"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "El cálculo de interés compuesto requiere declarar explícitamente la tasa de interés asumida para ser verificable. Con una tasa del seis por ciento anual, ahorrar cien mil pesos mensuales durante treinta años suma poco más de cien millones de pesos."
+    }
+  ],
+  "id": "fin_037",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
