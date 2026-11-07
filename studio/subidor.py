@@ -91,7 +91,74 @@ class Publicacion:
 
 
 # ── Construcción de los metadatos ─────────────────────────────────────────
-def _descripcion(guion: dict, nicho: Nicho) -> str:
+def _temas(guion: dict) -> set[str]:
+    """Etiquetas y keywords de b-roll: con eso basta para saber de qué va."""
+    temas = {t.lower().strip() for t in guion.get("tags", [])}
+    for s in guion.get("secciones", []):
+        temas.update(k.lower() for k in s.get("keywords", []))
+    return temas
+
+
+def largo_relacionado(
+    nicho: Nicho, guion: dict, antes_de: datetime | None = None
+) -> tuple[str, str] | None:
+    """
+    El video largo ya publicado que más se parece a este guion: (título, id).
+
+    Un canal nuevo casi no recibe impresiones en los largos; enlazarlos desde
+    los Shorts, que sí tienen tráfico, es la forma de mandarles gente. Solo
+    cuenta los largos que ya serán públicos en `antes_de` (por defecto,
+    ahora): un enlace a un video privado no sirve de nada.
+    """
+    ruta = nicho.dir / "calendario.jsonl"
+    if not ruta.exists():
+        return None
+    limite = antes_de or datetime.now(timezone.utc)
+    propios = _temas(guion)
+
+    # Casi todos los guiones comparten "ahorro", "dinero", "presupuesto"…
+    # Si esas pesaran igual, cualquier largo parecería relacionado. Cada
+    # término pesa según lo raro que es en el canal (IDF).
+    import math
+    todos = []
+    for p in nicho.dir_guiones.glob("*.json"):
+        try:
+            todos.append(_temas(json.loads(p.read_text(encoding="utf-8"))))
+        except Exception:
+            continue
+    frecuencia: dict[str, int] = {}
+    for temas in todos:
+        for t in temas:
+            frecuencia[t] = frecuencia.get(t, 0) + 1
+
+    def peso(t: str) -> float:
+        return math.log((len(todos) + 1) / (frecuencia.get(t, 0) + 1))
+
+    mejor: tuple[float, datetime, str, str] | None = None
+    for linea in ruta.read_text(encoding="utf-8").splitlines():
+        try:
+            fila = json.loads(linea)
+            hora = datetime.fromisoformat(fila["hora"])
+        except Exception:
+            continue
+        if fila.get("hueco") != "largo" or fila.get("destino") != "youtube" or not fila.get("id"):
+            continue
+        if hora.tzinfo is None or hora > limite:
+            continue
+        ruta_largo = nicho.dir_guiones / f"{fila.get('guion_id')}.json"
+        if not ruta_largo.exists():
+            continue
+        largo = json.loads(ruta_largo.read_text(encoding="utf-8"))
+        candidato = (round(sum(peso(t) for t in propios & _temas(largo)), 3), hora,
+                     largo.get("titulo", ""), fila["id"])
+        if mejor is None or candidato[:2] > mejor[:2]:
+            mejor = candidato
+    return (mejor[2], mejor[3]) if mejor else None
+
+
+def _descripcion(
+    guion: dict, nicho: Nicho, relacionado: tuple[str, str] | None = None
+) -> str:
     partes = []
     hook = next(
         (s["texto"] for s in guion.get("secciones", []) if s["nombre"] == "hook"), ""
@@ -99,6 +166,11 @@ def _descripcion(guion: dict, nicho: Nicho) -> str:
     if hook:
         partes.append(hook)
     partes.append("")
+    if relacionado:
+        titulo, youtube_id = relacionado
+        partes.append(f"▶ Video completo: {titulo}")
+        partes.append(f"https://youtu.be/{youtube_id}")
+        partes.append("")
     desc = nicho.datos.get("descripcion", {})
     partes.append(desc.get("cierre") or f"Más contenido de {nicho.titulo} cada semana. Suscríbete.")
     partes.append("")
@@ -113,7 +185,10 @@ def _descripcion(guion: dict, nicho: Nicho) -> str:
     return "\n".join(partes)[:MAX_DESCRIPCION]
 
 
-def preparar(nicho: Nicho, guion_id: str, tipo: str = "short") -> Publicacion:
+def preparar(
+    nicho: Nicho, guion_id: str, tipo: str = "short",
+    publicar_en: datetime | None = None,
+) -> Publicacion:
     """Arma la publicación sin contactar con YouTube. Siempre seguro de llamar."""
     ruta_guion = nicho.dir_guiones / f"{guion_id}.json"
     guion = json.loads(ruta_guion.read_text(encoding="utf-8")) if ruta_guion.exists() else {}
@@ -128,10 +203,13 @@ def preparar(nicho: Nicho, guion_id: str, tipo: str = "short") -> Publicacion:
     if tipo == "short" and "#shorts" not in titulo.lower():
         titulo = f"{titulo} #shorts"[:MAX_TITULO]
 
+    relacionado = largo_relacionado(nicho, guion, publicar_en) if tipo == "short" else None
+
     return Publicacion(
         archivo=archivo,
         titulo=titulo[:MAX_TITULO],
-        descripcion=_descripcion(guion, nicho),
+        descripcion=_descripcion(guion, nicho, relacionado),
+        publicar_en=publicar_en,
         tags=guion.get("tags") or yt.get("tags", []),
         categoria=str(yt.get("categoria", "22")),
         privacidad=yt.get("privacidad", "private"),
@@ -200,8 +278,7 @@ def subir(
     este módulo se ejecuta salvo que tú pidas lo contrario explícitamente.
     """
     nicho = Nicho.cargar(nicho_nombre)
-    pub = preparar(nicho, guion_id, tipo)
-    pub.publicar_en = publicar_en
+    pub = preparar(nicho, guion_id, tipo, publicar_en)
 
     print(f"\n  📤 Publicación preparada para '{guion_id}' en {nicho.titulo}:")
     pub.imprimir()

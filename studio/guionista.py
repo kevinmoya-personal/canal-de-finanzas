@@ -47,6 +47,24 @@ MODELO_CLAUDE = "claude-opus-4-8"
 # una longitud de guion acorde a la duración objetivo del formato.
 PALABRAS_POR_MINUTO = 165
 
+# La primera frase del hook es lo que decide si alguien desliza. Diez
+# palabras son unos tres segundos y medio de voz.
+MAX_PALABRAS_HOOK = 10
+
+
+def primera_frase(texto: str) -> str:
+    for i, c in enumerate(texto):
+        if c in ".?!":
+            return texto[: i + 1].strip()
+    return texto.strip()
+
+
+def hook_largo(guion: dict) -> bool:
+    """True si la primera frase del hook tarda demasiado en llegar al golpe."""
+    secciones = guion.get("secciones") or [{}]
+    texto = secciones[0].get("texto", "") if secciones[0].get("nombre") == "hook" else ""
+    return len(primera_frase(texto).split()) > MAX_PALABRAS_HOOK
+
 
 # ── Esquema de salida ─────────────────────────────────────────────────────
 def _esquema(
@@ -192,9 +210,17 @@ manda el español. No pongas Cada Palabra En Mayúscula: eso es del inglés y
 en español se ve mal.
 
 ESTRUCTURA
-- La primera sección se llama exactamente "hook". Tiene que funcionar en los
-  primeros tres segundos: una afirmación concreta e inquietante, o una
-  observación que el espectador pueda comprobar en su propia vida. Nada de
+- La primera sección se llama exactamente "hook". Más de la mitad de la gente
+  desliza en el primer segundo, así que la PRIMERA FRASE del hook tiene como
+  máximo {max_hook} palabras y lleva el golpe: la consecuencia, la cifra o la
+  contradicción va al principio, no al final de una frase larga. El contexto
+  viene en la segunda frase.
+  Mal: "Tener un millón de pesos debajo del colchón parece seguro, pero ese
+  dinero pierde valor todos los días."
+  Bien: "Tu millón debajo del colchón pierde valor cada día. Parece seguro, pero
+  no lo es."
+  No empieces con un infinitivo ("Tener…", "Pagar…", "Comprar…"): habla al
+  espectador de tú o lanza una pregunta que le duela. Nada de saludos ni de
   "en este video vamos a hablar de...".
 - Las secciones intermedias se llaman "punto_1", "punto_2", etc. Cada una
   desarrolla UNA idea con un ejemplo concreto y cotidiano.
@@ -243,6 +269,11 @@ def _validar(guion: dict, nicho: Nicho, formato: str) -> list[str]:
         return ["CRÍTICO: el guion no tiene secciones."]
     if secciones[0]["nombre"] != "hook":
         avisos.append(f"La primera sección es '{secciones[0]['nombre']}', no 'hook'.")
+    elif hook_largo(guion):
+        n = len(primera_frase(secciones[0]["texto"]).split())
+        avisos.append(
+            f"La primera frase del hook tiene {n} palabras (máximo {MAX_PALABRAS_HOOK})."
+        )
     if secciones[-1]["nombre"] != "cierre":
         avisos.append(f"La última sección es '{secciones[-1]['nombre']}', no 'cierre'.")
 
@@ -408,8 +439,23 @@ es 500000000); si no, una lista vacía.
 No toques secciones correctas. Si todo está bien, `correcciones` va vacía."""
 
 
-def verificar_cifras(guion: dict) -> list[dict]:
-    """Pide a Gemini que recalcule las cifras y aplica sus correcciones al guion."""
+REFUERZO_HOOK = """
+
+Además, la sección 0 es el hook y su primera frase tiene más de {max_hook}
+palabras: la gente desliza antes de llegar al golpe. Devuélvela SIEMPRE
+corregida: primera frase de {max_hook} palabras como máximo, con la
+consecuencia o la cifra al principio, hablándole al espectador de tú, sin
+empezar con un infinitivo. El resto del hook puede seguir en una segunda
+frase. Mismas cifras e idea. Pon "hook demasiado largo" en `motivo`."""
+
+
+def verificar_cifras(guion: dict, reforzar_hook: bool = False) -> list[dict]:
+    """
+    Pide a Gemini que recalcule las cifras y aplica sus correcciones al guion.
+
+    Con `reforzar_hook`, la misma llamada reescribe además un hook lento: así
+    no se gasta una petición extra de la cuota diaria de Gemini.
+    """
     esquema = {
         "type": "object",
         "properties": {
@@ -434,7 +480,10 @@ def verificar_cifras(guion: dict) -> list[dict]:
          for i, s in enumerate(guion["secciones"])],
         ensure_ascii=False, indent=1,
     )
-    datos, uso = _generar_gemini(VERIFICADOR, entrada, esquema)
+    sistema = VERIFICADOR
+    if reforzar_hook:
+        sistema += REFUERZO_HOOK.format(max_hook=MAX_PALABRAS_HOOK)
+    datos, uso = _generar_gemini(sistema, entrada, esquema)
 
     aplicadas = []
     for c in datos.get("correcciones", []):
@@ -515,6 +564,7 @@ def escribir(
         duracion=duracion,
         palabras=palabras,
         secciones=n_secciones,
+        max_hook=MAX_PALABRAS_HOOK,
         reglas_canal=reglas_canal,
         anti_repeticion=anti_repeticion,
     )
@@ -534,7 +584,9 @@ def escribir(
     # Segunda pasada: recalcular cifras antes de que nadie las oiga.
     if (nicho.datos.get("guionista") or {}).get("verificar_cifras"):
         try:
-            guion["verificacion"] = verificar_cifras(guion)
+            guion["verificacion"] = verificar_cifras(
+                guion, reforzar_hook=hook_largo(guion)
+            )
         except Exception as e:
             print(f"  ⚠️  No se pudo verificar cifras: {e}")
 
