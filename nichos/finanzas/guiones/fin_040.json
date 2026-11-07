@@ -1,0 +1,115 @@
+{
+  "titulo": "La retención en la fuente no es plata perdida",
+  "titulos_alternativos": [
+    "Por qué la retención en la fuente juega a tu favor",
+    "El secreto de la retención en la fuente que pocos entienden"
+  ],
+  "tema": "Retención en la fuente como pago anticipado del impuesto de renta",
+  "texto_portada": "NO ES UN\nROBO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Esa plata descontada de tu nómina no está perdida. Muchos ven la retención en la fuente como un cobro injusto. En realidad tiene un propósito muy distinto para tus finanzas.",
+      "keywords": [
+        "salario",
+        "estres"
+      ],
+      "prompt_ia": "Close up shot of a stressed employee looking at a paycheck receipt at a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La retención en la fuente funciona como un abono anticipado. El estado retiene un porcentaje de tus ingresos cada mes para ir pagando el impuesto de renta que te corresponderá declarar el próximo año.",
+      "keywords": [
+        "trabajo",
+        "presupuesto"
+      ],
+      "prompt_ia": "A modern clean office environment with an accountant organizing tax financial folders",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Imagina que te descuentan cincuenta mil pesos cada mes. Al cabo de un año sumaste seiscientos mil pesos abonados. Si tu impuesto total resulta ser de seiscientos mil pesos, no tendrás que pagar nada adicional.",
+      "keywords": [
+        "calculadora",
+        "dinero"
+      ],
+      "prompt_ia": "A person using a calculator next to stacks of cash notes on a table",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Abono vs impuesto anual",
+        "etiquetas": [
+          "Abonos acumulados",
+          "Impuesto total"
+        ],
+        "valores": [
+          600000,
+          600000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Incluso existe la opción de recuperar dinero. Si tus retenciones superaron el monto final de tu impuesto, ese dinero sobrante se convierte en un saldo a favor para tus siguientes declaraciones.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A relaxed person looking at clean financial data graphs on a tablet screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Dejar de ver la retención como una pérdida cambia tu planificación financiera. Suscríbete a Plata con Datos y toma el control total de tus ingresos.",
+      "keywords": [
+        "meta",
+        "banco"
+      ],
+      "prompt_ia": "A satisfied professional standing in front of a modern city skyline at sunset",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "retencion en la fuente",
+    "impuesto de renta",
+    "finanzas personales",
+    "colombia",
+    "educacion financiera",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_040",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

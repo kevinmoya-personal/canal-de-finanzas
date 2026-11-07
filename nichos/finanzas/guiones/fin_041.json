@@ -1,0 +1,118 @@
+{
+  "titulo": "La reduflación: la trampa invisible en tu mercado",
+  "titulos_alternativos": [
+    "Por qué tu mercado rinde menos aunque pagues lo mismo",
+    "El truco de los empaques para venderte menos comida"
+  ],
+  "tema": "Reduflación en la canasta familiar",
+  "texto_portada": "MENOS COMIDA MISMO PRECIO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Pagas lo mismo pero tu mercado dura mucho menos. No es tu imaginación. Las marcas usan la reduflación para recortar el gramaje de los alimentos sin subir el precio visible.",
+      "keywords": [
+        "compras",
+        "inflacion",
+        "dinero"
+      ],
+      "prompt_ia": "close up of a customer looking at a smaller cereal box on a supermarket shelf with a shocked expression",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Un paquete que antes pesaba quinientos gramos ahora trae cuatrocientos cincuenta gramos por la misma plata. Perdiste diez por ciento de comida en un solo ajuste imperceptible.",
+      "keywords": [
+        "datos",
+        "calculadora"
+      ],
+      "prompt_ia": "kitchen scale weighing a food package with clean modern aesthetics",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Contenido por empaque",
+        "etiquetas": [
+          "Antes",
+          "Ahora"
+        ],
+        "valores": [
+          500,
+          450
+        ],
+        "prefijo": "",
+        "sufijo": " g"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Cuando diez productos de tu canasta aplican este recorte silencioso, tu mercado semanal rinde menos días. Al final del mes necesitas hacer compras extra para cubrir lo que falta.",
+      "keywords": [
+        "familia",
+        "presupuesto",
+        "compras"
+      ],
+      "prompt_ia": "a family organizing food groceries on a kitchen counter with empty spaces",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La trampa vive en los empaques rediseñados para disimular el vacío interior. La única defensa es mirar el precio por gramo impreso abajo en la etiqueta del estante.",
+      "keywords": [
+        "compras",
+        "ahorro"
+      ],
+      "prompt_ia": "hand holding a magnifying glass checking price tags on supermarket shelves",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Comprar con datos reales te ayuda a proteger el dinero de tu hogar. Suscríbete al canal para cuidar tu presupuesto todos los meses.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "person happily holding a notepad while budgeting on a laptop at home",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "reduflación",
+    "inflación",
+    "finanzas personales",
+    "ahorro en mercado",
+    "canasta familiar",
+    "presupuesto",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_041",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
