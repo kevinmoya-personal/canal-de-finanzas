@@ -1,0 +1,119 @@
+{
+  "titulo": "Por qué el avance en efectivo destruye tu bolsillo",
+  "titulos_alternativos": [
+    "El cobro oculto de sacar efectivo con tarjeta",
+    "La trampa de los avances con tu tarjeta de crédito"
+  ],
+  "tema": "Cobro inmediato de interés máximo en avances en efectivo con tarjeta de crédito",
+  "texto_portada": "¡AVANCE EN\nEFECTIVO!",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Retirar efectivo de tu tarjeta devora tu plata al instante. No existe el periodo de gracia. Desde el primer segundo los bancos te cobran la tasa de interés más alta permitida por la ley.",
+      "keywords": [
+        "tarjeta",
+        "dinero",
+        "banco"
+      ],
+      "prompt_ia": "Close up of an automated teller machine dispensing paper currency notes under moody studio lighting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando compras un televisor, el banco sabe en qué gastaste. En cambio, sacar billetes del cajero les indica un riesgo de iliquidez grave. Por eso activan la tarifa máxima inmediata.",
+      "keywords": [
+        "compras",
+        "estres",
+        "banco"
+      ],
+      "prompt_ia": "A worried person looking at a credit card statement next to a laptop on a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "En una compra a una cuota no pagas intereses durante un mes. Pero en un avance de quinientos mil pesos, los cobros corren desde el día uno.",
+      "keywords": [
+        "interes",
+        "calculadora",
+        "deuda"
+      ],
+      "prompt_ia": "A financial calculator resting on top of official banking papers with a pen",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Inicio de cobro de intereses",
+        "etiquetas": [
+          "Compra normal",
+          "Avance efectivo"
+        ],
+        "valores": [
+          30,
+          1
+        ],
+        "prefijo": "",
+        "sufijo": " días"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Si haces esto seguido para completar el mes, tu deuda se multiplica en silencio. Un avance debe ser únicamente para una emergencia extrema, nunca para cubrir tus gastos diarios.",
+      "keywords": [
+        "presupuesto",
+        "salario"
+      ],
+      "prompt_ia": "A pair of hands carefully organizing paper bills inside a leather wallet",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Cuidar tu bolsillo requiere entender las reglas del juego bancario. Suscríbete a Plata con Datos para tomar el control total de tus finanzas.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A serene person smiling calmly while checking personal finance graphics on a tablet screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "tarjeta de credito",
+    "avance en efectivo",
+    "intereses bancarios",
+    "finanzas personales",
+    "tasa de usura",
+    "educacion financiera",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_042",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

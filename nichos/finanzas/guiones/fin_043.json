@@ -1,0 +1,124 @@
+{
+  "titulo": "El peligro del aumento del arriendo según la inflación",
+  "titulos_alternativos": [
+    "Por qué tu arriendo sube más que tu sueldo",
+    "El impacto del IPC en el costo de tu arriendo"
+  ],
+  "tema": "Finanzas personales y vivienda",
+  "texto_portada": "ARRIENDO VS SUELDO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu arriendo subirá más rápido que tu sueldo este año. Cada enero el precio del alquiler se reajusta con la inflación oficial, pero tu bolsillo siente un golpe distinto.",
+      "keywords": [
+        "casa",
+        "inflacion"
+      ],
+      "prompt_ia": "A stressed young person looking at a apartment rental agreement and a calendar",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Si pagabas un millón quinientos mil pesos y la inflación cerró en nueve por ciento, tu nuevo canon aumenta ciento treinta y cinco mil pesos mensuales. Eso representa más de un millón seiscientos mil pesos extra al año.",
+      "keywords": [
+        "calculadora",
+        "dinero"
+      ],
+      "prompt_ia": "Close up of a calculator showing financial calculations with paper receipts",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Aumento mensual de arriendo",
+        "etiquetas": [
+          "Incremento con IPC del nueve por ciento"
+        ],
+        "valores": [
+          135000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El problema real ocurre cuando tu salario sube menos que la inflación. Al mantener tu sueldo estancado con ese reajuste del nueve por ciento, el porcentaje de plata que destinas solo a pagar techo pasa del treinta a casi el treinta y tres por ciento de tus ingresos.",
+      "keywords": [
+        "salario",
+        "presupuesto"
+      ],
+      "prompt_ia": "A wallet with fewer banknotes inside next to monthly bills",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Peso del arriendo en el salario",
+        "etiquetas": [
+          "Antes",
+          "Después"
+        ],
+        "valores": [
+          30,
+          33
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para evitar que el arriendo devore tu presupuesto, proyecta ese aumento con tres meses de anticipación. Renegociar con tiempo o ajustar otros gastos es la única forma de proteger tu tranquilidad financiera.",
+      "keywords": [
+        "tiempo",
+        "estres"
+      ],
+      "prompt_ia": "A person negotiating calmly across a table with a landlord",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "No dejes que los reajustes anuales te tomen por sorpresa. Suscríbete a Plata con Datos para tomar el control de tu bolsillo con números reales.",
+      "keywords": [
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person looking at financial data graphs on a tablet with confidence",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "arriendo",
+    "ipc",
+    "inflacion",
+    "finanzas personales",
+    "salario",
+    "presupuesto"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "Con una inflación del nueve por ciento y un sueldo estancado, la proporción del salario destinada al arriendo pasa del treinta al treinta y dos coma siete por ciento (casi treinta y tres por ciento), no al treinta y cinco por ciento."
+    }
+  ],
+  "id": "fin_043",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
