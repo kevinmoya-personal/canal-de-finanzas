@@ -1,0 +1,115 @@
+{
+  "titulo": "Por qué malgastas la plata que te llega de sorpresa",
+  "titulos_alternativos": [
+    "La trampa mental que se come tus ingresos extra",
+    "El error psicológico al gastar dinero inesperado"
+  ],
+  "tema": "Contabilidad mental y dinero inesperado",
+  "texto_portada": "TRAMPA DEL DINERO EXTRA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Gastas tu dinero extra como si fuera regalado. Tu sueldo mensual y una prima inesperada valen exactamente lo mismo. Sin embargo, tu cerebro los clasifica en cajones diferentes y distorsiona tu realidad financiera.",
+      "keywords": [
+        "dinero",
+        "salario"
+      ],
+      "prompt_ia": "A person looking at a bonus paycheck money envelope with excitement",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La psicología llama a esto contabilidad mental. Si recibes quinientos mil pesos con el sudor de tu trabajo, los proteges con cuidado. Pero si los ganas en una rifa, te los gastas esa misma noche.",
+      "keywords": [
+        "compras",
+        "datos"
+      ],
+      "prompt_ia": "Brain icons dividing banknotes into separate glowing jar compartments",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El valor real del dinero nunca cambia. Cien mil pesos trabajados pagan exactamente la misma deuda que cien mil pesos recibidos de regalo. Clasificar tu plata por emoción devora tu bolsillo.",
+      "keywords": [
+        "calculadora",
+        "deuda"
+      ],
+      "prompt_ia": "A person comparing two identical stacks of cash side by side on a table",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Mismo valor de compra",
+        "etiquetas": [
+          "Salario",
+          "Ingreso extra"
+        ],
+        "valores": [
+          100000,
+          100000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para evitar esta trampa, asigna un destino a cada ingreso antes de recibirlo. Si tratas todo dinero extra como parte de tu presupuesto mensual, la tentación de malgastarlo desaparece de inmediato.",
+      "keywords": [
+        "presupuesto",
+        "ahorro"
+      ],
+      "prompt_ia": "Hands organizing paper bills into labeled budget folders on a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Toda tu plata cuesta el mismo esfuerzo ganarla. Suscríbete a Plata con Datos para dominar la psicología de tu bolsillo.",
+      "keywords": [
+        "tranquilidad",
+        "inversion"
+      ],
+      "prompt_ia": "A smartphone displaying a financial growth chart with money savings",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "contabilidad mental",
+    "ahorro",
+    "psicología del dinero",
+    "ingresos extra",
+    "educacion financiera"
+  ],
+  "verificacion": [],
+  "id": "fin_045",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

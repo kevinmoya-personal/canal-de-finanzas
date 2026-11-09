@@ -1,0 +1,121 @@
+{
+  "titulo": "Cómo calcular la rentabilidad real de tu inversión",
+  "titulos_alternativos": [
+    "La trampa de la rentabilidad prometida en tu banco",
+    "Calcula cuánto ganas de verdad en tus inversiones"
+  ],
+  "tema": "Cálculo de rentabilidad real descontando inflación y comisiones de administración",
+  "texto_portada": "RENTABILIDAD REAL\n¿CUÁNTO GANAS?",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu rendimiento del diez por ciento es una ilusión. Sin restar la inflación y las comisiones, puedes estar perdiendo plata.",
+      "keywords": [
+        "inversion",
+        "dinero"
+      ],
+      "prompt_ia": "A hand holding a smartphone showing a financial chart with a warning icon",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando pones tu dinero a trabajar, las entidades te muestran el rendimiento bruto. Esa cifra vistosa no considera lo que cuesta mantener la inversión ni cuánto suben los precios en el mercado.",
+      "keywords": [
+        "banco",
+        "calculadora"
+      ],
+      "prompt_ia": "Close up of financial contracts on a wooden desk with a pen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Supón que ganas un diez por ciento. Si la administración te cuesta un dos por ciento y la inflación es del siete por ciento, tu ganancia real es solo de un uno por ciento.",
+      "keywords": [
+        "inflacion",
+        "monedas",
+        "datos"
+      ],
+      "prompt_ia": "A shopping cart next to graphic bars representing rising prices",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Rendimiento descontado",
+        "etiquetas": [
+          "Prometido",
+          "Comisión",
+          "Inflación",
+          "Real"
+        ],
+        "valores": [
+          10,
+          2,
+          7,
+          1
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La rentabilidad real mide cuánto aumenta de verdad tu poder de compra. Si los cobros y la inflación suman más que tu retorno, tu patrimonio pierde valor cada año.",
+      "keywords": [
+        "ahorro",
+        "compras"
+      ],
+      "prompt_ia": "Stack of gold coins diminishing in size step by step",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Resta siempre los costos ocultos antes de entregar tus ahorros. Síguenos para aprender a cuidar tu plata con datos reales.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A person looking happy while managing budget on tablet at home",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "inversiones",
+    "rentabilidad real",
+    "inflacion",
+    "comisiones bancarias",
+    "educacion financiera",
+    "finanzas personales",
+    "ahorro"
+  ],
+  "verificacion": [],
+  "id": "fin_044",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

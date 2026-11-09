@@ -1,0 +1,219 @@
+{
+  "titulo": "El riesgo oculto de consolidar todas tus deudas",
+  "titulos_alternativos": [
+    "Por qué consolidar tus deudas puede salirte muy caro",
+    "El error al refinanciar deudas que arruina tu bolsillo"
+  ],
+  "tema": "Desventajas de extender demasiado el plazo al consolidar deudas",
+  "texto_portada": "TRAMPA DE\nCONSOLIDAR DEUDAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Bajar tu cuota mensual de crédito puede costarte una fortuna. Consolidar varias deudas en una sola parece la salvación para liberar dinero cada mes. El banco te ofrece una cuota limpia y pequeña que da respiro a tu bolsillo. Sin embargo, al aceptar un plazo mucho más largo cometes un error grave. Los intereses se siguen calculando mes a mes durante años adicionales. Al final de la cuenta, al extender el plazo de dos a cinco años, podrías terminar pagando un treinta y ocho por ciento más en total.",
+      "keywords": [
+        "deuda",
+        "banco",
+        "dinero"
+      ],
+      "prompt_ia": "A worried person looking at credit card statements and bills spread out on a wooden table, warm soft lighting",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Sobrecosto total por alargar el plazo",
+        "etiquetas": [
+          "Intereses adicionales pagados"
+        ],
+        "valores": [
+          38
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El espejismo del flujo de caja ocurre cuando miramos únicamente el pago del mes presente. Imagina que debes diez millones de pesos repartidos entre dos tarjetas de crédito y un préstamo libre inversión. Las cuotas sumadas alcanzan los seiscientos mil pesos mensuales y ahogan tu presupuesto. El banco te propone una consolidación con una cuota de trescientos mil pesos. Sientes de inmediato que ganaste trescientos mil pesos libres para tus gastos diarios. La realidad es que no redujiste tu deuda real sino la velocidad a la que la pagas.",
+      "keywords": [
+        "tarjeta",
+        "presupuesto",
+        "salario"
+      ],
+      "prompt_ia": "A person organizing money bills into monthly budget envelopes on a desk",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Cuota mensual antes y después",
+        "etiquetas": [
+          "Cuotas separadas",
+          "Deuda consolidada"
+        ],
+        "valores": [
+          600000,
+          300000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El tiempo es el factor más destructivo cuando se trata de pagar intereses. Un crédito a una tasa del dos por ciento mensual pagado a dos años genera una cantidad de interés controlada. Si ese mismo monto lo extiendes a cinco años, la cifra final prestada al banco se multiplica. Aunque la tasa de la compra de cartera sea un poco más baja que la de tus tarjetas, el efecto del tiempo sobrepasa cualquier descuento inicial. Estar pagando durante sesenta meses le entrega a la entidad financiera miles de pesos sobrantes que salieron de tu esfuerzo diario.",
+      "keywords": [
+        "tiempo",
+        "interes",
+        "banco"
+      ],
+      "prompt_ia": "An hourglass standing on top of stack of loan documents in an office setting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Revisemos los datos reales con un ejemplo práctico de tu bolsillo. Supongamos diez millones de pesos de deuda total. A un plazo de veinticuatro meses con las tasas habituales terminas pagando cerca de trece millones de pesos en total entre capital e intereses. Si consolidas esa misma cifra a cinco años para tener una cuota pequeña, el pago total puede ascender a dieciocho millones de pesos. Te ahorraste unos pesos cada mes pero regalaste cinco millones de pesos adicionales al banco. Es el precio invisible de comprar tranquilidad inmediata.",
+      "keywords": [
+        "calculadora",
+        "datos",
+        "monedas"
+      ],
+      "prompt_ia": "Close up of a calculator next to stacks of coins showing financial growth and expense",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Pago total según el plazo elegido",
+        "etiquetas": [
+          "Plazo de 24 meses",
+          "Plazo de 60 meses"
+        ],
+        "valores": [
+          13000000,
+          18000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Existe un peligro psicológico enorme al consolidar que destruye tus finanzas. Cuando la unificación liquida el saldo de tus tarjetas de crédito, estos plásticos quedan con cupo totalmente disponible. Sientes que estás libre de deudas y que tu capacidad de gasto ha regresado. Si no cambias tus hábitos de consumo, volverás a usar la tarjeta para compras del mercado o gustos del fin de semana. En pocos meses tendrás la cuota de la consolidación más los nuevos saldos de la tarjeta. Es el camino directo hacia un sobreendeudamiento peligroso.",
+      "keywords": [
+        "estres",
+        "compras",
+        "tarjeta"
+      ],
+      "prompt_ia": "A person looking thoughtful while holding a credit card inside a modern shopping mall",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "No olvides los costos de operación que acompañan a cualquier refinanciación de cartera. Las entidades cobran seguros de vida asociados al crédito por cada mes que dura el contrato. Al pasar de un plazo corto a uno largo, pagas tres o cuatro años adicionales de primas de seguro. También existen gastos administrativos, comisiones de estudio de crédito y costos de cancelación anticipada en algunas entidades. Cada uno de estos pequeños montos se suma al capital inicial y empieza a generar intereses a su favor desde el primer día.",
+      "keywords": [
+        "banco",
+        "deuda",
+        "trabajo"
+      ],
+      "prompt_ia": "Bank documents with a pen resting on top of detailed financial fine print terms",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Consolidar deudas sí es una herramienta inteligente si la utilizas con la estrategia correcta. La clave consiste en buscar una tasa de interés significativamente menor y mantener el mismo plazo de tiempo que ya tenías. Si debías tus tarjetas a dos años y logras una menor tasa, pagarás unos dos millones de pesos en intereses frente a los ocho millones de pesos de extender el plazo. De esta manera, el descuento en la tasa impacta directamente la cuota y reduce el costo total del crédito. Nunca uses la consolidación para alargar innecesariamente tus compromisos financieros salvo una emergencia extrema.",
+      "keywords": [
+        "inversion",
+        "meta",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A clean organized desk with a notebook showing financial targets and a pen",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Interés pagado según la estrategia",
+        "etiquetas": [
+          "Manteniendo plazo",
+          "Extendiendo plazo"
+        ],
+        "valores": [
+          2000000,
+          8000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Si ya aceptaste una unificación a un plazo largo, la solución es realizar abonos extraordinarios a capital. Puedes aprovechar los ingresos adicionales como la prima legal, las cesantías o la venta de algún artículo para reducir el saldo. Cada peso que abonas directamente al capital recortará los meses de intereses futuros. Si mantienes la disciplina de pagar un poco más de la cuota mínima obligatoria, neutralizas el efecto del plazo extenso y recuperas el control de tus finanzas personales de manera efectiva.",
+      "keywords": [
+        "ahorro",
+        "casa",
+        "familia"
+      ],
+      "prompt_ia": "A happy family sitting together in a cozy living room reviewing home finances",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tomar decisiones con datos reales es la única forma de proteger la plata que ganas con tanto trabajo. Antes de firmar cualquier refinanciación, saca la calculadora y multiplica la cuota por el número total de meses. Exige al banco el cuadro completo de pagos y compara el costo total antes y después del trámite. La tranquilidad de hoy no puede construirse empeñando el dinero de tu futuro. Suscríbete a Plata con Datos para seguir aprendiendo a manejar tu dinero con cabeza fría y números claros.",
+      "keywords": [
+        "datos",
+        "dinero",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person smiling confidently while reviewing financial charts on a laptop screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "consolidacion de deudas",
+    "compra de cartera",
+    "finanzas personales",
+    "intereses bancarios",
+    "tarjetas de credito",
+    "ahorro de dinero",
+    "plata con datos",
+    "educacion financiera"
+  ],
+  "verificacion": [
+    {
+      "seccion": "hook",
+      "motivo": "El valor del treinta y ocho por ciento que figura en la gráfica no se menciona en el texto de la sección ni cuenta con supuestos explícitos en este fragmento."
+    },
+    {
+      "seccion": "punto_6",
+      "motivo": "Los valores de la gráfica (dos millones y ocho millones de pesos) no están mencionados expresamente en el texto de la sección."
+    }
+  ],
+  "id": "fin_046",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
