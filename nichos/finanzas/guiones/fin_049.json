@@ -1,0 +1,120 @@
+{
+  "titulo": "El impacto de las horas nocturnas en tu prima",
+  "titulos_alternativos": [
+    "Por qué tus recargos aumentan tus cesantías",
+    "Calcula bien tu prima si trabajas de noche"
+  ],
+  "tema": "Recargos nocturnos y festivos en el cálculo de prestaciones sociales",
+  "texto_portada": "TU PRIMA SUBE ASÍ",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tus horas nocturnas aumentan tu pago de prima. Muchos empleados creen que los recargos por trasnochar solo entran en la nómina del mes. La realidad es muy diferente.",
+      "keywords": [
+        "trabajo",
+        "salario"
+      ],
+      "prompt_ia": "A worker reviewing official pay slip documents at night in an office setup",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando trabajas de noche o en dominicales, esos recargos forman parte de tu salario variable. La ley exige promediar todos tus ingresos del semestre para calcular la prima. Si no los sumas, estás regalando tu trabajo.",
+      "keywords": [
+        "datos",
+        "dinero"
+      ],
+      "prompt_ia": "Close up shot of official employment contract paper on wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Imagina un sueldo básico de un millón de pesos. Si sumas doscientos mil pesos mensuales en recargos, tu base real pasa a un millón doscientos mil pesos. En un año, tus cesantías suben doscientos mil pesos extra.",
+      "keywords": [
+        "calculadora",
+        "presupuesto"
+      ],
+      "prompt_ia": "Hands calculating salary numbers with desk calculator and paperwork",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Base de liquidación mensual",
+        "etiquetas": [
+          "Sueldo básico",
+          "Base con recargos"
+        ],
+        "valores": [
+          1000000,
+          1200000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Lo mismo ocurre con tus cesantías y sus intereses. Si tu nómina cambia cada mes por los turnos nocturnos, la empresa debe calcular el promedio exacto de los últimos doce meses.",
+      "keywords": [
+        "tiempo",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Pleased worker looking at official financial statement on monitor screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa tu desprendible de pago hoy mismo. Síguenos en Plata con Datos para cuidar tu dinero.",
+      "keywords": [
+        "ahorro"
+      ],
+      "prompt_ia": "Piggy bank sitting next to financial paper records on clean desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas",
+    "nomina",
+    "prima",
+    "cesantias",
+    "trabajo",
+    "salario",
+    "colombia"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "El cálculo del incremento anual de las cesantías es erróneo. Al aumentar la base de liquidación mensual en doscientos mil pesos, el valor anual de las cesantías (que corresponde a un mes de salario por año trabajado) aumenta en doscientos mil pesos y no en cien mil."
+    }
+  ],
+  "id": "fin_049",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,121 @@
+{
+  "titulo": "Por qué pedir varios créditos a la vez daña tu puntaje",
+  "titulos_alternativos": [
+    "El peligro de solicitar muchas tarjetas en poco tiempo",
+    "Por qué rechazan tus créditos si no tienes deudas"
+  ],
+  "tema": "Impacto de múltiples consultas a centrales de riesgo en el puntaje crediticio",
+  "texto_portada": "CUIDADO CON\nTU SCORE",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Pedir tres tarjetas la misma semana destruye tu score. Parece una estrategia inteligente para buscar la mejor opción, pero las centrales de riesgo lo interpretan como desesperación financiera.",
+      "keywords": [
+        "tarjeta",
+        "estres"
+      ],
+      "prompt_ia": "A close up of a person looking anxious holding three credit cards in front of a laptop screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cada vez que pides un préstamo, el banco revisa tu historial crediticio. Esa búsqueda queda registrada inmediatamente como una consulta formal en tu reporte.",
+      "keywords": [
+        "banco",
+        "datos"
+      ],
+      "prompt_ia": "A bank officer analyzing financial report files on a digital dashboard with graphs",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Acumular cinco consultas en un solo mes activa las alarmas del sistema. Tu puntaje puede caer hasta cuarenta puntos sin haber recibido un solo peso prestado.",
+      "keywords": [
+        "deuda",
+        "dinero"
+      ],
+      "prompt_ia": "A financial gauge meter dropping drastically from green into red territory",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Caída del puntaje por consultas",
+        "etiquetas": [
+          "Sin consultas",
+          "Cinco consultas"
+        ],
+        "valores": [
+          750,
+          710
+        ],
+        "prefijo": "",
+        "sufijo": " pts"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para proteger tu perfil, compara las tasas de interés por tu cuenta antes de solicitar. Deja pasar al menos tres meses entre cada intento para mantener la confianza del banco.",
+      "keywords": [
+        "tiempo",
+        "calculadora",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Hands using a sleek calculator beside a desk with organized financial documents",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Espera recomendada entre solicitudes",
+        "etiquetas": [
+          "Meses de distancia"
+        ],
+        "valores": [
+          3
+        ],
+        "prefijo": "",
+        "sufijo": " meses"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tu reputación financiera te abre las puertas a mejores créditos. Suscríbete a Plata con Datos y aprende a cuidar tu dinero con información real.",
+      "keywords": [
+        "interes",
+        "presupuesto"
+      ],
+      "prompt_ia": "A relaxed professional smiling while looking at a green positive balance on a smartphone",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "score crediticio",
+    "datacredito",
+    "centrales de riesgo",
+    "tarjetas de credito",
+    "finanzas personales",
+    "plata con datos",
+    "historial crediticio"
+  ],
+  "verificacion": [],
+  "id": "fin_048",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

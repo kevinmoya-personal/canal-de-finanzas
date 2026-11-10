@@ -1,0 +1,119 @@
+{
+  "titulo": "El error de contratar un seguro de vida con ahorro",
+  "titulos_alternativos": [
+    "Seguro puro o con ahorro: cual te conviene mas",
+    "La trampa financiera de los seguros de vida con ahorro"
+  ],
+  "tema": "Diferencia financiera entre un seguro de vida puro y uno con componente de ahorro",
+  "texto_portada": "SEGURO O INVERSIÓN",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu seguro con ahorro rinde menos que una alcancía. La promesa de proteger a tu familia y recuperar tu plata parece perfecta. Sin embargo, las comisiones ocultas destruyen tu rentabilidad.",
+      "keywords": [
+        "ahorro",
+        "familia"
+      ],
+      "prompt_ia": "A sad man looking at a financial contract with small print, dark atmospheric office background",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Un seguro de vida puro solo cobra por cubrir un riesgo real. Es una cuota baja que garantiza tranquilidad económica a tus seres queridos si llegas a faltar.",
+      "keywords": [
+        "tranquilidad",
+        "dinero"
+      ],
+      "prompt_ia": "A protective shield over a family icon on a wooden table, soft warm lighting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "En cambio, el seguro con ahorro mezcla la protección con una bolsa de inversión. El problema es que la aseguradora descuenta costos de administración gigantescos antes de hacer crecer tu capital.",
+      "keywords": [
+        "banco",
+        "inversion"
+      ],
+      "prompt_ia": "A hand putting money into a piggy bank while fine print costs fade into the background",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Si compras el seguro puro y pones la diferencia a rentar por tu cuenta a una tasa del diez por ciento anual, obtendrás mejores resultados. Con esa rentabilidad, el capital acumulado por separado puede ser hasta ochenta por ciento mayor tras diez años.",
+      "keywords": [
+        "calculadora",
+        "meta"
+      ],
+      "prompt_ia": "A financial calculator next to glowing upward growth charts on a wooden desk",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Capital final tras diez años",
+        "etiquetas": [
+          "Mezclado",
+          "Separado"
+        ],
+        "valores": [
+          100,
+          180
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Separar la protección de la inversión cuida tu bolsillo y hace rendir tu dinero. Suscríbete a Plata con Datos para tomar decisiones financieras con números reales.",
+      "keywords": [
+        "presupuesto",
+        "datos"
+      ],
+      "prompt_ia": "A person holding a smartphone showing clean financial data charts, modern office",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "seguros",
+    "finanzas personales",
+    "seguro de vida",
+    "ahorro e inversion",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_3",
+      "motivo": "La cifra del ochenta por ciento no era verificable al no declarar la tasa de rendimiento asumida para la inversión independiente. Se incluye el supuesto de una rentabilidad del diez por ciento anual, adecuado para Colombia."
+    }
+  ],
+  "id": "fin_047",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,220 @@
+{
+  "titulo": "Cómo construir un plan de ahorro real ajustado por la inflación",
+  "titulos_alternativos": [
+    "Paso a paso para que tus ahorros no pierdan valor con el tiempo",
+    "El método definitivo para ahorrar con metas fijas e inflación"
+  ],
+  "tema": "Finanzas personales y planificación de ahorro ajustado por inflación",
+  "texto_portada": "AHORRA SIN\nPERDER PLATA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu meta de ahorro de hoy no alcanzará mañana. Guardar una cifra fija durante cinco años para comprar un vehículo o dar la cuota inicial de una vivienda es una trampa silenciosa. Si guardas un millón de pesos hoy pensando en gastarlo en un lustro, el aumento sostenido del costo de vida se habrá comido una gran tajada de tu poder de compra. El precio del mercado, los servicios públicos y la finca raíz suben año tras año. Sin embargo, la gran mayoría de las personas calcula sus metas de dinero como si los precios fueran a quedarse congelados para siempre. En este video aprenderás a construir un plan de ahorro con objetivos claros y fechas fijas, ajustando cada cifra con el índice de inflación real. De esta forma aseguras que la plata que guardas mantenga su valor intacto.",
+      "keywords": [
+        "ahorro",
+        "inflacion",
+        "dinero"
+      ],
+      "prompt_ia": "A glass jar filled with paper money sitting on a wooden table while a shadowy clock gear moves in the background representing time passing",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El primer paso indispensable para que un plan de ahorro funcione es definir un objetivo con nombre, fecha y monto exacto. Decir simplemente que quieres ahorrar plata para el futuro no sirve de nada porque tu cerebro no reacciona ante metas vagas. Necesitas ponerle una etiqueta clara a ese dinero. Por ejemplo, tu meta puede ser reunir diez millones de pesos para cambiar tu carro dentro de tres años. Al definir un plazo de tres años, automáticamente sabes cuántos meses tienes por delante para lograrlo. Si no pones una fecha límite, el ahorro se convierte en una tarea opcional que vas postergando cada vez que se atraviesa un antojo. Cuando tienes la cifra fija y el tiempo límite, tu presupuesto adquiere una estructura matemática real que puedes medir mes a mes sin espacio para la improvisación.",
+      "keywords": [
+        "meta",
+        "presupuesto",
+        "tiempo"
+      ],
+      "prompt_ia": "A person writing financial goals on a crisp white notebook with a pen beside a desk calendar",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Aquí es donde la mayoría comete el error fatal. Si tu meta es de diez millones de pesos para dentro de cinco años y divides esa suma entre sesenta meses, calculas que debes guardar unos ciento sesenta y siete mil pesos mensuales. Pero dentro de cinco años diez millones de pesos no van a comprar el mismo bien que compran hoy. Si la inflación promedio se mantiene cerca del seis por ciento anual, el poder adquisitivo de ese dinero cae bruscamente. En el año uno tu plata rinde al cien por ciento, pero en el año tres ya equivale a unos ocho millones cuatrocientos mil pesos de hoy, y al llegar al año cinco esos diez millones guardados solo equivalen a unos siete millones quinientos mil pesos de hoy. Has guardado la cifra exacta, pero no alcanzaste la meta real.",
+      "keywords": [
+        "datos",
+        "calculadora",
+        "monedas"
+      ],
+      "prompt_ia": "A visual representation of money shrinking in purchasing power over time showing falling stacked coins",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Pérdida de poder de compra",
+        "etiquetas": [
+          "Año uno",
+          "Año tres",
+          "Año cinco"
+        ],
+        "valores": [
+          10000000,
+          8400000,
+          7500000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para evitar que la subida de precios arruine tu esfuerzo debes hacer el cálculo del ajuste por inflación desde el primer momento. Si proyectas una meta a tres o cinco años, debes tomar el índice de inflación anual esperado y sumárselo al valor final de tu objetivo. Si la meta inicial era de diez millones de pesos y prevemos una inflación acumulada del treinta por ciento en cinco años, el objetivo real al final del periodo debe ser de trece millones de pesos. Esto cambia por completo tu plan de aportes mensuales. Ahora sabes exactamente cuánto debes guardar cada mes para llegar a la cifra corregida. Ajustar la meta desde el inicio te protege contra las sorpresas y te da la tranquilidad de que al cumplir el plazo tendrás la capacidad de compra completa.",
+      "keywords": [
+        "calculadora",
+        "inflacion",
+        "meta"
+      ],
+      "prompt_ia": "Close up of hands using a financial calculator next to official economic chart papers",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Meta sin ajuste vs ajustada",
+        "etiquetas": [
+          "Meta original",
+          "Meta ajustada"
+        ],
+        "valores": [
+          10000000,
+          13000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Una vez que conoces la cuota mensual corregida no debes confiar en la fuerza de voluntad. El secreto de las finanzas personales sostenibles es la automatización. Programa una transferencia automática en la app de tu banco para el mismo día en que recibes tu salario o tu pago mensual. La plata destinada a tus metas debe salir de tu cuenta principal antes de que puedas gastarla en salidas, compras improvisadas o gustos menores. Si esperas a guardar lo que te sobra a final de mes, nunca te va a quedar nada. Trata a tu meta de ahorro ajustada como si fuera una factura de arriendo o un servicio público indispensable. Al separar ese dinero automáticamente dejas de sentir el sufrimiento de ahorrar y conviertes el hábito en un proceso invisible pero poderoso.",
+      "keywords": [
+        "banco",
+        "salario",
+        "celular"
+      ],
+      "prompt_ia": "A modern smartphone showing a successful automatic banking transfer notification screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "No dejes la plata acumulada debajo del colchón ni en una cuenta corriente que pague cero intereses. Si guardas dinero en efectivo la inflación se lo come por completo. Para construir un plan verdaderamente blindado debes buscar productos financieros seguros que te paguen una tasa de rendimiento igual o superior a la inflación. En nuestra región existen cuentas de ahorro de alto rendimiento y certificados a término fijo que ofrecen retornos anuales de hasta el nueve o diez por ciento. Mientras el dinero guardado debajo del colchón pierde valor y una cuenta tradicional paga apenas un dos por ciento anual, los instrumentos de alto rendimiento compensan la subida del costo de vida. De este modo tu plata crece al mismo ritmo que la economía.",
+      "keywords": [
+        "inversion",
+        "interes",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A glowing financial growth chart overlaid with gold coins showing secure compounding yields",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Rendimiento anual estimado",
+        "etiquetas": [
+          "Efectivo",
+          "Cuenta corriente",
+          "Cuenta alto rendimiento"
+        ],
+        "valores": [
+          0,
+          2,
+          9
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Un plan de ahorro ajustado no es una camisa de fuerza rígida sino un mapa vivo. Cada doce meses debes sentarte a hacer una revisión detallada de tus avances. Es necesario revisar el comportamiento oficial del índice de precios al consumidor publicado por las entidades de estadística de tu país. Si la inflación del año que terminó fue más alta de lo que habías proyectado en tu plan inicial, debes recalcular la cuota mensual para los siguientes meses. La gran ventaja es que por lo general tu salario o tus ingresos independientes también se reajustan a principio de año. Si dedicas un porcentaje fijo de tu nuevo ingreso a la cuota ajustada, el impacto en tus gastos personales será mínimo y mantendrás el ritmo exacto hacia tu objetivo final.",
+      "keywords": [
+        "datos",
+        "trabajo",
+        "presupuesto"
+      ],
+      "prompt_ia": "A person conducting an annual budget review with documents and charts on a clean wooden table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Hay momentos económicos en los que la inflación se dispara por encima de las expectativas de todos los analistas. En esos casos particulares debes aplicar un reajuste táctico a la cuota que guardas mes a mes. Un aumento directo de la cuota del ocho por ciento en momentos de alta inflación basta para reequilibrar tu presupuesto a largo plazo. Si mantener la cifra completa del ajuste resulta muy pesado debido al costo del mercado o el arriendo, puedes compensar aumentando el plazo de la meta en unos pocos meses. Lo crucial es no suspender el hábito por completo. Reducir temporalmente la cuota o extender el tiempo es infinitamente mejor que cancelar la meta y gastarse lo acumulado. La disciplina constante vence a cualquier turbulencia económica.",
+      "keywords": [
+        "estres",
+        "deuda",
+        "ciudad"
+      ],
+      "prompt_ia": "A balanced scale holding coins on one side and shopping bags on the other under a soft indoor light",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Ajuste anual necesario",
+        "etiquetas": [
+          "Reajuste sugerido a tu cuota"
+        ],
+        "valores": [
+          8
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Ahorrar con metas fijas sin medir la inflación es construir sobre arena. Ahora tienes los pasos precisos para fijar un objetivo realista, ajustar el número final por la subida de precios y proteger tus recursos en instrumentos que rinden de verdad. Pon en práctica este método desde tu próxima nómina para que tu esfuerzo no se diluya con el paso del tiempo. Si quieres aprender a usar datos reales a favor de tu bolsillo y tomar el control total de tu dinero, suscríbete a Plata con Datos. Deja en los comentarios cuál es la primera meta que vas a ajustar hoy mismo y activa la campana para no perderte el próximo análisis.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro",
+        "dinero"
+      ],
+      "prompt_ia": "A confident person closing a laptop at a modern brightly lit home desk with a serene smile",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "plan de ahorro",
+    "ahorro con inflacion",
+    "metas financieras",
+    "finanzas personales",
+    "educacion financiera",
+    "plata con datos",
+    "como ahorrar dinero",
+    "presupuesto mensual",
+    "interes compuesto"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "Con una inflación constante del seis por ciento anual durante cinco años, diez millones de pesos equivalen en poder adquisitivo a unos siete millones quinientos mil pesos de hoy (diez millones divididos entre uno coma cero seis a la quinta potencia da siete millones cuatrocientos setenta y dos mil quinientos ochenta y dos pesos), no siete millones doscientos mil. Asimismo, en el año tres equivalen a unos ocho millones cuatrocientos mil pesos. Por último, diez millones entre sesenta meses equivale a ciento sesenta y siete mil pesos mensuales al redondear."
+    }
+  ],
+  "id": "fin_050",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
