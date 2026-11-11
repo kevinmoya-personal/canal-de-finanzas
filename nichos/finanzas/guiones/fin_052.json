@@ -1,0 +1,117 @@
+{
+  "titulo": "El truco de los precios que te hace gastar más",
+  "titulos_alternativos": [
+    "Por qué la tercera opción de un menú siempre te engaña",
+    "El efecto señuelo que destruye tu presupuesto"
+  ],
+  "tema": "El efecto señuelo en las estrategias de precios",
+  "texto_portada": "TRUCO DE PRECIOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Terminas gastando más plata por culpa de una trampa. Las tiendas agregan un precio intermedio ridículo para hacerte sentir inteligente al comprar la versión más costosa.",
+      "keywords": [
+        "compras",
+        "dinero"
+      ],
+      "prompt_ia": "A close up of a menu board displaying three different pricing packages in a store",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Imagina ir al cine hoy. Un vaso de gaseosa pequeño cuesta ocho mil pesos y el mediano cuesta catorce mil. Por solo mil pesos más te ofrecen el vaso grande por quince mil pesos.",
+      "keywords": [
+        "compras",
+        "calculadora"
+      ],
+      "prompt_ia": "A person looking at three different sizes of soda cups at a movie theater counter",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Precios por tamaño de vaso",
+        "etiquetas": [
+          "Pequeño",
+          "Mediano",
+          "Grande"
+        ],
+        "valores": [
+          8000,
+          14000,
+          15000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El tamaño mediano no existe para venderse. Su único objetivo es distorsionar tu percepción del valor. Frente a la opción intermedia, el tamaño grande parece un regalo y terminas entregando quince mil pesos.",
+      "keywords": [
+        "presupuesto",
+        "tarjeta"
+      ],
+      "prompt_ia": "A shopper looking at prices on a store shelf while holding a wallet",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Este sesgo se llama efecto señuelo y aparece en suscripciones de celular, plataformas de internet y restaurantes. Te hacen creer que ganas dinero cuando en realidad gastas más de lo planeado.",
+      "keywords": [
+        "celular",
+        "datos"
+      ],
+      "prompt_ia": "A person holding a smartphone selecting between digital service subscription plans",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Identificar el precio trampa protege tu presupuesto diario. Antes de pagar la opción más cara, pregúntate si de verdad la necesitas. Suscríbete para defender tu dinero con datos.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro"
+      ],
+      "prompt_ia": "A calm person taking notes on a notepad with coins and a calculator nearby",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "efecto señuelo",
+    "sesgos cognitivos",
+    "ahorro de dinero",
+    "presupuesto",
+    "trucos de marketing"
+  ],
+  "verificacion": [],
+  "id": "fin_052",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

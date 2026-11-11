@@ -1,0 +1,128 @@
+{
+  "titulo": "El peligro financiero de ser codeudor",
+  "titulos_alternativos": [
+    "Por qué nunca deberías ser codeudor de nadie",
+    "El riesgo oculto de firmar deudas ajenas"
+  ],
+  "tema": "Riesgos crediticios de ser codeudor",
+  "texto_portada": "NO FIRMES ESTO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Ser codeudor bloquea tu capacidad de endeudamiento. No estás haciendo un simple favor a un amigo. Para los bancos, esa deuda ajena ahora es tuya al cien por ciento.",
+      "keywords": [
+        "deuda",
+        "banco"
+      ],
+      "prompt_ia": "A close up of a hand holding a pen over a legal loan contract on a desk",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Responsabilidad legal asumida",
+        "etiquetas": [
+          "Deudor principal",
+          "Codeudor"
+        ],
+        "valores": [
+          100,
+          100
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Aunque la otra persona pague puntual, las entidades financieras incluyen la cuota mensual de esa deuda dentro de tus gastos obligatorios. Si respaldaste diez millones de pesos, tu capacidad de endeudamiento disminuye porque dispones de menos ingresos libres cada mes para asumir nuevas obligaciones.",
+      "keywords": [
+        "calculadora",
+        "salario"
+      ],
+      "prompt_ia": "A bank calculator next to financial balance sheets and documents",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Reducción de cupo crediticio",
+        "etiquetas": [
+          "Monto del crédito",
+          "Tu cupo restado"
+        ],
+        "valores": [
+          100,
+          100
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si el titular se atrasa un solo día, la mora mancha tu historial crediticio. La plata no salió de tu bolsillo, pero el reporte negativo destruye tu puntaje.",
+      "keywords": [
+        "estres",
+        "datos"
+      ],
+      "prompt_ia": "A worried person looking at red financial decline graphics on a screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Salirte de esa deuda es casi imposible antes de que termine el plazo. La entidad bancaria solo aceptará retirarte si el deudor consigue otro fiador con mejores ingresos.",
+      "keywords": [
+        "casa",
+        "tiempo"
+      ],
+      "prompt_ia": "A modern bank building exterior with glass windows under sunlight",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Aprender a decir que no a tiempo protege tu futuro financiero. Suscríbete a Plata con Datos para cuidar tu dinero con información real.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A relaxed person looking out a window enjoying coffee in a comfortable home",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "codeudor",
+    "credito",
+    "deudas",
+    "datacredito",
+    "bancos",
+    "score crediticio",
+    "educacion financiera"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "El banco no resta el capital total de la deuda de los ingresos mensuales ni reduce el cupo de crédito en un cien por ciento. En su lugar, suma la cuota mensual del crédito respaldado a los gastos del codeudor, lo que disminuye su capacidad de pago disponible para nuevos préstamos."
+    }
+  ],
+  "id": "fin_051",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,217 @@
+{
+  "titulo": "El truco del banco para ocultar el interés real",
+  "titulos_alternativos": [
+    "Cómo calcular el interés efectivo anual de tu tarjeta",
+    "La fórmula para saber cuánto te cobra el banco al año"
+  ],
+  "tema": "Cómo calcular la tasa de interés efectivo anual a partir del interés mes vencido en tu extracto",
+  "texto_portada": "INTERÉS REAL REVELADO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu banco te oculta el costo real del crédito. Miras tu extracto bancario y lees dos por ciento mes vencido. Piensas de inmediato que multiplicando ese valor por doce obtendrás el coste total de tu deuda. Crees que tu crédito te cuesta un veinticuatro por ciento al año. Esa idea es un error muy común y costoso. La matemática de los bancos opera de una forma diferente. Cada mes los intereses se acumulan sobre el saldo anterior. Dejarte llevar por la cifra pequeña del extracto te hace gastar mucho más de lo planificado. Si no entiendes cómo pasar de la tasa mensual a la tasa efectiva anual, estás pagando deudas sin saber su precio verdadero. Hoy vas a aprender a calcular la cifra real con datos exactos y sin complicaciones.",
+      "keywords": [
+        "banco",
+        "deuda",
+        "tarjeta"
+      ],
+      "prompt_ia": "A close up view of a monthly bank statement showing interest rate numbers with a magnifying glass over it",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "En el mundo de las finanzas personales existen dos formas principales de presentar los intereses. Por un lado está la tasa nominal y por el otro la tasa efectiva. La tasa mes vencido es la cifra que ves cada mes en el cobro de tu tarjeta de crédito o en tu préstamo de libre inversión. Parece un número pequeño e inofensivo. Un dos por ciento o un dos punto cinco por ciento no asusta a nadie a primera vista. La realidad es que esa cifra representa únicamente el cobro por un periodo de treinta días. Al finalizar ese mes el banco calcula los cargos sobre el saldo pendiente. Si no saldas la totalidad de la deuda ese cobro se integra al capital del mes siguiente. Este mecanismo se repite doce veces al año. Por esa razón la tasa mensual vencida nunca debe analizarse de manera aislada si quieres cuidar tu presupuesto mensual.",
+      "keywords": [
+        "tarjeta",
+        "compras",
+        "salario"
+      ],
+      "prompt_ia": "A person looking thoughtful at a credit card bill on a clean wooden table with a cup of coffee nearby",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La mayoría de las personas comete el fallo de usar la multiplicación simple. Toman el dos por ciento mes vencido y lo multiplican por los doce meses del año. El resultado de esa operación da veinticuatro por ciento. Esa cifra se conoce en el mercado como tasa nominal anual. El problema radica en que la tasa nominal es solo una referencia teórica. No refleja la cantidad exacta de dinero que sale de tu bolsillo. Si hicieras un solo pago al final del año sin cuotas intermedias esa cifra sería correcta. Sin embargo en la vida real pagas cada mes. El banco te cobra intereses sobre los intereses generados previamente. Al aplicar el interés compuesto la tasa real sube casi tres puntos porcentuales. Pasa de un veinticuatro por ciento teórico a un veintiséis punto ochenta y dos por ciento efectivo anual.",
+      "keywords": [
+        "calculadora",
+        "dinero",
+        "interes"
+      ],
+      "prompt_ia": "A desk with financial documents, a calculator showing calculations, and stacks of coins side by side",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Comparativa tasa anual 2% mensual",
+        "etiquetas": [
+          "Suma simple",
+          "Efectivo anual"
+        ],
+        "valores": [
+          24,
+          26.82
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para entender el verdadero costo de un crédito necesitas conocer la fórmula del interés efectivo anual. No te asustes con las matemáticas porque el concepto es muy sencillo. La regla fundamental consiste en capitalizar el cobro mensual durante doce periodos. Lo primero que debes hacer es tomar la tasa de interés mensual vencida y dividirla entre cien para convertirla en un decimal. Si tu extracto indica un dos por ciento mensual el decimal correspondiente es cero punto cero dos. A ese valor le sumas el número uno. Obtienes así uno punto cero dos. Ese uno representa tu capital original y el cero punto cero dos representa el costo del primer mes. Este valor base es la clave de todo el cálculo financiero. A partir de esta cifra simple podrás descubrir en pocos pasos cuánto te cuesta financiar cualquier compra durante un año entero.",
+      "keywords": [
+        "datos",
+        "presupuesto",
+        "tiempo"
+      ],
+      "prompt_ia": "A neat notebook with clear mathematical formulas written in blue ink next to a laptop displaying financial charts",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "El siguiente paso requiere elevar esa cifra base a la potencia de doce. Elegimos doce porque un año entero contiene exactamente doce meses de cobro. Si multiplicas uno punto cero dos por sí mismo doce veces el resultado es uno punto veintiséis ochenta y dos. Este número contiene tanto tu capital inicial como la suma de todos los intereses compuestos del año. Para aislar únicamente la tasa de interés debes restar el uno que agregaste al principio. El resultado es cero punto veintiséis ochenta y dos. Finalmente multiplicas ese valor por cien para volver a expresarlo como un porcentaje. El resultado definitivo es veintiséis punto ochenta y dos por ciento. Esa es la tasa efectiva anual real. Como ves esta cifra es considerablemente mayor al veinticuatro por ciento que obtendrías con una multiplicación simple.",
+      "keywords": [
+        "calculadora",
+        "monedas",
+        "interes"
+      ],
+      "prompt_ia": "A clean modern smartphone displaying a scientific calculator app with clear numbers on screen",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Efecto del interés compuesto",
+        "etiquetas": [
+          "Nominal multiplicada",
+          "Efectiva calculada"
+        ],
+        "valores": [
+          24,
+          26.82
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Hagamos un segundo ejemplo con una tasa habitual en las tarjetas de crédito de la región. Supongamos que tu extracto bancario señala un interés del dos punto cinco por ciento mes vencido. Si aplicas el cálculo erróneo de multiplicar por doce pensarías que la tasa anual es del treinta por ciento. Vamos a hacer la matemática correcta paso a paso. Convertimos el dos punto cinco por ciento a decimal y nos da cero punto cero veinticinco. Le sumamos uno y obtenemos uno punto cero dos cincuenta. Elevamos uno punto cero dos cincuenta a la doce potencia. El resultado de esa operación es uno punto treinta y cuatro cuarenta y nueve. Restamos uno y nos queda cero punto treinta y cuatro cuarenta y nueve. Al multiplicar por cien obtenemos un treinta y cuatro punto cuarenta y nueve por ciento efectivo anual. La diferencia frente al cálculo simple es de casi cinco por ciento adicional.",
+      "keywords": [
+        "banco",
+        "celular",
+        "deuda"
+      ],
+      "prompt_ia": "An overhead view of hands holding a smartphone reviewing online banking details with glowing charts",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Tasa efectiva real para 2.5% mensual",
+        "etiquetas": [
+          "Efectivo anual real"
+        ],
+        "valores": [
+          34.49
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Cuando entiendes este cálculo tu forma de ver el extracto bancario cambia para siempre. En la parte inferior de tu comprobante mensual la entidad financiera está obligada por ley a incluir la tasa efectiva anual. Sin embargo la mayoría de los usuarios ignora ese recuadro con números pequeños y se queda solo con el interés mensual. Mirar únicamente la tasa mes vencido te genera una falsa sensación de control. Piensas que estás pagando poco dinero porque la cifra no supera el tres por ciento. Una tasa mensual del tres por ciento equivale en realidad a un cuarenta y dos punto cincuenta y siete por ciento efectivo anual. Cuando compras un celular o un electrodoméstico a veinte cuotas ese porcentaje mensual destruye tu capacidad de ahorro. Cada vez que vayas a pedir un crédito busca siempre la casilla de la tasa efectiva anual.",
+      "keywords": [
+        "inflacion",
+        "salario",
+        "ahorro"
+      ],
+      "prompt_ia": "A close up shot of a paper bank statement highlighting small print legal text and interest percentages",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Tasa mensual vs Efectivo anual",
+        "etiquetas": [
+          "2.0% mensual",
+          "2.5% mensual",
+          "3.0% mensual"
+        ],
+        "valores": [
+          26.82,
+          34.49,
+          42.57
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Las entidades financieras prefieren promocionar las tasas en formato mensual vencido por razones de mercadeo. Un cobro del dos por ciento suena mucho más atractivo y accesible que una tasa anual del veintiséis por ciento. La mente humana procesa con mayor facilidad las cifras pequeñas y cercanas en el tiempo. Al ver un número bajo en la publicidad sientes que tu salario podrá asumir las cuotas sin ningún esfuerzo. Sin embargo al sumar el efecto del seguro de vida de deudores y las cuotas de manejo la tasa efectiva real se incrementa todavía más. Por esta razón las decisiones de endeudamiento nunca deben tomarse en el punto de venta ni bajo emoción. Calcular el interés efectivo antes de firmar cualquier pagaré te protege contra la acumulación de deudas impagables y mantiene la salud de tu bolsillo.",
+      "keywords": [
+        "estres",
+        "compras",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A modern bank branch building exterior with clean glass reflections during a sunny day",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Saber calcular el interés efectivo anual a partir de tu extracto te da el control total sobre tus deudas. Ya no caerás en la trampa de las cifras engañosas ni de las mensualidades aparentemente baratas. Antes de aceptar cualquier préstamo o pagar en cuotas haz esta matemática simple en tu teléfono. Tu dinero vale mucho y cada punto porcentual de interés ahorrado se queda en tu bolsillo. Si quieres aprender a manejar tu plata con datos reales y cifras transparentes haz clic en el botón de suscripción. Únete a nuestra comunidad para descubrir cómo proteger tus ingresos y tomar decisiones financieras inteligentes todos los días.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro",
+        "dinero"
+      ],
+      "prompt_ia": "A relaxed person sitting on a sofa looking at a smartphone screen with a soft warm lighting background",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "interes efectivo anual",
+    "interes mes vencido",
+    "tasa de interes",
+    "extracto bancario",
+    "tarjeta de credito",
+    "finanzas personales",
+    "interes compuesto",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_5",
+      "motivo": "Al convertir dos punto cinco por ciento a decimal el resultado correcto es cero punto cero veinticinco (o cero punto cero dos cinco), no cero punto cero dos veinticinco, que equivale a dos punto veinticinco por ciento."
+    }
+  ],
+  "id": "fin_054",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

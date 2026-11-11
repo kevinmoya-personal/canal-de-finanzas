@@ -1,0 +1,127 @@
+{
+  "titulo": "Cómo pagar menos retención en la fuente con tu pensión",
+  "titulos_alternativos": [
+    "El truco legal para reducir impuestos en tu nómina",
+    "Ahorra en impuestos usando tu pensión voluntaria"
+  ],
+  "tema": "Aportes voluntarios a pensión para reducir retención en la fuente",
+  "texto_portada": "PAGA MENOS\nIMPUESTOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Regalas una tajada de tu salario todos los meses. Hacer aportes voluntarios a tu pensión reduce de inmediato la retención en la fuente que te descuentan en la nómina.",
+      "keywords": [
+        "salario",
+        "jubilacion",
+        "dinero"
+      ],
+      "prompt_ia": "A salary paystub showing tax deductions next to a stack of coins on a office desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando tu sueldo supera cierto límite, el Estado te descuenta un porcentaje antes de pagar tu nómina. Es plata que pierdes de inmediato cada mes.",
+      "keywords": [
+        "trabajo",
+        "banco",
+        "presupuesto"
+      ],
+      "prompt_ia": "A worried employee looking at a smartphone banking application showing tax deductions",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si ganas diez millones de pesos y aportas un millón de pesos a pensión voluntaria, la base sobre la cual te calculan la retención se reduce a nueve millones de pesos. Reduces el impuesto de contado.",
+      "keywords": [
+        "calculadora",
+        "datos",
+        "ahorro"
+      ],
+      "prompt_ia": "Hands calculating tax savings using a sleek financial calculator on a clean modern desk",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Base para calcular impuestos",
+        "etiquetas": [
+          "Sin aporte",
+          "Con aporte"
+        ],
+        "valores": [
+          10000000,
+          9000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Ese dinero no se regala. Se queda guardado en tu fondo acumulando rendimientos a tu nombre para el futuro, en lugar de irse directamente a los impuestos.",
+      "keywords": [
+        "inversion",
+        "tranquilidad",
+        "monedas"
+      ],
+      "prompt_ia": "A glass jar accumulating gold coins next to a growing green plant symbolizing long term wealth",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Entender las normas financieras te permite cuidar cada peso con inteligencia. Suscríbete para tomar decisiones informadas con datos reales sobre tu dinero.",
+      "keywords": [
+        "meta",
+        "tiempo",
+        "dinero"
+      ],
+      "prompt_ia": "A person looking at a bright financial future on a laptop screen in a cozy modern room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "retencion en la fuente",
+    "pensiones voluntarias",
+    "impuestos colombia",
+    "ahorro de impuestos",
+    "finanzas personales",
+    "plata con datos",
+    "descuentos de nomina",
+    "educacion financiera"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "Un salario de cinco millones de pesos en Colombia no paga retención en la fuente, ya que tras descontar los aportes obligatorios de salud y pensión y el veinticinco por ciento de renta exenta, la base gravable no supera el umbral de noventa y cinco unidades de valor tributario. Para ejemplificar el efecto del aporte voluntario se debe usar un ingreso mayor sobre el cual sí aplique la retención."
+    }
+  ],
+  "id": "fin_053",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
