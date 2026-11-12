@@ -1,0 +1,121 @@
+{
+  "titulo": "El costo oculto de decir que sí a la propina diaria",
+  "titulos_alternativos": [
+    "La propina diaria se come más de un sueldo al año",
+    "El impacto real del diez por ciento en tu bolsillo"
+  ],
+  "tema": "Gasto hormiga en propina voluntaria",
+  "texto_portada": "PROPINA DIARIA\nTE DESANGRA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu propina diaria voluntaria devora más de un sueldo. Decir que sí al diez por ciento en cada factura parece un gesto menor, pero la suma anual te sorprenderá.",
+      "keywords": [
+        "dinero",
+        "estres"
+      ],
+      "prompt_ia": "A close up of a restaurant bill on a wooden table with a card reader showing a tip prompt",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Dejar diez mil pesos diarios entre el almuerzo laboral y un café parece insignificante. Al terminar el mes, esa pequeña costumbre suma trescientos mil pesos silenciosos.",
+      "keywords": [
+        "compras",
+        "presupuesto"
+      ],
+      "prompt_ia": "A person paying for a coffee and daily lunch at a cafe counter using a payment terminal",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Gasto acumulado en propinas",
+        "etiquetas": [
+          "Diario",
+          "Mensual"
+        ],
+        "valores": [
+          10000,
+          300000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "En doce meses, esa rutina acumula tres millones seiscientos mil pesos. La cifra equivale a casi tres salarios mínimos que salieron voluntariamente de tu bolsillo.",
+      "keywords": [
+        "salario",
+        "calculadora"
+      ],
+      "prompt_ia": "A hand operating a calculator next to stacks of bank notes representing annual savings",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Total de propinas acumuladas al año",
+        "etiquetas": [
+          "Gasto total en doce meses"
+        ],
+        "valores": [
+          3600000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "El cobro del servicio es voluntario en la legislación. Premiar la buena atención es válido, pero aceptarlo por inercia destruye la capacidad de tu presupuesto.",
+      "keywords": [
+        "tarjeta",
+        "datos"
+      ],
+      "prompt_ia": "A credit card tap payment being processed on a terminal in a modern restaurant",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa siempre la cuenta antes de acercar tu tarjeta al datáfono. Suscríbete para proteger tu plata con datos reales y tomar el control total.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro"
+      ],
+      "prompt_ia": "A smiling person reviewing a receipt calmly with smartphone in hand showing personal finance app",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "ahorro",
+    "gasto hormiga",
+    "propina",
+    "presupuesto",
+    "educacion financiera",
+    "colombia",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_057",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

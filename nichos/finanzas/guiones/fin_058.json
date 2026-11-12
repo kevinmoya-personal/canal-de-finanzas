@@ -1,0 +1,215 @@
+{
+  "titulo": "Cómo refinanciar tu deuda con el banco sin pagar intermediarios",
+  "titulos_alternativos": [
+    "Guía para negociar deudas directamente con tu banco",
+    "Elimina tus deudas sin regalar tu dinero a terceros"
+  ],
+  "tema": "Refinanciación de deudas sin intermediarios",
+  "texto_portada": "NEGOCIA TU DEUDA\nSIN INTERMEDIARIOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu banco prefiere renegociar directamente contigo sin cobrarte ninguna comisión. Las agencias externas prometen descuentos milagrosos a cambio de cuotas altas y tajadas desmedidas de tu dinero. Muchas personas acuden a ellas por puro desespero al recibir llamadas de cobro constantes a diario. Sin embargo, esas agencias hacen exactamente los mismos trámites que tú podrías hacer sin gastar nada. Las entidades financieras cuentan con departamentos especializados de normalización de cartera creados para recuperar el dinero de forma amigable. Entender cómo piensa la entidad y tomar la iniciativa te ahorrará millones de pesos en cobros de honorarios. En este video aprenderás el paso a paso detallado para renegociar tus obligaciones directamente con tu institución financiera, recuperando tu tranquilidad de fondo sin regalar tu plata a terceros.",
+      "keywords": [
+        "banco",
+        "deuda",
+        "dinero"
+      ],
+      "prompt_ia": "A worried person looking at credit card statements and bills at a desk with a warm desk lamp",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Contratar una reparadora de crédito suele aumentar tu carga financiera en lugar de aliviarla. Muchas de estas firmas solicitan un pago inicial por apertura y cobros mensuales mientras ahorras en una cuenta que ellos mismos administran. Durante todo ese tiempo tu morosidad sigue creciendo en el banco original y los intereses por mora se acumulan día tras día. Adicionalmente, estas empresas se quedan con hasta un veinte por ciento de la quita o rebaja que logren conseguir con la entidad. Si una deuda original de diez millones de pesos se negocia para saldarse con cinco millones, la agencia puede cobrarte un millón de pesos por la simple gestión. Ese dinero sale directamente de tu bolsillo y destruye la ventaja del descuento alcanzado. Al hacer el trámite de forma directa con el banco, ese millón completo se queda en tu cuenta personal. Aprender a gestionar tu dinero es el primer paso para proteger tu patrimonio.",
+      "keywords": [
+        "tarjeta",
+        "ahorro",
+        "presupuesto"
+      ],
+      "prompt_ia": "Close up of money being divided on a wooden table next to a calculator",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Cobro típico de intermediarios",
+        "etiquetas": [
+          "Comisión del descuento logrado"
+        ],
+        "valores": [
+          20
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La regulación financiera obliga a las entidades bancarias a congelar recursos cuando un cliente entra en mora prolongada. Este mecanismo se conoce como provisión bancaria y representa un costo operativo muy alto para cualquier institución. Mientras que un crédito al día apenas exige guardar en reserva un cinco por ciento, cuando dejas de pagar por más de noventa días la entidad debe guardar en sus reservas hasta el cien por ciento del valor de tu crédito para cubrir una posible pérdida definitiva. Ese dinero congelado en el fondo de reserva no puede ser prestado ni rentabilizado por el banco, lo que disminuye las ganancias globales del negocio. Por este motivo exacto, a la institución financiera le resulta sumamente conveniente recuperar al menos una parte del capital prestado antes que mantener la obligación congelada. Conocer esta realidad te coloca en una posición de ventaja estratégica al momento de hablar. El banco prefiere recibir una propuesta de pago estructurada antes que asumir el costo de congelar fondos o pagar abogados externos.",
+      "keywords": [
+        "banco",
+        "datos",
+        "estres"
+      ],
+      "prompt_ia": "Modern banking corporate building interior with digital data graphs overlay",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Reserva obligatoria del banco",
+        "etiquetas": [
+          "Crédito al día",
+          "Mora noventa días"
+        ],
+        "valores": [
+          5,
+          100
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "El mayor error al buscar refinanciar una deuda es prometer cuotas que no vas a poder cumplir en el futuro. Antes de marcar el número telefónico del banco, debes armar un presupuesto estricto que determine tu capacidad real de pago. Resta tus costos indispensables de vivienda, alimentación, transporte y servicios básicos de tu salario mensual. El saldo sobrante es la cifra máxima disponible para asignar al pago de tus deudas. En una estructura equilibrada, los gastos vitales representan alrededor del setenta por ciento del ingreso, dejando un treinta por ciento libre para ahorro o pago de obligaciones. Si tu saldo disponible para deudas es de trescientos mil pesos mensuales, no aceptes cuotas de quinientos mil por la presión del asesor telefónico. Aceptar acuerdos imposibles genera un segundo incumplimiento que elimina la confianza de la institución y cierra las puertas a condonaciones futuras.",
+      "keywords": [
+        "calculadora",
+        "salario",
+        "presupuesto"
+      ],
+      "prompt_ia": "Hands writing budget numbers in a notebook next to a modern smartphone with spreadsheet",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Distribución para negociación",
+        "etiquetas": [
+          "Gastos vitales",
+          "Disponible para deuda"
+        ],
+        "valores": [
+          70,
+          30
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Llamar al centro de atención telefónica general del banco suele llevar a respuestas automáticas e ineficientes. Para lograr un acuerdo real debes solicitar el traslado de tu caso al departamento de normalización de cartera o soluciones de pago. En las etapas iniciales de retraso, entre uno y treinta días de mora, el banco solo te pedirá ponerte al día pagando recargos por mora. Sin embargo, cuando la deuda alcanza entre sesenta y ciento veinte días de morosidad, los asesores de esa área especializada adquieren facultades para aplicar acuerdos de pago flexibles. En esta etapa puedes solicitar la consolidación de varios créditos en una sola cuota, la extensión del plazo o la congelación temporal de intereses. Hablar de forma serena y fundamentada con el funcionario adecuado transforma una llamada tormentosa de cobro en una mesa de negociación efectiva.",
+      "keywords": [
+        "celular",
+        "tiempo",
+        "deuda"
+      ],
+      "prompt_ia": "Person sitting comfortably speaking calm on the phone holding notes at home",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Al sentarte a negociar existen dos caminos principales según tu capacidad económica del momento. Si cuentas con un flujo de caja mensual apretado pero estable, la refinanciación con ampliación de plazo disminuye la cuota mensual. Pasar de un crédito acordado a tres años hacia un plazo mayor permite amortiguar la presión mensual sobre tu bolsillo. Por otro lado, si lograste reunir un capital de contado mediante ahorros o venta de activos, el pago único con condonación de intereses es la opción más potente. En esta modalidad la entidad financiera puede condonar hasta el ochenta por ciento de los intereses de mora acumulados si realizas un pago inmediato sobre el capital pendiente. Analizar cuál de las dos alternativas protege mejor tu liquidez inmediata evitará decisiones apresuradas que comprometan tus finanzas a largo plazo.",
+      "keywords": [
+        "interes",
+        "monedas",
+        "dinero"
+      ],
+      "prompt_ia": "A financial balance scale showing money coins on one side and calendar on the other side",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Condonación potencial de mora",
+        "etiquetas": [
+          "Interés cobrado",
+          "Interés condonado"
+        ],
+        "valores": [
+          20,
+          80
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Jamás realices un depósito o transferencia basado únicamente en una conversación telefónica informal. Cualquier oferta de refinanciación o acuerdo de condonación parcial debe entregarse mediante un documento formal firmado por la entidad bancaria. Esta carta de acuerdo tiene que detallar con precisión el saldo total adeudado, el porcentaje exacto de condonación otorgado, la fecha límite de pago y la obligación del banco de entregar el paz y salvo definitivo. Muchos usuarios cometen el error de transferir plata tras escuchar promesas verbales de un gestor de cobranza y descubren luego que el dinero ingresó como un abono corriente sin borrar la deuda principal. Exigir el documento escrito con membrete antes de desembolsar cualquier suma protege tu patrimonio contra inconsistencias del sistema o abusos comerciales.",
+      "keywords": [
+        "trabajo",
+        "banco",
+        "datos"
+      ],
+      "prompt_ia": "Close up of an official financial contract document being reviewed with a pen on a desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Una vez realizado el pago acordado en el documento, el proceso finaliza al obtener la certificación oficial de deuda saldada. Debes exigir la emisión inmediata de la carta de paz y salvo y confirmar el cierre definitivo del producto crediticio. En las centrales de riesgo, el reporte de la mora cambiará su estado de obligación vencida a cuenta al día por acuerdo de pago. Este cambio de reporte permite que tu puntaje crediticio comience un proceso paulatino de recuperación con el paso de los meses. Aunque la huella de la mora puede permanecer algún tiempo según la ley de tu país, la eliminación de la deuda activa detiene el crecimiento del problema. Guardar el paz y salvo tanto impreso como en formato digital es la mejor protección de tus finanzas personales ante cualquier reclamo posterior.",
+      "keywords": [
+        "tranquilidad",
+        "meta",
+        "ahorro"
+      ],
+      "prompt_ia": "Happy relaxed person sitting outdoors in a city park looking at phone with a smile",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tomar el control de tus deudas sin depender de terceros te ahorra dinero y te devuelve la tranquilidad financiera. Conocer las reglas del sistema bancario y preparar tu presupuesto con datos reales son tus mejores herramientas para negociar con éxito. No pagues honorarios a agencias por trámites que puedes liderar tú mismo con convención y cifras claras en la mano. Si esta información práctica te ayudó a ver una salida clara para tus deudas, suscríbete al canal Plata con Datos. Todos los días publicamos análisis fundamentados y estrategias reales para ayudarte a dominar tu dinero sin caer en trampas. Deja tus preguntas sobre deudas en los comentarios y comparte este video con alguien que necesite negociar sus créditos hoy mismo.",
+      "keywords": [
+        "dinero",
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A clean modern workspace with graphs on a monitor and a cup of coffee",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "refinanciar deuda",
+    "negociar con el banco",
+    "deudas colombia",
+    "salir de deudas",
+    "plata con datos",
+    "ahorro de dinero",
+    "centrales de riesgo"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "El texto explicaba la provisión del cien por ciento para deudas de más de noventa días de mora, pero no mencionaba el valor del cinco por ciento para créditos al día presente en la gráfica."
+    }
+  ],
+  "id": "fin_058",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,124 @@
+{
+  "titulo": "Tu tarjeta de crédito podría estar cobrando una tasa ilegal",
+  "titulos_alternativos": [
+    "La trampa de la tasa de usura que tu banco no explica",
+    "Cómo saber si tu crédito superó el límite legal este mes"
+  ],
+  "tema": "La tasa de usura mensual y el riesgo de cobros ilegales en créditos",
+  "texto_portada": "¡INTERÉS\nILEGAL!",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu banco podría estar cobrándote una tasa ilegal. La tasa de usura cambia cada mes en Colombia. Un interés aceptable en enero puede superar el límite legal en febrero.",
+      "keywords": [
+        "banco",
+        "deuda",
+        "interes"
+      ],
+      "prompt_ia": "A close up of a bank statement document with a red warning stamp on top of financial numbers, dark dramatic lighting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La Superintendencia Financiera certifica el tope máximo de interés permitido. Si la autoridad baja este límite, las entidades financieras deben reajustar sus cobros al instante.",
+      "keywords": [
+        "datos",
+        "tarjeta",
+        "dinero"
+      ],
+      "prompt_ia": "A financial regulator office with modern digital screens showing falling percentage graphs and official documents",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Imagina pagar una tasa del treinta y cinco por ciento anual este mes. Si al mes siguiente el tope legal baja al treinta y tres por ciento anual, mantener la tasa anterior en tu nuevo cobro viola la ley.",
+      "keywords": [
+        "calculadora",
+        "presupuesto",
+        "estres"
+      ],
+      "prompt_ia": "A sleek modern credit card sitting next to a digital display showing percentage numbers in high contrast light",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Límite legal de interés",
+        "etiquetas": [
+          "Mes uno",
+          "Mes dos"
+        ],
+        "valores": [
+          35,
+          33
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Muchos cobros de avance o comisiones también se suman al interés real. Al incluir esas tarifas ocultas, tu crédito puede sobrepasar la tasa de usura sin que lo notes.",
+      "keywords": [
+        "compras",
+        "monedas",
+        "salario"
+      ],
+      "prompt_ia": "A magnifying glass focusing on fine print footnotes of a financial paper, macro photography",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa hoy mismo el extracto de tu tarjeta y compara la tasa aplicable. Síguenos para proteger tu plata con datos reales.",
+      "keywords": [
+        "tranquilidad",
+        "tiempo"
+      ],
+      "prompt_ia": "A person checking financial apps on a smartphone comfortably at a wooden desk with a cup of coffee",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "tasa de usura",
+    "tarjetas de credito",
+    "intereses bancarios",
+    "finanzas personales",
+    "colombia",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "La cuota cobrada en el primer mes era legal bajo el tope de ese momento. Lo que viola la ley es que la entidad financiera siga aplicando la tasa del treinta y cinco por ciento en el nuevo mes cuando el límite legal bajó al treinta y tres por ciento anual."
+    }
+  ],
+  "id": "fin_055",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

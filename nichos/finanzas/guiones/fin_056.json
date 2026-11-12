@@ -1,0 +1,121 @@
+{
+  "titulo": "El tope legal para el aumento de tu arriendo",
+  "titulos_alternativos": [
+    "Lo máximo que pueden subirte el arriendo",
+    "Evita cobros ilegales en tu arriendo este año"
+  ],
+  "tema": "Límite legal del incremento del arriendo residencial según la inflación del año anterior",
+  "texto_portada": "ARRIENDO ABUSIVO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Te están cobrando de más en tu arriendo. Tu arrendador no puede subir el precio al porcentaje que se le antoje por capricho.",
+      "keywords": [
+        "casa",
+        "estres"
+      ],
+      "prompt_ia": "A stressed tenant looking at a rental agreement bill with a worried expression inside a cozy apartment",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La ley protege tu bolsillo fijando un tope legal muy claro. El incremento del alquiler de vivienda urbana nunca puede superar la inflación del año anterior.",
+      "keywords": [
+        "inflacion",
+        "presupuesto"
+      ],
+      "prompt_ia": "A conceptual depiction of economic inflation affecting housing costs with a scale and house icon",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si la inflación oficial fue del nueve por ciento, tu arriendo sube máximo un nueve por ciento. Este ajuste solo aplica al cumplir doce meses de contrato.",
+      "keywords": [
+        "calculadora",
+        "datos"
+      ],
+      "prompt_ia": "A close up of a person calculating percentages on a modern desk with financial charts",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Tope máximo de incremento",
+        "etiquetas": [
+          "Límite legal fijado por la inflación"
+        ],
+        "valores": [
+          9
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Haz las cuentas de inmediato. Si pagas un millón de pesos de arriendo, el aumento máximo de noventa mil pesos deja tu cuota en un millón noventa mil pesos.",
+      "keywords": [
+        "dinero",
+        "salario"
+      ],
+      "prompt_ia": "Hands counting cash notes neatly placed next to a monthly budget planner on a table",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Ejemplo de ajuste legal",
+        "etiquetas": [
+          "Canon actual",
+          "Aumento tope",
+          "Nuevo canon"
+        ],
+        "valores": [
+          1000000,
+          90000,
+          1090000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Exige tus derechos legales con datos reales en la mano. Suscríbete a Plata con Datos para defender siempre tu dinero.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro"
+      ],
+      "prompt_ia": "A smiling young person relaxed in a modern living room looking confident",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "arriendo",
+    "finanzas personales",
+    "inflacion",
+    "ley de arrendamiento",
+    "ahorro",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_056",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
