@@ -1,0 +1,221 @@
+{
+  "titulo": "El impacto oculto de las horas extra en tu salario",
+  "titulos_alternativos": [
+    "Cómo los recargos nocturnos aumentan tus prestaciones",
+    "El valor real de tus horas extra en la liquidación"
+  ],
+  "tema": "El impacto real de las horas extra y recargos nocturnos en el cálculo global del salario y las prestaciones sociales.",
+  "texto_portada": "HORAS EXTRA\nTU DINERO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu recargo nocturno multiplica la prima de diciembre. Mucha gente cree que trabajar de noche o quedarse un par de horas adicionales solo sirve para tener algo más de dinero en la billetera el fin de semana. Es un error de apreciación muy frecuente. Ese dinero adicional que entra a tu cuenta no es un simple bono temporal. En realidad modifica por completo el valor de cada uno de tus derechos laborales. Si trabajas turnos nocturnos o dominicales con frecuencia, tu salario real es mucho más alto de lo que dice tu contrato básico. Cuando la empresa calcula tus prestaciones sociales al final del año o al terminar la relación de trabajo, debe sumar cada una de esas horas trabajadas. Quien ignora la matemática detrás de los recargos suele regalar bastante dinero sin darse cuenta.",
+      "keywords": [
+        "salario",
+        "trabajo",
+        "dinero"
+      ],
+      "prompt_ia": "A close up shot of a worker looking at a payroll document with a calculator next to it, warm soft lighting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Para entender el efecto total debemos revisar cómo funcionan los porcentajes de recargo sobre la hora ordinaria. En la mayoría de las legislaciones de la región, una hora extra diurna tiene un recargo del veinticinco por ciento, mientras que una hora trabajada de noche tiene un recargo del treinta y cinco por ciento sobre el valor normal. Si esa hora nocturna es además una hora extra, el recargo sube al setenta y cinco por ciento. Y cuando el turno cae en un día de descanso o festivo, la cifra puede duplicarse por completo. Muchos trabajadores miran únicamente el pago del mes corriente. Ven un sobreprecio moderado y no hacen el cálculo acumulado. La verdadera magia financiera ocurre porque estos porcentajes no se pagan como una bonificación aislada. Se integran al concepto de salario devengado.",
+      "keywords": [
+        "datos",
+        "calculadora",
+        "tiempo"
+      ],
+      "prompt_ia": "An overhead view of charts and numbers representing percentages of wage increases on a desk",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Porcentaje de recargo laboral",
+        "etiquetas": [
+          "Extra diurna",
+          "Nocturno básico",
+          "Extra nocturna"
+        ],
+        "valores": [
+          25,
+          35,
+          75
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Hablemos de la prima de servicios. Esta prestación equivale a medio mes de sueldo pagado a mitad de año y otro medio mes pagado en diciembre. Si tu sueldo es fijo, la cuenta es inmediata. Sin embargo, cuando realizas horas extra o recargos nocturnos, tu salario se convierte en un salario variable. Esto obliga a la empresa a sacar el promedio de todo lo que ganaste durante el semestre completo. Si en tres de los seis meses trabajaste jornadas nocturnas pesadas, ese dinero extra eleva el promedio de todo el periodo. El resultado es que tu pago de prima al final del semestre será considerablemente mayor que medio sueldo básico. Si la empresa te paga la prima basándose solo en tu sueldo básico sin promediar los recargos, te está quitando lo que te corresponde por ley.",
+      "keywords": [
+        "dinero",
+        "presupuesto",
+        "trabajo"
+      ],
+      "prompt_ia": "A person organizing envelope payments on a clean table representing bi-annual bonus payouts",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Salario promedio semestre",
+        "etiquetas": [
+          "Sueldo básico",
+          "Con recargos"
+        ],
+        "valores": [
+          1500000,
+          2100000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Las cesantías sufren un impacto todavía mayor. Este fondo de ahorro forzoso se calcula acumulando un mes completo de salario por cada año trabajado. Igual que ocurre con la prima, la base para calcular las cesantías de un trabajador con jornadas nocturnas o extras debe ser el promedio del último año. Imagina que tu sueldo base es de un millón quinientos mil pesos, pero por cuenta de las horas extra y los recargos terminaste ganando un promedio de dos millones de pesos al mes. Al cerrar el año, la empresa debe depositar en tu fondo de cesantías dos millones de pesos completos, no el millón quinientos mil del contrato. Esa diferencia de quinientos mil pesos se acumula año tras año produciendo rendimientos a tu favor.",
+      "keywords": [
+        "ahorro",
+        "banco",
+        "meta"
+      ],
+      "prompt_ia": "A piggy bank sitting next to official financial documents and savings passbooks",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Base anual para cesantías",
+        "etiquetas": [
+          "Base contrato",
+          "Promedio real"
+        ],
+        "valores": [
+          1500000,
+          2000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "No podemos olvidar los intereses de las cesantías. En varios países de la región la empresa debe pagarte directamente a ti un doce por ciento anual sobre el saldo acumulado de tus cesantías. Como el saldo de tus cesantías subió gracias al promedio de tus recargos nocturnos, el monto sobre el cual se calcula ese doce por ciento también es más alto. Es un efecto dominó positivo. El trabajo nocturno de enero te da más dinero en el mes, aumenta tu prima de junio, eleva tu prima de diciembre, sube tu depósito de cesantías en febrero y agranda el pago directo de intereses en tu cuenta personal. Cada hora adicional que trabajas tiene una réplica en cuatro pagos distintos a lo largo del año.",
+      "keywords": [
+        "interes",
+        "monedas",
+        "datos"
+      ],
+      "prompt_ia": "A stack of coins growing sequentially to demonstrate compound benefits on savings",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Existe un punto crítico donde muchos empleados pierden plata y son las vacaciones remuneradas. Cuando te tomas tus quince días de descanso, la empresa debe pagarte esos días. Pero atención con este detalle técnico. Para el pago de vacaciones ordinarias, la ley de algunos países excluye el valor de las horas extra habituales si no se pactó lo contrario, aunque sí debe incluir el promedio de los recargos nocturnos habituales. Conocer la diferencia entre una hora extra suplementaria y un recargo nocturno por turno ordinario es fundamental. Si trabajas en un turno rotativo fijo de noche, ese recargo forma parte de tu descanso pagado. Revisar cómo liquida tu empresa el periodo de vacaciones te evita sorpresas desagradables al regresar a la oficina.",
+      "keywords": [
+        "tranquilidad",
+        "tiempo",
+        "salario"
+      ],
+      "prompt_ia": "A relaxed worker looking at a calendar showing vacation days marked in red",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "El impacto a largo plazo más importante ocurre en tu pensión de jubilación. La base sobre la cual cotizas al sistema de pensión y salud es el total de tu ingreso laboral mensual. Si ganas recargos nocturnos y horas suplementarias de forma continua, tu ingreso base de cotización sube inmediatamente, reflejando un incremento promedio mensual del treinta y tres por ciento. Esto significa que estás aportando más dinero a tu fondo de pensiones mes a mes. En los sistemas de pensión basados en el promedio de los últimos años de trabajo, haber tenido una carrera con recargos nocturnos constantes se traduce en una mesada pensional permanentemente más alta. No estás trabajando de noche solo para pagar las deudas del presente. Estás construyendo el valor de tu mesada para la vejez.",
+      "keywords": [
+        "jubilacion",
+        "casa",
+        "familia"
+      ],
+      "prompt_ia": "An elderly couple sitting comfortably in their living room looking peaceful",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Incremento base de cotización",
+        "etiquetas": [
+          "Aumento promedio mensual"
+        ],
+        "valores": [
+          33
+        ],
+        "prefijo": "+",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Un riesgo común en el mercado laboral es que algunas empresas intentan camuflar los recargos bajo la figura de bonos no constitutivos de salario. Te ofrecen una suma fija a fin de mes etiquetada como auxilio de transporte extra o bono de mera liberalidad para no incluirlo en el cálculo de tus prestaciones. Esto es totalmente perjudicial para tu bolsillo. Aunque recibas el mismo efectivo a fin de mes, estás perdiendo el efecto multiplicador en la prima, las cesantías y la pensión. Exigir que cada hora nocturna y cada hora extra figure formalmente en la nómina como recargo legal es la única garantía para proteger tu patrimonio presente y futuro.",
+      "keywords": [
+        "estres",
+        "deuda",
+        "banco"
+      ],
+      "prompt_ia": "A close up of a red pen highlighting irregularities on a payroll check document",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa detalladamente tu desprendible de pago de este mes. Suma las horas trabajadas de noche y comprueba que la base de tus prestaciones refleje exactamente todo tu esfuerzo. Si te apasiona entender los números detrás de tu bolsillo y quieres defender el valor real de tu dinero, suscríbete ahora mismo a Plata con Datos. Activa la campana para no perderte las guías financieras que preparamos cada semana. Déjanos en los comentarios si tu empresa calcula bien tus recargos o si has notado alguna diferencia en tus pagos. Nos vemos en el próximo video para seguir analizando las cifras que de verdad importan a tu economía personal.",
+      "keywords": [
+        "datos",
+        "dinero",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A modern graphic showing a subscription button and notification bell icon over a clean finance background",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "horas extra",
+    "recargo nocturno",
+    "salario variable",
+    "liquidación laboral",
+    "cesantías",
+    "prima de servicios",
+    "derechos laborales",
+    "finanzas personales"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "El texto omite mencionar explícitamente el porcentaje del veinticinco por ciento correspondiente a la hora extra diurna que figura en la gráfica."
+    },
+    {
+      "seccion": "punto_6",
+      "motivo": "El valor del treinta y tres por ciento presente en la gráfica no aparece mencionado en el texto de la sección."
+    }
+  ],
+  "id": "fin_061",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

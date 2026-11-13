@@ -1,0 +1,118 @@
+{
+  "titulo": "Por qué tu aumento de sueldo rinde menos en el mercado",
+  "titulos_alternativos": [
+    "El engaño del aumento salarial frente al precio de la comida",
+    "Tu nuevo salario compra menos alimentos que antes"
+  ],
+  "tema": "Pérdida de poder adquisitivo por inflación de alimentos superior al aumento salarial",
+  "texto_portada": "SUELDO ALTO\nMENOS COMIDA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu nuevo salario compra menos comida que el anterior. Aunque veas más billetes en tu cuenta, la inflación de los alimentos sube a un ritmo superior.",
+      "keywords": [
+        "salario",
+        "compras",
+        "inflacion"
+      ],
+      "prompt_ia": "A close up of a supermarket shopping cart containing very few grocery items on a conveyor belt",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Si tu sueldo sube un diez por ciento pero la comida sube un quince por ciento, pierdes poder de compra. El aumento formal no compensa el costo real.",
+      "keywords": [
+        "datos",
+        "calculadora",
+        "dinero"
+      ],
+      "prompt_ia": "A financial calculator next to grocery receipt and coins on a wooden desk",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Sueldo versus costo de alimentos",
+        "etiquetas": [
+          "Aumento salarial",
+          "Inflación alimentos"
+        ],
+        "valores": [
+          10,
+          15
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Con el mismo presupuesto debes sacar productos del carrito. El arroz, la leche y la carne consumen una tajada mucho mayor de tu ingreso.",
+      "keywords": [
+        "presupuesto",
+        "familia"
+      ],
+      "prompt_ia": "A family reviewing a paper grocery list attentively at a dining table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Al gastar más plata en la canasta básica, recortas tu capacidad de ahorro mensual. Tu presupuesto se aprieta aunque sientas que ganas más.",
+      "keywords": [
+        "ahorro",
+        "estres"
+      ],
+      "prompt_ia": "A person looking thoughtful while managing bills and notebook at home",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Analiza el costo real de tu mercado para proteger tus finanzas. Síguenos en Plata con Datos para tomar decisiones con información.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A person looking confident while holding a smartphone in a bright modern space",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "salario minimo",
+    "inflacion",
+    "finanzas personales",
+    "presupuesto",
+    "economia colombia",
+    "costo de vida",
+    "ahorro"
+  ],
+  "verificacion": [],
+  "id": "fin_060",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

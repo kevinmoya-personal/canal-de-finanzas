@@ -1,0 +1,115 @@
+{
+  "titulo": "Pagas un seguro de viaje que ya tienes gratis",
+  "titulos_alternativos": [
+    "El gasto inútil que haces antes de viajar",
+    "Tu tarjeta de crédito ya cubre tu viaje"
+  ],
+  "tema": "Asistencia médica en viaje incluida en tarjetas de crédito",
+  "texto_portada": "SEGURO VIAJE\n¿GRATIS?",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Regalas trescientos mil pesos cada vez que viajas. Compras un seguro médico internacional en efectivo sin revisar tu tarjeta de crédito. Muchas franquicias bancarias ya te cubren gratis.",
+      "keywords": [
+        "tarjeta",
+        "dinero"
+      ],
+      "prompt_ia": "A traveler standing at an airport check in desk holding money and looking thoughtful",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Las tarjetas de categoría oro o superior suelen incluir seguro de asistencia médica en el exterior. El único requisito principal es pagar la totalidad de tus pasajes con esa tarjeta.",
+      "keywords": [
+        "banco",
+        "compras"
+      ],
+      "prompt_ia": "A person buying airplane tickets online using a gold credit card on a laptop",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Una póliza privada por una semana cuesta unos trescientos mil pesos por persona. Para una familia de cuatro integrantes, este gasto duplicado suma un millón doscientos mil pesos arrojados a la basura.",
+      "keywords": [
+        "familia",
+        "calculadora"
+      ],
+      "prompt_ia": "A family of four walking through an airport terminal carrying luggage",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo de seguro para cuatro personas",
+        "etiquetas": [
+          "Con tarjeta",
+          "En efectivo"
+        ],
+        "valores": [
+          0,
+          1200000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Debes generar el certificado digital en la plataforma de tu franquicia antes de abordar el vuelo. Si descuidas ese trámite previo, la cobertura no se activa y quedas desprotegido.",
+      "keywords": [
+        "celular",
+        "tiempo"
+      ],
+      "prompt_ia": "A smartphone screen showing a travel confirmation document being downloaded",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "No vuelvas a regalar tu plata en protecciones repetidas. Suscríbete a Plata con Datos para cuidar tu bolsillo en cada decisión.",
+      "keywords": [
+        "ahorro",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A clean desk with a passport and a small piggy bank under warm lighting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "tarjetas de credito",
+    "seguro de viaje",
+    "ahorro de dinero",
+    "viajes",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_059",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
