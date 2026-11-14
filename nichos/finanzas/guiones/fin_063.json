@@ -1,0 +1,115 @@
+{
+  "titulo": "El cobro oculto al comprar en dólares con tu tarjeta",
+  "titulos_alternativos": [
+    "Por qué tu compra en dólares te sale más cara",
+    "La trampa de la TRM en tu tarjeta de crédito"
+  ],
+  "tema": "Cálculo de la TRM en compras internacionales con tarjeta de crédito según la fecha de facturación",
+  "texto_portada": "TRM EN COMPRAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu compra en dólares te costará más plata hoy. Pensabas que el precio se congelaba al momento de pagar, pero tu banco no hace la conversión de inmediato.",
+      "keywords": [
+        "tarjeta",
+        "compras"
+      ],
+      "prompt_ia": "A worried person looking at a smartphone shopping transaction alert next to credit cards",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando compras con tu tarjeta internacional, la tasa del dólar no se fija ese día. El banco registra el valor en divisas pero espera hasta la fecha de cierre de tu extracto para pasarlo a pesos.",
+      "keywords": [
+        "banco",
+        "dinero"
+      ],
+      "prompt_ia": "Close up of a credit card statement showing foreign currency conversion columns on a desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si el dólar pasa de cuatro mil pesos el día del pago a cuatro mil doscientos pesos diez días después, pagas doscientos pesos extra por dólar. En cien dólares son veinte mil pesos adicionales.",
+      "keywords": [
+        "inflacion",
+        "calculadora"
+      ],
+      "prompt_ia": "Financial chart showing rising US dollar currency exchange rate spikes",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "TRM Compra vs Facturación",
+        "etiquetas": [
+          "Día compra",
+          "Facturación"
+        ],
+        "valores": [
+          4000,
+          4200
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para evitar sorpresas, puedes abonar a tu tarjeta en dólares antes del corte o realizar tus compras grandes el mismo día de la facturación. Así eliminas la volatilidad cambiaria.",
+      "keywords": [
+        "presupuesto",
+        "tiempo"
+      ],
+      "prompt_ia": "A calendar marked with a deadline circle next to a credit card",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa la fecha de corte en tu extracto antes de gastar en el exterior. Suscríbete a Plata con Datos para cuidar tu dinero con información real.",
+      "keywords": [
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A happy person managing personal finances calmly on a laptop at home",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "trm colombia",
+    "tarjetas de credito",
+    "compras internacionales",
+    "dolar colombia",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_063",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

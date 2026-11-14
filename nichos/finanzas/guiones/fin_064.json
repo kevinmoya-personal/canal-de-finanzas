@@ -1,0 +1,115 @@
+{
+  "titulo": "Por qué tu deuda no desaparece sola a los ocho años",
+  "titulos_alternativos": [
+    "El mito de los ocho años para borrar deudas",
+    "La verdad sobre la prescripción de tus deudas"
+  ],
+  "tema": "Prescripción de deudas y reportes negativos",
+  "texto_portada": "DEUDAS NO\nPRESCRIBEN SOLAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu deuda con el banco no se borra sola. Mucha gente cree que al pasar ocho años la obligación desaparece mágicamente.",
+      "keywords": [
+        "deuda",
+        "banco"
+      ],
+      "prompt_ia": "Close up of an unpaid bill and overdue notice on a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Lo que vence es el reporte negativo en las centrales de riesgo. Tras ese tiempo las bases de datos deben borrar tu castigo. Pero el derecho a cobrarte la plata sigue vivo.",
+      "keywords": [
+        "datos",
+        "tiempo"
+      ],
+      "prompt_ia": "Person looking at credit score data on a computer screen in a dimly lit room",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Tiempo máximo de reporte negativo",
+        "etiquetas": [
+          "Límite en centrales de riesgo"
+        ],
+        "valores": [
+          8
+        ],
+        "prefijo": "",
+        "sufijo": " años"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La prescripción no ocurre por arte de magia. Necesitas la sentencia formal de un juez. Si te hacen una notificación judicial el conteo regresa a cero.",
+      "keywords": [
+        "estres",
+        "calculadora"
+      ],
+      "prompt_ia": "A wooden gavel resting on a legal document inside a court office",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Las casas de cobro compran estas carteras viejas por centavos. Luego buscarán embargar tu salario o la cuenta donde recibes tu mensualidad.",
+      "keywords": [
+        "salario",
+        "tarjeta"
+      ],
+      "prompt_ia": "Concerned person checking a smartphone notification near a credit card",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Protege tu bolsillo con información real antes de responder un cobro. Suscríbete a Plata con Datos para dominar tu dinero.",
+      "keywords": [
+        "tranquilidad",
+        "dinero"
+      ],
+      "prompt_ia": "Confident person reviewing financial papers cleanly organized on a clean modern table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "deudas",
+    "datacredito",
+    "prescripcion de deudas",
+    "bancos",
+    "credito",
+    "ley de habeas data",
+    "educacion financiera"
+  ],
+  "verificacion": [],
+  "id": "fin_064",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,217 @@
+{
+  "titulo": "El costo real de tu crédito de vivienda explicada con números",
+  "titulos_alternativos": [
+    "Lo que nadie te dice sobre los gastos ocultos de tu hipoteca",
+    "Paso a paso para calcular el valor total de tu préstamo de casa"
+  ],
+  "tema": "Cálculo completo del costo total de un crédito de vivienda incluyendo seguros, avalúos y gastos notariales",
+  "texto_portada": "COSTOS OCULTOS\nHIPOTECA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu banco oculta un cobro millonario en tu hipoteca. La tasa de interés que te muestran en la publicidad es solo la punta del iceberg. Entre seguros obligatorios, avalúos comerciales, estudio de títulos y gastos notariales, el valor final de tu vivienda puede subir decenas de millones de pesos. Si calculas tu presupuesto mensual únicamente pensando en el capital y los intereses, vas a terminar con tu cuenta bancaria en rojo antes de recibir las llaves de tu casa. En este video vas a aprender el paso a paso exacto para calcular cada gasto oculto con datos reales y evitar sorpresas desagradables.",
+      "keywords": [
+        "banco",
+        "deuda",
+        "casa"
+      ],
+      "prompt_ia": "A close up photo of a person reading mortgage documents with a stressed expression holding a pen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El primer error al cotizar una hipoteca es mirar únicamente la tasa de interés efectiva anual. Un banco puede ofrecerte una tasa del doce por ciento anual, mientras otra entidad te ofrece el trece por ciento. A simple vista la primera opción parece la más económica para tu bolsillo. Sin embargo, cuando sumas todas las comisiones de administración y los seguros obligatorios asociados, el préstamo con menor tasa de interés puede resultar siendo el más costoso de todos. Por esta razón debes solicitar siempre la tasa de costo efectivo total. Esta cifra reúne el interés puro junto con los desembolsos obligatorios que debes hacer mes a mes durante los quince o veinte años del crédito.",
+      "keywords": [
+        "interes",
+        "datos",
+        "calculadora"
+      ],
+      "prompt_ia": "A financial spreadsheet on a laptop screen next to a calculator showing percentage calculations",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Antes de que la entidad financiera te entregue un solo peso debes pagar costos en efectivo de tu propio bolsillo. El estudio de títulos requiere que un abogado especializado revise toda la historia jurídica del inmueble para verificar que no tenga embargos ni pleitos pendientes. Este trámite suele costar alrededor de cuatrocientos mil pesos. Adicionalmente debes pagar el avalúo comercial realizado por un perito autorizado. Este profesional visita la propiedad para validar que la vivienda realmente vale lo que vas a pagar por ella. El avalúo cuesta cerca de un millón de pesos según el valor comercial de la propiedad. Son casi un millón cuatrocientos mil pesos que debes pagar en efectivo antes del desembolso.",
+      "keywords": [
+        "dinero",
+        "casa",
+        "banco"
+      ],
+      "prompt_ia": "An appraiser inspecting a modern apartment building holding a tablet and measuring equipment",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Gastos iniciales obligatorios",
+        "etiquetas": [
+          "Estudio de título",
+          "Avalúo comercial"
+        ],
+        "valores": [
+          400000,
+          1000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Cada mes junto con la cuota de tu crédito pagas dos seguros obligatorios que aumentan el valor final que sale de tu cuenta. El primero es el seguro de vida deudores, el cual cubre el saldo pendiente de la deuda si el titular fallece o sufre una incapacidad permanente. El segundo es el seguro de incendio y terremoto, encargado de proteger la estructura física del inmueble ante un desastre. El costo de estos seguros no es fijo y se calcula como un porcentaje sobre el saldo de la deuda o sobre el valor de reconstrucción. Para un crédito de doscientos millones de pesos, estos seguros pueden sumar fácilmente entre ciento cincuenta mil y trescientos mil pesos adicionales cada mes.",
+      "keywords": [
+        "deuda",
+        "familia",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A miniature toy house under a protective umbrella on a wooden table with keys nearby",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Seguros mensuales estimados",
+        "etiquetas": [
+          "Límite mínimo",
+          "Límite máximo"
+        ],
+        "valores": [
+          150000,
+          300000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "El día de la firma de escrituras en la notaría trae el cobro más pesado del proceso inicial. Los derechos notariales por la compraventa y la constitución de la hipoteca se dividen entre comprador y vendedor, pero los gastos correspondientes a la hipoteca los asumes tú por completo. A esto debes sumarle el impuesto de registro y los derechos de inscripción en la oficina de instrumentos públicos. Para una vivienda de trescientos millones de pesos, los gastos notariales e impuestos de registro pueden superar fácilmente los nueve millones de pesos en total. Si no cuentas con este dinero disponible en tu cuenta bancaria, no podrás firmar las escrituras aunque tu crédito ya esté aprobado.",
+      "keywords": [
+        "casa",
+        "presupuesto",
+        "dinero"
+      ],
+      "prompt_ia": "Official legal paper document on a dark desk with a fountain pen and stamp ready for signature",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Hagamos el cálculo matemático completo para entender el impacto real de estos cobros. Imagina que pides un crédito de doscientos millones de pesos a quince años con una tasa del doce por ciento anual. La cuota mensual básica de capital e intereses sería de dos millones cuatrocientos mil pesos. Al sumar doscientos mil pesos mensuales de seguros obligatorios, tu cuota real pasa a ser de dos millones seiscientos mil pesos. Durante los quince años que dura la hipoteca terminarás pagando treinta y seis millones de pesos únicamente en pólizas de seguro. Esta cifra representa casi la quinta parte de todo el dinero original que pediste prestado.",
+      "keywords": [
+        "calculadora",
+        "interes",
+        "deuda"
+      ],
+      "prompt_ia": "A stack of hundred dollar bills next to stacked housing models on a blue chart paper background",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Cuota mensual estimada",
+        "etiquetas": [
+          "Cuota base",
+          "Cuota con seguros"
+        ],
+        "valores": [
+          2400000,
+          2600000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "La brecha entre la cuota teórica y el valor cobrado en tu extracto suele tomar por sorpresa a la mayoría de las familias. Los recargos administrativos y las pólizas pueden inflar la cuota mensual entre un diez y un veinticinco por ciento según la entidad. Si tu presupuesto familiar estaba al límite con la tasa básica, este sobrecosto mensual puede poner en peligro tus finanzas. Por esta razón la regla de oro financiera recomienda que la cuota total del crédito, incluyendo todos los seguros y cobros adicionales, no supere nunca el treinta por ciento de tus ingresos netos mensuales. De lo contrario estarás viviendo con un estrés constante por tu dinero.",
+      "keywords": [
+        "estres",
+        "presupuesto",
+        "salario"
+      ],
+      "prompt_ia": "A detailed monthly budget planner notebook open with highlighted expenses and coins nearby",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "La buena noticia es que existen opciones legales para reducir estos sobrecostos mensuales. La mayoría de las personas no sabe que no está obligada a tomar los seguros directamente con la entidad que le otorga el crédito. Tienes la libertad de cotizar estas pólizas por tu cuenta con diferentes aseguradoras del mercado y solicitar un endoso. Si consigues una póliza con las mismas coberturas por un menor costo, el banco está legalmente obligado a aceptarla. Realizar este trámite puede generarte un ahorro de hasta cien mil pesos mensuales en tu cuota, lo que se traduce en hasta dieciocho millones de pesos ahorrados a lo largo de un crédito a quince años.",
+      "keywords": [
+        "ahorro",
+        "banco",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A happy person looking at savings figures on a tablet screen inside a modern bright room",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Ahorro total potencial",
+        "etiquetas": [
+          "Ahorro estimado por endoso de póliza"
+        ],
+        "valores": [
+          18000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Calcular el costo real de tu crédito de vivienda antes de firmar es la diferencia entre hacer una compra inteligente y comprometer tu tranquilidad financiera. Suma los gastos iniciales de estudio de títulos, avalúo y notaría, y revisa siempre la cuota final con seguros incluidos antes de tomar la decisión. Si quieres dominar tus finanzas personales con datos reales y aprender a manejar mejor tu dinero, suscríbete hoy mismo al canal. Déjanos tu opinión en los comentarios sobre la cotización de tu crédito y mantén siempre el control absoluto de tus finanzas.",
+      "keywords": [
+        "meta",
+        "dinero",
+        "casa"
+      ],
+      "prompt_ia": "A clean setup of house keys sitting on an architectural blueprint with light streaming in",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "credito de vivienda",
+    "hipoteca colombia",
+    "gastos notariales",
+    "seguros de hipoteca",
+    "avaluo comercial",
+    "costo total credito",
+    "finanzas personales",
+    "plata con datos",
+    "comprar casa colombia",
+    "intereses hipotecarios"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_7",
+      "motivo": "Si el ahorro mensual es de hasta cien mil pesos, en un crédito de quince años (ciento ochenta meses) el ahorro máximo es de exactamente dieciocho millones de pesos (cien mil por ciento ochenta), por lo que no puede ser 'más de dieciocho millones'."
+    }
+  ],
+  "id": "fin_065",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

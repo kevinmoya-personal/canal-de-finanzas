@@ -1,0 +1,120 @@
+{
+  "titulo": "El truco del impuesto predial que supera a cualquier CDT",
+  "titulos_alternativos": [
+    "Por qué debes pagar el predial en la primera fecha",
+    "El ahorro del predial paga más que una inversión"
+  ],
+  "tema": "Finanzas personales y pago oportuno de impuestos vs inversión en CDT",
+  "texto_portada": "GANA MÁS\nCON EL PREDIAL",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Un descuento en el predial rinde más que tu banco. Pagas diez por ciento menos en un solo mes, mientras un certificado tarda un año entero en darte eso.",
+      "keywords": [
+        "casa",
+        "banco",
+        "dinero"
+      ],
+      "prompt_ia": "A realistic close up of property tax documents next to house keys on a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Aprovechar el primer vencimiento reduce tu factura de forma directa. Si tu impuesto cuesta un millón de pesos, el descuento te liquida cien mil pesos al instante.",
+      "keywords": [
+        "calculadora",
+        "presupuesto"
+      ],
+      "prompt_ia": "A clean view of a person using a calculator with Colombian peso bills on the side",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Ahorro directo inmediato",
+        "etiquetas": [
+          "Descuento de la factura"
+        ],
+        "valores": [
+          100000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Un certificado de depósito rinde cerca del nueve por ciento al año. El descuento del predial te da un diez por ciento de inmediato y sin pagar impuestos.",
+      "keywords": [
+        "inflacion",
+        "inversion"
+      ],
+      "prompt_ia": "A conceptual image of growth charts overlaying financial planning notes",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Rendimiento estimado",
+        "etiquetas": [
+          "Ahorro predial",
+          "Ganancia CDT anual"
+        ],
+        "valores": [
+          10,
+          9
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Usar tu dinero guardado para pagar esta factura antes de tiempo es una decisión muy rentable. Luego repones ese fondo mes a mes con tu salario regular.",
+      "keywords": [
+        "ahorro",
+        "salario"
+      ],
+      "prompt_ia": "A piggy bank sitting next to a calendar showing a marked payment date",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisar el calendario tributario de tu ciudad defiende tu bolsillo. Suscríbete a Plata con Datos para cuidar tu dinero con datos reales.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A modern cityscape at dusk with financial graphs softly glowing in the foreground",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "impuesto predial",
+    "ahorro de dinero",
+    "finanzas personales",
+    "cdt colombia",
+    "descuento predial",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_062",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
