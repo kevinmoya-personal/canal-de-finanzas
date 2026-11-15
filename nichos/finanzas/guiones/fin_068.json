@@ -1,0 +1,119 @@
+{
+  "titulo": "La prima de servicios no sube tu pensión",
+  "titulos_alternativos": [
+    "Por qué tu prima no paga pensión ni salud",
+    "El secreto de la prima de servicios en tu sueldo"
+  ],
+  "tema": "Exclusión de la prima de servicios de los aportes a seguridad social",
+  "texto_portada": "PRIMA SIN\nPENSIÓN",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu prima de servicios no suma nada a tu pensión. Recibes ese dinero completo sin descuentos de salud, pero no aumenta tu base de jubilación futura.",
+      "keywords": [
+        "salario",
+        "jubilacion"
+      ],
+      "prompt_ia": "A Latin American worker looking at a bonus payment receipt with a questioning expression",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Por ley, la prima de servicios no constituye salario. Esto significa que a ese pago extra no le descuentan el cuatro por ciento de salud ni el cuatro por ciento de pensión.",
+      "keywords": [
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "A close up of a calculator and official employment documents on a clean wooden desk",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Descuento de seguridad social",
+        "etiquetas": [
+          "Sueldo mensual",
+          "Prima de servicios"
+        ],
+        "valores": [
+          8,
+          0
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El beneficio de no tener descuentos tiene una contraparte. Como ese ingreso no entra a tu fondo pensional, tu ahorro para el retiro se calcula únicamente sobre tu sueldo ordinario.",
+      "keywords": [
+        "ahorro",
+        "datos"
+      ],
+      "prompt_ia": "An elderly person looking calmly out a window symbolizing retirement planning",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Si tu sueldo es de dos millones de pesos, tu cotización mensual se basa en esa cifra. Al cobrar la prima en junio o diciembre, tu fondo recibe cero pesos adicionales.",
+      "keywords": [
+        "presupuesto",
+        "trabajo"
+      ],
+      "prompt_ia": "A person writing down monthly expenses and salary figures in a budget notebook",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Aporte extra de la prima a pensión",
+        "etiquetas": [
+          "Pesos adicionales aportados"
+        ],
+        "valores": [
+          0
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Conocer la realidad de tus ingresos te permite planear un ahorro independiente. Suscríbete a Plata con Datos para tomar el control de tu bolsillo.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A smiling professional holding a smartphone showing financial growth graphics",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "prima de servicios",
+    "pensión colombia",
+    "seguridad social",
+    "finanzas personales",
+    "salario y prima",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_068",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

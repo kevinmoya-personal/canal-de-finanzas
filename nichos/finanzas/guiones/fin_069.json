@@ -1,0 +1,209 @@
+{
+  "titulo": "Tu nuevo aumento de sueldo desaparecerá sin este truco",
+  "titulos_alternativos": [
+    "Por qué ganas más plata pero sigues sin ahorrar nada",
+    "El error financiero que destruye tu aumento salarial"
+  ],
+  "tema": "El fenómeno de la inflación del estilo de vida al recibir un aumento salarial y cómo evitarlo.",
+  "texto_portada": "MÁS SUELDO\nMISMAS DEUDAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu nuevo sueldo no te dejará más plata. La mayoría de las personas sueñan con una mejora en su salario pensando que resolverá todos sus problemas financieros. Sin embargo, en cuestión de pocos meses terminan en la misma situación exacta de antes. Tienen el doble de ingresos pero las mismas deudas o incluso menos capacidad de ahorro. Este fenómeno se conoce como la inflación del estilo de vida. Sucede de forma silenciosa y gradual. Apenas tu empresa te confirma el incremento salarial, tu cerebro empieza a reprogramar tus gastos. Empiezas a comprar marcas un poco más caras, a pedir domicilios con mayor frecuencia y a decirte a ti mismo que te lo mereces por tu esfuerzo. En este video vas a entender los números detrás de este comportamiento y aprenderás la estrategia exacta para congelar tus gastos y transformar cada peso extra en libertad financiera real.",
+      "keywords": [
+        "salario",
+        "dinero",
+        "estres"
+      ],
+      "prompt_ia": "A worried employee looking at a paycheck statement on a desk with unpaid bills",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La inflación del estilo de vida es una trampa psicológica muy extendida. Cuando tus ingresos aumentan, tus expectativas de consumo crecen al mismo ritmo. No se trata de un problema de falta de dinero sino de gestión del comportamiento. Tu mente se adapta al nuevo nivel de ingresos en un lapso de pocas semanas. Ese beneficio que parecía enorme en el papel se convierte de repente en tu nueva línea base. Si antes te alcanzaba para cubrir lo básico y guardabas algo de dinero, con la subida de sueldo la diferencia suele evaporarse en cosas cotidianas. La presión social también juega un papel clave. Al ganar más plata sientes la obligación invisible de vestir mejor, vivir en una zona más costosa o cambiar tus hábitos de entretenimiento. El resultado es que tu margen de seguridad no crece en absoluto.",
+      "keywords": [
+        "presupuesto",
+        "dinero",
+        "trabajo"
+      ],
+      "prompt_ia": "A professional person walking through a modern business district looking thoughtfully at a tablet",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Los pequeños gastos son los primeros en devorar el dinero nuevo. No sueles gastar el aumento en un solo pago enorme desde el primer día. Lo pierdes en decisiones microscópicas que pasan desapercibidas. Por ejemplo, pasar de preparar el almuerzo en casa a comer en restaurantes ejecutivos todos los días laborales representa una diferencia gigantesca al mes. Considera una persona que pasa de gastar doscientos mil pesos mensuales en gustos informales a gastar quinientos mil pesos casi sin darse cuenta. Esos trescientos mil pesos adicionales de diferencia representan la mitad o la totalidad del aumento que tanto costó conseguir. Suma las suscripciones a servicios que no utilizas, las compras de impulso por aplicaciones móviles y los domicilios de fin de semana. Al final de la quincena tu saldo vuelve a quedar en cero.",
+      "keywords": [
+        "compras",
+        "tarjeta",
+        "celular"
+      ],
+      "prompt_ia": "A hand placing a credit card down next to coffee cups and gourmet food takeout boxes",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Gastos invisibles mensuales",
+        "etiquetas": [
+          "Antes del aumento",
+          "Después del aumento"
+        ],
+        "valores": [
+          200000,
+          500000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "El verdadero peligro aparece al asumir compromisos fijos de largo plazo. Cuando el incremento salarial es considerable, la tentación de mudarse a una vivienda más costosa o asumir la cuota de un carro nuevo es gigantesca. Un arriendo que pasa de un millón doscientos mil pesos a un millón ochocientos mil pesos se traga seis cientos mil pesos de tu flujo mensual de inmediato. No es solo la cuota del inmueble o del vehículo lo que sube. Con una vivienda más grande aumentan los servicios públicos, el costo de la administración y el valor de los seguros. Con un carro nuevo sube el costo de la patente, los mantenimientos y el combustible. Asumir deudas o contratos fijos basados en tu nuevo sueldo te encadena a tu empleo actual y elimina por completo tu flexibilidad financiera ante cualquier emergencia.",
+      "keywords": [
+        "casa",
+        "deuda",
+        "banco"
+      ],
+      "prompt_ia": "A modern apartment key next to a car lease contract on a dark wooden table",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo de arriendo mensual",
+        "etiquetas": [
+          "Arriendo anterior",
+          "Arriendo nuevo"
+        ],
+        "valores": [
+          1200000,
+          1800000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Sin un margen de ahorro real el estrés financiero nunca desaparece. Trabajas más horas, asumes mayores responsabilidades en la oficina y consigues un mejor cargo. Sin embargo, la angustia al llegar el fin de mes sigue siendo exactamente la misma. Ganar más dinero no destruye las deudas por sí solo si tu nivel de consumo escala a la misma velocidad. De hecho, muchas personas con salarios altos viven al borde del colapso económico porque sus costos fijos son desproporcionados. Si pierden su fuente de trabajo no tienen ni siquiera un mes de reserva para cubrir sus obligaciones. La verdadera riqueza no se mide por lo que gastas o por la marca de tu ropa, sino por el tiempo que podrías mantener tu vida sin recibir un salario.",
+      "keywords": [
+        "estres",
+        "tiempo",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A stressed person looking at spreadsheets late at night with a mug of coffee",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "La solución principal es aplicar la regla del cincuenta por ciento al dinero nuevo. Esta norma es sencilla y fácil de implementar. Cada vez que recibas un aumento salarial o una prima adicional, divide ese excedente en dos partes iguales. Supongamos que tu salario neto aumenta en quinientos mil pesos al mes. Destina doscientos cincuenta mil pesos directamente al ahorro, al pago anticipado de deudas o a tus inversiones. Los otros doscientos cincuenta mil pesos los puedes integrar libremente a tu presupuesto de estilo de vida. De esta manera disfrutas el fruto de tu trabajo y mejoras tu día a día, pero al mismo tiempo construyes un patrimonio real. Garantizas que tu capital crezca en cada paso de tu carrera profesional.",
+      "keywords": [
+        "calculadora",
+        "ahorro",
+        "inversion"
+      ],
+      "prompt_ia": "A notepad with handwritten financial percentage calculations alongside a pen and coins",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Destino del aumento de sueldo",
+        "etiquetas": [
+          "Ahorro e inversión",
+          "Estilo de vida"
+        ],
+        "valores": [
+          250000,
+          250000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "El secreto absoluto para no gastar la plata es no verla en tu cuenta. La fuerza de voluntad es un recurso limitado y falla cuando estás cansado o estresado. Por eso debes automatizar la transferencia del dinero ahorrado el mismo día en que recibes el pago de la nómina. Configura en la aplicación de tu banco un débito automático hacia una cuenta de ahorros de alta rentabilidad o un fondo de inversión. Si la transacción se realiza antes de que puedas gastar ese capital, tu mente se adaptará a vivir con el saldo restante sin sufrimiento. Si dejas el dinero en tu cuenta corriente pensando en guardar lo que te sobre al final del mes, el resultado será cero pesos guardados.",
+      "keywords": [
+        "banco",
+        "datos",
+        "monedas"
+      ],
+      "prompt_ia": "A smartphone showing a banking application automated transfer screen",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Ahorro automático recomendado",
+        "etiquetas": [
+          "Del incremento salarial neto"
+        ],
+        "valores": [
+          50
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Actualizar tu presupuesto formalmente evita la fuga descontrolada de capital. Cuando recibas la noticia del incremento de sueldo, siéntate a escribir tus números antes de realizar cualquier compra importante. Revisa tus metas financieras a mediano y largo plazo. Si tenías el objetivo de armar un fondo de emergencia de seis meses de gastos, calcula cuánto tiempo más rápido lo vas a lograr ahora. Si tu meta es dar la cuota inicial de una propiedad o preparar tu jubilación, asigna este nuevo flujo de dinero hacia esos destinos específicos. Darle un propósito claro a cada peso evita que el dinero se diluya en gastos irrelevantes que no aportan a tu felicidad futura.",
+      "keywords": [
+        "meta",
+        "jubilacion",
+        "ciudad"
+      ],
+      "prompt_ia": "A person writing financial targets in a planner notebook next to a laptop",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Un aumento de sueldo es la herramienta más potente para construir tu tranquilidad financiera si sabes utilizarlo. La clave no está en ganar más plata, sino en saber conservar la diferencia. Si aplicas la regla del cincuenta por ciento y automatizas tus aportes desde el primer mes, vas a ver cómo tu patrimonio crece de forma acelerada. No dejes que la inflación de tu estilo de vida te mantenga atrapado en la carrera de la rata. Suscríbete a Plata con Datos para seguir aprendiendo a manejar tus finanzas con números reales y tomar el control definitivo de tu dinero.",
+      "keywords": [
+        "tranquilidad",
+        "dinero",
+        "ahorro"
+      ],
+      "prompt_ia": "A person looking out over a peaceful city skyline holding a cup of coffee with a confident smile",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "inflacion del estilo de vida",
+    "aumento de sueldo",
+    "finanzas personales",
+    "ahorro inteligente",
+    "presupuesto personal",
+    "plata con datos",
+    "libertad financiera"
+  ],
+  "verificacion": [],
+  "id": "fin_069",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

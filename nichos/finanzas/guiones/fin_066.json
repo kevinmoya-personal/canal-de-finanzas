@@ -1,0 +1,113 @@
+{
+  "titulo": "Por qué gastas más plata al pagar con código QR",
+  "titulos_alternativos": [
+    "El truco digital que vacía tu cuenta bancaria",
+    "Pagar con celular te cuesta un catorce por ciento más"
+  ],
+  "tema": "Psicología de los pagos digitales y gasto inconsciente",
+  "texto_portada": "EL TRUCO\nDEL QR",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Escanear un código QR vacía tu cuenta sin dolor. Pagar de forma digital oculta el impacto real de cada compra en tu presupuesto diario.",
+      "keywords": [
+        "celular",
+        "compras"
+      ],
+      "prompt_ia": "A person holding a smartphone scanning a QR code at a store counter",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Entregar billetes físicos le genera dolor real a tu cerebro. Al usar una tarjeta o escanear una pantalla esa molestia desaparece por completo.",
+      "keywords": [
+        "dinero",
+        "tarjeta"
+      ],
+      "prompt_ia": "Close up of hands exchanging cash paper bills over a wooden table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Los datos muestran que gastamos un catorce por ciento más cuando no tocamos el efectivo. En una compra de cien mil pesos terminas pagando catorce mil extra.",
+      "keywords": [
+        "datos",
+        "calculadora"
+      ],
+      "prompt_ia": "A modern calculator resting on top of financial receipts and bank notes",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Aumento de gasto con pagos digitales",
+        "etiquetas": [
+          "Gasto adicional sin efectivo"
+        ],
+        "valores": [
+          14
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para frenar esta fuga retira en efectivo la plata de tus gustos diarios. Al sentir los billetes salir de tus manos lo pensarás dos veces.",
+      "keywords": [
+        "ahorro",
+        "presupuesto"
+      ],
+      "prompt_ia": "A hand putting paper money into a transparent glass jar on a table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Controlar el método de pago protege tu salario cada mes. Suscríbete a Plata con Datos para cuidar tu bolsillo con información real.",
+      "keywords": [
+        "salario",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person looking peacefully at a financial mobile app on their phone",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "ahorro",
+    "pagos digitales",
+    "tarjeta de credito",
+    "codigo qr",
+    "presupuesto"
+  ],
+  "verificacion": [],
+  "id": "fin_066",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

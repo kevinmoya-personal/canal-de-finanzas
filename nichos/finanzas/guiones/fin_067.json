@@ -1,0 +1,123 @@
+{
+  "titulo": "El cobro oculto de tu incapacidad médica corta",
+  "titulos_alternativos": [
+    "Por qué pierdes plata en tu incapacidad médica",
+    "El descuentazo de tu nómina por incapacidad"
+  ],
+  "tema": "Incapacidades médicas cortas y su pago en la nómina",
+  "texto_portada": "INCAPACIDAD CORTA\nMENOS SUELDO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Un permiso médico de dos días recorta tu sueldo. Muchos creen que recibir un certificado oficial protege su pago completo. La realidad es que las pequeñas incapacidades golpean tu bolsillo.",
+      "keywords": [
+        "salario",
+        "trabajo",
+        "dinero"
+      ],
+      "prompt_ia": "A stressed employee sitting at an office desk looking confused at a paycheck breakdown next to a doctor note",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Durante los primeros dos días de enfermedad común, la entidad de salud no paga nada. El empleador asume esos días, pero solo cubre las dos terceras partes de tu salario diario.",
+      "keywords": [
+        "banco",
+        "calculadora",
+        "datos"
+      ],
+      "prompt_ia": "A detailed closeup of a pen writing financial calculations next to standard health form papers",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Pago diario por incapacidad",
+        "etiquetas": [
+          "Día normal",
+          "Día incapacitado"
+        ],
+        "valores": [
+          100,
+          66
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si ganas un millón quinientos mil pesos al mes, tu día vale cincuenta mil pesos. Por dos días de incapacidad no recibes cien mil pesos, sino solo sesenta y seis mil seiscientos sesenta y siete pesos.",
+      "keywords": [
+        "presupuesto",
+        "estres",
+        "monedas"
+      ],
+      "prompt_ia": "A realistic view of paper bills and coins arranged beside a monthly expenditure list on a wooden table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La cobertura de la entidad de salud empieza a regir únicamente desde el tercer día. Por eso, ausentarse un par de días por un malestar leve siempre deja un hueco en tu nómina.",
+      "keywords": [
+        "tiempo",
+        "deuda",
+        "casa"
+      ],
+      "prompt_ia": "A desk calendar showing three days marked off with a red pen under soft daylight",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa siempre tus desprendibles de pago para entender cada descuento. Suscríbete a Plata con Datos para cuidar tu dinero.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A young professional confidently holding a smartphone displaying clear financial metrics",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "incapacidad medica",
+    "descuento de nomina",
+    "finanzas personales",
+    "eps colombia",
+    "salario laboral"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "El cálculo del pago por dos días de incapacidad al sesenta y seis coma sesenta y siete por ciento (dos terceras partes de cien mil pesos) equivale a sesenta y seis mil seiscientos sesenta y siete pesos, no sesenta y seis mil seiscientos pesos."
+    }
+  ],
+  "id": "fin_067",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
