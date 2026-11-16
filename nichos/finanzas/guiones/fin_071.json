@@ -1,0 +1,118 @@
+{
+  "titulo": "El costo oculto del seguro de desempleo en tu crédito",
+  "titulos_alternativos": [
+    "El cobro invisible que encarece tu préstamo",
+    "Por qué tu cuota bancaria sube sin avisar"
+  ],
+  "tema": "Seguro de desempleo en créditos de consumo",
+  "texto_portada": "SEGURO OCULTO EN TU CRÉDITO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Pagas un seguro inútil en cada cuota. Al pedir un crédito de consumo, el banco te suma una póliza de desempleo obligatoria en apariencia.",
+      "keywords": [
+        "banco",
+        "deuda"
+      ],
+      "prompt_ia": "A frustrated person looking at a bank document with hidden fees highlighted",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Por diez millones de pesos prestados, ese seguro suma unos treinta mil pesos al mes. En tres años son más de un millón de pesos que no reducen tu deuda principal.",
+      "keywords": [
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "A stacks of coins disappearing into thin air next to a calculator",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Costo acumulado del seguro",
+        "etiquetas": [
+          "Tres años de cobro"
+        ],
+        "valores": [
+          1080000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Lo peor es que rara vez responde cuando lo necesitas. Las letras pequeñas exigen despidos sin justa causa y excluyen contratos por prestación de servicios.",
+      "keywords": [
+        "estres",
+        "trabajo"
+      ],
+      "prompt_ia": "Close up of a loan contract fine print with red warning symbols",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La ley te permite presentar tu propia póliza o rechazar esa cobertura. Una cuota de trescientos cincuenta mil pesos baja a trescientos veinte mil pesos al cancelar ese cobro.",
+      "keywords": [
+        "tarjeta",
+        "presupuesto"
+      ],
+      "prompt_ia": "Hands removing a unnecessary expense tag from a monthly credit payment statement",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Comparativo de cuota mensual",
+        "etiquetas": [
+          "Con seguro",
+          "Sin seguro"
+        ],
+        "valores": [
+          350000,
+          320000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa el desglose de tu extracto bancario hoy mismo. Suscríbete a Plata con Datos para proteger tu dinero con cifras reales.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A smiling person managing personal finances on a tablet with clean graphs",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "creditos de consumo",
+    "bancos",
+    "ahorro",
+    "seguro de desempleo"
+  ],
+  "verificacion": [],
+  "id": "fin_071",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

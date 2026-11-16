@@ -1,0 +1,126 @@
+{
+  "titulo": "Por qué nunca debes pagar tus impuestos con tarjeta de crédito",
+  "titulos_alternativos": [
+    "El cobro oculto al pagar impuestos con tarjeta de crédito",
+    "La trampa de diferir tus impuestos a cuotas con el banco"
+  ],
+  "tema": "Intereses inmediatos al pagar impuestos con tarjeta de crédito",
+  "texto_portada": "¡NO PAGUES\nIMPUESTOS ASÍ!",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tus impuestos pagados a cuotas destruyen tu presupuesto diario. Crees que pedir cuotas te da un respiro. La realidad es que el banco trata esa compra como un avance en efectivo.",
+      "keywords": [
+        "tarjeta",
+        "presupuesto",
+        "banco"
+      ],
+      "prompt_ia": "A person looking worried at a credit card statement beside a laptop",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando pagas tributos al Estado, las entidades financieras cancelan el periodo de gracia habitual. El cobro genera intereses corrientes desde el día uno, sin importar las cuotas elegidas.",
+      "keywords": [
+        "deuda",
+        "interes",
+        "dinero"
+      ],
+      "prompt_ia": "Close up of a credit card reader processing an official document payment",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si debes un millón de pesos y difieres el pago a doce meses a una tasa del treinta por ciento anual, terminas pagando cerca de un millón ciento cincuenta mil pesos en total. Terminas regalando una fortuna en puros intereses.",
+      "keywords": [
+        "calculadora",
+        "interes",
+        "banco"
+      ],
+      "prompt_ia": "Financial chart showing rising interest expenses next to a calculator",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo total del impuesto",
+        "etiquetas": [
+          "Deuda original",
+          "Pago con tarjeta"
+        ],
+        "valores": [
+          1000000,
+          1150000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para evitar este castigo, ahorra mes a mes ese dinero o pacta un acuerdo de pago directo con la entidad tributaria. Siempre resultará más económico que endeudarte con el banco.",
+      "keywords": [
+        "ahorro",
+        "ciudad",
+        "deuda"
+      ],
+      "prompt_ia": "A piggy bank next to a digital tablet showing a clean budget plan",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Protege tu dinero antes de deslizar la tarjeta en trámites públicos. Síguenos para cuidar tu bolsillo con datos reales todos los días.",
+      "keywords": [
+        "tarjeta",
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person looking relieved checking personal financial data on a smartphone",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "impuestos",
+    "tarjeta de credito",
+    "finanzas personales",
+    "intereses bancarios",
+    "deudas",
+    "plata con datos",
+    "ahorro"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "Al diferir un millón de pesos a doce meses con una tasa del treinta por ciento anual en cuotas fijas amortizables, el monto total pagado no es de un millón trescientos mil pesos sino de aproximadamente un millón ciento cincuenta mil pesos, dado que los intereses se calculan mes a mes sobre el saldo adeudado que va disminuyendo."
+    }
+  ],
+  "id": "fin_070",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

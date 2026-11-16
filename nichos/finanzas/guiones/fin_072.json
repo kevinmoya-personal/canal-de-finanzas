@@ -1,0 +1,130 @@
+{
+  "titulo": "El peligro de confundir el cupo de tu tarjeta con tu dinero",
+  "titulos_alternativos": [
+    "Por qué el cupo de tu tarjeta de crédito no es tu plata",
+    "La trampa del cupo disponible en tu tarjeta de crédito"
+  ],
+  "tema": "Tarjeta de crédito y cupo disponible",
+  "texto_portada": "EL CUPO NO\nES TU PLATA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu cupo aprobado no es tu dinero. Mirar cinco millones disponibles en la aplicación del banco te hace sentir rico. Pero esa plata es un préstamo costoso.",
+      "keywords": [
+        "tarjeta",
+        "banco",
+        "dinero"
+      ],
+      "prompt_ia": "A smartphone screen displaying a bank app with high available credit limit",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El cerebro confunde poder gastar con tener dinero. Si compras un televisor de tres millones de pesos a doce cuotas con una tasa del dos coma cinco por ciento mensual, terminarás pagando alrededor de tres millones quinientos mil pesos en total.",
+      "keywords": [
+        "compras",
+        "interes",
+        "presupuesto"
+      ],
+      "prompt_ia": "A modern flat screen television in an electronics store with price tag",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo real de una compra",
+        "etiquetas": [
+          "Precio contado",
+          "Pago a doce cuotas"
+        ],
+        "valores": [
+          3000000,
+          3500000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El banco aumenta tu cupo cuando detecta más consumo. No es un regalo por tu buena conducta, sino una estrategia para amarrar tus sueldos futuros a pagos mensuales.",
+      "keywords": [
+        "estres",
+        "salario",
+        "deuda"
+      ],
+      "prompt_ia": "A stressed person looking at monthly credit card bills and debt statements",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Confundir crédito con saldo propio destruye tus finanzas. Si financias tus compras diarias, puedes terminar pagando hasta un treinta y cinco por ciento adicional cada año.",
+      "keywords": [
+        "calculadora",
+        "inflacion",
+        "monedas"
+      ],
+      "prompt_ia": "A calculator on top of financial paper receipts and stacks of coins",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Interés promedio anual",
+        "etiquetas": [
+          "Costo extra de financiar"
+        ],
+        "valores": [
+          35
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tu tarjeta es un medio de pago, no un ingreso extra. Usa solo el dinero que ya tienes en tu cuenta. Suscríbete para cuidar tu plata con datos reales.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro",
+        "datos"
+      ],
+      "prompt_ia": "A happy person comfortably managing their personal finances on a wooden table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "tarjeta de credito",
+    "finanzas personales",
+    "educacion financiera",
+    "plata con datos",
+    "ahorro",
+    "deudas",
+    "intereses"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "El cálculo es incorrecto e irreal para el contexto colombiano. Aplicando la tasa máxima de usura permitida (alrededor del dos coma cinco por ciento mensual), por un televisor de tres millones a doce cuotas se pagan cerca de quinientos mil pesos de intereses, sumando un total cercano a tres millones quinientos mil pesos."
+    }
+  ],
+  "id": "fin_072",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

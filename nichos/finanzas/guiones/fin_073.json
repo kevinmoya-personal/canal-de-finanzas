@@ -1,0 +1,220 @@
+{
+  "titulo": "El peligro de prestar dinero a familiares sin contrato",
+  "titulos_alternativos": [
+    "Por qué no debes prestar dinero a amigos sin plazo",
+    "El costo oculto de prestar plata a la familia"
+  ],
+  "tema": "Riesgos de prestar dinero informalmente a allegados",
+  "texto_portada": "PRESTAR PLATA\nTE DESTROZA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Perderás a tu amigo y tu dinero al mismo tiempo. Prestar plata a personas cercanas sin reglas claras parece un acto de generosidad pura. Sin embargo, las deudas informales entre conocidos terminan rompiendo vínculos de muchos años. Cuando abres tu billetera por compromiso social, estás descuidando tu propio patrimonio. Muchas personas sacrifican su estabilidad económica por no saber decir que no a un familiar en apuros. En este video analizaremos con cifras reales lo que cuesta financiar a un allegado sin plazos fijados ni respaldos escritos.",
+      "keywords": [
+        "dinero",
+        "familia",
+        "estres"
+      ],
+      "prompt_ia": "A worried man looking at a financial document with money on a table, dramatic lighting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El dinero estancado pierde poder de compra cada mes. Imagina que prestas cinco millones de pesos a un hermano con la promesa informal de devolvértelo pronto. Si pasan dos años sin ver un solo abono y con una inflación del cinco por ciento anual, la inflación destruirá tu capital. Tus cinco millones de pesos equivaldrán a solo cuatro millones quinientos treinta y cinco mil pesos en poder de compra real. Cientos de miles de pesos se evaporan por la pérdida del valor de la moneda. Si esa cantidad estuviera en un certificado de depósito, te habría generado rendimientos seguros. Prestar sin cobrar un interés básico significa que tú pagas el costo financiero de la otra persona.",
+      "keywords": [
+        "inflacion",
+        "ahorro",
+        "interes"
+      ],
+      "prompt_ia": "Visual representation of money losing value, hourglass with coins falling",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Pérdida de poder adquisitivo",
+        "etiquetas": [
+          "Monto inicial",
+          "Valor real en dos años"
+        ],
+        "valores": [
+          5000000,
+          4535000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Cobrar tu propio dinero genera una carga de estrés insoportable. Cuando no existe un compromiso formal, el acreedor se convierte en el villano por el simple hecho de pedir lo suyo. Cada mensaje de texto o llamada se transforma en un momento incómodo de tensión. La persona que recibió la plata empieza a evitar los almuerzos familiares o las reuniones sociales. Lo peor ocurre cuando ves a esa persona gastando en viajes o lujos mientras tu deuda sigue pendiente. Este desgaste emocional destruye la paz mental del hogar y destruye la confianza construida durante décadas.",
+      "keywords": [
+        "estres",
+        "dinero",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person looking anxiously at a smartphone text message in a dimly lit room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Un préstamo sin fecha límite se convierte en un regalo forzado. La mente humana prioriza las deudas de acuerdo con la urgencia y las consecuencias de no pagar. Un banco cobra intereses de mora y reporta tu historial en centrales de riesgo si te atrasas un solo día. En cambio, el préstamo de un amigo no tiene penalizaciones inmediatas en el sistema financiero. La gran mayoría de las personas que entregan dinero sin plazo fijo sufren retrasos de años o terminan perdiendo el dinero por completo. El pago a un familiar siempre queda al final de la lista.",
+      "keywords": [
+        "tiempo",
+        "deuda",
+        "banco"
+      ],
+      "prompt_ia": "A calendar with marked dates fading away into dust, conceptual photography",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Préstamos sin fecha no cobrados",
+        "etiquetas": [
+          "Porcentaje con mora o pérdida"
+        ],
+        "valores": [
+          75
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Sacrificar tu fondo de reserva te deja expuesto a cualquier imprevisto. Es común que la gente preste los ahorros destinados a emergencias médicas o reparaciones de la vivienda. Si sufres un imprevisto al mes siguiente, te verás obligado a solicitar un crédito bancario de urgencia. Si terminas pidiendo un crédito de consumo por tres millones de pesos para cubrir tu emergencia personal, podrías pagar una tasa del veintiocho por ciento anual. Pagarás intereses altísimos al banco mientras tu propio capital sigue congelado sin producir nada en manos de tu conocido.",
+      "keywords": [
+        "presupuesto",
+        "deuda",
+        "banco"
+      ],
+      "prompt_ia": "Empty piggy bank on a wooden desk next to medical bills",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Tasa de interés por crédito de emergencia",
+        "etiquetas": [
+          "Tasa anual promedio"
+        ],
+        "valores": [
+          28
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Sin un pagaré firmado no existe manera de exigir el pago por vías formales. Las palabras amables se las lleva el viento y las promesas verbales no tienen peso legal. Un acuerdo escrito con firma y huella establece el monto exacto, la fecha de vencimiento y los intereses moratorios. Con un pagaré firmado la posibilidad de recuperación por la vía legal aumenta considerablemente, mientras que sin un documento respaldo exigirlo judicialmente es casi imposible. Firmar un documento no es desconfianza, es madurez financiera para proteger ambas partes.",
+      "keywords": [
+        "datos",
+        "trabajo",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Close up of hands signing a legal agreement paper on a wooden table",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Probabilidad de recuperar el dinero",
+        "etiquetas": [
+          "Con documento legal",
+          "Sin acuerdo escrito"
+        ],
+        "valores": [
+          90,
+          10
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Prestar dinero a un pariente sienta un precedente peligroso frente a los demás. Cuando el resto del círculo familiar se entera de tu disposición para entregar plata, surgirán nuevas solicitudes de crédito informal. Se genera una dinámica incómoda donde te ven como el banco del grupo. Si le niegas ayuda a un segundo pariente tras haber apoyado al primero, surgirán resentimientos y comparaciones injustas. Poner límites claros desde la primera solicitud evita que te conviertas en la fuente de financiamiento no oficial de tu familia.",
+      "keywords": [
+        "familia",
+        "dinero",
+        "salario"
+      ],
+      "prompt_ia": "Family sitting around a dining table looking tense and uncomfortable",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Existen alternativas inteligentes para proteger tu bolsillo y tus relaciones personales. La primera opción es asumir el dinero como una donación de una sola vez. Si decides entregar una suma, hazlo pensando en que no regresará y entrega únicamente una cantidad que no afecte tu presupuesto. La segunda opción es exigir la firma de una letra de cambio con fechas claras de abono. Si la persona se molesta cuando le sugieres formalizar el compromiso por escrito, te demuestra de inmediato que no tenía la intención seria de pagar.",
+      "keywords": [
+        "presupuesto",
+        "meta",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person organizing receipts and documents neatly on a modern desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Proteger tu dinero es la forma más sana de cuidar a las personas que quieres. Aprender a decir que no con firmeza y educación te ahorrará años de discusiones y pérdidas económicas. Si este contenido te aportó datos útiles para cuidar tu estabilidad financiera, suscríbete al canal ahora mismo. Activa la campanita para no perderte nuestras próximas entregas con datos reales sobre finanzas personales. Cuéntanos en los comentarios si alguna vez prestaste plata y terminaste perdiendo la amistad. Cuidar tu presupuesto es el camino hacia la tranquilidad.",
+      "keywords": [
+        "tranquilidad",
+        "presupuesto",
+        "datos"
+      ],
+      "prompt_ia": "A relaxed person sitting on a balcony looking at the city skyline with coffee",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "prestar dinero",
+    "ahorro",
+    "deudas",
+    "presupuesto",
+    "educacion financiera",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "La cifra de pérdida de poder adquisitivo depende de un supuesto de inflación no expresado en el texto. Asumiendo una inflación realista del cinco por ciento anual en Colombia, cinco millones de pesos se convierten en cuatro millones quinientos treinta y cinco mil pesos tras dos años."
+    },
+    {
+      "seccion": "punto_3",
+      "motivo": "El dato estadístico del setenta y cinco por ciento de impago informal no es una cifra verificable ni de conocimiento general."
+    },
+    {
+      "seccion": "punto_5",
+      "motivo": "Las probabilidades del noventa por ciento y diez por ciento de recuperación judicial no son cifras verificables ni datos fácticos universales."
+    }
+  ],
+  "id": "fin_073",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
