@@ -1,0 +1,124 @@
+{
+  "titulo": "El costo oculto de mantener una cuenta de ahorro inactiva",
+  "titulos_alternativos": [
+    "Por qué tu cuenta bancaria sin uso pierde dinero",
+    "El peligro de dejar tu cuenta de ahorro abandonada"
+  ],
+  "tema": "Cobro de cuota de manejo en cuentas de ahorro inactivas",
+  "texto_portada": "CUENTA INACTIVA COBRO OCULTO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu cuenta inactiva devora tu plata cada mes. Crees que tu saldo está seguro al no usarlo, pero las comisiones bancarias siguen descontando dinero en silencio.",
+      "keywords": [
+        "ahorro",
+        "banco",
+        "dinero"
+      ],
+      "prompt_ia": "A piggy bank sitting on a dusty shelf with small coins leaking out from the bottom",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Una cuota de diez mil pesos mensuales parece inofensiva. Sin embargo, en un solo año representa ciento veinte mil pesos restados de tu capital.",
+      "keywords": [
+        "calculadora",
+        "monedas"
+      ],
+      "prompt_ia": "A calculator next to stacks of coins showing monthly financial loss calculations",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Cobro acumulado en un año",
+        "etiquetas": [
+          "Un mes",
+          "Seis meses",
+          "Un año"
+        ],
+        "valores": [
+          10000,
+          60000,
+          120000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Cuando la cuenta llega a cero, el cobro de comisiones se detiene y no genera saldos en contra ni cobros de mora. Sin embargo, la cuenta permanece abierta, por lo que conviene cancelarla formalmente para mantener un registro limpio de tus productos.",
+      "keywords": [
+        "deuda",
+        "estres"
+      ],
+      "prompt_ia": "A stressed person looking at a bank statement with a negative balance on a smartphone screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Cancelar formalmente un producto en desuso toma muy pocos minutos. De esta forma evitas regalar dinero en trámites administrativos y proteges tus ingresos.",
+      "keywords": [
+        "tiempo",
+        "presupuesto"
+      ],
+      "prompt_ia": "A person closing a bank account on a modern banking smartphone application in a bright office",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa hoy tus aplicaciones bancarias y liquida las cuentas que no utilizas. Síguenos en Plata con Datos para cuidar tu presupuesto.",
+      "keywords": [
+        "celular",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A smiling person reviewing healthy personal finances on a mobile phone with peace of mind",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "cuenta de ahorro",
+    "cuota de manejo",
+    "ahorro",
+    "bancos",
+    "plata con datos",
+    "educacion financiera"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "En Colombia, la Superintendencia Financiera prohíbe que las cuentas de ahorro generen saldos en contra o intereses de mora por concepto de cuotas de manejo cuando el saldo llega a cero."
+    }
+  ],
+  "id": "fin_076",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,126 @@
+{
+  "titulo": "Tu viaje de vacaciones destruye tu presupuesto mensual",
+  "titulos_alternativos": [
+    "El error de ahorrar solo para salir de vacaciones",
+    "Por qué tus vacaciones arruinan tus finanzas del año"
+  ],
+  "tema": "Desbalance financiero por ahorrar únicamente para vacaciones",
+  "texto_portada": "VACACIONES TRAMPA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Viajar sin fondo de emergencia arruinará tu año. Destinar todo tu ahorro a un solo viaje deja tu presupuesto indefenso ante cualquier imprevisto.",
+      "keywords": [
+        "compras",
+        "presupuesto"
+      ],
+      "prompt_ia": "A suitcase full of cash on a wooden table with financial chart overlays",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cuando guardas plata exclusivamente para vacaciones, descuidas tus metas reales. Cualquier imprevisto en la casa o una urgencia médica te obligará a usar tarjetas de crédito.",
+      "keywords": [
+        "ahorro",
+        "casa",
+        "tarjeta"
+      ],
+      "prompt_ia": "A worried person sitting at home looking at emergency home repair bills near a suitcase",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Al regresar del viaje, si dejas tu cuenta bancaria en cero, pasarás varios meses apretando el bolsillo solo para recuperar un colchón de seguridad y estabilizar tu presupuesto.",
+      "keywords": [
+        "banco",
+        "dinero",
+        "estres"
+      ],
+      "prompt_ia": "An empty leather wallet on a dark desk with credit cards next to a phone",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Meses para recuperar tu saldo",
+        "etiquetas": [
+          "Tiempo de recuperación"
+        ],
+        "valores": [
+          4
+        ],
+        "prefijo": "",
+        "sufijo": " meses"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La solución está en la distribución. Si ahorras un diez por ciento de tu sueldo, destina el cincuenta por ciento a emergencias y el otro cincuenta a tu viaje.",
+      "keywords": [
+        "salario",
+        "calculadora",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A neatly organized desk with a calculator, piggy bank, and notebook for financial planning",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Distribución del ahorro",
+        "etiquetas": [
+          "Emergencias",
+          "Vacaciones"
+        ],
+        "valores": [
+          50,
+          50
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Disfrutar de tu descanso no debe destruirte el resto del año. Suscríbete a Plata con Datos y aprende a organizar tu dinero sin sorpresas.",
+      "keywords": [
+        "datos",
+        "deuda"
+      ],
+      "prompt_ia": "A smiling professional holding a smartphone outdoors with clean graphical accents",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "ahorro",
+    "vacaciones",
+    "presupuesto",
+    "educacion financiera"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "La cifra de cuatro meses no es verificable ya que depende de la tasa de ahorro y de los ingresos del usuario, supuestos que el texto no declara."
+    }
+  ],
+  "id": "fin_075",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

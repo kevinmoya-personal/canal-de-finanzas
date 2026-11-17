@@ -1,0 +1,119 @@
+{
+  "titulo": "El peligro oculto de pagar tarde tus servicios",
+  "titulos_alternativos": [
+    "Por qué pagar tarde los servicios destruye tu bolsillo",
+    "El verdadero costo del recargo en tus facturas"
+  ],
+  "tema": "Intereses de mora en servicios públicos",
+  "texto_portada": "RECIBOS\nVENCIDOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Un recibo vencido castiga tu plata más que la inflación. Atrasarte un solo mes en el agua o la luz activa recargos gigantescos.",
+      "keywords": [
+        "dinero",
+        "inflacion"
+      ],
+      "prompt_ia": "A frustrated person looking at a utility bill invoice at home night time",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Las empresas de servicios públicos cobran la tasa máxima permitida por la ley. Mientras la inflación anual ronda el cinco por ciento, la mora anualizada puede superar el veinticinco por ciento.",
+      "keywords": [
+        "interes",
+        "datos"
+      ],
+      "prompt_ia": "A line graph showing sharp increase in interest rates overlaying financial documents",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Comparativo de tasas anuales",
+        "etiquetas": [
+          "Inflación",
+          "Interés mora"
+        ],
+        "valores": [
+          5,
+          25
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Suma también el cobro por reconexión. Al sufrir un corte del servicio, pagas hasta cincuenta mil pesos extra solo para restablecer la luz o el gas en tu hogar.",
+      "keywords": [
+        "casa",
+        "deuda"
+      ],
+      "prompt_ia": "A power switch turning off causing shadows in a living room",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Costo promedio por reconexión",
+        "etiquetas": [
+          "Cargo extra"
+        ],
+        "valores": [
+          50000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Pagar a tiempo tus facturas evita regalar plata en sanciones invisibles. Acumular dos meses multiplica los intereses y rompe tu presupuesto mensual por completo.",
+      "keywords": [
+        "presupuesto",
+        "calculadora"
+      ],
+      "prompt_ia": "Hands typing on a calculator next to household budget spreadsheets",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Controlar las fechas de vencimiento protege tu bolsillo cada mes. Suscríbete a Plata con Datos y domina tus números.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro"
+      ],
+      "prompt_ia": "A relaxed person managing finances on a smartphone on a clean wooden table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "servicios publicos",
+    "intereses de mora",
+    "ahorro de dinero",
+    "presupuesto familiar",
+    "colombia"
+  ],
+  "verificacion": [],
+  "id": "fin_074",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

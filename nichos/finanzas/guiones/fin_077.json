@@ -1,0 +1,215 @@
+{
+  "titulo": "La regla del 72 para duplicar tu dinero en tiempo récord",
+  "titulos_alternativos": [
+    "Cómo calcular en segundos cuándo se duplica tu inversión",
+    "La fórmula matemática para saber si un negocio rinde de verdad"
+  ],
+  "tema": "La regla del 72 y el interés compuesto",
+  "texto_portada": "DUPLICA TU\nDINERO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Duplicar tu inversión requiere una simple división mental. No necesitas ser un experto en matemáticas para saber exactamente cuándo tus ahorros se van a multiplicar por dos. Existe una fórmula guardada durante siglos por los grandes inversionistas que te permite calcular este tiempo en segundos. Se llama la regla del setenta y dos. Si dejas tu plata en un producto financiero que te paga el seis por ciento anual, simplemente divides setenta y dos entre seis. El resultado es doce. Eso significa que en doce años vas a tener exactamente el doble de dinero sin mover un solo dedo. Sin embargo, la mayoría de las personas deja su capital en opciones que rinden tan poco que necesitarían media vida para ver ese crecimiento. Hoy vas a aprender a usar este cálculo a tu favor para evaluar cualquier banco, fondo o negocio antes de entregar tu plata.",
+      "keywords": [
+        "dinero",
+        "inversion",
+        "banco"
+      ],
+      "prompt_ia": "A close-up of hands organizing stacks of local bank notes on a clean desk next to a notebook",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La regla del setenta y dos es un atajo matemático descubierto hace más de quinientos años. Funciona como una aproximación muy precisa del interés compuesto. El interés compuesto es ese efecto donde los rendimientos que ganas vuelven a generar más rendimientos en un ciclo continuo. En lugar de hacer ecuaciones complejas con exponentes y logaritmos en una hoja de cálculo, solo necesitas tomar el número setenta y dos y dividirlo por la tasa de interés anual que te ofrece cualquier entidad. El resultado que obtienes son los años exactos que demorará tu capital inicial en crecer hasta el doble. Por ejemplo, si un fondo te promete un ocho por ciento de rentabilidad anual, haces la cuenta de dividir setenta y dos entre ocho. El resultado es nueve años. En ese tiempo, diez millones de pesos se convierten en veinte millones de pesos automáticamente.",
+      "keywords": [
+        "interes",
+        "calculadora",
+        "datos"
+      ],
+      "prompt_ia": "An antique notebook showing mathematical formulas and financial calculations with a modern pen beside it",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Apliquemos esta regla a las cuentas de ahorro tradicionales de la región. Muchos bancos comerciales pagan apenas un dos por ciento de interés anual por tener la plata guardada en una cuenta corriente o de ahorros básica. Si divides setenta y dos entre dos, el resultado es treinta y seis. Significa que tendrías que esperar treinta y seis años para que tu dinero se duplique. Para ese momento, la inflación habrá devorado por completo el poder de compra de esos billetes. Guardar la plata en un lugar que rinde por debajo de la inflación no es guardar riqueza, es verla desaparecer despacio. Si diez millones de pesos tardan casi cuatro décadas en duplicarse nominalmente, en términos reales tu capacidad para comprar mercado o pagar un arriendo será mucho menor que al principio. La regla te ayuda a despertar frente a estos rendimientos ilusorios.",
+      "keywords": [
+        "ahorro",
+        "banco",
+        "inflacion"
+      ],
+      "prompt_ia": "A glass piggy bank sitting on a table with a few coins beside it in a modern apartment context",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Veamos qué pasa cuando buscas opciones de renta fija como un certificado de depósito a término o un fondo conservador. Supongamos que consigues una tasa del diez por ciento anual. Al dividir setenta y dos entre diez, descubres que tu inversión se duplicará en solo siete coma dos años. Siete años es un tiempo razonable para ver crecer un patrimonio de forma segura. Si logras una tasa del doce por ciento en un buen momento de mercado, el tiempo baja a seis años. La diferencia entre el dos por ciento del banco tradicional y el doce por ciento de un certificado bien negociado es abismal. Pasas de esperar treinta y seis años a esperar únicamente seis años. Es decir, multiplicas por seis la velocidad a la que crece tu dinero usando la misma cantidad de plata inicial.",
+      "keywords": [
+        "inversion",
+        "tiempo",
+        "monedas"
+      ],
+      "prompt_ia": "A person reviewing financial charts on a laptop screen while holding a cup of coffee at home",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Años para duplicar tu dinero",
+        "etiquetas": [
+          "Tasa 2%",
+          "Tasa 6%",
+          "Tasa 10%",
+          "Tasa 12%"
+        ],
+        "valores": [
+          36,
+          12,
+          7.2,
+          6
+        ],
+        "prefijo": "",
+        "sufijo": " años"
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Esta misma regla funciona de forma brutal cuando la aplicas a las deudas. Si tienes un crédito de consumo o una tarjeta de crédito con una tasa de interés del veinticuatro por ciento anual, la regla del setenta y dos se convierte en tu peor pesadilla. Si divides setenta y dos entre veinticuatro, el resultado es tres. Esto significa que si no pagas el capital de esa deuda, el monto adeudado al banco se duplicará en tan solo tres años. Los intereses se acumulan en tu contra con la misma fuerza matemática con la que trabajan a favor de un inversionista. Muchas personas se preguntan por qué su saldo pendiente parece no bajar nunca a pesar de hacer abonos pequeños. La respuesta está en este cálculo rápido. Cuando la tasa es alta, el tiempo que tarda la deuda en multiplicarse es inquietantemente corto.",
+      "keywords": [
+        "deuda",
+        "tarjeta",
+        "estres"
+      ],
+      "prompt_ia": "A stressed person looking at a credit card statement at a wooden desk with bills scattered around",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "La regla del setenta y dos también mide qué tan rápido la inflación destruye el costo de vida en tu país. Si la inflación de tus productos básicos se ubica en un siete por ciento anual, dividimos setenta y dos entre siete. El resultado indica que en poco más de diez años los precios de la comida, la vivienda y el transporte se van a duplicar. Lo que hoy compras con un millón de pesos requerirá dos millones de pesos en apenas una década. Si tu salario o tu negocio no crecen al menos a esa misma velocidad, estás perdiendo nivel de vida cada año. Entender esta relación te permite ponerte metas financieras realistas. Tu primera meta de inversión no debe ser hacerte rico, sino superar ese porcentaje para que tu dinero no pierda valor con el paso del tiempo.",
+      "keywords": [
+        "inflacion",
+        "presupuesto",
+        "salario"
+      ],
+      "prompt_ia": "A grocery cart filled with basic food items in a modern Latin American supermarket aisle",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Efecto de la inflación al 7%",
+        "etiquetas": [
+          "Tiempo para duplicar los precios"
+        ],
+        "valores": [
+          10.2
+        ],
+        "prefijo": "",
+        "sufijo": " años"
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Es importante entender los límites de este atajo antes de usarlo en tus proyecciones. La regla del setenta y dos funciona de forma casi perfecta para tasas de interés entre el cinco y el doce por ciento. En este rango, el margen de error es menor a un par de meses comparado con las fórmulas financieras avanzadas. Si la tasa es muy baja o extremadamente alta, el cálculo pierde un poco de exactitud, pero sigue siendo una excelente herramienta para tomar decisiones inmediatas en la calle. No necesitas sacar una calculadora ni abrir una hoja de cálculo mientras estás en una reunión o evaluando una propuesta comercial. Basta con recordar el número setenta y dos para saber si un negocio tiene sentido o si te están ofreciendo una fantasía imposible de cumplir.",
+      "keywords": [
+        "calculadora",
+        "dinero",
+        "datos"
+      ],
+      "prompt_ia": "A professional writing down numbers on a clean notepad during a financial planning session",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "¿Cómo puedes acelerar este proceso sin depender únicamente de encontrar tasas más altas? La respuesta combina la regla del setenta y dos con aportes mensuales constantes a tu portafolio. Si solo pones un capital inicial, dependerás únicamente del tiempo y de la tasa acordada. Pero si agregas una suma fija cada mes proveniente de tus ingresos o de tu salario, el tiempo necesario para duplicar el valor total de tu cuenta se reduce drásticamente. Por ejemplo, al invertir un millón de pesos iniciales a una tasa del nueve por ciento, tardarías ocho años en llegar a dos millones. Sin embargo, si le sumas cien mil pesos cada mes, alcanzarás esos dos millones en menos de un año, concretamente en diez meses. El interés compuesto y tu disciplina diaria aceleran la multiplicación de tu saldo.",
+      "keywords": [
+        "ahorro",
+        "salario",
+        "meta"
+      ],
+      "prompt_ia": "Hands placing paper currency into a small wooden box labeled savings, with plants in the background",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Tiempo para llegar a dos millones",
+        "etiquetas": [
+          "Solo monto inicial",
+          "Con aportes mensuales"
+        ],
+        "valores": [
+          8,
+          0.8
+        ],
+        "prefijo": "",
+        "sufijo": " años"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Ahora que conoces la regla del setenta y dos, cada vez que te hablen de una tasa de interés sabrás exactamente qué esperar. No dejes que la plata se quede dormida en una cuenta que tarda cuatro décadas en duplicarse. Analiza tus deudas con la misma frialdad y frena los intereses que juegan en tu contra. Si te gusta entender las finanzas personales con datos claros, números reales y sin enredos, suscríbete ahora mismo a Plata con Datos. Cada semana analizamos cómo proteger tu presupuesto y hacer crecer tu dinero en Latinoamérica. Activa la campana para no perderte el próximo análisis y deja en los comentarios qué tasa de interés estás recibiendo hoy en tus ahorros.",
+      "keywords": [
+        "tranquilidad",
+        "presupuesto",
+        "inversion"
+      ],
+      "prompt_ia": "A happy family relaxing on a living room sofa, feeling financially secure in a warm home atmosphere",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "regla del 72",
+    "interes compuesto",
+    "finanzas personales",
+    "como duplicar dinero",
+    "inversiones latinoamerica",
+    "plata con datos",
+    "educacion financiera",
+    "renta fija",
+    "cdt colombia",
+    "ahorro e inversion"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_7",
+      "motivo": "El cálculo del tiempo con aportes mensuales es erróneo. Con un capital inicial de un millón de pesos y aportes mensuales de cien mil pesos al nueve por ciento anual, se alcanzan los dos millones de pesos en diez meses (cero coma ocho años), no en dos años (en dos años el saldo superaría los tres coma seis millones de pesos)."
+    }
+  ],
+  "id": "fin_077",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
