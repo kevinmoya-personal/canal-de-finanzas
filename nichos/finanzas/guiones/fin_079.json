@@ -1,0 +1,125 @@
+{
+  "titulo": "Por qué cancelar tu tarjeta más vieja daña tu historial",
+  "titulos_alternativos": [
+    "El peligro oculto de cancelar tu primera tarjeta de crédito",
+    "Por qué perderás puntaje al cerrar tu tarjeta de crédito antigua"
+  ],
+  "tema": "El impacto de cancelar la tarjeta de crédito más antigua en el promedio de edad del historial crediticio",
+  "texto_portada": "NO LA CANCELES",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Cancelar esa tarjeta vieja no destruye tu historial en el banco. Piensas que cerrar una cuenta que no usas perjudicará todo tu registro, pero la realidad es que el historial de tu buen comportamiento se mantiene en las centrales de riesgo, aunque sí pierdes cupo de crédito disponible.",
+      "keywords": [
+        "tarjeta",
+        "banco"
+      ],
+      "prompt_ia": "A person holding a credit card looking concerned while reviewing paper statements",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El historial de crédito mide el tiempo promedio de tus cuentas. Si tienes una tarjeta de diez años y una nueva de dos años, tu historial promedio es de seis años.",
+      "keywords": [
+        "tiempo",
+        "calculadora"
+      ],
+      "prompt_ia": "A digital timeline displaying financial years on a modern clean screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Aunque canceles la tarjeta más antigua, no pasas a ser un cliente novato de un día para otro, pues las centrales de riesgo mantienen el registro de tu experiencia previa. El verdadero impacto radica en que reduces tu cupo disponible, lo que puede aumentar tu porcentaje de uso de crédito.",
+      "keywords": [
+        "deuda",
+        "estres"
+      ],
+      "prompt_ia": "A graph showing a sharp decline on a monitor inside a brightly lit office",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Promedio de historial crediticio",
+        "etiquetas": [
+          "Con tarjeta vieja",
+          "Sin tarjeta vieja"
+        ],
+        "valores": [
+          6,
+          2
+        ],
+        "prefijo": "",
+        "sufijo": " años"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "En lugar de cancelarla, llama a tu banco y pide exoneración de cuota de manejo. Hacer una pequeña compra al año mantendrá esa línea activa sin pagar un solo peso de más.",
+      "keywords": [
+        "celular",
+        "dinero"
+      ],
+      "prompt_ia": "A hand making a customer support call on a smartphone with a desk background",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "No regales tus años de buen comportamiento por un descuido. Suscríbete a Plata con Datos para tomar decisiones financieras con información real.",
+      "keywords": [
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A smiling person looking at positive financial growth charts on a mobile device",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "tarjeta de credito",
+    "historial crediticio",
+    "datacredito",
+    "finanzas personales",
+    "educacion financiera",
+    "bancos colombia",
+    "puntaje crediticio"
+  ],
+  "verificacion": [
+    {
+      "seccion": "hook",
+      "motivo": "En Colombia, cancelar una tarjeta de crédito no borra ni elimina el historial positivo acumulado en las centrales de riesgo, ya que este se conserva según la legislación de hábeas data."
+    },
+    {
+      "seccion": "punto_2",
+      "motivo": "Las centrales de riesgo conservan la información positiva de los productos cerrados, por lo que cancelar una tarjeta no elimina los años de experiencia previa ni convierte al usuario en un cliente novato de la noche a la mañana."
+    }
+  ],
+  "id": "fin_079",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

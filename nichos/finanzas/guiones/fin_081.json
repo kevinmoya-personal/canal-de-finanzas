@@ -1,0 +1,223 @@
+{
+  "titulo": "Cómo calcular tu capacidad real de endeudamiento sin caer en trampas",
+  "titulos_alternativos": [
+    "La fórmula real para saber cuánta deuda puedes pagar sin ahogarte",
+    "No pidas un crédito sin hacer este cálculo matemático previo"
+  ],
+  "tema": "Cálculo preciso de la capacidad de endeudamiento real para compromisos financieros a largo plazo",
+  "texto_portada": "CAPACIDAD REAL\nDE DEUDA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Un crédito aprobado no significa que puedas pagarlo. Las entidades financieras calculan tu capacidad de pago usando modelos genéricos que benefician sus metas de colocación de cartera, pero ignoran los costos reales de tu vida diaria. Cuando el banco analiza tu perfil, mira tus ingresos brutos y asume que una gran parte de ese dinero está disponible para pagar intereses. La realidad es muy distinta. Si te comprometes con una cuota mensual basándote únicamente en la cifra aprobada por la aplicación de tu entidad, corres el riesgo de ahogar tu presupuesto durante años. Hoy vas a aprender la fórmula matemática exacta para calcular tu capacidad real de endeudamiento. Analizaremos datos concretos, restaremos tus gastos indispensables y construiremos un margen de protección antes de que firmes cualquier compromiso a largo plazo.",
+      "keywords": [
+        "banco",
+        "deuda",
+        "presupuesto"
+      ],
+      "prompt_ia": "A worried person looking at financial spreadsheets on a laptop with a bank rejection letter on the desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El primer error sistemático radica en la diferencia entre el ingreso bruto y el ingreso disponible. Los bancos suelen aplicar un límite teórico que permite destinar hasta el cuarenta por ciento de tu sueldo a la cuota de un crédito hipotecario o de consumo. El problema es que ese porcentaje se calcula sobre lo que ganas antes de impuestos y descuentos de ley. Si tu salario nominal es de cuatro millones de pesos, el banco presupuesta tu capacidad sobre esa cifra completa. Sin embargo, tras descontar la salud, la pensión y la retención en la fuente, el dinero que realmente ingresa a tu cuenta bancaria puede ser de apenas tres millones trescientos mil pesos. Si aceptas una cuota calculada sobre el cuarenta por ciento bruto, estarías entregando en realidad casi el cincuenta por ciento de tu dinero neto. Es una trampa contable que destruye tu liquidez desde el primer día.",
+      "keywords": [
+        "salario",
+        "datos",
+        "calculadora"
+      ],
+      "prompt_ia": "Close up of a calculator next to bank statements and a salary slip",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Impacto real en el ingreso neto",
+        "etiquetas": [
+          "Límite teórico del banco",
+          "Impacto sobre salario neto"
+        ],
+        "valores": [
+          40,
+          48
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Para construir una cifra realista debemos partir de tu ingreso neto promedio de los últimos seis meses. Suma únicamente el dinero que efectivamente llega a tus manos mes a mes. No incluyas pagos extraordinarios como la prima de servicios, las cesantías o bonificaciones eventuales. Esos recursos adicionales deben ser considerados un alivio temporal o una herramienta para pagar capital por adelantado, pero jamás deben sostener la cuota fija mensual de una obligación a diez o veinte años. Si trabajas de forma independiente, elimina los meses atípicamente altos y toma como base el promedio del periodo más bajo. Trabajar con el escenario más conservador te asegura que podrás cumplir con tu obligación incluso cuando las ventas o los contratos disminuyan. El punto de partida de un cálculo profesional es siempre la prudencia financiera sobre la mesa.",
+      "keywords": [
+        "dinero",
+        "trabajo",
+        "monedas"
+      ],
+      "prompt_ia": "Hands organizing monthly income charts and bank notes on a clean desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "El segundo paso consiste en catalogar y sustraer con precisión tus gastos fijos e indispensables. Aquí no se trata de hacer estimaciones aproximadas. Tienes que revisar tus extractos bancarios e identificar el costo exacto de tu vida básica. Incluye el arriendo o administración, los servicios públicos, el mercado familiar, el transporte, la educación y los seguros básicos. Supongamos que tu ingreso neto es de tres millones trescimientos mil pesos y que tus gastos de supervivencia suman exactamente dos millones de pesos. Eso significa que tu saldo disponible real antes de cualquier deuda es de un millón trescientos mil pesos. No cometas el error de asumir que puedes destinar todo ese remanente al pago de una cuota de crédito. Vida cotidiana implica gastos imprevisibles, ocio y mantenimiento de tu hogar que no se pueden ignorar en la ecuación.",
+      "keywords": [
+        "casa",
+        "compras",
+        "presupuesto"
+      ],
+      "prompt_ia": "An organized ledger showing living expenses categorized neatly with receipts",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Saldo disponible tras gastos vitales",
+        "etiquetas": [
+          "Porcentaje disponible real"
+        ],
+        "valores": [
+          39
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Aquí es donde entra la regla prudencial del treinta por ciento aplicada al saldo disponible real, no al total de tus ingresos. Si te quedan un millón trescientos mil pesos libres tras cubrir tu subsistencia, el límite máximo que deberías destinar a la cuota de un nuevo crédito es el treinta por ciento de tu ingreso neto total, siempre y cuando no supere la mitad de tu saldo libre. En este caso concreto, destinar no más de seiscientos cincuenta mil pesos a la cuota mensual te permite mantener un margen saludable para responder por imprevistos. Aceptar un compromiso por encima de ese umbral te dejaría sin liquidez inmediata frente a cualquier subida en el costo de los alimentos o servicios. Mantener tus deudas por debajo de un tercio de tus ingresos netos es la barrera defensiva más sólida contra el sobreendeudamiento y el estrés financiero.",
+      "keywords": [
+        "ahorro",
+        "estres",
+        "deuda"
+      ],
+      "prompt_ia": "A clean pie chart on a tablet screen showing safe debt margins",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Distribución del ingreso disponible",
+        "etiquetas": [
+          "Gastos fijos",
+          "Cuota máxima recomendada",
+          "Ahorro e imprevistos"
+        ],
+        "valores": [
+          61,
+          20,
+          19
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Otro factor crítico que la mayoría olvida es el costo total del crédito, conocido como la tasa efectiva anual junto a sus costos asociados. La cuota que te cotizan inicialmente no solo incluye el capital y los intereses devengados. Un crédito de vivienda o de vehículo suma seguros obligatorios de vida, de incendio o de desempleo que incrementan el valor mensual. Adicionalmente, las cuotas de manejo de tarjetas vinculadas o cuentas de ahorro requeridas por la entidad suman cobros recurrentes. Si no calculas estos adicionales desde el principio, terminarás pagando hasta un quince por ciento más de lo proyectado en tu presupuesto inicial. Exige a tu asesor una simulación con proyección de cuota total final que incorpore todos los seguros y comisiones aplicables durante toda la vida de la deuda.",
+      "keywords": [
+        "interes",
+        "tarjeta",
+        "banco"
+      ],
+      "prompt_ia": "Magnifying glass revealing small print fee details on a loan contract",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Composición de la cuota mensual",
+        "etiquetas": [
+          "Capital e intereses",
+          "Seguros y comisiones"
+        ],
+        "valores": [
+          85,
+          15
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Antes de firmar cualquier solicitud de dinero a largo plazo, debes someter tus finanzas a una prueba de estrés. Pregúntate qué pasaría con tu presupuesto si tus ingresos bajan un quince por ciento debido a una reestructuración laboral o si la tasa de inflación incrementa el costo de tus gastos básicos. Si tu cuota calculada consume todo el sobrante de tu presupuesto mensual, un cambio mínimo en el entorno económico te dejará sin capacidad de maniobra. Un compromiso a quince o veinte años atravesará necesariamente distintos ciclos económicos, fluctuaciones de empleo y emergencias familiares. Si la ecuación matemática no soporta un escenario desfavorable simulado en una hoja de cálculo, la decisión más inteligente y madura es postergar el proyecto o buscar un monto menor de financiamiento.",
+      "keywords": [
+        "inflacion",
+        "tiempo",
+        "ciudad"
+      ],
+      "prompt_ia": "Graph showing financial stress test curves going through economic downturns",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "El último candado de seguridad consiste en tener consolidado tu fondo de emergencia antes de asumir la primera cuota del crédito. Este fondo debe ser equivalente a un mínimo de tres a seis meses de tus gastos fijos indispensables, incluyendo la nueva cuota proyectada. Contar con esta reserva líquida guardada en una cuenta de alto rendimiento o en un fondo de inversión colectiva seguro te da la tranquilidad de que, en caso de pérdida temporal de empleo o enfermedad, no perderás el activo financiado ni incurrirás en moras que destruyan tu historial crediticio. La capacidad real de endeudamiento no es únicamente un número estático de ingresos contra egresos. Es un sistema integral que protege tu calidad de vida presente y resguarda tu patrimonio futuro ante eventualidades severas.",
+      "keywords": [
+        "tranquilidad",
+        "inversion",
+        "meta"
+      ],
+      "prompt_ia": "A shield representing a financial emergency fund protecting family savings",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Reserva mínima requerida",
+        "etiquetas": [
+          "Meses de cobertura indispensable"
+        ],
+        "valores": [
+          6
+        ],
+        "prefijo": "",
+        "sufijo": " meses"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Calcular tu capacidad real de pago te devuelve el control absoluto sobre tu dinero y evita que los bancos dicten tu futuro. No permitas que una aprobación crediticia automática reemplace tu propio análisis contable. Haz los números con rigor, descuenta tus gastos vitales, aplica los márgenes de seguridad recomendados y exige transparencia total sobre las tasas asociadas. Si valoras las finanzas personales explicadas de forma objetiva, con datos verificados y sin falsas promesas, suscríbete ahora mismo al canal. Activa las notificaciones para no perderte las próximas entregas donde seguiremos analizando el impacto de las tasas de interés en tu bolsillo. Cuida tu capital y toma decisiones financieras basadas en matemáticas reales.",
+      "keywords": [
+        "jubilacion",
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person confident and relaxed clicking subscribe on a financial youtube channel interface",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "capacidad de endeudamiento",
+    "finanzas personales",
+    "credito hipotecario",
+    "presupuesto personal",
+    "educacion financiera",
+    "plata con datos",
+    "como pedir un credito",
+    "gastos fijos",
+    "tasa de interes",
+    "deudas"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_4",
+      "motivo": "La mitad del saldo disponible libre de un millón trescientos mil pesos es seiscientos cincuenta mil pesos, por lo que la cuota máxima recomendada según la regla enunciada no puede ser setecientos mil pesos. Al corregir la cuota a seiscientos cincuenta mil pesos, los porcentajes sobre el ingreso neto en la gráfica pasan a ser sesenta y uno por ciento para gastos fijos, veinte por ciento para la cuota y diecinueve por ciento para ahorro e imprevistos."
+    }
+  ],
+  "id": "fin_081",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

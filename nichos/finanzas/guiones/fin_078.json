@@ -1,0 +1,129 @@
+{
+  "titulo": "El cobro invisible en cajeros que devora tu salario",
+  "titulos_alternativos": [
+    "El error al sacar plata que destruye tus ahorros",
+    "Cuánto dinero pierdes por usar el cajero equivocado"
+  ],
+  "tema": "Comisiones bancarias por retiros en cajeros no convenidos",
+  "texto_portada": "CAJEROS ROBAN PLATA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Cada retiro en el cajero equivocado devora tu sueldo. Sacar plata en la máquina de otro banco parece una urgencia insignificante, pero esa comisión destruye tu presupuesto mensual.",
+      "keywords": [
+        "banco",
+        "dinero"
+      ],
+      "prompt_ia": "A person inserting a debit card into a red ATM on a busy city street at night.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Pagar ocho mil pesos por sacar tu propia plata cuatro veces al mes equivale a regalar treinta y dos mil pesos cada mes. Eso suma trescientos ochenta y cuatro mil pesos al año.",
+      "keywords": [
+        "calculadora",
+        "presupuesto"
+      ],
+      "prompt_ia": "Close up of a hand holding cash money while using a calculator on a desk.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Comisión acumulada al año",
+        "etiquetas": [
+          "Un retiro mes",
+          "Cuatro retiros mes"
+        ],
+        "valores": [
+          96000,
+          384000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Para quien gana un salario mínimo, esa suma representa perder casi seis horas de trabajo. Regalas horas de tu esfuerzo solo por no buscar la red de tu banco.",
+      "keywords": [
+        "salario",
+        "trabajo"
+      ],
+      "prompt_ia": "A tired worker looking at his digital bank account balance on a smartphone.",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Tiempo de trabajo perdido",
+        "etiquetas": [
+          "Jornada laboral perdida"
+        ],
+        "valores": [
+          6
+        ],
+        "prefijo": "",
+        "sufijo": " horas"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Planificar un solo retiro mensual o pagar directamente con tu tarjeta evita esta fuga constante. El dinero ahorrado en comisiones cubre perfectamente la factura de tu celular.",
+      "keywords": [
+        "tarjeta",
+        "celular"
+      ],
+      "prompt_ia": "A person tapping a card at a modern store checkout counter.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa los convenios de tu cuenta hoy mismo y cuida tu dinero. Suscríbete a Plata con Datos para defender tu presupuesto.",
+      "keywords": [
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A smiling person reviewing personal finances on a tablet at home.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "ahorro",
+    "cajeros automaticos",
+    "comisiones bancarias",
+    "bancos colombia",
+    "cuidados de dinero",
+    "presupuesto personal"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "El texto utiliza una aproximación ('casi cuatrocientos mil pesos'), pero el valor exacto del cálculo y de la gráfica es trescientos ochenta y cuatro mil pesos al año."
+    },
+    {
+      "seccion": "punto_2",
+      "motivo": "Con el salario mínimo actual en Colombia de un millón trescientos mil pesos, treinta y dos mil pesos al mes equivalen a aproximadamente seis horas de trabajo, no a una jornada completa de ocho horas."
+    }
+  ],
+  "id": "fin_078",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

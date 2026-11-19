@@ -1,0 +1,116 @@
+{
+  "titulo": "El costo real de tener un arriendo desocupado",
+  "titulos_alternativos": [
+    "Por qué tener tu apartamento vacío te hace perder plata",
+    "El error de cobrar un arriendo por encima del mercado"
+  ],
+  "tema": "Costo de vacancia inmobiliaria en alquileres",
+  "texto_portada": "ARRIENDO\nVACÍO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Pierdes millones si dejas tu inmueble desocupado dos meses. Intentar cobrar más que el mercado parece un gran negocio, pero la matemática dice todo lo contrario.",
+      "keywords": [
+        "casa",
+        "dinero"
+      ],
+      "prompt_ia": "An empty unfurnished modern apartment with sunlight coming through big windows",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Si pides dos millones doscientos mil pesos en lugar de dos millones, buscas ganar doscientos mil pesos adicionales al mes.",
+      "keywords": [
+        "calculadora",
+        "presupuesto"
+      ],
+      "prompt_ia": "Hands holding a calculator over real estate lease documents on a wooden table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Pero dos meses sin arrendar suman cuatro millones de pesos perdidos. Necesitarás veinte meses enteros solo para recuperar esa pérdida inicial.",
+      "keywords": [
+        "datos",
+        "tiempo"
+      ],
+      "prompt_ia": "A wall calendar with several days crossed out in red marker",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Comparativa de dinero",
+        "etiquetas": [
+          "Pérdida dos meses",
+          "Ganancia extra mensual"
+        ],
+        "valores": [
+          4000000,
+          200000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "A esa cifra debes sumarle la administración y los servicios básicos que pagas de tu bolsillo mientras el lugar sigue solo.",
+      "keywords": [
+        "estres",
+        "inversion"
+      ],
+      "prompt_ia": "A worried property owner holding unpaid utility bills inside a vacant room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Fijar un precio competitivo asegura ingresos continuos y protege tu inversión. Suscríbete a Plata con Datos para tomar decisiones con números claros.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A happy property owner shaking hands with a new tenant inside a cozy apartment",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "arriendos",
+    "bienes raices",
+    "colombia",
+    "plata con datos",
+    "inversión inmobiliaria",
+    "ahorro"
+  ],
+  "verificacion": [],
+  "id": "fin_080",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
