@@ -1,0 +1,115 @@
+{
+  "titulo": "El error de cálculo que arruina tu inversión inmobiliaria",
+  "titulos_alternativos": [
+    "Cómo calcular la tasa de vacancia en tu arriendo",
+    "No cuentes doce meses de arriendo en tu presupuesto"
+  ],
+  "tema": "Cálculo de tasa de vacancia en inversiones de bienes raíces",
+  "texto_portada": "ARRIENDO\nFALSO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu apartamento arrendado no te dará doce meses de ganancia. Muchos inversionistas calculan sus ingresos anuales multiplicando el arriendo por doce sin contar el tiempo que la propiedad durará vacía.",
+      "keywords": [
+        "casa",
+        "inversion"
+      ],
+      "prompt_ia": "A modern apartment key sitting on a wooden table next to an empty living room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "En la práctica, un inmueble promedio pasa un mes al año sin inquilino. Eso representa una tasa de vacancia cercana al ocho por ciento que debes descontar siempre.",
+      "keywords": [
+        "calculadora",
+        "tiempo"
+      ],
+      "prompt_ia": "A wall calendar with a full month marked in red color",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si cobras dos millones de pesos mensuales, esperas recibir veinticuatro millones al año. Sin embargo, al restar la vacancia, tu ingreso real cae a veintidós millones.",
+      "keywords": [
+        "dinero",
+        "datos"
+      ],
+      "prompt_ia": "Stack of local currency banknotes next to a financial sheet",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Ingreso anual proyectado contra real",
+        "etiquetas": [
+          "Proyectado",
+          "Real con vacancia"
+        ],
+        "valores": [
+          24000000,
+          22000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Guarda ese mes sin arriendo como una reserva obligatoria en tu presupuesto. Así evitas sacar plata de tu sueldo para cubrir la cuota del banco.",
+      "keywords": [
+        "presupuesto",
+        "deuda"
+      ],
+      "prompt_ia": "A piggy bank placed next to bank credit documents and a pen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Hacer números reales protege tu patrimonio. Suscríbete a Plata con Datos para analizar tus finanzas con datos transparentes.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro"
+      ],
+      "prompt_ia": "A person looking at financial growth charts on a clean modern desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "bienes raices",
+    "tasa de vacancia",
+    "inversion inmobiliaria",
+    "finanzas personales",
+    "arriendos colombia",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_083",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

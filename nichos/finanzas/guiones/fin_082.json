@@ -1,0 +1,120 @@
+{
+  "titulo": "La trampa mental que te hace gastar de mas",
+  "titulos_alternativos": [
+    "Por que justificas tus compras mas caras",
+    "El sesgo que destruye tu presupuesto"
+  ],
+  "tema": "El sesgo de confirmación aplicado a compras costosas y finanzas personales",
+  "texto_portada": "TRAMPA DE\nCOMPRAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Buscas aprobacion en internet para gastar tu plata. Quieres ese celular costoso y solo lees las opiniones de cinco estrellas. Es el sesgo de confirmacion en accion.",
+      "keywords": [
+        "celular",
+        "compras",
+        "dinero"
+      ],
+      "prompt_ia": "A person holding a high-end smartphone browsing online product reviews with happy facial expressions",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Si ves diez comentarios negativos sobre la bateria, los ignoras por completo. Tu mente destaca el unico video que dice que vale la pena. Asi justificas gastar tres millones de pesos sin culpa.",
+      "keywords": [
+        "estres",
+        "datos"
+      ],
+      "prompt_ia": "A close up of a laptop screen displaying product ratings and reviews with red warning signs ignored by the viewer",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Muchos compradores buscan reseñas solo para confirmar una decisión ya tomada. Ignorar los datos reales termina afectando tu presupuesto mensual.",
+      "keywords": [
+        "presupuesto",
+        "tarjeta"
+      ],
+      "prompt_ia": "A credit card sitting on top of a monthly budget sheet with calculated numbers",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Buscan justificar su compra",
+        "etiquetas": [
+          "Compradores con sesgo"
+        ],
+        "valores": [
+          80
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Antes de hacer un gasto fuerte, busca primero las quejas reales del producto. Espera cuarenta y ocho horas antes de pasar tu tarjeta. Tu dinero te lo mecerera.",
+      "keywords": [
+        "ahorro",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person pausing thoughtfully before completing an online checkout payment",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Protege tu bolsillo de las trampas de tu propia mente. Suscribete a Plata con Datos para cuidar tu dinero con informacion real.",
+      "keywords": [
+        "datos",
+        "dinero"
+      ],
+      "prompt_ia": "A sleek financial dashboard showing savings growth and smart financial decisions",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "sesgo de confirmacion",
+    "ahorro",
+    "presupuesto",
+    "compras inteligentes",
+    "psicologia del dinero",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "La cifra del ochenta por ciento no es un dato de conocimiento general ampliamente aceptado ni se fundamenta en un estudio o fuente citada en el guion. Se elimina la cifra no verificable y se explica el mecanismo del sesgo manteniendo el tono y la longitud."
+    }
+  ],
+  "id": "fin_082",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

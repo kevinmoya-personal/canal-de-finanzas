@@ -1,0 +1,225 @@
+{
+  "titulo": "El impacto real de la retención en tu prima",
+  "titulos_alternativos": [
+    "Por qué tu prima legal llega con desfalco",
+    "Cómo calcular la retención en la fuente de tu prima"
+  ],
+  "tema": "Cálculo del impacto de la retención en la fuente sobre la prima legal de servicios",
+  "texto_portada": "TU PRIMA\nMENOS IMPUESTOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu prima de junio llegará con un recorte imprevisto. Celebras el pago de tu prestación social pensando que recibirás cada peso pactado, pero la retención en la fuente descuenta una tajada sustancial antes de que veas la transferencia. Muchos trabajadores asumen que la prima legal está exenta de impuestos. La realidad tributaria demuestra todo lo contrario. La ley laboral obliga a pagar quince días de trabajo en junio y quince en diciembre. Sin embargo, el estatuto tributario suma este pago a tus ingresos gravables del mes. Si superas cierto tope de ingresos, el dinero que tenías destinado para saldar deudas o salir de vacaciones termina directamente en las arcas del Estado. Entender la fórmula exacta con la que el contador liquida este descuento te evitará sorpresas desagradables y te permitirá cuidar tu presupuesto de forma metódica.",
+      "keywords": [
+        "salario",
+        "dinero",
+        "presupuesto"
+      ],
+      "prompt_ia": "A close up shot of an employee looking at a paystub with a concerned expression, desk context with financial papers",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La prima de servicios es un derecho laboral fundamental que compensa al trabajador por las utilidades generadas durante el semestre. En términos sencillos, equivale a un mes de sueldo pagado en dos cuotas iguales a lo largo del año. La primera entrega ocurre en junio y la segunda a mediados de diciembre. Para quien devenga un salario fijo de cuatro millones de pesos, la prima corresponde a dos millones de pesos en cada semestre. El problema surge porque este pago no se entrega como un regalo aislado. Para las autoridades fiscales, la prima constituye un ingreso ordinario que incrementa tu capacidad económica. Por este motivo, la empresa debe aplicar la retención en el mismo momento en que liquida la nómina prestacional.",
+      "keywords": [
+        "trabajo",
+        "dinero",
+        "banco"
+      ],
+      "prompt_ia": "A stacked pile of cash money on a clean wooden office table representing employee benefits",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La retención en la fuente no es un impuesto nuevo ni un cobro inventado por tu empresa. Se trata de un mecanismo de recaudo anticipado del impuesto sobre la renta que el gobierno exige mes a mes. El empleador actúa simplemente como un agente retenedor. Su obligación legal consiste en restar un porcentaje del sueldo y transferirlo de inmediato a la administración tributaria. Cuando llega el mes de la prima, tu ingreso mensual total aumenta de forma drástica. Al sumar la mesada regular con el beneficio semestral, la base sobre la que se calculan tus tributos sube de escalón. Esto provoca que la tarifa aplicable sea superior a la que normalmente te descuentan en un mes ordinario de trabajo.",
+      "keywords": [
+        "salario",
+        "deuda",
+        "estres"
+      ],
+      "prompt_ia": "An abstract visualization of financial tax collection with coins moving towards a tax document",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "El punto de corte para empezar a pagar este tributo se mide mediante la unidad de valor tributario. Esta medida estandarizada cambia cada año para ajustarse a la inflación de la economía. En la legislación actual, los pagos laborales que superan noventa y cinco unidades de valor tributario mensuales quedan sujetos a retención. Si tu ingreso mensual depurado se ubica por debajo de este límite, el descuento es de cero pesos. Pero en el instante en que tus ingresos acumulados exceden ese umbral, el sistema aplica una tarifa progresiva. Esta escala comienza en el diecinueve por ciento y sube según la magnitud del sueldo. Por esta razón, un trabajador que jamás sufre retenciones en meses normales puede ver un descuadre justo en junio o diciembre.",
+      "keywords": [
+        "calculadora",
+        "datos",
+        "inflacion"
+      ],
+      "prompt_ia": "A financial dashboard on a monitor showing economic metrics and tax scale charts",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "El cálculo no se hace directamente sobre el valor bruto que figura en tu contrato de trabajo. Antes de aplicar cualquier porcentaje, el liquidador debe realizar un proceso denominado depuración de la renta. A tu salario bruto y tu prima se le restan los aportes obligatorios a salud del cuatro por ciento y a pensión del cuatro por ciento. Adicionalmente, la ley concede un alivio fiscal al declarar que el veinticinco por ciento del ingreso laboral resultante es completamente exento. Esta exención del veinticinco por ciento busca proteger una parte del dinero destinado al sustento básico de la familia. Solo después de restar la seguridad social y esta fracción exenta se obtiene la base neta sobre la cual se aplicará la tabla impositiva.",
+      "keywords": [
+        "familia",
+        "calculadora",
+        "presupuesto"
+      ],
+      "prompt_ia": "A person analyzing a paper document with a pen and financial calculator on a clean workspace",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Renta laboral exenta por ley",
+        "etiquetas": [
+          "Exención legal sobre base depurada"
+        ],
+        "valores": [
+          25
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Una vez obtenida la base neta en pesos, el sistema la convierte a unidades de valor tributario para ubicarla en la tabla legal. Las personas con ingresos moderados pagan una tarifa inicial del cero por ciento sobre el primer tramo. Quienes superan la primera barrera entran al rango del diecinueve por ciento sobre el exceso del límite. Si los ingresos son sustancialmente mayores, la tarifa marginal salta al veintiocho por ciento o incluso más arriba. Esto demuestra por qué el impacto no es igual para todos los empleados de una misma compañía. La tabla progresiva exige una tajada superior a los sueldos más altos, asegurando que quien recibe más dinero aporte una proporción mayor al erario público.",
+      "keywords": [
+        "datos",
+        "dinero",
+        "salario"
+      ],
+      "prompt_ia": "A bar chart representation of progressive tax rates going upwards in steps",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Tarifas de retención según ingreso",
+        "etiquetas": [
+          "Primer tramo",
+          "Segundo tramo",
+          "Tercer tramo"
+        ],
+        "valores": [
+          0,
+          19,
+          28
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Veamos un ejemplo numérico concreto con datos reales para entender el golpe al bolsillo. Imaginemos a un profesional con un sueldo ordinario de seis millones de pesos que recibe una prima de tres millones de pesos. Su ingreso total en ese mes alcanza los nueve millones de pesos. Tras restar la seguridad social y el beneficio del veinticinco por ciento exento, la base depurada supera ampliamente las noventa y cinco unidades de valor tributario. En este escenario, el contador debe retener aproximadamente trescientos sesenta y cinco mil pesos adicionales por el pago de la prima. En lugar de recibir sus tres millones de pesos completos, el empleado verá en su cuenta un neto efectivo de dos millones seiscientos treinta y cinco mil pesos de esta prestación. Es una diferencia sustancial que desbarata cualquier presupuesto sin planeación previa.",
+      "keywords": [
+        "banco",
+        "compras",
+        "presupuesto"
+      ],
+      "prompt_ia": "A mobile phone screen showing a digital bank transfer notification with modern UI",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Impacto en prima de tres millones",
+        "etiquetas": [
+          "Prima bruta",
+          "Retención aplicada",
+          "Prima neta recibida"
+        ],
+        "valores": [
+          3000000,
+          365000,
+          2635000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Existen caminos legales y transparentes para disminuir el impacto de esta retención sin infringir las normas. La ley permite deducir ciertos gastos para reducir la base gravable antes del cálculo final. Si realizas aportes a fondos voluntarios de pensión o a cuentas de ahorro para el fomento de la construcción, esos montos se restan directamente de tu base imponible. De igual manera, certificar dependientes económicos como hijos menores o padres a cargo te otorga una deducción mensual adicional. Al utilizar estas herramientas de optimización fiscal, un trabajador puede elevar su prima recibida de dos millones seiscientos treinta y cinco mil pesos a casi tres millones de pesos de forma íntegra, conservando su dinero en su cuenta en lugar de verlo retenido.",
+      "keywords": [
+        "ahorro",
+        "casa",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A peaceful scene of a person reviewing house savings plans near a window",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Prima neta según optimización",
+        "etiquetas": [
+          "Sin optimizar",
+          "Con deducciones"
+        ],
+        "valores": [
+          2635000,
+          3000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Conocer el destino exacto de cada peso de tu prima te da el control total sobre tus finanzas personales. No dejes que la falta de información arruine tus metas de ahorro ni tus planes familiares a mitad de año. Revisa detenidamente tu desprendible de pago en el próximo vencimiento para verificar que las deducciones aplicadas sean las correctas. Si te gusta tomar decisiones financieras basadas en datos reales y cálculos exactos, suscríbete al canal ahora mismo. Activa la campana de notificaciones para no perderte ninguno de nuestros análisis presupuestales. Tu dinero rinde más cuando entiendes las reglas del juego.",
+      "keywords": [
+        "meta",
+        "ahorro",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person holding a smartphone outdoors with a satisfied smile, clear daylight shot",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "retencion en la fuente",
+    "prima legal",
+    "prima de servicios",
+    "impuestos colombia",
+    "calculo de retencion",
+    "finanzas personales",
+    "plata con datos",
+    "deducciones de ley",
+    "retencion salario",
+    "ahorro fiscal"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_6",
+      "motivo": "El cálculo anterior aplicaba una retención del ocho por ciento plano sobre la prima bruta en lugar de aplicar la depuración de la renta y la tabla en UVT establecida por la ley colombiana. Para un sueldo de seis millones y una prima de tres millones, la retención en la fuente incremental generada en el mes asciende a trescientos sesenta y cinco mil pesos, dejando un valor neto de la prima de dos millones seiscientos treinta y cinco mil pesos."
+    },
+    {
+      "seccion": "punto_7",
+      "motivo": "Se actualiza el valor de la prima neta sin optimizar a dos millones seiscientos treinta y cinco mil pesos para mantener coherencia con los cálculos corregidos en la sección anterior."
+    }
+  ],
+  "id": "fin_085",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

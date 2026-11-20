@@ -1,0 +1,124 @@
+{
+  "titulo": "El peligro oculto de aceptar más cupo en tu tarjeta",
+  "titulos_alternativos": [
+    "Por qué no debes aceptar más cupo en tu tarjeta",
+    "El impacto del cupo robando tu capacidad de crédito"
+  ],
+  "tema": "Aumentos automáticos de cupo en tarjetas de crédito y riesgo registrado",
+  "texto_portada": "RECHAZA ESTE\nAUMENTO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Ese aumento de cupo destruye tu próximo crédito. Celebras cuando el banco te sube el límite sin pedirlo. La realidad es que estás reduciendo tu capacidad de préstamo sin saberlo.",
+      "keywords": [
+        "banco",
+        "tarjeta"
+      ],
+      "prompt_ia": "Close up of a person holding a credit card looking at a phone screen notification with concern",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Las centrales de riesgo no solo registran lo que debes. También suman todo el dinero que podrías gastar. Si acumulas veinte millones en cupos aprobados, el sistema asume que tu deuda potencial es exactamente esa.",
+      "keywords": [
+        "datos",
+        "deuda"
+      ],
+      "prompt_ia": "A modern credit data dashboard screen showing financial metrics and credit risk indicators",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Deuda potencial registrada",
+        "etiquetas": [
+          "Cupo total evaluado por el sistema"
+        ],
+        "valores": [
+          20000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Al solicitar un crédito de vivienda, el banco evalúa tu cupo rotativo total. Si tus cupos aprobados son altos frente a tus ingresos, tu capacidad de préstamo puede caer del cien al sesenta por ciento, incluso si mantienes el saldo en cero.",
+      "keywords": [
+        "casa",
+        "calculadora"
+      ],
+      "prompt_ia": "A person discussing loan documentation with a loan officer sitting at a desk",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Capacidad de préstamo según cupos",
+        "etiquetas": [
+          "Sin cupos altos",
+          "Con cupos altos"
+        ],
+        "valores": [
+          100,
+          60
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Llamar al banco y rechazar esos aumentos no solicitados cuida tu perfil crediticio. Deja solo el límite necesario para tus compras mensuales.",
+      "keywords": [
+        "presupuesto",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A calm person calling bank customer support while reviewing monthly budget notes",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Protege tu cupo para los créditos que sí importan. Sigue a Plata con Datos y aprende a manejar tu dinero con cifras reales.",
+      "keywords": [
+        "dinero",
+        "meta"
+      ],
+      "prompt_ia": "A professional financial chart moving upward with clear clean graphics",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "tarjetas de credito",
+    "historial crediticio",
+    "finanzas personales",
+    "bancos",
+    "cupo de credito",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "La gráfica mostraba una reducción de capacidad de préstamo del cien al sesenta por ciento que no figuraba en el texto ni explicaba el supuesto del monto de los cupos frente al ingreso."
+    }
+  ],
+  "id": "fin_084",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
