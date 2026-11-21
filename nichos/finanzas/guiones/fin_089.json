@@ -1,0 +1,213 @@
+{
+  "titulo": "El costo oculto de reprogramar las cuotas de tu crédito de carro",
+  "titulos_alternativos": [
+    "La trampa de bajar la cuota mensual de tu vehículo",
+    "El peligro de financiar tu carro a un plazo mayor"
+  ],
+  "tema": "El costo total oculto al reprogramar las cuotas de un crédito vehicular a un plazo mayor",
+  "texto_portada": "CUIDADO CON TU CRÉDITO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Bajar la cuota de tu carro destruye tu bolsillo. Celebras cuando el banco acepta extender el plazo para que pagues menos cada mes. Sin embargo, esa tranquilidad inmediata oculta un castigo financiero desgarrador. Al pasar un crédito vehicular de cuatro a seis años, no estás ahorrando ni un solo peso. Lo que estás haciendo es financiar intereses acumulados y seguros costosos durante veinticuatro meses adicionales. El vehículo perderá su valor mucho más rápido de lo que tú reduces el saldo con la entidad financiera. Al final del proceso habrás pagado casi el valor de dos vehículos por haber comprado solo uno. Entender cómo funcionan las matemáticas del banco te evitará caer en una trampa de deuda interminable. Hoy analizaremos con números transparentes el costo real de reprogramar el pago de tu vehículo.",
+      "keywords": [
+        "deuda",
+        "banco",
+        "dinero"
+      ],
+      "prompt_ia": "A worried car owner looking at loan documents inside a modern vehicle",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El alivio mensual es solo una ilusión óptica dentro de tu presupuesto diario. Supón que compraste un vehículo financiado a cuatro años con una cuota de un millón doscientos mil pesos. Si el presupuesto apreta, la respuesta automática de la entidad financiera es ofrecerte una reprogramación. Te proponen extender la deuda a seis años para que la cuota baje a ochocientos mil pesos. A primera vista parece un gran respiro porque recuperas cuatrocientos mil pesos de flujo mensual para tus gastos de mercado o arriendo. Pero la realidad matemática es muy diferente. Esos cuatrocientos mil pesos que crees liberar cada mes no son un descuento en el precio del vehículo. Son simplemente un aplazamiento con intereses multiplicados por veinticuatro meses más. Estás extendiendo la agonía financiera sin solucionar el problema de fondo.",
+      "keywords": [
+        "presupuesto",
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "Hands holding a smartphone displaying a banking app with loan installment figures",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El verdadero impacto aparece cuando calculas los intereses totales al final del contrato. Tomemos como ejemplo un crédito vehicular original por cuarenta millones de pesos. En el plazo inicial de cuatro años, los intereses acumulados suman quince millones de pesos adicionales al capital prestado. Al reprogramar a seis años para bajar la cuota, el cálculo cambia por completo. Los intereses totales se disparan hasta alcanzar veinticuatro millones de pesos. Eso significa un cobro adicional de nueve millones de pesos solo por extender el tiempo. Pagas mucho más en puros intereses. La entidad financiera celebra este cambio porque asegura su rentabilidad durante dos años más a costa de tus ingresos futuros.",
+      "keywords": [
+        "interes",
+        "datos",
+        "banco"
+      ],
+      "prompt_ia": "A financial chart showing soaring interest payments on a digital screen",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Intereses totales a pagar por plazo",
+        "etiquetas": [
+          "Plazo original 4 años",
+          "Plazo extendido 6 años"
+        ],
+        "valores": [
+          15000000,
+          24000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Los automóviles sufren una depreciación constante que no perdona plazos extendidos. Un carro pierde aproximadamente la mitad de su valor comercial en los primeros cinco años de uso. Si mantienes la deuda activa durante seis años, la velocidad a la que cae el precio del vehículo es superior a la velocidad a la que reduces la deuda. Durante los primeros años de un crédito vehicular, la mayor parte de tu cuota mensual se va en pagar intereses y no en abonar a la suma prestada. Esto genera un cruce peligroso en tu balance personal. Tienes un bien que vale cada día menos en el mercado pero mantienes un compromiso financiero gigantesco con el banco.",
+      "keywords": [
+        "inflacion",
+        "tiempo",
+        "compras"
+      ],
+      "prompt_ia": "A brand new car losing its shiny appeal in a garage setting",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Pérdida de valor comercial en 5 años",
+        "etiquetas": [
+          "Valor perdido"
+        ],
+        "valores": [
+          50
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Al extender el crédito también multiplicas el pago de los seguros obligatorios. Cuando compras un vehículo financiado, el banco exige mantener un seguro todo riesgo durante toda la vida del préstamo. Si reprogramas la deuda de cuatro a seis años, estás obligado a pagar dos años completos más de póliza. Si el seguro anual cuesta tres millones de pesos, extender el plazo suma seis millones de pesos adicionales que no tenías previstos. Este cobro no disminuye el saldo de tu deuda ni genera valor para ti. Es un gasto administrativo puro que la mayoría de los usuarios olvida sumar cuando acepta la reestructuración en la aplicación del banco.",
+      "keywords": [
+        "deuda",
+        "dinero",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Insurance policy documents lying beside car keys on a wooden table",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Costo extra en seguros obligatorios",
+        "etiquetas": [
+          "Pago adicional en dos años"
+        ],
+        "valores": [
+          6000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Las reestructuraciones bancarias suelen incluir cargos administrativos ocultos y ajustes de tasa. Cuando pides cambiar las condiciones iniciales del crédito, la entidad aplica gastos por reprogramación o estudio de cartera. Además, al aumentar el riesgo por un plazo más largo, es muy probable que te asignen una tasa de interés más alta que la original. Un incremento de solo dos puntos porcentuales en la tasa de interés anual destruye cualquier beneficio en la cuota. Lo que parecía un acuerdo amistoso para ayudarte a respirar se convierte en una operación muy lucrativa para el sistema financiero.",
+      "keywords": [
+        "banco",
+        "interes",
+        "datos"
+      ],
+      "prompt_ia": "Close up of fine print contract clauses highlighted under a spotlight",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "El gran riesgo de extender el plazo es caer en la trampa del patrimonio negativo. Esto ocurre cuando la deuda pendiente con el banco supera el precio de venta real del automóvil. Supón que en el año cuatro deseas vender el vehículo por una emergencia familiar. Si el mercado pagaría veintidós millones de pesos por tu carro, pero tu deuda reprogramada aún asciende a veintiocho millones de pesos, no podrás venderlo de forma limpia. Tendrías que sacar seis millones de pesos en efectivo de tu bolsillo solo para saldar la deuda y entregar el vehículo al comprador. Quedas atrapado en un bien que no puedes liquidar fácilmente.",
+      "keywords": [
+        "deuda",
+        "estres",
+        "salario"
+      ],
+      "prompt_ia": "A person stressed at a desk evaluating negative balance statements",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Valor comercial versus Deuda en el año 4",
+        "etiquetas": [
+          "Valor de venta",
+          "Saldo en el banco"
+        ],
+        "valores": [
+          22000000,
+          28000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Existen alternativas financieras mucho más efectivas que reprogramar un crédito de carro a más tiempo. Si enfrentas dificultades temporales en tu presupuesto, la primera opción debe ser recortar gastos secundarios o renegociar deudas de consumo de menor impacto. También puedes intentar hacer abonos extraordinarios a capital en los meses donde recibas ingresos adicionales como primas o bonos. Si la deuda del vehículo es definitivamente insostenible con tus ingresos actuales, la solución más sensata es vender el carro antes de deteriorar tu historial. Comprar un medio de transporte acorde a tu capacidad real de pago devolverá la tranquilidad a tu hogar sin comprometer tu futuro.",
+      "keywords": [
+        "ahorro",
+        "meta",
+        "presupuesto"
+      ],
+      "prompt_ia": "A person organizing household budgets with a pen and clean spreadsheet",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tomar decisiones financieras con datos reales marca la diferencia entre construir patrimonio o regalar tu trabajo. Antes de firmar cualquier ampliación de plazo en tu crédito vehicular, saca la calculadora y suma el costo total final. No te quedes solo con el número de la cuota mensual. Si este análisis te ayudó a ver el panorama completo y quieres cuidar tu dinero con información transparente, suscríbete al canal ahora mismo. Activa las notificaciones y comparte este contenido con alguien que esté pensando en reprogramar sus deudas. Tu presupuesto te lo agradecerá.",
+      "keywords": [
+        "datos",
+        "tranquilidad",
+        "ahorro"
+      ],
+      "prompt_ia": "A confident person reviewing clean financial records with peace of mind",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "credito vehicular",
+    "deudas",
+    "finanzas personales",
+    "bancos",
+    "intereses",
+    "reprogramar credito",
+    "presupuesto",
+    "ahorro"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "Con una tasa de interés de crédito vehicular realista en Colombia (alrededor del uno coma cuatro por ciento mensual), un préstamo de cuarenta millones de pesos a cuatro años genera aproximadamente quince millones de pesos en intereses. Al extender el plazo a seis años, los intereses acumulados aumentan a veinticuatro millones de pesos, no a treinta y cinco millones. Por lo tanto, el costo adicional es de nueve millones de pesos y no de veinte millones."
+    }
+  ],
+  "id": "fin_089",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

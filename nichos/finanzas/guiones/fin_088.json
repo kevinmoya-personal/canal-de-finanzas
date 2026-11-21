@@ -1,0 +1,116 @@
+{
+  "titulo": "El riesgo financiero de pagar mitad y mitad en pareja",
+  "titulos_alternativos": [
+    "Por qué dividir gastos a la mitad daña tus finanzas en pareja",
+    "Aportes proporcionales: la clave para vivir en pareja"
+  ],
+  "tema": "Finanzas en pareja y aportes proporcionales según el ingreso",
+  "texto_portada": "MITAD Y MITAD\n¿TE ARRUINA?",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Dividir gastos por la mitad arruina a tu pareja. Parece un acuerdo justo, pero si ganan distinto, destruye la economía del que gana menos.",
+      "keywords": [
+        "casa",
+        "estres"
+      ],
+      "prompt_ia": "A couple sitting at a wooden table looking stressed while reviewing utility bills",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Si ganas cuatro millones de pesos y tu pareja dos millones, pagar un millón cada uno destruye su presupuesto. Tú aportas solo el veinticinco por ciento de tu sueldo. Tu pareja gasta el cincuenta por ciento de sus ingresos en el mismo pago.",
+      "keywords": [
+        "salario",
+        "presupuesto"
+      ],
+      "prompt_ia": "Two hands putting different stacks of paper money into a shared glass jar",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Porcentaje del sueldo gastado",
+        "etiquetas": [
+          "Sueldo alto",
+          "Sueldo bajo"
+        ],
+        "valores": [
+          25,
+          50
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El socio que gana menos termina recurriendo a tarjetas de crédito para mantener el estilo de vida compartido. Las deudas personales aumentan y la capacidad de ahorro de la pareja se reduce a cero.",
+      "keywords": [
+        "tarjeta",
+        "deuda",
+        "ahorro"
+      ],
+      "prompt_ia": "A close up of a hand holding a plastic credit card over stack of receipt slips",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La solución equitativa es aportar un porcentaje igual del salario de cada uno. Si fijan el treinta por ciento, tú pones un millón doscientos mil pesos y tu pareja seiscientos mil. Así ambos mantienen la misma libertad financiera.",
+      "keywords": [
+        "calculadora",
+        "dinero",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A clean calculator next to open notebook showing organized columns of figures",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Ajusta las cuentas de tu hogar hoy mismo sin miedo a hablar de plata. Suscríbete a Plata con Datos para tomar decisiones financieras inteligentes en pareja.",
+      "keywords": [
+        "datos",
+        "meta"
+      ],
+      "prompt_ia": "A smiling couple reviewing a financial goal planner together on a tablet screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas en pareja",
+    "ahorro en pareja",
+    "presupuesto familiar",
+    "deudas en pareja",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_088",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

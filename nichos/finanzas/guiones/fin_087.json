@@ -1,0 +1,119 @@
+{
+  "titulo": "Cómo bajar la cuota de tu crédito hipotecario",
+  "titulos_alternativos": [
+    "El secreto para pagar menos en tu seguro hipotecario",
+    "Reduce la cuota de tu vivienda con este trámite"
+  ],
+  "tema": "Endoso de seguro de vida hipotecario",
+  "texto_portada": "AHORRA EN TU\nHIPOTECA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Pagas de más en la cuota de tu vivienda. El banco te cobra un seguro de vida colectivo bastante caro. La ley te permite cambiar esa póliza.",
+      "keywords": [
+        "casa",
+        "banco"
+      ],
+      "prompt_ia": "A stressed person looking at a monthly home mortgage bill at a dining table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Este trámite se llama endoso de seguro. Contratas una póliza de vida individual con otra aseguradora a un menor precio. Luego la pones a favor de tu banco.",
+      "keywords": [
+        "deuda",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A signed insurance policy document lying on a desk next to house keys",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Veamos los datos. El seguro del banco puede costar ochenta mil pesos al mes. Con una opción externa pagas treinta mil pesos. Ahorras cincuenta mil pesos mensuales.",
+      "keywords": [
+        "calculadora",
+        "dinero"
+      ],
+      "prompt_ia": "Hands typing on a calculator displaying monthly savings on paper",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo mensual del seguro",
+        "etiquetas": [
+          "Banco",
+          "Endoso"
+        ],
+        "valores": [
+          80000,
+          30000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "En un crédito a veinte años este ajuste te ahorra doce millones de pesos. El trámite solo requiere radicar la nueva póliza en la entidad financiera.",
+      "keywords": [
+        "tiempo",
+        "ahorro"
+      ],
+      "prompt_ia": "A hourglass on top of stack of banknotes representing long term mortgage savings",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Ahorro total a veinte años",
+        "etiquetas": [
+          "Dinero ahorrado"
+        ],
+        "valores": [
+          12000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa tu extracto hipotecario hoy y cotiza por fuera. Suscríbete a Plata con Datos para defender tu presupuesto.",
+      "keywords": [
+        "presupuesto",
+        "datos"
+      ],
+      "prompt_ia": "A smartphone displaying financial charts and data analysis app",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "credito hipotecario",
+    "seguro de vida",
+    "ahorro vivienda",
+    "finanzas personales",
+    "endoso de seguro",
+    "bajar cuota banco"
+  ],
+  "verificacion": [],
+  "id": "fin_087",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

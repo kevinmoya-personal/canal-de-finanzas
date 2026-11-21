@@ -1,0 +1,125 @@
+{
+  "titulo": "Tu gasolina es el gasto más pequeño de tu carro",
+  "titulos_alternativos": [
+    "El costo oculto de tu vehículo que destruye tu bolsillo",
+    "Por qué tu carro te cuesta el doble de lo que tanqueas"
+  ],
+  "tema": "Gastos de mantenimiento preventivo y depreciación vs costo de gasolina en un vehículo",
+  "texto_portada": "EL COSTO OCULTO\nDE TU CARRO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu gasolina es el gasto más pequeño de tu carro. Crees que el combustible se lleva la mayor parte de tu dinero. La realidad es que la depreciación y los mantenimientos silenciosos te cuestan el doble.",
+      "keywords": [
+        "dinero",
+        "estres"
+      ],
+      "prompt_ia": "A driver looking stressfully at a gas pump receipt next to a car",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Un carro nuevo de sesenta millones de pesos pierde cerca del veinte por ciento de su valor en el primer año. Si gastas trescientos mil pesos al mes en combustible, la pérdida de valor mensual de un millón de pesos supera fácil esa cifra.",
+      "keywords": [
+        "datos",
+        "calculadora"
+      ],
+      "prompt_ia": "A brand new sedan car losing value visual presentation concept",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo mensual estimado",
+        "etiquetas": [
+          "Gasolina",
+          "Depreciación"
+        ],
+        "valores": [
+          300000,
+          1000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Súmale frenos, llantas, cambios de aceite y revisiones preventivas. Esos repuestos y mantenimientos suman fácil dos millones de pesos al año, recortando tu sueldo mes a mes sin que te des cuenta.",
+      "keywords": [
+        "presupuesto",
+        "salario"
+      ],
+      "prompt_ia": "Car spare parts like brake discs and oil filters arranged neatly",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Mantenimiento anual promedio",
+        "etiquetas": [
+          "Repuestos y revisiones"
+        ],
+        "valores": [
+          2000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Al final del año, el combustible representa solo una tercera parte del costo total de tener un vehículo rodando en la ciudad. Los gastos invisibles son los que aplastan tu capacidad de ahorro.",
+      "keywords": [
+        "ciudad",
+        "ahorro"
+      ],
+      "prompt_ia": "A car parked on a city street at dusk during traffic",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Calcula los costos reales antes de comprar o cambiar de vehículo. Suscríbete a Plata con Datos para cuidar tu presupuesto con números de verdad.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A person reviewing financial charts on a notepad calmly",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "gastos de carro",
+    "depreciacion vehicular",
+    "mantenimiento preventivo",
+    "plata con datos",
+    "ahorro inteligente",
+    "presupuesto familiar"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "La cifra de depreciación mensual depende del precio inicial del vehículo, supuesto que no se aclara en el texto. Además, para reflejar los precios actuales de vehículos nuevos en Colombia (alrededor de sesenta millones de pesos), el veinte por ciento de depreciación en el primer año equivale a doce millones de pesos anuales o un millón de pesos mensuales, por lo que el valor en la gráfica debe actualizarse."
+    }
+  ],
+  "id": "fin_086",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
