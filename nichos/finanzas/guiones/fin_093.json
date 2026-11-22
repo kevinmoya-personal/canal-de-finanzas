@@ -1,0 +1,218 @@
+{
+  "titulo": "El costo oculto que devora la rentabilidad de tu fondo",
+  "titulos_alternativos": [
+    "La trampa de las comisiones en tus fondos de inversión",
+    "Cómo calcular la rentabilidad real de tu dinero invertido"
+  ],
+  "tema": "Cálculo de rentabilidad real en fondos de inversión colectiva descontando comisiones e inflación",
+  "texto_portada": "RENTABILIDAD REAL SIN TRAMPAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu fondo de inversión te quita plata sin avisar. Celebras ver una rentabilidad anunciada del ocho por ciento en tu aplicación del banco. Sin embargo, al revisar tu saldo al cabo de un año, la ganancia real es mucho menor de lo esperado. Crees que el mercado falló o que el dólar cayó. La realidad es que la comisión de administración cobrada por la entidad financiera devoró una gran parte de tus beneficios antes de que tocaran tu cuenta. Este cobro opera en silencio todos los días sobre el valor total de tus recursos. Comprender este cobro es el primer paso para proteger tu capital. En esta guía desglosaremos con datos exactos cómo funciona la rentabilidad real de un fondo de inversión colectiva y cómo calcular lo que realmente entra a tu bolsillo.",
+      "keywords": [
+        "banco",
+        "inversion",
+        "dinero"
+      ],
+      "prompt_ia": "A disappointed person looking at financial charts on a modern phone screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La comisión de administración no se cobra sobre tus ganancias netas. Este es el primer gran error de interpretación que cometen miles de inversionistas en la región. Si entregas diez millones de pesos a un fondo colectivo con una tarifa anual del tres por ciento, la entidad no espera a ver si ganaste plata para descontar su cuota. La sociedad administradora resta esa tajada todos los días laborables directamente del patrimonio total del fondo, sin importar si los mercados subieron o cayeron drásticamente durante el periodo. Esto significa que si el fondo pierde valor durante un año difícil, tú sigues pagando la cuota completa por el servicio de gestión. Tu saldo final refleja ya ese descuento invisible, ocultando la diferencia entre el rendimiento del portafolio y lo que efectivamente queda en tus manos al final del ejercicio anual.",
+      "keywords": [
+        "inversion",
+        "datos",
+        "presupuesto"
+      ],
+      "prompt_ia": "Close up of financial documents and contracts on a wooden desk with a pen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Hagamos las matemáticas simples para descubrir tu rentabilidad efectiva inicial. Imagina que ingresas cien millones de pesos en un fondo de inversión de renta fija. Durante doce meses el portafolio genera un rendimiento bruto del diez por ciento. En un mundo perfecto tendrías diez millones de pesos extra en tu saldo disponible. Sin embargo, la ficha técnica del producto establece una comisión de administración del dos coma cinco por ciento anual sobre el saldo gestionado. Para hallar tu ganancia antes de impuestos debes restar ese porcentaje al rendimiento bruto. De esta manera, tu rentabilidad neta pasa de diez por ciento a siete coma cinco por ciento. En términos monetarios directos, pagaste dos millones quinientos mil pesos al banco por administrar tu dinero durante ese periodo de doce meses completos.",
+      "keywords": [
+        "calculadora",
+        "interes",
+        "banco"
+      ],
+      "prompt_ia": "A person calculating financial figures on a desk calculator",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Desglose de rendimiento inicial",
+        "etiquetas": [
+          "Rendimiento bruto",
+          "Comisión banco",
+          "Rentabilidad neta"
+        ],
+        "valores": [
+          10,
+          2.5,
+          7.5
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Resta la inflación para conocer el verdadero poder de compra de tus ganancias. Obtener un rendimiento neto del siete coma cinco por ciento parece un resultado aceptable en el papel, pero la economía diaria dicta una realidad diferente. Si durante ese mismo periodo la inflación de tu país se ubica en el cinco por ciento anual, los precios del mercado subieron al mismo ritmo. Para calcular la rentabilidad real debes restar el impacto de la inflación a tu rendimiento neto posterior a comisiones. Al descontar ese cinco por ciento al resultado previo de siete coma cinco por ciento, descubres que la rentabilidad real de tu inversión fue de apenas el dos coma cinco por ciento anual. Tu plata creció en términos numéricos, pero tu capacidad de compra real apenas logró defenderse del costo de vida.",
+      "keywords": [
+        "inflacion",
+        "dinero",
+        "monedas"
+      ],
+      "prompt_ia": "Shopping cart next to decreasing stacks of coins illustrating inflation",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Impacto de la inflación",
+        "etiquetas": [
+          "Rentabilidad neta",
+          "Inflación anual",
+          "Rentabilidad real"
+        ],
+        "valores": [
+          7.5,
+          5,
+          2.5
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "El interés compuesto trabaja en tu contra cuando pagas comisiones elevadas año tras año. A corto plazo perder un dos por ciento parece una diferencia insignificante dentro del presupuesto personal. Sin embargo, cuando proyectas tus recursos a diez o veinte años para metas financieras de largo plazo, esa pequeña tarifa se transforma en una cifra aterradora. El dinero recaudado por la administración deja de generar intereses a tu favor en los años siguientes. En dos décadas de ahorro constante, un fondo que cobra un tres por ciento de comisión puede quedarse con más del treinta por ciento de todo el capital final acumulado que debió pertenecerte a ti. La constancia del cobro destruye el poder multiplicador del tiempo sobre tus metas de libertad financiera.",
+      "keywords": [
+        "tiempo",
+        "jubilacion",
+        "meta"
+      ],
+      "prompt_ia": "An hourglass next to a growing interest chart and money coins",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Capital perdido en comisiones a 20 años",
+        "etiquetas": [
+          "Pérdida por comisiones acumuladas"
+        ],
+        "valores": [
+          30
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Compara las opciones de bajo costo frente a los fondos gestionados tradicionalmente. En el mercado existen alternativas con comisiones muy distintas para perfiles de riesgo similares. Mientras un fondo de inversión colectivo tradicional en la región puede cobrar entre el dos y el cuatro por ciento anual por una gestión activa, un fondo indexado o de baja comisión suele cobrar menos del cero coma cinco por ciento por año. Si inviertes cincuenta millones de pesos a una tasa bruta del ocho por ciento durante quince años, la opción de bajo costo te dejará decenas de millones de pesos adicionales en el saldo total acumulado al momento del retiro. Elegir bien la entidad administradora equivale a conservar una gran parte del patrimonio generado sin asumir riesgos desmedidos.",
+      "keywords": [
+        "ahorro",
+        "bolsa",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Two balance scale pans comparing different investment fees",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Las comisiones fijas destruyen la rentabilidad en portafolios de conservación moderada. Cuando eliges un perfil de inversión conservador, la rentabilidad bruta esperada suele ser modesta debido a la baja exposición a activos volátiles. Si tu fondo ofrece un rendimiento bruto proyectado del cuatro por ciento anual y la entidad te cobra una comisión del dos por ciento, la administradora se está quedando exactamente con la mitad de todo el valor creado por tu dinero. Al sumar el efecto de una inflación del tres por ciento, tu saldo neto real entra en terreno negativo de menos uno por ciento. Terminas perdiendo poder adquisitivo a pesar de haber mantenido tu plata invertida durante todo el periodo en una institución financiera vigilada.",
+      "keywords": [
+        "estres",
+        "inflacion",
+        "banco"
+      ],
+      "prompt_ia": "A stressed person reviewing bank statements at home",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Efecto en perfil conservador",
+        "etiquetas": [
+          "Rendimiento bruto",
+          "Comisión banco",
+          "Inflación",
+          "Rentabilidad real neta"
+        ],
+        "valores": [
+          4,
+          2,
+          3,
+          -1
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Aprende a leer la ficha técnica del fondo antes de firmar cualquier contrato. Toda sociedad administradora está obligada por ley a publicar un documento mensual detallado con los costos y rendimientos históricos del producto. Busca la casilla de gastos totales operacionales y la tasa de administración cobrada. Compara siempre el rendimiento bruto del portafolio frente al rendimiento neto entregado a los inversionistas. Pregunta explícitamente a tu asesor si existen sanciones por retiro anticipado o comisiones por éxito. Exigir la cifra neta estimada te permite tomar decisiones basadas en datos reales y no en proyecciones publicitarias deslumbrantes que ocultan los descuentos operativos del servicio.",
+      "keywords": [
+        "datos",
+        "calculadora",
+        "trabajo"
+      ],
+      "prompt_ia": "Hands holding a formal financial factsheet with highlighted text",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Calcular la rentabilidad real es la mejor defensa para no regalar tu esfuerzo financiero. No te quedes con la cifra de rentabilidad bruta que aparece en los folletos del banco ni con la promesa de ganancias fáciles. Revisa la ficha técnica de tu fondo de inversión hoy mismo, calcula las comisiones de administración anuales y resta la inflación para conocer la verdad sobre tu plata. Si quieres aprender a analizar tus inversiones con datos claros y tomar el control de tu presupuesto sin rodeos, suscríbete a Plata con Datos ahora mismo y activa las notificaciones para no perderte el próximo análisis.",
+      "keywords": [
+        "dinero",
+        "inversion",
+        "meta"
+      ],
+      "prompt_ia": "A happy person managing personal finances on a laptop at home",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "fondos de inversion",
+    "comisiones bancarias",
+    "rentabilidad real",
+    "inflacion",
+    "interes compuesto",
+    "educacion financiera",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_093",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

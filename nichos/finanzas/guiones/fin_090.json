@@ -1,0 +1,120 @@
+{
+  "titulo": "Por qué retirar tus cesantías antes te cuesta dinero",
+  "titulos_alternativos": [
+    "El error común al pedir cesantías para estudio",
+    "No guardes tus cesantías en la cuenta bancaria"
+  ],
+  "tema": "Pérdida de valor por retiro anticipado de cesantías para educación",
+  "texto_portada": "CESANTÍAS\nEN RIESGO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Retirar tus cesantías meses antes arruina tu dinero. Piensas guardar ese saldo en tu cuenta hasta pagar la universidad. La realidad es que pierdes poder de compra.",
+      "keywords": [
+        "dinero",
+        "banco"
+      ],
+      "prompt_ia": "A concerned person holding a smartphone showing a bank account balance screen.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Mientras la plata sigue en el fondo genera rendimientos todos los días. Al trasladarla a una cuenta tradicional ese crecimiento se detiene por completo.",
+      "keywords": [
+        "inflacion",
+        "interes"
+      ],
+      "prompt_ia": "A glass piggy bank with monetary interest icons floating around it.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si retiras diez millones de pesos seis meses antes de la matrícula, con una rentabilidad estimada del cinco por ciento semestral, pierdes quinientos mil pesos entre rendimientos no ganados e inflación. Además la matrícula subirá.",
+      "keywords": [
+        "presupuesto",
+        "salario"
+      ],
+      "prompt_ia": "A tuition invoice sitting next to a pile of banknotes on a wooden table.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Saldo proyectado en seis meses",
+        "etiquetas": [
+          "En el fondo",
+          "En la cuenta"
+        ],
+        "valores": [
+          10500000,
+          10000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Deja el dinero rentando en la administradora hasta la fecha exacta de pago. Solicita la giros directos a la institución educativa para evitar la tentación de gastarlo.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A student filling out a formal university payment voucher at a desk.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Proteger tu presupuesto exige planificar los tiempos de cada trámite. Suscríbete a Plata con Datos para tomar decisiones financieras con números reales.",
+      "keywords": [
+        "datos",
+        "trabajo"
+      ],
+      "prompt_ia": "A financial chart displayed clearly on a tablet computer.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "cesantias",
+    "educacion",
+    "finanzas personales",
+    "inflacion",
+    "ahorro",
+    "colombia"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "La cifra de pérdida de quinientos mil pesos no es verificable porque el texto no declara la tasa de rentabilidad ni de inflación asumida."
+    }
+  ],
+  "id": "fin_090",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

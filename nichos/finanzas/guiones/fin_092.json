@@ -1,0 +1,120 @@
+{
+  "titulo": "Negociar el arriendo antes del vencimiento te ahorra plata",
+  "titulos_alternativos": [
+    "El costo secreto de renovar tu arriendo sin negociar",
+    "Por qué no debes aceptar el alza de tu arriendo a ciegas"
+  ],
+  "tema": "El costo financiero de renovar el contrato de arrendamiento sin negociar previamente",
+  "texto_portada": "NEGOCIA TU\nARRIENDO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Renovar tu arriendo sin negociar antes quema tu sueldo. Si esperas a la notificación del propietario, pierdes todo tu margen de maniobra.",
+      "keywords": [
+        "casa",
+        "presupuesto"
+      ],
+      "prompt_ia": "A person looking worried at a lease contract on a wooden table in an apartment living room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Cada año el canon sube según la inflación. Si propones una cifra dos meses antes, el propietario preferirá mantener a un inquilino puntual antes de arriesgar su ingreso.",
+      "keywords": [
+        "inflacion",
+        "dinero"
+      ],
+      "prompt_ia": "A landlord and a tenant sitting across a table negotiating gracefully with documents",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Un trasteo cuesta cerca de dos millones de pesos entre transporte y depósitos. Aceptar un aumento de cien mil pesos mensuales suma un millón doscientos mil pesos al año.",
+      "keywords": [
+        "calculadora",
+        "salario"
+      ],
+      "prompt_ia": "Moving boxes packed inside a living room with a truck blurred outside",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo anual acumulado",
+        "etiquetas": [
+          "Aumento anual",
+          "Costo trasteo"
+        ],
+        "valores": [
+          1200000,
+          2000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Negociar noventa días antes te da ventaja real. Un dueño sabio prefiere ceder cincuenta mil pesos al mes antes que perder un mes entero de arriendo.",
+      "keywords": [
+        "tiempo",
+        "datos"
+      ],
+      "prompt_ia": "A modern desk with a calendar showing ninety days highlighted and a notebook",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Anticipación para negociar",
+        "etiquetas": [
+          "Días de ventaja"
+        ],
+        "valores": [
+          90
+        ],
+        "prefijo": "",
+        "sufijo": " días"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa tu fecha de vencimiento y anticipa la conversación. Suscríbete a Plata con Datos para defender tu presupuesto con números reales.",
+      "keywords": [
+        "tranquilidad",
+        "presupuesto"
+      ],
+      "prompt_ia": "A happy person relaxing in a bright cozy apartment holding a cup of coffee",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "arriendo",
+    "finanzas personales",
+    "presupuesto",
+    "ahorro",
+    "contrato de arrendamiento",
+    "dinero",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_092",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

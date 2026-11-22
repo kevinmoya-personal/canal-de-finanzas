@@ -1,0 +1,121 @@
+{
+  "titulo": "Por qué la inflación oficial no coincide con tu mercado",
+  "titulos_alternativos": [
+    "La mentira de la inflación en la clase media",
+    "El cálculo que oculta cuánto subió tu costo de vida"
+  ],
+  "tema": "Inflación real vs inflación oficial en la clase media",
+  "texto_portada": "INFLACIÓN REAL\nVS OFICIAL",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu mercado subió el doble de la inflación oficial. Crees que las cifras mienten, pero el problema es la forma en que miden los precios.",
+      "keywords": [
+        "inflacion",
+        "compras",
+        "presupuesto"
+      ],
+      "prompt_ia": "A frustrated person looking at an expensive grocery receipt inside a modern supermarket.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La canasta del gobierno incluye televisores y pasajes de avión para promediar. Sin embargo, un hogar de clase media gasta la mitad de sus ingresos solo en comida y arriendo. Cuando la comida sube, el golpe a tu plata es inmediato.",
+      "keywords": [
+        "casa",
+        "salario",
+        "dinero"
+      ],
+      "prompt_ia": "A middle class family sitting at a dining table reviewing monthly bills and household expenses.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Mientras el reporte oficial del gobierno muestra una inflación del siete por ciento, tus alimentos y vivienda subieron un catorce por ciento en un solo año. Esa diferencia de siete puntos devora tu capacidad de pago real.",
+      "keywords": [
+        "datos",
+        "calculadora",
+        "estres"
+      ],
+      "prompt_ia": "Close up shot of a calculator displaying financial numbers with analytical charts in background.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Aumento anual de precios",
+        "etiquetas": [
+          "Dato oficial",
+          "Comida y arriendo"
+        ],
+        "valores": [
+          7,
+          14
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para proteger tu bolsillo, no bases tus metas en el dato general del país. Mide cada mes la variación exacta en tus tres gastos más grandes para ajustar tus cuentas a tu realidad.",
+      "keywords": [
+        "presupuesto",
+        "ahorro",
+        "meta"
+      ],
+      "prompt_ia": "A person organizing financial expenses on a neat notebook next to a cup of coffee.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Aprende a cuidar tu dinero con datos reales y sin falsos mitos. Suscríbete al canal para dominar tus finanzas.",
+      "keywords": [
+        "tranquilidad",
+        "datos"
+      ],
+      "prompt_ia": "A confident person looking at a smartphone displaying financial stability charts.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "inflación",
+    "finanzas personales",
+    "costo de vida",
+    "presupuesto",
+    "ahorro",
+    "clase media",
+    "economía colombia",
+    "dinero"
+  ],
+  "verificacion": [],
+  "id": "fin_091",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
