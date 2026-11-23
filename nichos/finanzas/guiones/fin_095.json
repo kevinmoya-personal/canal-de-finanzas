@@ -1,0 +1,118 @@
+{
+  "titulo": "El costo oculto de entrar y salir de un fondo",
+  "titulos_alternativos": [
+    "La trampa de las comisiones en fondos colectivos",
+    "Por qué tu fondo de inversión te da menos plata"
+  ],
+  "tema": "Comisiones de entrada y salida en fondos de inversión colectiva",
+  "texto_portada": "COMISIONES OCULTAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu fondo de inversión te cobra por entrar y salir. Pones tu plata esperando rendimientos, pero los cobros ocultos borran tu ganancia antes de empezar.",
+      "keywords": [
+        "inversion",
+        "dinero"
+      ],
+      "prompt_ia": "A person looking confused at a smartphone screen showing investment fees",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Las comisiones de entrada recortan tu capital desde el primer día. Si inviertes diez millones de pesos y te cobran un dos por ciento al ingresar, pierdes doscientos mil pesos de inmediato.",
+      "keywords": [
+        "calculadora",
+        "banco"
+      ],
+      "prompt_ia": "A person using a calculator next to bank paperwork and paper money",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Impacto de comisión de entrada",
+        "etiquetas": [
+          "Aporte inicial",
+          "Capital real"
+        ],
+        "valores": [
+          10000000,
+          9800000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Las penalizaciones por retiro anticipado o salida frenan tu libertad. Si necesitas recuperar tu dinero antes de seis meses, la entidad te descuenta otro porcentaje directo de tu capital.",
+      "keywords": [
+        "estres",
+        "tiempo"
+      ],
+      "prompt_ia": "An hourglass next to stacked coins on a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Al sumar estas comisiones al costo de administración anual, los cobros pueden alcanzar hasta un cuatro por ciento total. Tu dinero requiere rentabilidades muy altas solo para no quedar en cero.",
+      "keywords": [
+        "datos",
+        "monedas"
+      ],
+      "prompt_ia": "Financial charts showing red downward percentage bars on a digital display",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Comisión acumulada máxima",
+        "etiquetas": [
+          "Cobro total estimado"
+        ],
+        "valores": [
+          4
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa siempre la ficha técnica del fondo antes de firmar. Suscríbete a Plata con Datos para cuidar tu dinero.",
+      "keywords": [
+        "tranquilidad",
+        "presupuesto"
+      ],
+      "prompt_ia": "A person smiling while reviewing financial documents on a clean desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "fondos de inversion",
+    "finanzas personales",
+    "comisiones bancarias",
+    "inversión colombia",
+    "educacion financiera"
+  ],
+  "verificacion": [],
+  "id": "fin_095",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

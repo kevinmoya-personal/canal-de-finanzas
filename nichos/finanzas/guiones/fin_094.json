@@ -1,0 +1,126 @@
+{
+  "titulo": "Cómo pagar menos impuestos usando a tus dependientes",
+  "titulos_alternativos": [
+    "Reduce la retención en la fuente con este descuento",
+    "El beneficio tributario que aumenta tu sueldo mensual"
+  ],
+  "tema": "Deducción por dependientes económicos en la retención en la fuente",
+  "texto_portada": "PAGA MENOS\nIMPUESTOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu empresa te retiene más dinero del debido. Si mantienes a tus hijos o padres, estás pagando impuestos de más en cada quincena.",
+      "keywords": [
+        "salario",
+        "estres",
+        "dinero"
+      ],
+      "prompt_ia": "A frustrated employee looking at a payslip with tax deductions in a clean modern office",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La deducción por dependientes te permite restar hasta el diez por ciento de tu ingreso bruto mensual. Al reducir la base sobre la que calculan tu retención, el descuento en tu nómina baja de inmediato.",
+      "keywords": [
+        "calculadora",
+        "datos"
+      ],
+      "prompt_ia": "Digital calculator showing percentage deduction on a clean desk with financial documents",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Descuento máximo sobre ingreso",
+        "etiquetas": [
+          "Deducción mensual"
+        ],
+        "valores": [
+          10
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si tu sueldo es de seis millones de pesos, restar ese diez por ciento equivale a reducir en seiscientos mil pesos tu base gravable. Esa pequeña casilla en tu certificado cambia tu saldo mensual al instante.",
+      "keywords": [
+        "presupuesto",
+        "tarjeta"
+      ],
+      "prompt_ia": "A clear financial chart on a tablet screen showing taxable base reduction",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Base gravable mensual",
+        "etiquetas": [
+          "Sin descuento",
+          "Con dependiente"
+        ],
+        "valores": [
+          6000000,
+          5400000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "No solo aplica para hijos menores de dieciocho años. También incluye a estudiantes universitarios de hasta veintitrés años y a padres o cónyuges que dependan económicamente de ti.",
+      "keywords": [
+        "familia",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A family with a young university student and parents laughing together in a bright living room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Entrega hoy mismo la documentación a tu empresa para defender tu sueldo. Suscríbete a Plata con Datos para proteger tu bolsillo con cifras reales.",
+      "keywords": [
+        "ahorro",
+        "trabajo"
+      ],
+      "prompt_ia": "Employee handing tax forms to an HR specialist in a bright professional workspace",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "retención en la fuente",
+    "impuestos colombia",
+    "deduccion por dependientes",
+    "finanzas personales",
+    "ahorro de impuestos",
+    "salario bruto y neto",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "Decir que diez por ciento equivale a seiscientos mil pesos libres de impuesto es impreciso. La deducción reduce la base gravable en seiscientos mil pesos, no implica un ahorro directo de ese monto en impuestos ni que todo el ingreso sea exento."
+    }
+  ],
+  "id": "fin_094",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

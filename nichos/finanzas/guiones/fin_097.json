@@ -1,0 +1,219 @@
+{
+  "titulo": "El costo oculto que arruina la ganancia de tu arriendo",
+  "titulos_alternativos": [
+    "La cuota de administración reduce tu rentabilidad real",
+    "Cuanto ganas de verdad al arrendar un apartamento"
+  ],
+  "tema": "Impacto de la cuota de administración y el mantenimiento en la rentabilidad neta del arriendo residencial.",
+  "texto_portada": "ARRIENDO REAL\nLA TRAMPA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu apartamento arrendado genera mucho menos de lo pensado. Celebras cuando el inquilino consigna el canon acordado cada mes. Miras la cifra en tu extracto bancario y sientes que tu patrimonio trabaja para ti de forma automática. Sin embargo esa cifra inicial es solo una ilusión financiera. Cuando descuentas la cuota de administración el mantenimiento ordinario las expensas extraordinarias y los periodos desocupados la rentabilidad real se desploma a la mitad. Hoy vamos a desarmar número por número el presupuesto de un inmueble en arriendo para descubrir cuánta plata entra verdaderamente a tu bolsillo.",
+      "keywords": [
+        "casa",
+        "dinero",
+        "datos"
+      ],
+      "prompt_ia": "A worried property owner looking at financial documents inside a modern apartment living room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La mayoría de inversionistas comete el error de calcular únicamente la rentabilidad bruta. Imagina que compras un apartamento por doscientos millones de pesos y lo arriendas en un millón quinientos mil pesos mensuales. Al año recibes dieciocho millones de pesos por concepto de arriendo. Si divides esa cifra entre el valor total del inmueble obtienes una rentabilidad bruta del nueve por ciento anual. Sobre el papel parece un negocio redondo y muy superior a dejar la plata quieta en una cuenta bancaria. El problema es que esa cifra no refleja la realidad porque ignora los costos obligatorios que exige la propiedad horizontal cada mes.",
+      "keywords": [
+        "inversion",
+        "calculadora",
+        "presupuesto"
+      ],
+      "prompt_ia": "Close up of a calculator on a wooden desk next to apartment keys and paper records",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Rentabilidad bruta vs neta real",
+        "etiquetas": [
+          "Bruta estimada",
+          "Neta proyectada"
+        ],
+        "valores": [
+          9,
+          5
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La cuota de administración ordinaria es el primer mordisco constante a tu flujo de caja. Si el conjunto residencial cobra trescientos mil pesos mensuales por el cuidado de áreas comunes vigilancia y aseo esos tres millones seiscientos mil pesos al año salen directamente del ingreso total. Incluso si acuerdas que el inquilino pague la administración ese cobro limita el precio máximo del arriendo que puedes pedir en el mercado. El inquilino evalúa su presupuesto total disponible. Si la cuota de administración sube el valor que puedes cobrar por el canon de tu apartamento tiene que bajar para mantenerse competitivo frente a las alternativas del sector.",
+      "keywords": [
+        "banco",
+        "ciudad",
+        "tiempo"
+      ],
+      "prompt_ia": "A security guard at the entrance of a modern residential apartment building complex",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Las cuotas extraordinarias son la amenaza silenciosa que destruye la planificación financiera. Una fachada que requiere pintura impermeabilizar la terraza o modernizar los ascensores exige cobros adicionales aprobados por la asamblea de copropietarios. Estas cuotas no las puede pagar el inquilino según las normas legales vigentes. Salen de manera obligatoria del bolsillo del propietario. Si en un año la copropiedad aprueba una cuota extraordinaria de dos millones de pesos para reparar el salón social tu rentabilidad anual sufre un golpe directo del que pocas veces se habla al momento de comprar la propiedad.",
+      "keywords": [
+        "estres",
+        "monedas",
+        "deuda"
+      ],
+      "prompt_ia": "Construction workers painting the facade of a multi story residential building",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Distribución de gastos anuales",
+        "etiquetas": [
+          "Administración",
+          "Extraordinarias",
+          "Impuesto predial"
+        ],
+        "valores": [
+          3600000,
+          2000000,
+          1800000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "El desgaste natural de la propiedad requiere un fondo constante de mantenimiento que casi nadie calcula. Los grifos fallan la pintura se deteriora los electrodomésticos integrados sufren averías y los pisos se desgastan. Un cálculo prudente exige reservar al menos un mes de arriendo al año para mantenimientos preventivos y correctivos. Si no guardas esa plata cada mes cuando el inquilino entregue el inmueble tendrás que desembolsar de golpe un monto elevado para dejarlo listo nuevamente. Mantener la vivienda en óptimas condiciones no es un lujo sino un requisito para conservar su valor comercial.",
+      "keywords": [
+        "ahorro",
+        "salario",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A plumber fixing a pipe under a kitchen sink inside a bright apartment",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "El periodo de vacancia e impuestos reduce todavía más el resultado final del año. Un inmueble residencial suele quedarse desocupado un mes promedio cada dos años mientras se busca un nuevo arrendatario. Durante ese mes sin inquilino sigues pagando la administración completa la cuota del crédito si lo hay y los servicios básicos. A esto debes sumar el impuesto predial anual que para un inmueble de doscientos millones puede rondar un millón ochocientos mil pesos. Al consolidar todos estos conceptos la rentabilidad que comenzó en el nueve por ciento bruto cae drásticamente.",
+      "keywords": [
+        "tarjeta",
+        "jubilacion",
+        "meta"
+      ],
+      "prompt_ia": "An empty unfurnished apartment room with sun rays coming through large clean windows",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Impacto de vacancia e impuestos",
+        "etiquetas": [
+          "Mes desocupado",
+          "Impuesto predial",
+          "Seguro de arriendo"
+        ],
+        "valores": [
+          1500000,
+          1800000,
+          900000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Al hacer la matemática real el escenario cambia de forma contundente. De los dieciocho millones de pesos que recibías brutos en el año debes restar tres millones seiscientos mil de administración tres millones de mantenimiento y vacancia proyectada un millón ochocientos mil de impuesto predial y un millón de seguro de arrendamiento. El ingreso neto real se reduce a unos ocho millones seiscientos mil pesos al año. Esto significa que la rentabilidad neta real de tu dinero no es del nueve por ciento sino de apenas el cuatro coma tres por ciento anual sobre la inversión total.",
+      "keywords": [
+        "datos",
+        "bolsa",
+        "compras"
+      ],
+      "prompt_ia": "A pie chart and financial numbers showing clean expense deductions on a laptop screen",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Rentabilidad neta real",
+        "etiquetas": [
+          "Retorno neto final sobre inversión"
+        ],
+        "valores": [
+          4.3
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Para proteger tu flujo de caja debes analizar estos costos antes de comprar el inmueble. Investiga las actas de las últimas asambleas de propietarios para saber si hay cuotas extraordinarias aprobadas a futuro. Prefiere edificios con administraciones eficientes donde el valor del costo mensual no supere el quince por ciento del valor del canon proyectado. Crea desde el primer mes una cuenta de reserva exclusiva para mantenimiento e impuestos. De esta manera los imprevistos de la propiedad no afectarán de forma negativa el presupuesto diario de tu hogar ni tu estilo de vida.",
+      "keywords": [
+        "emprender",
+        "trabajo",
+        "casa"
+      ],
+      "prompt_ia": "A savvy investor reviewing legal real estate documents and building reports at a clean table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "nombre",
+      "texto": "Invertir en raíz sigue siendo una estrategia sólida si haces las cuentas con rigor y sin autoengaños. Entender la diferencia entre el ingreso bruto y el dinero neto que llega a tu cuenta es el primer paso para construir libertad financiera duradera. Si quieres aprender a evaluar tus inversiones con números fríos y datos reales suscríbete al canal Plata con Datos. Deja un comentario contando si la cuota de administración de tu propiedad ha afectado tus ganancias y comparte este video con alguien que esté pensando en comprar para arrendar.",
+      "keywords": [
+        "tranquilidad",
+        "dinero",
+        "datos"
+      ],
+      "prompt_ia": "A confident person reviewing financial growth charts on a tablet in a modern home office",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "arriendo residencial",
+    "cuota de administracion",
+    "rentabilidad inmobiliaria",
+    "inversion bienes raices",
+    "plata con datos",
+    "flujo de caja",
+    "impuesto predial"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_6",
+      "motivo": "La resta del ingreso bruto menos los gastos detallados (dieciocho millones menos tres millones seiscientos mil de administración, tres millones de mantenimiento y vacancia, un millón ochocientos mil de predial y un millón de seguro) da ocho millones seiscientos mil pesos, no diez millones seiscientos mil. Al dividir ocho millones seiscientos mil entre los doscientos millones de la inversión inicial, la rentabilidad neta real da cuatro coma tres por ciento anual y no cinco coma tres por ciento."
+    }
+  ],
+  "id": "fin_097",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

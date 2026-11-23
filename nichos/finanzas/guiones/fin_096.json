@@ -1,0 +1,133 @@
+{
+  "titulo": "El peligro invisible de pagar tu mercado a cuotas",
+  "titulos_alternativos": [
+    "Por qué nunca debes financiar la comida a cuotas",
+    "El costo oculto de diferir tu mercado en la tarjeta"
+  ],
+  "tema": "Financiación de mercado básico con tarjeta de crédito",
+  "texto_portada": "MERCADO A\nCUOTAS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Comer a seis cuotas multiplica el costo de tu comida. Diferir la leche y el arroz en la tarjeta de crédito parece un respiro, pero destruye tu presupuesto mensual.",
+      "keywords": [
+        "compras",
+        "tarjeta",
+        "estres"
+      ],
+      "prompt_ia": "A stressed person looking at a grocery store receipt next to a credit card on a kitchen table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Te comes el mercado en dos semanas, pero mantienes la deuda medio año. Un mercado de quinientos mil pesos a seis cuotas, con una tasa del dos coma tres por ciento mensual, termina costando unos quinientos cuarenta mil pesos por los intereses.",
+      "keywords": [
+        "presupuesto",
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "A close up of a shopping cart filled with everyday grocery products in a supermarket aisle",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo total de mercado de 500 mil",
+        "etiquetas": [
+          "Una cuota",
+          "Seis cuotas"
+        ],
+        "valores": [
+          500000,
+          540000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El problema real ocurre el mes siguiente. Acumular un mercado nuevo sobre cuotas viejas te obliga a pagar intereses por comida que consumiste hace semanas.",
+      "keywords": [
+        "deuda",
+        "banco",
+        "inflacion"
+      ],
+      "prompt_ia": "A calendar with marked payment dates next to credit card bills",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Las tarjetas cobran el interés de consumo más alto. Un mercado diferido a doce meses, con una tasa del dos coma dos por ciento mensual, suma un sobrecosto cercano al quince por ciento en puros intereses.",
+      "keywords": [
+        "interes",
+        "datos",
+        "salario"
+      ],
+      "prompt_ia": "A smartphone displaying a banking app notification with high interest rates on a desk",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Sobrecosto estimado a doce cuotas",
+        "etiquetas": [
+          "Intereses acumulados"
+        ],
+        "valores": [
+          15
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Paga tus consumos diarios a una sola cuota para no quemar tu sueldo. Suscríbete a Plata con Datos y protege tu dinero con números reales.",
+      "keywords": [
+        "ahorro",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person comfortably checking financial charts on a laptop inside a bright living room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "tarjeta de credito",
+    "ahorro",
+    "presupuesto",
+    "educacion financiera",
+    "colombia",
+    "diferir cuotas"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "Para que un mercado de quinientos mil pesos llegue a quinientos ochenta mil pesos en seis meses se requeriría una tasa mensual superior al cuatro por ciento, lo cual excede el límite legal de usura en Colombia. Con una tasa realista del dos coma tres por ciento mensual, el total a pagar es de aproximadamente quinientos cuarenta mil pesos."
+    },
+    {
+      "seccion": "punto_3",
+      "motivo": "El sobrecosto total a doce meses con una tasa mensual del dos coma dos por ciento (cercana al tope de usura en Colombia) es de aproximadamente el quince por ciento sobre la compra inicial, no del treinta por ciento, ya que el capital se va amortizando mes a mes. Además, se trata de intereses de financiación y no de comisiones bancarias."
+    }
+  ],
+  "id": "fin_096",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
