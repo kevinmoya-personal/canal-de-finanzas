@@ -1,0 +1,209 @@
+{
+  "titulo": "La trampa de las ofertas: cómo el sesgo de encuadre destruye tu plata",
+  "titulos_alternativos": [
+    "Por qué los descuentos te hacen gastar más dinero sin darte cuenta",
+    "El truco psicológico de los supermercados para vaciar tu billetera"
+  ],
+  "tema": "El sesgo de encuadre en la percepción de descuentos de tiendas y su impacto presupuestal diario",
+  "texto_portada": "OFERTAS QUE\nTE QUIEBRAN",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Comprar en oferta no te hace ahorrar dinero. Te hace gastar de forma distinta. Cuando entras a un supermercado o miras una tienda en tu celular y ves un aviso rojo con un descuento tentador, tu cerebro reacciona antes de que puedas calcular si de verdad necesitas el producto. Crees que ganaste plata porque el precio original era más alto, pero la realidad matemática es muy sencilla. No ahorraste veinte mil pesos. Gastaste ochenta mil pesos que no tenías planeado usar hoy. Las grandes marcas conocen perfectamente la forma en que procesamos la información numérica y usan ese conocimiento para moldear tus decisiones de compra sin que te des cuenta. En este video analizaremos los datos reales detrás del sesgo de encuadre, cómo las ofertas distorsionan tu percepción de valor y de qué manera esta trampa psicológica afecta tu presupuesto al final de cada mes.",
+      "keywords": [
+        "compras",
+        "dinero",
+        "estres"
+      ],
+      "prompt_ia": "A person looking at a bright red discount tag in a modern supermarket shelf, feeling overwhelmed by choices",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El sesgo de encuadre cambia por completo tu percepción según cómo te presentan el mismo número. Imagina que vas a comprar una camisa de cien mil pesos y te ofrecen un descuento del veinte por ciento. Sientes que estás logrando una gran oportunidad. Ahora piensa en una nevera de dos millones de pesos con un descuento exacto de veinte mil pesos. La reducción en plata es idéntica en ambos casos, pero tu cerebro califica la primera opción como imperdible y la segunda como insignificante. Las tiendas aplican la famosa regla del cien. Si el producto cuesta menos de cien mil pesos, anuncian el descuento en porcentaje porque la cifra parece enorme. Si cuesta más de esa suma, presentan la oferta en monto en efectivo. Un descuento del cinco por ciento en un producto costoso suena pequeño, pero diez millones de pesos suena gigantesco. El impacto en tu presupuesto es devastador cuando caes en esta ilusión.",
+      "keywords": [
+        "calculadora",
+        "datos",
+        "presupuesto"
+      ],
+      "prompt_ia": "Close up of a calculator showing price calculations next to discount signs on product tags",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Ahorro percibido en el mismo monto",
+        "etiquetas": [
+          "Prenda barata",
+          "Electrodoméstico"
+        ],
+        "valores": [
+          20000,
+          20000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El precio inicial casi nunca es real y funciona únicamente como una ancla mental. Muchas tiendas aumentan los precios semanas antes de una temporada de descuentos para luego aplicar una rebaja ficticia. Si un televisor pasa de tres millones de pesos a dos millones quinientos mil pesos durante una promoción, tu mente no evalúa si el televisor vale dos millones quinientos mil. Tu cerebro se queda atascado en los quinientos mil pesos que supuestamente te estás ahorrando. Este fenómeno distorsiona la escala de valor. Te enfocas en la diferencia en lugar del precio final que va a salir de tu cuenta bancaria. Si el valor de lista era inflado, el descuento es una fantasía contable diseñada para generar urgencia en tu compra. Cuando no comparas el precio actual con el historial real del mercado, terminas pagando el precio pleno pensando que obtuviste una victoria financiera.",
+      "keywords": [
+        "banco",
+        "tarjeta",
+        "monedas"
+      ],
+      "prompt_ia": "Price tag displaying a slashed high price with a slightly lower discount price in bold red numbers",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Las promociones por cantidad están diseñadas para aumentar tu gasto total, no tu ahorro. La trampa del tres por dos o del segundo producto a mitad de precio parece ventajosa a primera vista. Si necesitas una crema dental que cuesta diez mil pesos, llevar tres por veinte mil pesos suena lógico porque cada una te sale más barata. Sin embargo, tu intención inicial era gastar solo diez mil pesos. Acabas de duplicar tu gasto en ese pasillo para adquirir un volumen que no necesitabas hoy. La plata que salió de tu bolsillo fue superior a tu presupuesto planificado. En productos perecederos el problema es aún peor, porque corres el riesgo de que la comida se dañe antes de consumirla. El comercio logró su objetivo principal. Aumentó el valor total de tu compra haciéndote sentir que ganaste el juego.",
+      "keywords": [
+        "compras",
+        "dinero",
+        "familia"
+      ],
+      "prompt_ia": "Supermarket cart filled with multiple identical items due to a buy two get one free promotion",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Gasto planificado versus gasto real",
+        "etiquetas": [
+          "Una unidad",
+          "Promoción tres por dos"
+        ],
+        "valores": [
+          10000,
+          20000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "El costo del envío gratis es uno de los motores de gasto innecesario más efectivos en el comercio digital. Llegas al carrito de compras con un producto de cincuenta mil pesos y la plataforma te avisa que el costo de despacho es de diez mil pesos. Sin embargo, el sitio te ofrece envío gratuito si tu compra alcanza los ochenta mil pesos. Para evitar pagar diez mil pesos por la entrega, buscas desesperadamente un segundo producto de treinta mil pesos que no necesitabas. El resultado financiero es absurdo. Gastaste treinta mil pesos adicionales para evitar pagar diez mil pesos de transporte. Perdiste veinte mil pesos netos por el simple deseo de no sentir que pagaste por el servicio de entrega. El sesgo de encuadre te hace percibir el envío como una pérdida molesta y el producto extra como una ganancia, alterando la lógica elemental de tu dinero.",
+      "keywords": [
+        "celular",
+        "tarjeta",
+        "ciudad"
+      ],
+      "prompt_ia": "Smartphone screen showing an online checkout cart adding extra items to reach free shipping threshold",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "La contabilidad mental crea categorías ficticias en tu billetera que destruyen tu liquidez. Cuando compras algo en oferta, la mente tiende a clasificar la diferencia no gastada como dinero ganado. Si un pantalón costaba doscientos mil pesos y pagaste ciento cincuenta mil, sientes que tienes cincuenta mil pesos libres para gastar en otra cosa. Ese saldo sobrante jamás ingresó a tu cuenta de ahorros. Solo existió en la etiqueta del producto. Al justificar compras secundarias con esa ganancia imaginaria, terminas gastando el doble de tu presupuesto inicial. La única forma real de ahorrar durante un descuento ocurre si la compra ya estaba programada en tu presupuesto mensual y la diferencia se mueve inmediatamente a una cuenta de inversión. Si la plata se queda en la misma cuenta de gastos, desaparecerá en pocos días.",
+      "keywords": [
+        "ahorro",
+        "presupuesto",
+        "inversion"
+      ],
+      "prompt_ia": "A person organizing cash into different budget envelopes on a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "El impacto acumulado de los pequeños descuentos destruye tu capacidad de pago sin que lo notes. Supongamos que en cada visita al supermercado o al centro comercial aprovechas tres pequeñas promociones que no tenías planeadas. Gastas unos quince mil pesos extra en cada ocasión pensando que la rebaja lo justifica. Si haces este ejercicio cuatro veces a la semana, al cabo de un mes habrás destinado doscientos cuarenta mil pesos a compras impulsivas impulsadas por avisos de oferta. En el transcurso de un año completo, ese comportamiento constante representa cerca de tres millones de pesos que salieron de tu bolsillo. Esa cifra equivale fácilmente a un pago de arriendo, el saldo de las vacaciones o la cuota inicial de una meta importante. Los microgastos disfrazados de oportunidad son el agujero negro del presupuesto familiar.",
+      "keywords": [
+        "datos",
+        "deuda",
+        "casa"
+      ],
+      "prompt_ia": "A financial chart showing compounding small expenses leading to a large yearly loss",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Fuga anual por ofertas no planificadas",
+        "etiquetas": [
+          "Gasto acumulado en un año"
+        ],
+        "valores": [
+          3000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Para neutralizar el sesgo de encuadre debes implementar reglas claras antes de presionar el botón de pago. La primera norma es calcular el costo de cualquier compra en horas de trabajo real en lugar de pesos. Si ganas veinte mil pesos por hora y el artículo rebajado cuesta ciento sesenta mil pesos, pregúntate si estás dispuesto a entregar ocho horas completas de tu vida por ese objeto. La segunda regla es la pausa obligatoria de cuarenta y ocho horas para cualquier artículo en oferta que no estuviera anotado en tu lista original. Si después de dos días sigues necesitando el producto, la compra es válida. En la gran mayoría de los casos, la prisa por aprovechar la promoción desaparecerá por completo. El control financiero consiste en separar la emoción del descuento de la utilidad real del producto.",
+      "keywords": [
+        "tiempo",
+        "trabajo",
+        "meta"
+      ],
+      "prompt_ia": "A person looking thoughtful while checking their watch and holding a shopping list",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "El dinero que dejas de gastar es el único que realmente permanece en tu bolsillo. Las ofertas y promociones están diseñadas para acelerar tus compras, pero la claridad en tus números siempre será tu mejor defensa contra las trampas del mercado. Si quieres aprender a proteger tu presupuesto con datos reales y tomar decisiones financieras con tranquilidad, suscríbete ahora mismo al canal. Activa las notificaciones para no perderte nuestro próximo contenido y déjanos un comentario contándonos cuál ha sido esa oferta que te hizo gastar de más. Cuidar tu plata requiere educación constante y aquí te acompañamos en cada paso.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro",
+        "dinero"
+      ],
+      "prompt_ia": "A smiling person placing coins into a glass jar representing financial independence and peace of mind",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "sesgo de encuadre",
+    "psicologia del dinero",
+    "ahorro inteligente",
+    "descuentos trampa",
+    "presupuesto diario",
+    "compras inteligentes",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_6",
+      "motivo": "El valor en la gráfica (2880000) no coincide con la cifra redondeada expresada en el texto (cerca de tres millones de pesos, es decir, 3000000)."
+    }
+  ],
+  "id": "fin_101",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

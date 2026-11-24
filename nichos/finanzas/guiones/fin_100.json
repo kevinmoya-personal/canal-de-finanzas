@@ -1,0 +1,130 @@
+{
+  "titulo": "Por qué tu aumento de sueldo no duplica tu prima de junio",
+  "titulos_alternativos": [
+    "El cálculo oculto de tu prima si te subieron el sueldo",
+    "La razón por la que tu prima llegará más baja este año"
+  ],
+  "tema": "Cálculo real de la prima de servicios con aumento salarial reciente",
+  "texto_portada": "TU PRIMA\nCON AUMENTO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Un aumento en mayo reduce tu prima esperada. Celebras tu subida de sueldo justo antes de junio. Sin embargo, el pago final te dejará con dudas.",
+      "keywords": [
+        "salario",
+        "dinero"
+      ],
+      "prompt_ia": "A happy employee looking at a paycheck notification on their smartphone in a modern corporate setting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "La ley no calcula tu prestación con el último salario. Si tu sueldo varió durante el semestre, la empresa debe sacar un promedio de los seis meses trabajados.",
+      "keywords": [
+        "trabajo",
+        "calculadora"
+      ],
+      "prompt_ia": "Hands using a calculator next to official employment documents and financial spreadsheets",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Imagina que ganabas dos millones de pesos. En mayo te suben a tres millones. Tú esperas un millón quinientos mil de prima, pero el promedio semestral da dos millones trescientos treinta y tres mil trescientos treinta y tres pesos. Tu pago real será solo un millón ciento sesenta y seis mil seiscientos sesenta y siete pesos.",
+      "keywords": [
+        "datos",
+        "presupuesto"
+      ],
+      "prompt_ia": "Close up of financial charts on a tablet screen comparing projected vs actual income",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Prima esperada versus real",
+        "etiquetas": [
+          "Esperada",
+          "Real"
+        ],
+        "valores": [
+          1500000,
+          1166667
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Esa diferencia de trescientos treinta y tres mil trescientos treinta y tres pesos descuadra tus planes si ya contabas con el dinero completo. Muchos se endeudan al gastar por anticipado una suma que legalmente no existe.",
+      "keywords": [
+        "deuda",
+        "estres"
+      ],
+      "prompt_ia": "A worried person reviewing credit card statements and bills at a wooden table late at night",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Diferencia no recibida",
+        "etiquetas": [
+          "Monto faltante"
+        ],
+        "valores": [
+          333333
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Calcula tus prestaciones con datos reales antes de comprometer tu presupuesto. Suscríbete para defender tu dinero con números exactos.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro"
+      ],
+      "prompt_ia": "A person sitting peacefully with a laptop organizing their personal finances in a bright living room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "prima de servicios",
+    "finanzas personales",
+    "aumento salarial",
+    "calculo de prima",
+    "presupuesto",
+    "plata con datos",
+    "colombia",
+    "nomina"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "El promedio semestral de cuatro meses a dos millones de pesos y dos meses a tres millones de pesos es de dos millones trescientos treinta y tres mil trescientos treinta y tres pesos, por lo que la prima correspondiente es de un millón ciento sesenta y seis mil seiscientos sesenta y siete pesos."
+    },
+    {
+      "seccion": "punto_3",
+      "motivo": "La diferencia exacta entre el millón quinientos mil pesos esperados y la prima real calculada de un millón ciento sesenta y seis mil seiscientos sesenta y siete pesos es de trescientos treinta y tres mil trescientos treinta y tres pesos, no trescientos cuarenta mil pesos."
+    }
+  ],
+  "id": "fin_100",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

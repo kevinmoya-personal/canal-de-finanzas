@@ -1,0 +1,119 @@
+{
+  "titulo": "El costo oculto de tener mascota en tu presupuesto",
+  "titulos_alternativos": [
+    "¿Cuánto cuesta mantener una mascota realmente?",
+    "El verdadero gasto de tu perro en tu bolsillo"
+  ],
+  "tema": "El costo real de mantener una mascota e imprevistos médicos",
+  "texto_portada": "MANTENER UN PERRO\n¿CUÁNTO CUESTA?",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu perro cuesta mucho más de lo que calculas. Crees que solo compras alimento y vacunas. En realidad, los gastos ocultos devoran tu presupuesto mensual sin avisar.",
+      "keywords": [
+        "presupuesto",
+        "dinero"
+      ],
+      "prompt_ia": "A cute dog standing near a piggy bank with coin piles scattered around on a table",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El alimento de buena calidad y los productos de aseo representan apenas la mitad del costo. En un año, esos gastos fijos suman dos millones de pesos fácilmente.",
+      "keywords": [
+        "compras",
+        "salario"
+      ],
+      "prompt_ia": "Shopping basket filled with pet food bags and dog shampoo bottles",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Gastos fijos anuales",
+        "etiquetas": [
+          "Alimento anual",
+          "Aseo y accesorios"
+        ],
+        "valores": [
+          1500000,
+          500000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "El verdadero golpe financiero surge en las emergencias. Una sola consulta de urgencia médica con exámenes de laboratorio cuesta un millón de pesos que no tenías planeados.",
+      "keywords": [
+        "estres",
+        "deuda"
+      ],
+      "prompt_ia": "Veterinarian examining a small pet dog in a modern veterinary clinic room",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Costo promedio por urgencia",
+        "etiquetas": [
+          "Urgencia veterinaria"
+        ],
+        "valores": [
+          1000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para evitar endeudarte, aparta un diez por ciento adicional sobre tus gastos fijos cada mes. Crear un fondo de salud exclusivo para tu mascota protege tu tranquilidad.",
+      "keywords": [
+        "ahorro",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Person filling a jar labeled pet fund with money notes on a wooden desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Haz cuentas claras antes de adoptar y protege tu bolsillo. Suscríbete a Plata con Datos para tomar buenas decisiones financieras con datos reales.",
+      "keywords": [
+        "datos",
+        "familia"
+      ],
+      "prompt_ia": "Happy family playing with their dog in a bright modern living room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "costo de mascotas",
+    "presupuesto familiar",
+    "ahorro",
+    "gastos veterinarios",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_099",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

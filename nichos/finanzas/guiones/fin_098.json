@@ -1,0 +1,117 @@
+{
+  "titulo": "El costo invisible de guardar tu fondo de emergencia en cero",
+  "titulos_alternativos": [
+    "Por qué tu fondo de emergencia en el banco te hace perder plata",
+    "El error de mantener tus ahorros de emergencia sin rentabilidad"
+  ],
+  "tema": "Costo de oportunidad en el fondo de emergencia",
+  "texto_portada": "AHORRO EN CERO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu colchón de emergencia sin rentabilidad destruye tu plata. Crees que guardar diez millones congelados en el banco es seguro. La realidad es que la inflación liquida tu poder de compra sin hacer ruido.",
+      "keywords": [
+        "ahorro",
+        "dinero",
+        "banco"
+      ],
+      "prompt_ia": "A transparent glass piggy bank slowly emptying on a wooden table, financial atmosphere",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El sesgo de costo de oportunidad te hace valorar la seguridad aparente mientras ignoras lo que dejas de ganar. Diez millones quietos no valen lo mismo al cabo de doce meses.",
+      "keywords": [
+        "presupuesto",
+        "inflacion"
+      ],
+      "prompt_ia": "A stack of paper money shrinking next to a clock, clean lighting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Al dejar esa suma al cero por ciento en vez de una opción de bajo riesgo al diez por ciento, pierdes un millón de pesos en un solo año.",
+      "keywords": [
+        "interes",
+        "calculadora",
+        "datos"
+      ],
+      "prompt_ia": "A financial chart displaying a gap between two growth lines, high resolution",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Saldo tras un año",
+        "etiquetas": [
+          "Cuenta en cero",
+          "Bajo riesgo"
+        ],
+        "valores": [
+          10000000,
+          11000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "No se trata de arriesgar tu tranquilidad en la bolsa. Existen productos de disponibilidad inmediata que protegen tu efectivo sin regalarle valor al banco.",
+      "keywords": [
+        "inversion",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A hand holding a smartphone showing a secure liquid savings app dashboard",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tu fondo de emergencia debe protegerte sin empobrecerte. Suscríbete a Plata con Datos para hacer rendir cada peso con datos reales.",
+      "keywords": [
+        "monedas",
+        "meta"
+      ],
+      "prompt_ia": "A glowing digital shield protecting gold coins, modern vector style",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "fondo de emergencia",
+    "costo de oportunidad",
+    "ahorro e inversion",
+    "inflacion",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_098",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
