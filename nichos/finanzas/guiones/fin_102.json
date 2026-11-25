@@ -1,0 +1,125 @@
+{
+  "titulo": "El recargo oculto por retrasarte un solo día en tu pago",
+  "titulos_alternativos": [
+    "Por qué un día de mora te cuesta tanto dinero",
+    "El cobro de cobranza que el banco te aplica de inmediato"
+  ],
+  "tema": "Gastos de cobranza prejurídica por mora de un solo día",
+  "texto_portada": "COBRO OCULTO POR MORA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Pagarás cobros extra por olvidarte un solo día. Crees que pagar mañana solo suma centavos de interés. Sin embargo, las entidades activan comisiones de cobranza al instante.",
+      "keywords": [
+        "deuda",
+        "banco",
+        "estres"
+      ],
+      "prompt_ia": "A stressed person looking at a smartphone screen with financial notifications in a modern apartment",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El interés de mora no es tu mayor problema. Al pasar la fecha límite, la entidad asigna tu cartera a cobradores. Te cobran honorarios por enviarte un simple mensaje.",
+      "keywords": [
+        "tarjeta",
+        "dinero",
+        "celular"
+      ],
+      "prompt_ia": "Close up of a call center operator with a headset next to digital debtor paperwork",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Un descuido pequeño genera un golpe directo al bolsillo. Sobre una cuota de quinientos mil pesos, el recargo de cobranza puede llegar al cinco por ciento. Pagas veinticinco mil pesos extra por la mora.",
+      "keywords": [
+        "calculadora",
+        "presupuesto",
+        "salario"
+      ],
+      "prompt_ia": "A calculator showing financial numbers next to folded banknotes on a wooden table",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo por un día de mora",
+        "etiquetas": [
+          "Cuota original",
+          "Con cobranza"
+        ],
+        "valores": [
+          500000,
+          525000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Tienes derecho a exigir pruebas antes de pagar. La regulación exige que exista una gestión de cobro real y efectiva. Si te aplican el cobro sin contactarte, puedes reclamar la devolución.",
+      "keywords": [
+        "datos",
+        "tranquilidad",
+        "ahorro"
+      ],
+      "prompt_ia": "A person reviewing a bank statement with a pen in a modern clean office setting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Programa tus facturas antes de la fecha límite. Un recordatorio digital te ahorra miles de pesos. Suscríbete a Plata con Datos para defender tu bolsillo.",
+      "keywords": [
+        "tiempo",
+        "meta"
+      ],
+      "prompt_ia": "A person setting a calendar alarm on their mobile phone with a smiling peaceful expression",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "cobranza prejuridica",
+    "deudas",
+    "bancos colombia",
+    "educacion financiera",
+    "intereses de mora",
+    "ahorro"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_2",
+      "motivo": "En Colombia, aplicar un recargo de cobranza del diez por ciento por tan solo un día de mora es irreal e incumple las normas de la Superintendencia Financiera. Para mora temprana, el cobro de gestión suele rondar máximo el cinco por ciento, lo que equivale a veinticinco mil pesos sobre una cuota de quinientos mil pesos."
+    }
+  ],
+  "id": "fin_102",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

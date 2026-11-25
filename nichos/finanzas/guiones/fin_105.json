@@ -1,0 +1,219 @@
+{
+  "titulo": "El error de presupuestar con ingresos variables",
+  "titulos_alternativos": [
+    "Cómo organizar tu dinero si ganas diferente cada mes",
+    "La regla del presupuesto base para independientes"
+  ],
+  "tema": "Presupuesto proporcional para ingresos variables",
+  "texto_portada": "PRESUPUESTO VARIABLE\nSIN ESTRÉS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Un mes bueno destruye tu presupuesto del siguiente. Trabajas como independiente o recibes comisiones cambiantes. Celebras un pico alto de ingresos gastando de más, pero al mes siguiente las cuentas te superan. El problema no es lo que ganas, sino planificar con montos fijos cuando tu realidad es inestable. Ajustar tus finanzas a porcentajes en lugar de cifras fijas cambia todo el juego.",
+      "keywords": [
+        "presupuesto",
+        "salario",
+        "estres"
+      ],
+      "prompt_ia": "A stressed freelancer looking at uneven monthly income charts on a laptop screen next to bills.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Para dominar los ingresos variables, necesitas conocer tu número base de supervivencia. Este no es el dinero que te gustaría gastar, sino el costo real de mantener tu vida operativa. Incluye tu arriendo, servicios públicos, alimentación indispensable y cuotas mínimas de tus deudas. Si en un mes promedio tus gastos vitales suman dos millones quinientos mil pesos, ese es el umbral que debes cubrir antes de pensar en cualquier otro gasto. Muchos cometen el fallo de calcular su presupuesto basados en su mejor mes del año. Al hacer esto, crean una estructura de gastos imposible de mantener cuando las ventas bajan. Define este piso financiero analizando tus extractos de los últimos seis meses y sumando únicamente las necesidades primarias. Tener clara esta cifra elimina la ansiedad de no saber cuánto necesitas vender o cobrar para estar a salvo.",
+      "keywords": [
+        "casa",
+        "calculadora",
+        "presupuesto"
+      ],
+      "prompt_ia": "A person reviewing bank statements and writing down essential living expenses on a notebook.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Gastos base de supervivencia",
+        "etiquetas": [
+          "Arriendo",
+          "Alimentación",
+          "Servicios",
+          "Deudas"
+        ],
+        "valores": [
+          1200000,
+          700000,
+          300000,
+          300000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Un fondo de amortiguación no es tu fondo de emergencia general. Se trata de una caja intermedia diseñada para suavizar la montaña rusa de tus cobros. La regla de oro para quien trabaja por honorarios o comisiones es acumular tres meses de tus gastos base en esta cuenta. Si tu costo de vida esencial es de dos millones quinientos mil pesos, tu meta de amortiguación debe ser de siete millones quinientos mil pesos. Cuando llega un mes con ingresos extraordinarios, no aumentas tu estilo de vida. Ese dinero sobrante entra directamente a reponer o llenar este colchón. Durante los meses flojos, sacas únicamente la diferencia para completar tu sueldo ideal sin recurrir al endeudamiento. Funciona como un embalse que retiene el agua en época de lluvias para soltarla en tiempos de sequía.",
+      "keywords": [
+        "banco",
+        "ahorro",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A digital representation of a financial buffer account accumulating safety funds.",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Fondo de amortiguación ideal",
+        "etiquetas": [
+          "Meses de gastos base"
+        ],
+        "valores": [
+          3
+        ],
+        "prefijo": "",
+        "sufijo": " meses"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Tratar tu dinero personal y tu dinero de trabajo como la misma bolsa es una receta para el desastre. La estrategia más efectiva consiste en abrir una cuenta receptora donde caen todas tus ventas o cobros del mes. De esa cuenta no gastas directamente para tu vida diaria. En lugar de eso, te asignas un salario fijo mensual que se transfiere automáticamente a tu cuenta personal el primer día de cada mes. Supongamos que tu salario fijado es de tres millones de pesos. Si en un mes excelente ingresas seis millones de pesos, la mitad permanece retenida en la cuenta receptora. Ese excedente crea el colchón que financiará los meses en los que solo ingreses un millón quinientos mil pesos. Vivir con la ilusión de ser rico en un mes alto te lleva a tomar compromisos financieros que aplastarán tu bolsillo cuando el flujo disminuya.",
+      "keywords": [
+        "dinero",
+        "trabajo",
+        "emprender"
+      ],
+      "prompt_ia": "An entrepreneur transferring funds between business and personal banking accounts on a mobile app.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Una vez cubierto tu salario fijo, los ingresos por encima del promedio deben repartirse con porcentajes estrictos. Asignar dinero con reglas porcentuales evita que las emociones del momento decidan por ti. Cuando recibes un pago extra, destina el cincuenta por ciento a reforzar tu fondo de amortiguación o inversión. Usa el treinta por ciento para metas de largo plazo, como la cuota inicial de una propiedad o un fondo de retiro. El veinte por ciento restante puedes disfrutarlo libremente en entretenimiento o consumos personales. Si en un mes recibes un excedente de dos millones de pesos sobre tu sueldo habitual, un millón irá al colchón, seiscientos mil pesos a tus proyectos futuros y cuatrocientos mil pesos a tu recreación. Esta fórmula premia tu esfuerzo sin comprometer la estabilidad de los meses venideros.",
+      "keywords": [
+        "datos",
+        "inversion",
+        "meta"
+      ],
+      "prompt_ia": "A pie chart showing percentage allocation of extra income into savings, goals and leisure.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Distribución del ingreso excedente",
+        "etiquetas": [
+          "Amortiguación",
+          "Metas a plazo",
+          "Libre uso"
+        ],
+        "valores": [
+          50,
+          30,
+          20
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Cuando los ingresos caen por debajo de tu nivel base, la velocidad de reacción determina si sobrevives o te endeudas. Muchas personas tardan tres o cuatro meses en recortar sus gastos ajustables esperando que el negocio mejore de inmediato. En ese lapso, la tarjeta de crédito suele convertirse en un salvavidas falso que cobra altas tasas de interés. Debes diseñar una lista de recortes de emergencia antes de que empiece la crisis. Separa tus gastos en categorías según su prioridad. Si tu ingreso cae un veinte por ciento, cancela automáticamente las suscripciones no esenciales, reduce las salidas a comer y pospone compras de vestuario. Actuar con frialdad y de forma inmediata protege el capital de tu fondo de amortiguación y evita que pagues comisiones bancarias innecesarias por sobregiros.",
+      "keywords": [
+        "deuda",
+        "compras",
+        "tarjeta"
+      ],
+      "prompt_ia": "A credit card being put away in a wallet while looking at a simplified budget plan.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Un presupuesto variable que funcionaba perfectamente el año pasado puede quedarse corto hoy por el efecto silencioso de la inflación. Los precios del mercado, los servicios e incluso el costo de tus herramientas de trabajo aumentan con el tiempo. Si mantienes tu salario fijo personal congelado durante varios años, tu poder adquisitivo real caerá dramáticamente. Revisa tu presupuesto base cada doce meses y ajusta tus montos de supervivencia según el indicador oficial de inflación. Si el costo de vida subió un siete por ciento en el último año, tu presupuesto base de dos millones quinientos mil pesos debe actualizarse a dos millones seiscientos setenta y cinco mil pesos. Sin este ajuste continuo, tu colchón de amortiguación perderá la capacidad de cubrir tus necesidades reales ante cualquier imprevisto financiero.",
+      "keywords": [
+        "inflacion",
+        "monedas",
+        "tiempo"
+      ],
+      "prompt_ia": "A hourglass next to escalating stacks of coins representing inflation eroding purchasing power.",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Ajuste anual de presupuesto base",
+        "etiquetas": [
+          "Nuevo presupuesto base"
+        ],
+        "valores": [
+          2675000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Para quien no recibe una nómina tradicional, las obligaciones anuales como la declaración de renta o la póliza del vehículo representan choques fuertes al bolsillo. El error más costoso es intentar pagar estos compromisos de una sola vez con los ingresos del mes en que vencen. La solución técnica es calcular el gasto anual proyectado y dividirlo en doce cuotas mensuales que debes apartar desde el primer día. Si calculas que tu impuesto sobre la renta y tus seguros sumarán tres millones seiscientos mil pesos al año, debes apartar trescientos mil pesos cada mes de forma obligatoria. Al tratar estas obligaciones anuales como un costo mensual recurrente, evitas la necesidad de liquidar inversiones a las prisas o tomar préstamos de emergencia con condiciones desfavorables.",
+      "keywords": [
+        "salario",
+        "jubilacion",
+        "celular"
+      ],
+      "prompt_ia": "A calendar showing monthly tax provisioning scheduled in a mobile banking app.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Controlar tus finanzas cuando tus ingresos cambian mes a mes no depende de la suerte, sino de un sistema claro. Construir tu presupuesto base y administrar tus excedentes con disciplina te dará la tranquilidad que necesitas para hacer crecer tu trabajo. Suscríbete a Plata con Datos para seguir aprendiendo a gestionar tu dinero con números reales y decisiones inteligentes.",
+      "keywords": [
+        "tranquilidad",
+        "datos",
+        "ahorro"
+      ],
+      "prompt_ia": "A calm professional smiling while checking a balanced financial dashboard on a laptop.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "presupuesto variable",
+    "ingresos variables",
+    "finanzas personales",
+    "independientes",
+    "freelance",
+    "ahorro",
+    "plata con datos",
+    "educacion financiera"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_6",
+      "motivo": "Error de ortografía al escribir la cifra quinientos como 'cinco cientos'."
+    }
+  ],
+  "id": "fin_105",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

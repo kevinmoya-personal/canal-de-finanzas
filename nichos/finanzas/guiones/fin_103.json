@@ -1,0 +1,118 @@
+{
+  "titulo": "Cómo el pago quincenal te hace ganar más dinero",
+  "titulos_alternativos": [
+    "Por qué el sueldo quincenal le gana al mensual",
+    "El costo oculto de cobrar tu salario cada mes"
+  ],
+  "tema": "Ventajas del pago quincenal sobre el mensual en el costo de oportunidad",
+  "texto_portada": "COBRAR QUINCENAL\nTE CONVIENE",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu sueldo mensual te hace perder plata sin notarlo. Esperar treinta días para recibir tus ingresos regala un tiempo valioso a los bancos. Tu liquidez adelantada vale mucho dinero.",
+      "keywords": [
+        "salario",
+        "dinero"
+      ],
+      "prompt_ia": "A stressed worker holding an empty wallet looking at a calendar wall, financial illustration style",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Si recibes la mitad de tu sueldo el día quince, abonas inmediatamente a tus deudas. Pagar catorce días antes reduce considerablemente el cobro de intereses bancarios.",
+      "keywords": [
+        "tarjeta",
+        "deuda",
+        "interes"
+      ],
+      "prompt_ia": "Person using a mobile app to pay credit card debt on a modern desk, clean modern lighting",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Días generando intereses de deuda",
+        "etiquetas": [
+          "Pago mensual",
+          "Pago quincenal"
+        ],
+        "valores": [
+          30,
+          15
+        ],
+        "prefijo": "",
+        "sufijo": " días"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Esa plata adelantada también genera rendimientos inmediatos en cuentas de ahorro. Ganar intereses durante dos semanas extra en cada periodo suma bastante dinero al año.",
+      "keywords": [
+        "inversion",
+        "banco",
+        "ahorro"
+      ],
+      "prompt_ia": "Stack of golden coins growing steadily with upward arrows on a dark professional background",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Además, cobrar una sola vez al mes tienta a usar tarjetas al final. Recibir ingresos cada quince días mejora tu presupuesto y reduce el estrés financiero.",
+      "keywords": [
+        "presupuesto",
+        "estres",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A happy person managing a balanced home budget notebook with coffee nearby",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Pon a trabajar cada quincena desde el primer día que llega. Suscríbete a Plata con Datos y aprende a multiplicar tu sueldo con información real.",
+      "keywords": [
+        "datos",
+        "meta"
+      ],
+      "prompt_ia": "A futuristic financial dashboard displaying rising charts and success targets",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "salario quincenal",
+    "ahorro",
+    "presupuesto",
+    "intereses",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_103",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

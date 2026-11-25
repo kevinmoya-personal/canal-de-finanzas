@@ -1,0 +1,114 @@
+{
+  "titulo": "Tu crédito digital incluye seguros que jamás pediste",
+  "titulos_alternativos": [
+    "El cobro oculto al pedir un préstamo por celular",
+    "El seguro voluntario que encarece tu crédito digital"
+  ],
+  "tema": "Seguros opcionales no declarados en créditos digitales de libre inversión",
+  "texto_portada": "SEGURO OCULTO EN TU CRÉDITO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu crédito digital incluye cobros que jamás autorizaste. Al solicitar plata desde la aplicación de tu banco, casi siempre pagas pólizas opcionales. Las casillas vienen marcadas de forma predeterminada.",
+      "keywords": [
+        "celular",
+        "banco"
+      ],
+      "prompt_ia": "A close up shot of a smartphone screen displaying a mobile banking application with checkboxes highlighted",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Si pides diez millones de pesos a tres años, ese seguro voluntario suma quince mil pesos al mes. Al finalizar el plazo regalaste quinientos cuarenta mil pesos en silencio.",
+      "keywords": [
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "A clean view of a calculator next to stacks of local banknotes on a table",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Seguro voluntario en tres años",
+        "etiquetas": [
+          "Total pagado"
+        ],
+        "valores": [
+          540000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "La ley exige que estas pólizas sean opcionales. Sin embargo, el diseño digital te induce a contratar seguros de desempleo o vida que tal vez ya tienes cubiertos por otro lado.",
+      "keywords": [
+        "datos",
+        "estres"
+      ],
+      "prompt_ia": "A worried person reviewing financial terms on a tablet screen in a bright modern room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Revisa el extracto de tu préstamo hoy mismo. Si notas un cobro voluntario que no pediste, puedes solicitar la cancelación inmediata y reducir tu cuota mensual.",
+      "keywords": [
+        "presupuesto",
+        "ahorro"
+      ],
+      "prompt_ia": "Hands highlighting line items on a paper bank statement with a pen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tu plata vale más cuando controlas cada renglón de tus deudas. Suscríbete a Plata con Datos y protege tu dinero.",
+      "keywords": [
+        "deuda",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A relaxed person smiling while viewing financial charts on a computer desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "credito digital",
+    "libre inversion",
+    "seguros ocultos",
+    "ahorro de dinero",
+    "banca movil",
+    "deudas"
+  ],
+  "verificacion": [],
+  "id": "fin_104",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
