@@ -1,0 +1,133 @@
+{
+  "titulo": "Por qué el aumento del mínimo no ayuda a tu sueldo",
+  "titulos_alternativos": [
+    "El engaño del salario mínimo si ganas más",
+    "Por qué tu sueldo rinde menos cada año"
+  ],
+  "tema": "El impacto desigual del incremento del salario mínimo en sueldos superiores",
+  "texto_portada": "TU SUELDO\nPIERDE VALOR",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu sueldo alto pierde valor con cada aumento mínimo. Celebras el incremento anual de la ley, pero tu empresa no debe subirte ese mismo porcentaje. Tu dinero rinde menos.",
+      "keywords": [
+        "salario",
+        "inflacion",
+        "presupuesto"
+      ],
+      "prompt_ia": "A worried employee looking at an official news announcement about minimum wage hike on a phone screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El salario mínimo sube un doce por ciento por decreto. Sin embargo, los sueldos superiores solo se ajustan según la inflación del nueve por ciento. Esa diferencia impide que tu sueldo gane poder adquisitivo real frente al salario mínimo.",
+      "keywords": [
+        "banco",
+        "datos",
+        "dinero"
+      ],
+      "prompt_ia": "A person pointing at financial comparison charts on a laptop screen showing wage disparities",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Aumento de sueldo anual",
+        "etiquetas": [
+          "Salario mínimo",
+          "Sueldo superior"
+        ],
+        "valores": [
+          12,
+          9
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Los arriendos y matrículas se ajustan por ley con la inflación y no con el mínimo. Si tus ingresos crecen a una velocidad menor que el costo de vida, tu presupuesto mensual sufre un recorte invisible cada año.",
+      "keywords": [
+        "casa",
+        "compras",
+        "estres"
+      ],
+      "prompt_ia": "A stressed person in a grocery store comparing prices of basic household goods",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "En tres años, pierdes un porcentaje elevado de tu capacidad de gasto. No esperes a que el gobierno proteja tus ingresos. Debes medir tus resultados y negociar con datos en la mano.",
+      "keywords": [
+        "trabajo",
+        "calculadora",
+        "meta"
+      ],
+      "prompt_ia": "A professional analyzing numbers on a desk with papers and a modern calculator",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Pérdida de poder de compra",
+        "etiquetas": [
+          "Diferencia acumulada en tres años"
+        ],
+        "valores": [
+          9
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Domina tus finanzas con cifras claras y reales. Suscríbete ahora a Plata con Datos y cuida tu bolsillo.",
+      "keywords": [
+        "tranquilidad",
+        "ahorro"
+      ],
+      "prompt_ia": "A satisfied person looking at a healthy financial dashboard on a digital tablet with confidence",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "salario minimo",
+    "finanzas personales",
+    "inflacion",
+    "aumento de sueldo",
+    "economia colombia",
+    "presupuesto",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "Ajustar un salario al ritmo de la inflación del nueve por ciento conserva el poder adquisitivo real en lugar de borrarlo. Lo que ocurre es que no obtiene la ganancia en términos reales que sí recibe el salario mínimo."
+    },
+    {
+      "seccion": "punto_2",
+      "motivo": "En Colombia, el incremento del canon de arrendamiento de vivienda urbana está topeado por la inflación (IPC) del año anterior según la Ley 820 de 2003, no por el salario mínimo. Las matrículas y los servicios públicos también están ligados a la inflación o a fórmulas regulatorias específicas."
+    }
+  ],
+  "id": "fin_106",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

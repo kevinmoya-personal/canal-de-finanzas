@@ -1,0 +1,121 @@
+{
+  "titulo": "El cobro oculto al pagar aplicaciones en pesos",
+  "titulos_alternativos": [
+    "Por qué tus compras en pesos traen comisiones extra",
+    "El recargo invisible de tus suscripciones digitales"
+  ],
+  "tema": "Cobro por conversión de divisas en plataformas digitales con tarifas aparentemente locales",
+  "texto_portada": "COBROS OCULTOS EN PESOS",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Pagas comisión internacional por compras en pesos. Miras tu factura digital en moneda local, pero el banco te cobra un recargo adicional por procesarla en el exterior.",
+      "keywords": [
+        "compras",
+        "tarjeta",
+        "banco"
+      ],
+      "prompt_ia": "A smartphone screen displaying a payment confirmation in local currency while hidden fee symbols float around it",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Muchas plataformas de transporte o películas muestran sus precios en pesos. Sin embargo, su sede de cobro está en el exterior. Tu banco recibe la transacción como internacional y te cobra un recargo de hasta el cuatro por ciento.",
+      "keywords": [
+        "celular",
+        "monedas",
+        "banco"
+      ],
+      "prompt_ia": "A credit card connected by glowing digital transaction lines to a server located in a global bank hub",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Comisión por procesamiento internacional",
+        "etiquetas": [
+          "Recargo bancario habitual sobre la compra"
+        ],
+        "valores": [
+          4
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "En una factura mensual de cincuenta mil pesos, pagas dos mil pesos adicionales sin notarlo. En un año, terminas regalando veinticuatro mil pesos solo en comisiones invisibles.",
+      "keywords": [
+        "presupuesto",
+        "dinero"
+      ],
+      "prompt_ia": "A stack of coins sitting on a desk with small monetary fee amounts leaking out silently",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo anual suscripción digital",
+        "etiquetas": [
+          "Precio base anual",
+          "Con comisión cobrada"
+        ],
+        "valores": [
+          600000,
+          624000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Revisa tu extracto bancario para detectar estos cobros ocultos. Usar tarjetas locales sin comisión por divisas detiene esta fuga constante de dinero.",
+      "keywords": [
+        "datos",
+        "ahorro"
+      ],
+      "prompt_ia": "A person reviewing a detailed digital bank statement on a tablet highlighting small transaction charges",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Cuidar tus finanzas exige prestar atención a los detalles pequeños. Suscríbete a Plata con Datos para defender tu bolsillo con información real.",
+      "keywords": [
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person looking happy and relaxed while viewing growing savings metrics on a modern computer screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "tarjeta de credito",
+    "comisiones bancarias",
+    "cobros ocultos",
+    "ahorro",
+    "plata con datos",
+    "bancos colombia"
+  ],
+  "verificacion": [],
+  "id": "fin_108",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

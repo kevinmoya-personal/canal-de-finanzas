@@ -1,0 +1,121 @@
+{
+  "titulo": "El costo oculto de diferir tus facturas atrasadas",
+  "titulos_alternativos": [
+    "Por qué diferir los servicios públicos sale tan caro",
+    "El peligro invisible de refinanciar tus recibos vencidos"
+  ],
+  "tema": "El costo financiero oculto de diferir automáticamente las facturas atrasadas de servicios públicos al cobro mensual",
+  "texto_portada": "RECIBOS ATRASADOS COBRO OCULTO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Un recibo vencido encarece tus servicios durante doce meses. Crees que pagar tarde solo genera una mora mínima. En realidad, la empresa difiere tu saldo a varias cuotas con altos intereses.",
+      "keywords": [
+        "casa",
+        "dinero"
+      ],
+      "prompt_ia": "A worried person looking at an electricity bill inside a modern living room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El saldo pendiente no se congela. Las prestadoras de servicio aplican la tasa máxima de financiación. Con una tasa del dos coma cinco por ciento mensual a doce meses, una factura de cien mil pesos puede terminar costando ciento diecisiete mil pesos.",
+      "keywords": [
+        "calculadora",
+        "interes",
+        "presupuesto"
+      ],
+      "prompt_ia": "A pen calculating numbers on a utility invoice with a calculator nearby",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Costo final de un recibo diferido",
+        "etiquetas": [
+          "Saldo original",
+          "Total diferido"
+        ],
+        "valores": [
+          100000,
+          117000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Cada mes sumas la cuota vieja a tu consumo actual. Terminas pagando la energía del año pasado junto con la de hoy. Tu presupuesto mensual sufre por un gasto ya consumido.",
+      "keywords": [
+        "deuda",
+        "salario"
+      ],
+      "prompt_ia": "A stack of monthly bills accumulating on a desk next to a piggy bank",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Revisa con detalle el desglose de tu factura. Si tienes saldo refinanciado, solicita liquidarlo en un solo pago. Cancelarás los intereses futuros de golpe.",
+      "keywords": [
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A person reviewing a digital bill on a smartphone with a magnifying glass concept",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Tu dinero rinde más cuando entiendes lo que pagas. Síguenos para descubrir la verdad de tus finanzas y proteger tu presupuesto cada mes.",
+      "keywords": [
+        "ahorro",
+        "banco"
+      ],
+      "prompt_ia": "A smiling person closing a financial binder happily in a cozy home environment",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "servicios publicos",
+    "ahorro",
+    "presupuesto",
+    "deudas",
+    "intereses"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "Con la tasa máxima legal permitida en Colombia (alrededor del dos coma cinco por ciento mensual) y un plazo típico de doce meses, una factura de cien mil pesos difiere un pago total cercano a ciento diecisiete mil pesos, no ciento cincuenta mil pesos."
+    }
+  ],
+  "id": "fin_107",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
