@@ -1,0 +1,231 @@
+{
+  "titulo": "El costo secreto de mantener tu dinero estancado en débito",
+  "titulos_alternativos": [
+    "Por qué no debes guardar millones en tu tarjeta débito",
+    "La razón por la que tu cuenta de ahorros te hace perder plata"
+  ],
+  "tema": "El costo de oportunidad de mantener saldos altos en cuentas de débito sin rentabilidad",
+  "texto_portada": "CUENTA DEBITO VACIA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu saldo en la cuenta débito pierde valor diario. Dejar millones de pesos estancados en tu tarjeta de débito te da la ilusión de control. Ves la cifra completa en la pantalla de tu celular y sientes tranquilidad. Sin embargo, ese dinero inerte paga un impuesto silencioso. Las entidades financieras usan tus recursos para generar ganancias mientras a ti no te entregan un solo centavo. En este análisis vas a descubrir el verdadero costo de oportunidad de mantener tu plata congelada y cómo reestructurar tus cuentas para que cada peso trabaje sin poner en riesgo tu liquidez.",
+      "keywords": [
+        "dinero",
+        "tarjeta",
+        "banco"
+      ],
+      "prompt_ia": "A smartphone lying on a wooden desk displaying a zero percent yield notification on a bank application",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Muchas personas mantienen diez o quince millones de pesos en su cuenta de ahorros tradicional por miedo a no poder reaccionar ante una emergencia. Creen que mover la plata implica perder acceso inmediato a sus fondos. La realidad es que las herramientas financieras actuales permiten tener disponibilidad inmediata sin regalar el rendimiento. Mantener todo en la cuenta principal de débito equivale a guardar el efectivo debajo del colchón digital. Además, tener un saldo alto a la vista incrementa la tentación de realizar consumos innecesarios. Cuando miras la tarjeta cargada, la mente percibe una holgura financiera falsa que altera tus decisiones diarias.",
+      "keywords": [
+        "ahorro",
+        "celular",
+        "compras"
+      ],
+      "prompt_ia": "A person holding a plastic debit card with a blurred digital bank app screen in the background",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Analicemos la matemática real detrás de un saldo estancado en el tiempo. Si mantienes diez millones de pesos congelados durante doce meses con una inflación promedio del seis por ciento, tu dinero pierde capacidad de compra de manera implacable. Esos diez millones siguen mostrando la misma cifra nominal en la pantalla, pero al final del año solo te permiten comprar lo que antes adquirías con nueve millones cuatrocientos mil pesos. Has perdido seiscientos mil pesos de poder adquisitivo sin darte cuenta. No pagaste una cuota de manejo explícita, pero la pérdida de valor real actúa como una penalización invisible que erosiona tu patrimonio año tras año.",
+      "keywords": [
+        "inflacion",
+        "monedas",
+        "presupuesto"
+      ],
+      "prompt_ia": "Paper currency banknotes shrinking next to a shopping basket with groceries",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Pérdida anual por inflación",
+        "etiquetas": [
+          "Pérdida de poder de compra"
+        ],
+        "valores": [
+          600000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "El costo de oportunidad representa aquello que dejas de ganar por haber elegido una alternativa inferior. Si tu dinero se queda en cero por ciento de rendimiento cuando existen alternativas de bajo riesgo que pagan el diez por ciento anual, estás pagando un costo invisible elevado. Sobre esos mismos diez millones de pesos, el costo de oportunidad equivale a un millón de pesos al año. Eso significa que pagar el arriendo, comprar el mercado o hacer un mantenimiento a tu casa te cuesta más caro porque estás regalando los intereses que tu propio capital pudo haber generado de forma pasiva y segura.",
+      "keywords": [
+        "interes",
+        "casa",
+        "calculadora"
+      ],
+      "prompt_ia": "A modern desk with financial reports, a calculator, and cash piles showing growth",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "El error principal radica en mezclar el dinero de tus gastos mensuales con tu capital acumulado. La cuenta de débito tradicional debe funcionar exclusivamente como una estación de paso para la caja operativa. Deberías mantener allí únicamente lo necesario para pagar los servicios, la cuota del arriendo y los gastos corrientes de un mes. Todo el excedente debe migrar automáticamente el mismo día en que recibes tu salario hacia cuentas que reconozcan una tasa de interés justa. Si tu presupuesto mensual requiere tres millones de pesos, dejar siete millones adicionales en la tarjeta de débito es una ineficiencia financiera evitable.",
+      "keywords": [
+        "salario",
+        "tarjeta",
+        "presupuesto"
+      ],
+      "prompt_ia": "Two glass jars on a clean table, one labeled daily expense and the other labeled high yield savings",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Distribución ideal del ingreso",
+        "etiquetas": [
+          "Caja operativa quincenal",
+          "Excedente a rendimiento"
+        ],
+        "valores": [
+          30,
+          70
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "Proyectemos este comportamiento a cinco años para dimensionar la magnitud del problema. Si acumulas un exceso constante de cinco millones de pesos en una cuenta sin rendimiento, al cabo de cinco años sigues teniendo exactamente los mismos cinco millones de pesos, desgastados por la inflación acumulada. En cambio, si ese excedente se coloca en una alternativa que pague el diez por ciento anual reconociendo interés compuesto, al cabo de cinco años esos mismos cinco millones se habrán convertido en más de ocho millones de pesos. La diferencia entre actuar y no hacer nada es de más de tres millones de pesos netos ganados sin trabajar más horas.",
+      "keywords": [
+        "inversion",
+        "tiempo",
+        "dinero"
+      ],
+      "prompt_ia": "A growing green sprout planted in a small pile of golden coins representing compound growth over time",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Saldo proyectado a cinco años",
+        "etiquetas": [
+          "Cuenta débito tradicional",
+          "Cuenta con rentabilidad"
+        ],
+        "valores": [
+          5000000,
+          8052550
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Mantener un saldo abultado en la cuenta con la que pagas el café o la ropa altera la psicología de tus consumos. El cerebro evalúa la capacidad de gasto mirando el saldo disponible instantáneo. Si ves cinco millones en la aplicación al momento de hacer la compra del mercado, gastar doscientos mil pesos en antojos parece insignificante. Por el contrario, si tu cuenta de débito solo registra el dinero destinado a los compromisos de la semana, tu mente entra en un estado de disciplina consciente. Separar los saldos frena los impulsos y evita que la plata se esfume en pequeñeces cotidianas.",
+      "keywords": [
+        "compras",
+        "celular",
+        "estres"
+      ],
+      "prompt_ia": "A person standing at a store checkout counter looking at a smartphone notification screen thoughtfully",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "Muchas personas justifican el desinterés argumentando que abrir cuentas alternativas requiere tiempo o papeleo complejo. Hoy en día la tecnología permite abrir cuentas con rentabilidad desde la misma aplicación del celular en menos de cinco minutos. No se requiere ser un experto en la bolsa de valores ni asumir riesgos elevados de renta variable. Se trata simplemente de elegir plataformas reguladas que devuelvan al ahorrador parte de los intereses que el mercado financiero genera. Dejar la plata congelada por flojera o desconocimiento es regalarle tus ganancias a la entidad bancaria.",
+      "keywords": [
+        "bolsa",
+        "banco",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A digital financial app dashboard showing security seals and high interest rate confirmation icons",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_8",
+      "texto": "Para resolver este problema de manera definitiva debes implementar una regla de transferencia automática. Define con exactitud cuál es el saldo mínimo que necesitas para operar tu mes sin contratiempos. Por ejemplo, calcula tu presupuesto mensual exacto y agrega un diez por ciento como margen de maniobra. El día que ingrese tu sueldo o tus ingresos de trabajo, programa una orden automática que envíe todo lo que supere esa cifra hacia tu cuenta con rentabilidad diaria. Al automatizar la decisión eliminas el esfuerzo mental y aseguras que tu dinero trabaje desde el primer segundo.",
+      "keywords": [
+        "salario",
+        "meta",
+        "presupuesto"
+      ],
+      "prompt_ia": "A glowing digital transfer arrow linking two financial bank account icons on a tablet display",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Margen de seguridad recomendado",
+        "etiquetas": [
+          "Excedente operativo máximo"
+        ],
+        "valores": [
+          10
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Dejar tu plata congelada en la tarjeta de débito te cuesta dinero todos los días. La verdadera libertad financiera se construye optimizando cada pequeño flujo de caja sin regalarle tu esfuerzo a las instituciones bancarias. Haz la cuenta hoy mismo, revisa cuánto saldo tienes estancado y mueve el excedente a un instrumento que trabaje para ti. Si quieres aprender a tomar el control de tus números con datos reales y sin rodeos, suscríbete al canal y activa las notificaciones. Comparte este análisis con alguien que mantemain toda su plata en una sola cuenta.",
+      "keywords": [
+        "dinero",
+        "banco",
+        "datos"
+      ],
+      "prompt_ia": "A confident person reviewing personal financial charts on a laptop inside a brightly lit living room",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "cuenta de ahorros",
+    "costo de oportunidad",
+    "inflacion",
+    "tarjeta debito",
+    "educacion financiera",
+    "interes compuesto",
+    "ahorro inteligente"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_4",
+      "motivo": "Existe una inconsistencia entre el texto y la gráfica: el texto menciona guardar la caja de dos semanas pero la gráfica y la cifra de tres millones sobre diez millones representan el treinta por ciento mensual. Se ajusta el texto para hacer referencia a la caja operativa mensual, manteniendo la coherencia de la proporción del treinta y setenta por ciento."
+    }
+  ],
+  "id": "fin_112",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

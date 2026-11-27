@@ -1,0 +1,120 @@
+{
+  "titulo": "El cobro oculto que reduce tus ganancias en cuentas de ahorro",
+  "titulos_alternativos": [
+    "Por qué tu cuenta de alto rendimiento te paga menos",
+    "El impacto de la retención en tus cuentas de ahorro"
+  ],
+  "tema": "Impacto de la retención en la fuente en cuentas de alto rendimiento",
+  "texto_portada": "IMPUESTO OCULTO EN TU CUENTA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu cuenta de alto rendimiento paga menos de lo prometido. Ves una tasa anunciada del doce por ciento, pero ignoras la retención en la fuente.",
+      "keywords": [
+        "banco",
+        "ahorro",
+        "dinero"
+      ],
+      "prompt_ia": "A close up shot of a smartphone screen showing a banking app balance next to a stack of coins",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Los bancos aplican la retención de forma automática. Cada vez que tus intereses diarios superan el mínimo de ley, el estado cobra el siete por ciento sobre la ganancia generada.",
+      "keywords": [
+        "datos",
+        "interes"
+      ],
+      "prompt_ia": "A professional financial document showing tax deductions with a pen highlighting specific rows",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si ganas cien mil pesos en intereses al mes, la retención te quita siete mil de contado. Al final del año, no acumulas la suma proyectada por tu calculadora financiera.",
+      "keywords": [
+        "calculadora",
+        "presupuesto"
+      ],
+      "prompt_ia": "A desk with a digital calculator showing financial calculations next to paper money",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Ganancia bruta frente a neta",
+        "etiquetas": [
+          "Ganancia bruta",
+          "Ganancia neta"
+        ],
+        "valores": [
+          100000,
+          93000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La tasa efectiva que ves en la aplicación es bruta. Tu tasa neta real baja considerablemente si no puedes descontar esa retención en tu declaración de renta.",
+      "keywords": [
+        "inversion",
+        "salario"
+      ],
+      "prompt_ia": "A person looking attentively at tax paperwork and charts on a modern office desk",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Impacto del impuesto",
+        "etiquetas": [
+          "Retención en la fuente"
+        ],
+        "valores": [
+          7
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa tus extractos mensuales para conocer tu rendimiento neto. Síguenos para tomar decisiones financieras con datos reales.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A calm individual reviewing financial graphics on a tablet with a cup of coffee nearby",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "finanzas personales",
+    "cuentas de ahorro",
+    "retencion en la fuente",
+    "impuestos",
+    "ahorro colombia",
+    "plata con datos"
+  ],
+  "verificacion": [],
+  "id": "fin_109",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

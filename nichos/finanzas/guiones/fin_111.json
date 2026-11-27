@@ -1,0 +1,121 @@
+{
+  "titulo": "Tu licencia de maternidad no reduce tu prima salarial",
+  "titulos_alternativos": [
+    "¿La licencia de paternidad descuenta valor de tu prima?",
+    "El error legal que reduce tu prima tras una licencia"
+  ],
+  "tema": "Impacto de la licencia de maternidad y paternidad en la prima de servicios",
+  "texto_portada": "LICENCIA Y\nTU PRIMA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu licencia de maternidad no reduce tu próxima prima. Muchos empleados creen que perderán dinero por cuidar a su bebé.",
+      "keywords": [
+        "salario",
+        "dinero"
+      ],
+      "prompt_ia": "A young mother holding a newborn baby next to a desk calendar with marked dates.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El descanso por maternidad o paternidad no suspende tu contrato laboral. La ley exige contar ese tiempo como días laborados. El semestre se liquida sobre los ciento ochenta días.",
+      "keywords": [
+        "trabajo",
+        "datos",
+        "tiempo"
+      ],
+      "prompt_ia": "A signed employment contract document on an office desk next to a pen.",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Días calculados para la prima",
+        "etiquetas": [
+          "Licencia",
+          "Trabajados"
+        ],
+        "valores": [
+          120,
+          60
+        ],
+        "prefijo": "",
+        "sufijo": " días"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Si ganas dos millones de pesos, tu prima semestral debe ser de un millón de pesos. Descontar semanas de licencia es una práctica ilegal que afecta tu presupuesto.",
+      "keywords": [
+        "calculadora",
+        "presupuesto"
+      ],
+      "prompt_ia": "A calculator on a desk alongside official payroll receipt sheets.",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Prima completa del semestre",
+        "etiquetas": [
+          "Monto a recibir"
+        ],
+        "valores": [
+          1000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Verifica siempre tu desprendible de pago. Las incapacidades y licencias remuneradas conservan todos tus derechos prestacionales completos. Cuida tu dinero con datos reales.",
+      "keywords": [
+        "familia",
+        "tranquilidad"
+      ],
+      "prompt_ia": "A smiling family sitting together on a comfortable sofa at home.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "No regales tu dinero por falta de información. Suscríbete a Plata con Datos y protege tus finanzas.",
+      "keywords": [
+        "deuda",
+        "ahorro"
+      ],
+      "prompt_ia": "A glowing digital shield icon protecting money stacks on a wooden table.",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "prima de servicios",
+    "licencia de maternidad",
+    "licencia de paternidad",
+    "finanzas personales",
+    "derecho laboral",
+    "plata con datos",
+    "liquidacion de prima"
+  ],
+  "verificacion": [],
+  "id": "fin_111",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
