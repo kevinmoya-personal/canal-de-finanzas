@@ -1,0 +1,122 @@
+{
+  "titulo": "El cobro de interés anticipado aumenta el costo de tu crédito",
+  "titulos_alternativos": [
+    "Por qué el interés anticipado encarece tu préstamo",
+    "La trampa del interés anticipado en tus créditos"
+  ],
+  "tema": "Diferencia de costo entre interés anticipado y vencido",
+  "texto_portada": "INTERÉS\nOCULTO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Un interés anticipado encarece tu préstamo en el primer segundo. Aceptas la misma tasa en dos bancos, pero uno te descuenta el cobro antes de entregarte la plata. Al final, recibes menos capital por la misma deuda.",
+      "keywords": [
+        "deuda",
+        "banco"
+      ],
+      "prompt_ia": "A person reviewing a loan agreement document at a desk with a pen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Pides diez millones de pesos prestados con una tasa del dos coma cinco por ciento mensual por adelantado. El banco retiene doscientos cincuenta mil pesos inmediatamente y solo te entrega nueve millones setecientos cincuenta mil pesos. Sin embargo, tu cuota mensual se calcula sobre el total completo.",
+      "keywords": [
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "Hands holding cash money with some bills being deducted",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Dinero recibido del préstamo",
+        "etiquetas": [
+          "Tasa vencida",
+          "Tasa anticipada"
+        ],
+        "valores": [
+          10000000,
+          9750000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Con la tasa vencida disfrutas de los diez millones completos desde el inicio. El cobro anticipado reduce tu dinero disponible y sube la tasa efectiva real. Terminas pagando una financiación más costosa sin notar la diferencia en el contrato.",
+      "keywords": [
+        "interes",
+        "presupuesto"
+      ],
+      "prompt_ia": "A glowing financial comparison chart showing effective interest rates",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Compara siempre la tasa efectiva anual antes de firmar cualquier pagaré. Los cobros con mes anticipado aumentan tu costo financiero total. Exige al banco el desembolso completo de tu capital.",
+      "keywords": [
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Close up of a financial document with percentage metrics highlighted",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Domina los números de tu bolsillo para evitar cobros invisibles. Suscríbete a Plata con Datos y protege tus finanzas cada día.",
+      "keywords": [
+        "salario",
+        "meta"
+      ],
+      "prompt_ia": "A person smiling confidently while looking at personal budget goals on screen",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "credito",
+    "interes anticipado",
+    "interes vencido",
+    "finanzas personales",
+    "bancos",
+    "prestamos",
+    "tasa efectiva anual",
+    "plata con datos"
+  ],
+  "verificacion": [
+    {
+      "seccion": "punto_1",
+      "motivo": "El cobro de quinientos mil pesos sobre un préstamo de diez millones de pesos equivale a una tasa del cinco por ciento mensual, valor que supera el límite legal de usura en Colombia. Con una tasa realista del dos coma cinco por ciento mensual, el descuento por interés anticipado es de doscientos cincuenta mil pesos, dejando un desembolso neto de nueve millones setecientos cincuenta mil pesos."
+    }
+  ],
+  "id": "fin_114",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

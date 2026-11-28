@@ -1,0 +1,209 @@
+{
+  "titulo": "El truco para ahorrar plata antes de gastarla en tentaciones",
+  "titulos_alternativos": [
+    "Cómo ahorrar en automático el mismo día que recibes tu sueldo",
+    "La regla del primer día para guardar plata sin sufrir"
+  ],
+  "tema": "Automatización del ahorro el mismo día del cobro de sueldo para evitar tentaciones de gasto",
+  "texto_portada": "AHORRA EN\nAUTOMÁTICO",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Guardar la plata sobrante del mes destruye tu ahorro. Esperas pacientemente al día treinta para ver cuánto dinero queda en la cuenta. Sin embargo, cuando llega esa fecha el saldo disponible suele ser cero pesos. La mente humana tiende a gastar absolutamente todo lo que ve libre en la pantalla del celular. Si tu cuenta principal muestra un millón de pesos, tu cerebro asume de forma inmediata que tienes esa cantidad para gastar libremente. El secreto real de las personas que construyen un patrimonio constante no es una fuerza de voluntad sobrehumana. La verdadera diferencia es la velocidad con la que sacan la plata de su vista. Programar una transferencia automática el mismo día que ingresa tu sueldo cambia tu futuro financiero sin que tengas que sufrir en el proceso.",
+      "keywords": [
+        "salario",
+        "dinero",
+        "celular"
+      ],
+      "prompt_ia": "A close up shot of a smartphone screen showing a bank account balance dropping to zero, cinematic lighting",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "El error fundamental de la mayoría de trabajadores radica en la lógica del remanente. Pensamos que primero se pagan las facturas, luego se costea el estilo de vida y al final se guarda lo que queda. El problema es que en la práctica jamás sobra nada. Los pequeños gastos del día a día se tragan silenciosamente tu capacidad económica. Una salida a comer no planificada, las compras impulsivas por internet o la suscripción a un servicio que casi no usas terminan drenando los recursos sobrantes. Las estadísticas del comportamiento financiero demuestran que el saldo de una cuenta corriente estándar cae cerca del noventa por ciento en los primeros quince días posteriores al cobro. Dejar el destino de tu patrimonio para la última semana del mes garantiza que te quedes sin capacidad de reserva.",
+      "keywords": [
+        "presupuesto",
+        "compras",
+        "ahorro"
+      ],
+      "prompt_ia": "A credit card machine processing small daily payments in a coffee shop, atmospheric background",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Caída media del saldo disponible",
+        "etiquetas": [
+          "Día uno",
+          "Día quince",
+          "Día treinta"
+        ],
+        "valores": [
+          100,
+          10,
+          0
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Existe un principio económico conocido como la ley de Parkinson aplicada al dinero personal. Esta norma explica que tus gastos siempre se van a expandir hasta ocupar todo el presupuesto que tengas disponible. Si pasas de ganar un millón quinientos mil pesos a ganar dos millones quinientos mil pesos, no vas a ahorrar automáticamente ese millón adicional. Tu cerebro buscará de forma natural un estilo de vida más costoso para llenar la nueva capacidad disponible. La forma efectiva de romper con este ciclo involuntario es reducir la cantidad visible desde la mañana del cobro. Si le enseñas a tu mente que solo dispone del ochenta por ciento de sus ingresos, el costo de vida cotidiano se ajustará de manera natural a esa cifra disponible sin generar sensación de privación.",
+      "keywords": [
+        "estres",
+        "datos",
+        "salario"
+      ],
+      "prompt_ia": "An office worker looking at financial documents on a desk with a thoughtful expression",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "El mecanismo técnico para lograr esto se basa en la estrategia de pagarse a uno mismo primero. Consiste en configurar una orden de débito automático programada en la aplicación móvil de tu banco. Esta orden debe ejecutarse exactamente el mismo día en que la empresa realiza la consignación de tu quincena o mensualidad. De esta forma, el dinero destinado a tu capital ni siquiera alcanza a reposar en tu cuenta de gastos diarios. La transacción se realiza de forma transparente mientras duermes o trabajas. Al eliminar la decisión manual de transferir el dinero, también eliminas el remordimiento y la tentación de gastarlo en placeres inmediatos. La automatización convierte un esfuerzo doloroso en una rutina completamente invisible para tu mente.",
+      "keywords": [
+        "banco",
+        "tarjeta",
+        "tiempo"
+      ],
+      "prompt_ia": "Digital bank application interface on a smartphone screen performing an automated transfer process",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_4",
+      "texto": "Muchas personas fallan al intentar automatizar montos demasiado agresivos desde el primer intento. Si intentas guardar la mitad de tu sueldo de la noche a la mañana, es muy probable que debas revertir la transferencia antes de terminar el mes para cubrir gastos básicos. La regla fundamental es empezar con una meta moderada del diez por ciento de tu sueldo neto. Para un ingreso regular de dos millones de pesos, la automatización inicial debería ser exactamente de doscientos mil pesos. Esta cantidad es lo suficientemente pequeña para no impactar tu alimentación o el pago de tu arriendo, pero lo bastante grande para construir una disciplina sólida con el paso de los meses.",
+      "keywords": [
+        "calculadora",
+        "meta",
+        "dinero"
+      ],
+      "prompt_ia": "Hands holding a notepad calculating percentages with a pen next to a coffee cup",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Ahorro inicial recomendado",
+        "etiquetas": [
+          "Porcentaje base sobre sueldo neto"
+        ],
+        "valores": [
+          10
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_5",
+      "texto": "El lugar a donde envías la plata automatizada es igual de relevante que el acto de enviarla. Si realizas la transferencia a una cuenta de ahorros vinculada a la misma tarjeta de débito que usas para el mercado, tarde o temprano vas a terminar retirando esa suma. Lo ideal es crear una barrera psicológica mediante la separación de entidades. Configura la salida hacia un fondo de inversión colectiva o hacia un depósito en una entidad financiera distinta que no te entregue una tarjeta de plástico. Si para tocar esa plata debes realizar un trámite que tarda veinticuatro horas en liquidarse, lo pensaras dos veces antes de hacer un gasto por impulso. Esta fricción calculada protege tu dinero de tus propios momentos de debilidad.",
+      "keywords": [
+        "banco",
+        "tranquilidad",
+        "casa"
+      ],
+      "prompt_ia": "A modern bank vault door slightly open representing secure money storage",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_6",
+      "texto": "Una duda frecuente surge cuando recibes ingresos extraordinarios como la prima legal, bonificaciones por desempeño o un aumento salarial. La estrategia óptima para estos eventos se llama la regla del cincuenta por ciento. Cada vez que consigas un aumento de sueldo, programa de inmediato la automatización de la mitad de ese incremento. Por ejemplo, si tu sueldo sube trescientos mil pesos, aumenta tu transferencia automática en ciento cincuenta mil pesos adicionales. La otra mitad la dejas libre para mejorar de forma consciente tu calidad de vida diaria. De este modo aseguras que el crecimiento de tus ingresos acelere directamente la acumulación de tu capital sin ahogar el disfrute presente.",
+      "keywords": [
+        "salario",
+        "inversion",
+        "dinero"
+      ],
+      "prompt_ia": "Stack of coins growing in height over time on a wooden table, cozy environment",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Distribución de aumento salarial",
+        "etiquetas": [
+          "Mejora de vida",
+          "Ahorro automático"
+        ],
+        "valores": [
+          50,
+          50
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_7",
+      "texto": "La constancia en este proceso genera resultados verdaderamente transformadores cuando dejamos actuar al tiempo. Guardar doscientos mil pesos mensuales de forma automática puede parecer una cifra modesta a corto plazo. En el transcurso del primer año habrás apartado dos millones cuatrocientos mil pesos sin ningún dolor consciente. Mantener este hábito de manera estricta durante una década suma veinticuatro millones de pesos retenidos de forma pura. Si además mantienes esa reserva constante en una opción de baja volatilidad que genere rentabilidad real, la fuerza del interés compuesto multiplicará ese capital de manera significativa. La automatización transforma pequeñas decisiones cotidianas en la tranquilidad económica de tu familia.",
+      "keywords": [
+        "interes",
+        "jubilacion",
+        "monedas"
+      ],
+      "prompt_ia": "A chart moving upwards on a tablet screen showing steady wealth accumulation over ten years",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Capital base en diez años",
+        "etiquetas": [
+          "Ahorro constante de doscientos mil al mes"
+        ],
+        "valores": [
+          24000000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Automatizar tu ahorro libera tu mente del estrés diario y de la culpa por gastar. No necesitas una disciplina perfecta cuando el sistema trabaja a tu favor desde el primer minuto del mes. Toma cinco minutos el día de hoy para ingresar a la plataforma de tu banco y programar esa primera transferencia recurrente. Comienza con una cifra pequeña que no afecte tus compromisos inmediatos y ajusta la meta de forma paulatina. Si este método práctico te aporta claridad para manejar tus finanzas con datos reales, suscríbete al canal ahora mismo. Traeremos las mejores estrategias de economía personal para proteger el fruto de tu trabajo diario.",
+      "keywords": [
+        "tranquilidad",
+        "meta",
+        "ahorro"
+      ],
+      "prompt_ia": "A calm person relaxing outdoors looking at a clear view, peaceful concept",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "ahorro automatico",
+    "pagate a ti mismo primero",
+    "finanzas personales",
+    "presupuesto mensual",
+    "como ahorrar dinero",
+    "plata con datos",
+    "interes compuesto",
+    "educacion financiera"
+  ],
+  "id": "fin_116",
+  "formato": "largo",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

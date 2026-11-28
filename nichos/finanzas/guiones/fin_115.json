@@ -1,0 +1,121 @@
+{
+  "titulo": "Cómo el uso alto de tu tarjeta destruye tu puntaje",
+  "titulos_alternativos": [
+    "Usar más del cincuenta por ciento de tu cupo daña tu crédito",
+    "El error con tu tarjeta que baja tu puntaje crediticio"
+  ],
+  "tema": "Impacto del porcentaje de utilización de crédito en el puntaje crediticio",
+  "texto_portada": "CUPO DE CRÉDITO\nCAE TU PUNTAJE",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu puntaje cae aunque pagues todas las cuotas. Superar el cincuenta por ciento de tu cupo disponible le indica al banco que tienes problemas. Tu calificación disminuye sin importar tu buena puntualidad.",
+      "keywords": [
+        "tarjeta",
+        "banco",
+        "estres"
+      ],
+      "prompt_ia": "A worried person looking at a credit card statement on a smartphone screen showing warning alerts",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Las centrales de riesgo miden tu nivel de utilización. Si tu tarjeta tiene un cupo de diez millones de pesos y usas seis millones, entras en zona de alto riesgo para el sistema.",
+      "keywords": [
+        "datos",
+        "deuda"
+      ],
+      "prompt_ia": "Close up of a credit score meter gauge going from green to red zone",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Uso de cupo de crédito",
+        "etiquetas": [
+          "Cupo total",
+          "Uso peligroso"
+        ],
+        "valores": [
+          100,
+          60
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Este consumo elevado genera un impacto negativo inmediato. Quienes mantienen su gasto por debajo del treinta por ciento de su capacidad conservan un perfil óptimo para solicitar un crédito de vivienda.",
+      "keywords": [
+        "casa",
+        "calculadora"
+      ],
+      "prompt_ia": "Modern apartment building exterior representing housing loans and real estate goals",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Límite ideal de consumo",
+        "etiquetas": [
+          "Límite máximo recomendado"
+        ],
+        "valores": [
+          30
+        ],
+        "prefijo": "",
+        "sufijo": " %"
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "Para corregir esto no necesitas pagar todo tu saldo de golpe. Puedes realizar abonos antes de la fecha de corte o solicitar un aumento en tu cupo total para reducir tu porcentaje de consumo.",
+      "keywords": [
+        "presupuesto",
+        "dinero"
+      ],
+      "prompt_ia": "A person organizing bills and making digital payments on a laptop at a neat desk",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Mantener tu cupo bajo control protege tu futuro financiero. Suscríbete a Plata con Datos para aprender a manejar tus tarjetas y tus créditos con números reales.",
+      "keywords": [
+        "tranquilidad",
+        "meta"
+      ],
+      "prompt_ia": "A person walking confidently in a modern financial district looking happy",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "puntaje crediticio",
+    "tarjetas de credito",
+    "datacredito",
+    "historial crediticio",
+    "finanzas personales",
+    "plata con datos",
+    "cupo de credito",
+    "deudas"
+  ],
+  "id": "fin_115",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}

@@ -1,0 +1,118 @@
+{
+  "titulo": "El riesgo oculto de tu tarjeta de credito sin cuota de manejo",
+  "titulos_alternativos": [
+    "La trampa de la tarjeta gratis que te cobrara este mes",
+    "El requisito secreto para mantener tu tarjeta sin cuota de manejo"
+  ],
+  "tema": "Riesgo de cobrar cuota de manejo en tarjetas exoneradas por no alcanzar el gasto minimo",
+  "texto_portada": "TARJETA GRATIS\nTE COBRA",
+  "secciones": [
+    {
+      "nombre": "hook",
+      "texto": "Tu tarjeta gratis te cobra por un descuido. Crees que el banco te exonero la cuota de manejo para siempre. La verdad es que te exigen gastos minimos mensuales.",
+      "keywords": [
+        "tarjeta",
+        "banco"
+      ],
+      "prompt_ia": "A close up of a credit card being held over a bank statement with warning symbols, clean minimal photography",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_1",
+      "texto": "Muchas entidades perdonan el cobro si realizas tres compras mensuales o gastas cierto monto. Si te quedas corto por diez mil pesos, el sistema activa la comision completa sin previo aviso.",
+      "keywords": [
+        "dinero",
+        "calculadora"
+      ],
+      "prompt_ia": "A hands counting coins next to a calculator showing missing balance, hyperrealistic",
+      "grafica": {
+        "tipo": "barras",
+        "titulo": "Requisito de compras al mes",
+        "etiquetas": [
+          "Exigido",
+          "Realizado"
+        ],
+        "valores": [
+          3,
+          2
+        ],
+        "prefijo": "",
+        "sufijo": " compras"
+      }
+    },
+    {
+      "nombre": "punto_2",
+      "texto": "Terminas pagando unos treinta y cinco mil pesos de cuota en tu siguiente extracto. Ese solo descuido destruye la exencion que buscabas al solicitar el plastico.",
+      "keywords": [
+        "estres",
+        "presupuesto"
+      ],
+      "prompt_ia": "A frustrated person looking at a credit card bill on a table, cinematic lighting",
+      "grafica": {
+        "tipo": "numero",
+        "titulo": "Cobro inesperado por cuota",
+        "etiquetas": [
+          "Cuota cobrada"
+        ],
+        "valores": [
+          35000
+        ],
+        "prefijo": "$",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "punto_3",
+      "texto": "La solucion es domiciliar un servicio pequeno como tu musica digital. Asi aseguras la transaccion obligatoria cada mes sin necesidad de hacer compras forzadas a ultima hora.",
+      "keywords": [
+        "celular",
+        "ahorro"
+      ],
+      "prompt_ia": "A smartphone displaying a digital payment confirmation for a subscription service",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    },
+    {
+      "nombre": "cierre",
+      "texto": "Revisa la letra pequena de tu extracto hoy mismo. Suscribete a Plata con Datos y domina tu bolsillo con cifras claras.",
+      "keywords": [
+        "datos",
+        "tranquilidad"
+      ],
+      "prompt_ia": "Financial graphics and data visualization on a sleek laptop screen, modern office atmosphere",
+      "grafica": {
+        "tipo": "ninguna",
+        "titulo": "",
+        "etiquetas": [],
+        "valores": [],
+        "prefijo": "",
+        "sufijo": ""
+      }
+    }
+  ],
+  "tags": [
+    "tarjetas de credito",
+    "cuota de manejo",
+    "finanzas personales",
+    "ahorro inteligente",
+    "bancos colombia",
+    "educacion financiera"
+  ],
+  "id": "fin_113",
+  "formato": "short",
+  "estado": "pendiente",
+  "proveedor": "gemini"
+}
